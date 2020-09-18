@@ -64,7 +64,7 @@ public class Libro : MonoBehaviour
                 DestroyWithTag("CloneEnemy");
                 Enemigos(Enemigo, 32, 4, -1);
                 Enemigos(Enemigo, 16, 4, 1);
-                currentTime = 10f;
+                currentTime = 30f;
             }
             if (Nivel == 2)
             {
@@ -75,7 +75,7 @@ public class Libro : MonoBehaviour
                 Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
                 DestroyWithTag("CloneEnemy");
                 Enemigos(Enemigo, 45, 8, -1);
-                currentTime = 40f;
+                currentTime = 10f;
             }
             if(Nivel == 3)
             {
@@ -155,8 +155,6 @@ public class Libro : MonoBehaviour
         JumpHard.tag = "CloneHardJump";
         ScritpJumpingHard = JumpHard.GetComponent<JumpingHard>();
         ScritpJumpingHard.FuerzaJump.forceMagnitude = ImpulseFoce;
-        
-
     }
     void Start()
     {
