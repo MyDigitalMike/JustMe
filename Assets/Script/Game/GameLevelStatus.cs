@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameLevelStatus : MonoBehaviour
 {
-    public int CantidadStatusNiveles = 1;
+    public int CantidadStatusNiveles;
     public static int CantidadNiveles2 = 1;
     public static GameLevelStatus gameLevelStatus;
     void Awake()
