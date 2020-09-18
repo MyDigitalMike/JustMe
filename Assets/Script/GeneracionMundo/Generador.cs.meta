@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 326a3a2cd108e284997750b710e54de0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MapaDeCasillas: {instanceID: 0}
+  - Casilla: {instanceID: 0}
+  - Jugador: {instanceID: 0}
+  - Libro: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
