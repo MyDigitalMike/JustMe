@@ -9,14 +9,16 @@ public class Enemigo : MonoBehaviour
     public float MaxSpeed = 1f;
     private Rigidbody2D rb2d;
     AudioSource m_MyAudioSource;
+    AudioSource GhostSound;
+    public GameObject GhostSoundEffect;
     public Animator Animar;
 #pragma warning disable 0649
     [SerializeField] Text EnemysDown;
 #pragma warning restore 0649
     void Start()
     {
-
         m_MyAudioSource = GetComponent<AudioSource>();
+        GhostSound = GhostSoundEffect.GetComponent<AudioSource>();
         rb2d = GetComponent<Rigidbody2D>();
         Animar = GetComponent<Animator>();
     }
@@ -54,7 +56,8 @@ public class Enemigo : MonoBehaviour
             {
                 collision.SendMessage("EnemyJump");
                 Animar.SetBool("Dead", true);
-                m_MyAudioSource.Play();
+                GhostSound.Play();
+                //m_MyAudioSource.Play();
                 Invoke("Destruir", 0.60f);
             }
             else

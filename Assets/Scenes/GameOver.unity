@@ -138,7 +138,7 @@ PrefabInstance:
     - target: {fileID: 9036664215058321444, guid: 6d501baaa6b27434b9be0c5b65ce3fef,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9036664215058321447, guid: 6d501baaa6b27434b9be0c5b65ce3fef,
         type: 3}
@@ -866,7 +866,6 @@ MonoBehaviour:
   gameId: 3570454
   myPlacementId: GameOver
   testMode: 1
-  Nivel: 1
 --- !u!1 &690511991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,6 +1012,7 @@ GameObject:
   - component: {fileID: 779823600}
   - component: {fileID: 779823599}
   - component: {fileID: 779823598}
+  - component: {fileID: 779823602}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -1053,7 +1053,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2444c586ca14bc04a88b56b413f9d562, type: 2}
+  - {fileID: 2100000, guid: 46fd4f0052a95ca41aef714e6cd58424, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1098,6 +1098,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &779823602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779823597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2349cfc3c5ec2764db9cb848aa850c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgSpeed: 0.05
+  bgRend: {fileID: 779823599}
 --- !u!1 &961738433
 GameObject:
   m_ObjectHideFlags: 0
