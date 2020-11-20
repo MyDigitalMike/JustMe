@@ -33,8 +33,9 @@ public class Libro : MonoBehaviour
     [SerializeField] Text countDownText;
     [SerializeField] Text Enemys;
 #pragma warning restore 0649
-
+    public GameObject SoundBookEffect;
     AudioSource m_MyAudioSource;
+    AudioSource BookSound;
     void Awake()
     {
         ScritpJumpingHard = JumpForce.GetComponent<JumpingHard>();
@@ -159,6 +160,7 @@ public class Libro : MonoBehaviour
     void Start()
     {
         m_MyAudioSource = GetComponent<AudioSource>();
+        BookSound = SoundBookEffect.GetComponent<AudioSource>();
         currentTime = LimitTime;
         Advertisement.Banner.Hide();
         Generacion(1);
@@ -217,7 +219,8 @@ public class Libro : MonoBehaviour
         if (collision.gameObject.tag == "Jugador")
         {
             Nivel++;
-            m_MyAudioSource.Play();
+            //m_MyAudioSource.Play();
+            BookSound.Play();
             Generacion(Nivel);
         }
     }
