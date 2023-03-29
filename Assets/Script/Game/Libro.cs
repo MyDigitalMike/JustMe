@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.Advertisements;
+using UnityEngine.Experimental.Rendering.LWRP;
 using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
@@ -10,8 +11,10 @@ using UnityEngine.UI;
 public class Libro : MonoBehaviour
 {
     private Enemigo ScritpEnemy;
+    private CoinManager ScritpCoinManager;
     private JumpingHard ScritpJumpingHard;
     public GameObject Elemento;
+    public GameObject CoinElement;
     public Metodos metodos;
     public int Nivel = GameLevelStatus.CantidadNiveles2;
     public GameObject Enemigo;
@@ -38,55 +41,54 @@ public class Libro : MonoBehaviour
     AudioSource BookSound;
     void Awake()
     {
-        ScritpJumpingHard = JumpForce.GetComponent<JumpingHard>();
+        ScritpJumpingHard = JumpForce.GetComponent<JumpingHard>();  
     }
-        #region Generar Mapa
-        /// <summary>
-        /// Se genera el mapa con las casillas con la información porporcionada en "Mapa"
-        /// </summary>
-        /// <param name="Mapa">Información para la generación del mapa de casillas. 1 = Casillas 2 = No hay casillas</param>
-        /// <param name="MapaDeCasillas">Referencia al mapa de casillas dónde se generarán las casillas</param>
-        /// <param name="Casilla">Casilla la cual se pintara en el mapa de casillas</param>
-        public void Generacion(int Nivel)
+    #region Generar Mapa
+    /// <summary>
+    /// Se genera el mapa con las casillas con la información porporcionada en "Mapa"
+    /// </summary>
+    /// <param name="Mapa">Información para la generación del mapa de casillas. 1 = Casillas 2 = No hay casillas</param>
+    /// <param name="MapaDeCasillas">Referencia al mapa de casillas dónde se generarán las casillas</param>
+    /// <param name="Casilla">Casilla la cual se pintara en el mapa de casillas</param>
+    public void Generacion(int Nivel)
     {
         //Limpiamoz el mapa de casillas
         MapaDeCasillas.ClearAllTiles();
         //Se Crea El Array bidimencional del mapa
         int[,] Mapa = null;
-       if(Nivel <= 4)
+
+        if (Nivel <= 4)
         {
+            
             if (Nivel == 1)
             {
                 Semilla = 1;
-                PorcentajeDeRelleno = 0.0f;
-                Mapa = Metodos.GenerarMapaAleatorio(60, 34, Semilla, PorcentajeDeRelleno, true);
-                Mapa = Metodos.AutomataCelularMoore(Mapa, 3, true, Jugador, 1.4f, 3f, Elemento, 58f, 3f);
+                PorcentajeDeRelleno = 0.2f;
+                Mapa = Metodos.GenerarMapaAleatorio(240, 34, Semilla, PorcentajeDeRelleno, true);
+                Mapa = Metodos.AutomataCelularMoore(Mapa, 3, true, Jugador, 5.55f, 22.49f, Elemento, 57f, 3f);
                 Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
-                DestroyWithTag("CloneEnemy");
                 Enemigos(Enemigo, 32, 4, -1);
                 Enemigos(Enemigo, 16, 4, 1);
-                currentTime = 30f;
+                CoinGenerator(CoinElement, 10, 1);
+                currentTime = 2000f;
             }
             if (Nivel == 2)
             {
-                Semilla = 1;
-                PorcentajeDeRelleno = 0.3f;
-                Mapa = Metodos.GenerarMapaAleatorio(60, 34, Semilla, PorcentajeDeRelleno, true);
-                Mapa = Metodos.AutomataCelularMoore(Mapa, 3, true, Jugador, 1.55f, 22.49f, Elemento, 57f, 3f);
+                Semilla = 3;
+                PorcentajeDeRelleno = 0.2f;
+                Mapa = Metodos.GenerarMapaAleatorio(240, 34, Semilla, PorcentajeDeRelleno, true);
+                Mapa = Metodos.AutomataCelularMoore(Mapa, 3, true, Jugador, 1.55f, 5.49f, Elemento, 57f, 3f);
                 Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
-                DestroyWithTag("CloneEnemy");
                 Enemigos(Enemigo, 45, 8, -1);
-                currentTime = 10f;
+                currentTime = 80f;
             }
-            if(Nivel == 3)
+            if (Nivel == 3)
             {
                 Semilla = 680.6475f;
                 PorcentajeDeRelleno = 0.368f;
                 Mapa = Metodos.GenerarMapaAleatorio(60, 34, Semilla, PorcentajeDeRelleno, true);
-                Mapa = Metodos.AutomataCelularVonNeumann(Mapa, 3, true, Jugador, 2.07f, 26.6f, Elemento, 57f, 3f);
+                Mapa= Metodos.AutomataCelularVonNeumann(Mapa, 3, true, Jugador, 2.07f, 26.6f, Elemento, 57f, 3f);
                 Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
-                DestroyWithTag("CloneEnemy");
-                DestroyWithTag("CloneHardJump");
                 #region Creación de enemigos
                 Enemigos(Enemigo, 4.65f, 1.52f, 1);
                 Enemigos(Enemigo, 16.32f, 1.52f, -1);
@@ -94,11 +96,11 @@ public class Libro : MonoBehaviour
                 Enemigos(Enemigo, 57.41f, 1.52f, -1);
                 #endregion
                 #region Creación HardJump
-                JumpForced(JumpForce, 12.48f, 5.236f,200f);
-                JumpForced(JumpForce, 15.21f, 10.237f,100f);
-                JumpForced(JumpForce, 15.6f, 13.64f,100f);
-                JumpForced(JumpForce, 15.6f, 1.24f,100f);
-                JumpForced(JumpForce, 31.38f, 3.24f,150f);
+                JumpForced(JumpForce, 12.48f, 5.236f, 200f);
+                JumpForced(JumpForce, 15.21f, 10.237f, 100f);
+                JumpForced(JumpForce, 15.6f, 13.64f, 100f);
+                JumpForced(JumpForce, 15.6f, 1.24f, 100f);
+                JumpForced(JumpForce, 31.38f, 3.24f, 150f);
                 #endregion
                 currentTime = 200f;
             }
@@ -109,10 +111,6 @@ public class Libro : MonoBehaviour
             {
                 SceneManager.LoadScene("Creditos");
                 //Destroy(Enemy, 0f);
-            }
-            else
-            {
-                Nivel = 1;
             }
         }
     }
@@ -148,6 +146,13 @@ public class Libro : MonoBehaviour
         }
 
     }
+    public void CoinGenerator(GameObject CoinElement, float PositionXCoin, float PositionYCoin)
+    {
+        CoinElement = (GameObject)Instantiate(CoinElement, new Vector3(PositionXCoin, PositionYCoin, 0), Quaternion.identity);
+        CoinElement.name = "Coin";
+        CoinElement.tag = "CloneCoin";
+        ScritpCoinManager = CoinElement.GetComponent<CoinManager>();
+    }
     public float Fuerza = 0;
     public void JumpForced(GameObject JumpHard, float PositionXJump, float PositionYJump, float ImpulseFoce)
     {
@@ -162,7 +167,6 @@ public class Libro : MonoBehaviour
         m_MyAudioSource = GetComponent<AudioSource>();
         BookSound = SoundBookEffect.GetComponent<AudioSource>();
         currentTime = LimitTime;
-        Advertisement.Banner.Hide();
         Generacion(1);
         Timer();
     }
@@ -215,11 +219,10 @@ public class Libro : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+
         if (collision.gameObject.tag == "Jugador")
         {
             Nivel++;
-            //m_MyAudioSource.Play();
             BookSound.Play();
             Generacion(Nivel);
         }
@@ -228,7 +231,7 @@ public class Libro : MonoBehaviour
     {
         int thingycount = 0;
         GameObject[] thingytofind = GameObject.FindGameObjectsWithTag("CloneEnemy");
-        thingycount = thingytofind.Length;
+        thingycount = thingytofind.Length-1;
         Enemys.text = "Enemigos Activos: " + thingycount.ToString();
     }
 }

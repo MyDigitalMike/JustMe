@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Elemento: {fileID: 7115737434875943374}
+  CoinElement: {fileID: 6395201862292340857, guid: 9fef9c2ae1bc7bd46be48bcf5e41e8f9,
+    type: 3}
   Nivel: 1
   Enemigo: {fileID: 4314479298598468790, guid: 6eb51617f1661e14dacaf52b633ecfb9, type: 3}
   JumpForce: {fileID: 5000249960699736623, guid: 9be8689ae6dd6e84fb2b57873040b646,
@@ -106,9 +108,9 @@ MonoBehaviour:
     type: 3}
   Casilla: {fileID: 11400000, guid: 8d8422143d7cd93499c8b0ebb9c92c17, type: 2}
   SemillaAleatoria: 0
-  Semilla: 1
-  PorcentajeDeRelleno: 0
-  currentTime: 60
+  Semilla: 680.6475
+  PorcentajeDeRelleno: 0.5
+  currentTime: 1000
   countDownText: {fileID: 1953374768308240631, guid: e23f9a04b0da4ba4fa050a753fe3d346,
     type: 3}
   Enemys: {fileID: 7052121931717406985, guid: 849fc4b92664ec146bac5c6791bdb13b, type: 3}

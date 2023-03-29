@@ -11,7 +11,6 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Advertisement.Banner.Hide();
         ClosePanelSettings();
         OpenMainPanel();
     }

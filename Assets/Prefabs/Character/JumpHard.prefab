@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2104576036253715107}
   m_Layer: 0
   m_Name: JumpHard
-  m_TagString: Untagged
+  m_TagString: CloneHardJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,4 +134,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fuerza: 0
+  Angulo: 0
   FuerzaJump: {fileID: 5000249960699736622}

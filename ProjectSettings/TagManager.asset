@@ -11,6 +11,8 @@ TagManager:
   - Circle
   - CloneEnemy
   - CloneHardJump
+  - CloneCoin
+  - OriginalCoin
   layers:
   - Default
   - TransparentFX
