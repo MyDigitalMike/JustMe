@@ -70,3 +70,70 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# Unity generated
+Temp/
+Library/
+ProjectSettings/
+Obj/
+Build/
+Assets/AssetStoreTools*
+
+# Visual Studio / MonoDevelop generated
+ExportedObj/
+Packages/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.read.1
+*.VC.read.2
+*.VC.read.3
+
+# Build generated
+x64/
+x86/
+*_Data/
+*_Data/Managed
+*_Data/Resources
+*_Data/StreamingAssets
+*_Data/Plugins
+
+# External tooling
+ReSharper/
+*.nupkg
+*.sln.dotsettings.user
+
+# Old tooling
+*.pidb.meta
+*.pdb.meta
+
+# Crashlytics generated
+crashlytics-build.properties
+
+# VS Code generated
+.vscode/
+*.code-workspace
+
+# Rider generated
+.idea/
+*.csproj.user
+*.sln.iml
+*.sln.ide
+
+# Rider cache
+.cache/
+.idea/caches/
+
+# Rider settings
+.rider/
