@@ -1,22 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Tilemaps;
 using UnityStandardAssets.CrossPlatformInput;
 public class Player : MonoBehaviour
 {
     public float Speed = 5f;
-    public float MaxSpeed = 5f;
+    public float MaxSpeed = 10f;
     public bool Grounded;
-    public float JumpPower = 10f;
+    public float JumpPower = 5f;
     private SpriteRenderer spr;
     private Rigidbody2D rb2d;
     private Animator Animar;
     private bool Jump;
     private bool DoubleJump;
     private bool Movement = true;
+    private float horizontalInput;
+    private float verticalInput;
+    public LayerMask collisionLayer;
     AudioSource m_MyAudioSource;
     GameObject Jugador;
+
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -50,50 +54,53 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        
 #if UNITY_STANDALONE || UNITY_WEBPLAYER
         Vector3 fixedVelocity = rb2d.velocity;
         fixedVelocity.x *= 1f;
+        verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal");
+        Vector2 movement = new Vector2(horizontalInput, 0f).normalized * Speed * Time.deltaTime;
+        rb2d.velocity = new Vector2(horizontalInput * Speed, rb2d.velocity.y);
+        rb2d.velocity = new Vector2(Mathf.Clamp(rb2d.velocity.x, -MaxSpeed, MaxSpeed), rb2d.velocity.y);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, 0.1f, collisionLayer);
 
-        if (Grounded)
-        {
-            rb2d.velocity = fixedVelocity;
-        }
+        Grounded = hit.collider != null;
 
-        float h = Input.GetAxis("Horizontal");
-        if (!Movement) h = 0;
-        rb2d.AddForce(Vector2.right * Speed * h);
-        float LimitedSpeed = Mathf.Clamp(rb2d.velocity.x, -MaxSpeed, MaxSpeed);
-        rb2d.velocity = new Vector2(LimitedSpeed, rb2d.velocity.y);
-        if (h > 0.1f)
+        if (horizontalInput > 0)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
-        if (h < -0.1f)
+        else if (horizontalInput < 0)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         if (Jump)
         {
-            rb2d.AddForce(Vector2.up * JumpPower, ForceMode2D.Impulse);
+            rb2d.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
             Jump = false;
         }
 #else
-        float h = CrossPlatformInputManager.GetAxis("Horizontal");
-        rb2d.AddForce(Vector2.right * Speed * h);
-        float LimitedSpeed = Mathf.Clamp(rb2d.velocity.x, -MaxSpeed, MaxSpeed);
-        rb2d.velocity = new Vector2(LimitedSpeed, rb2d.velocity.y);
-        if (h > 0.1f)
+        moveInput = Input.GetAxis("Horizontal");
+        Vector3 fixedVelocity = rb2d.velocity;
+        fixedVelocity.x *= 1f;
+        verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal");
+        Vector2 movement = new Vector2(horizontalInput, 0f).normalized * Speed * Time.deltaTime;
+        rb2d.velocity = new Vector2(horizontalInput * Speed, rb2d.velocity.y);
+        rb2d.velocity = new Vector2(Mathf.Clamp(rb2d.velocity.x, -MaxSpeed, MaxSpeed), rb2d.velocity.y);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, collisionLayer);
+        Grounded = hit.collider != null;
+        if (horizontalInput > 0)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
-        if (h < -0.1f)
+        else if (horizontalInput < 0)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         if (Jump)
         {
-            rb2d.AddForce(Vector2.up * JumpPower, ForceMode2D.Impulse);
+            rb2d.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
             Jump = false;
         }
 #endif
@@ -113,7 +120,7 @@ public class Player : MonoBehaviour
         rb2d.AddForce(Vector2.left * Side * JumpPower, ForceMode2D.Impulse);
         Movement = false;
         Invoke("EnableMovement", 1.5f);
-        Color cl = new Color(193/255f,52/255f,52/255f);
+        Color cl = new Color(193 / 255f, 52 / 255f, 52 / 255f);
         spr.color = cl;
     }
     void EnableMovement()
@@ -125,4 +132,5 @@ public class Player : MonoBehaviour
     {
         Enemigo.Destroy(gameObject, 1f);
     }
+
 }

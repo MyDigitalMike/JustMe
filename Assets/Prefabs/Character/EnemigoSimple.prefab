@@ -188,7 +188,7 @@ MonoBehaviour:
   GhostSoundEffect: {fileID: 8981001665606999507, guid: ad984240e2874f74fa9609202c94d5e6,
     type: 3}
   Animar: {fileID: 4314479298598468789}
-  EnemysDown: {fileID: 2766827305254709526, guid: 1551a79f1bb327748b33ef077b388911,
+  EnemysDown: {fileID: 7052121931717406985, guid: 849fc4b92664ec146bac5c6791bdb13b,
     type: 3}
 --- !u!95 &4314479298598468789
 Animator:

@@ -144,12 +144,12 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2.5
-  m_LinearDrag: 0
+  m_Mass: 1
+  m_LinearDrag: 0.3
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -165,10 +165,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 059a3ef6c8d0e0f4ca7491ad03af2731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 12
-  MaxSpeed: 7
+  Speed: 1
+  MaxSpeed: 5
   Grounded: 0
-  JumpPower: 10
+  JumpPower: 8
+  collisionLayer:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1 &2030084908084926529
 GameObject:
   m_ObjectHideFlags: 0

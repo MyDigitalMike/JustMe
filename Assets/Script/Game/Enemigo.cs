@@ -22,15 +22,11 @@ public class Enemigo : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         Animar = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
     void FixedUpdate()
     {
         rb2d.AddForce(Vector2.right * Speed);
         float LimitedSpeed = Mathf.Clamp(rb2d.velocity.x, -MaxSpeed, MaxSpeed);
         rb2d.velocity = new Vector2(LimitedSpeed, rb2d.velocity.y);
-
-
         if (rb2d.velocity.x > -0.01f && rb2d.velocity.x < 0.01f)
         {
             Speed = -Speed;
@@ -48,7 +44,6 @@ public class Enemigo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
         if (collision.gameObject.tag == "Jugador")
         {
             float OffsetY = 0.4f;
@@ -64,7 +59,6 @@ public class Enemigo : MonoBehaviour
             {
                 collision.SendMessage("EnemyKnocBack", transform.position.x);
             }
-
         }
     }
     public void Destruir()
