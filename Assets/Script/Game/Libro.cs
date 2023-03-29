@@ -64,7 +64,7 @@ public class Libro : MonoBehaviour
             {
                 Semilla = 1;
                 PorcentajeDeRelleno = 0.2f;
-                Mapa = Metodos.GenerarMapaAleatorio(240, 34, Semilla, PorcentajeDeRelleno, true);
+                Mapa = Metodos.GenerarMapaAleatorio(60, 34, Semilla, PorcentajeDeRelleno, true);
                 Mapa = Metodos.AutomataCelularMoore(Mapa, 3, true, Jugador, 5.55f, 22.49f, Elemento, 57f, 3f);
                 Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
                 Enemigos(Enemigo, 32, 4, -1);
@@ -76,7 +76,7 @@ public class Libro : MonoBehaviour
             {
                 Semilla = 3;
                 PorcentajeDeRelleno = 0.2f;
-                Mapa = Metodos.GenerarMapaAleatorio(240, 34, Semilla, PorcentajeDeRelleno, true);
+                Mapa = Metodos.GenerarMapaAleatorio(60, 34, Semilla, PorcentajeDeRelleno, true);
                 Mapa = Metodos.AutomataCelularMoore(Mapa, 3, true, Jugador, 1.55f, 5.49f, Elemento, 57f, 3f);
                 Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
                 Enemigos(Enemigo, 45, 8, -1);
@@ -103,6 +103,11 @@ public class Libro : MonoBehaviour
                 JumpForced(JumpForce, 31.38f, 3.24f, 150f);
                 #endregion
                 currentTime = 200f;
+            }
+            if (Nivel == 4)
+            {
+                SceneManager.LoadScene("Creditos");
+                //Destroy(Enemy, 0f);
             }
         }
         else

@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     private bool Movement = true;
     private float horizontalInput;
     private float verticalInput;
+    private float lastJumpTime = 0f;
+    public float jumpCooldown = 0.5f;
     public LayerMask collisionLayer;
     AudioSource m_MyAudioSource;
     GameObject Jugador;
@@ -42,12 +44,12 @@ public class Player : MonoBehaviour
         {
             if (Grounded)
             {
-                Jump = true;
+                AlterJump();
                 DoubleJump = true;
             }
             else if (DoubleJump)
             {
-                Jump = true;
+                AlterJump();
                 DoubleJump = false;
             }
         }
@@ -59,10 +61,17 @@ public class Player : MonoBehaviour
         fixedVelocity.x *= 1f;
         verticalInput = Input.GetAxis("Vertical");
         horizontalInput = Input.GetAxis("Horizontal");
+
         Vector2 movement = new Vector2(horizontalInput, 0f).normalized * Speed * Time.deltaTime;
         rb2d.velocity = new Vector2(horizontalInput * Speed, rb2d.velocity.y);
         rb2d.velocity = new Vector2(Mathf.Clamp(rb2d.velocity.x, -MaxSpeed, MaxSpeed), rb2d.velocity.y);
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, 0.1f, collisionLayer);
+
+        Vector2 raycastDirection = Vector2.down;
+        float raycastDistance = 0.55f;
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, raycastDistance, collisionLayer);
+
+        Debug.DrawRay(transform.position, raycastDirection * raycastDistance, Color.red);
 
         Grounded = hit.collider != null;
 
@@ -73,11 +82,6 @@ public class Player : MonoBehaviour
         else if (horizontalInput < 0)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
-        if (Jump)
-        {
-            rb2d.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
-            Jump = false;
         }
 #else
         moveInput = Input.GetAxis("Horizontal");
@@ -97,11 +101,6 @@ public class Player : MonoBehaviour
         else if (horizontalInput < 0)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
-        if (Jump)
-        {
-            rb2d.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
-            Jump = false;
         }
 #endif
     }
@@ -132,5 +131,13 @@ public class Player : MonoBehaviour
     {
         Enemigo.Destroy(gameObject, 1f);
     }
+    void AlterJump()
+    {
+        if (Time.time - lastJumpTime > jumpCooldown)
+        {
 
+            rb2d.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
+            lastJumpTime = Time.time;
+        }
+    }
 }

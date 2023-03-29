@@ -169,6 +169,7 @@ MonoBehaviour:
   MaxSpeed: 5
   Grounded: 0
   JumpPower: 8
+  jumpCooldown: 0.2
   collisionLayer:
     serializedVersion: 2
     m_Bits: 1024
