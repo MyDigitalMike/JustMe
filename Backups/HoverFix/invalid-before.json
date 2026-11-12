@@ -1,0 +1,274 @@
+{
+    "editor": "6000.6.8f1",
+    "error": "",
+    "cases": [
+        {
+            "name": "removed ledge right",
+            "error": "",
+            "gap": 0.0,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": -0.3100000023841858,
+                    "y": 0.6499999761581421
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 100.0,
+                "time": 0.019999999552965164,
+                "bodyLeft": -0.48173481225967407,
+                "bodyRight": -0.016566693782806396,
+                "feet": 0.18794822692871094,
+                "spriteLeft": -0.7722222208976746,
+                "spriteRight": 0.15222221612930298,
+                "grounded": false,
+                "contacts": [
+                    {
+                        "a": "Removed ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.008283345028758049,
+                            "y": 0.23886734247207642
+                        },
+                        "normal": {
+                            "x": -0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.003433306934311986
+                    },
+                    {
+                        "a": "Removed ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.008283345028758049,
+                            "y": 0.9919601678848267
+                        },
+                        "normal": {
+                            "x": -0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.003433306934311986
+                    }
+                ]
+            },
+            "end": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": -0.3100000023841858,
+                    "y": 0.6499999761581421
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 96.6400146484375,
+                "time": 0.25999996066093445,
+                "bodyLeft": -0.48173481225967407,
+                "bodyRight": -0.016566693782806396,
+                "feet": 0.18794822692871094,
+                "spriteLeft": -0.7722222208976746,
+                "spriteRight": 0.15222221612930298,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": []
+        },
+        {
+            "name": "removed ledge left",
+            "error": "",
+            "gap": 0.0,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 2.309999942779541,
+                    "y": 0.6499999761581421
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 100.0,
+                "time": 0.019999999552965164,
+                "bodyLeft": 2.016566753387451,
+                "bodyRight": 2.4817347526550293,
+                "feet": 0.18794822692871094,
+                "spriteLeft": 1.8477777242660522,
+                "spriteRight": 2.7722220420837402,
+                "grounded": false,
+                "contacts": [
+                    {
+                        "a": "Removed ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 2.0082833766937256,
+                            "y": 0.9919601678848267
+                        },
+                        "normal": {
+                            "x": 0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.0034332273062318563
+                    },
+                    {
+                        "a": "Removed ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 2.0082833766937256,
+                            "y": 0.2388673722743988
+                        },
+                        "normal": {
+                            "x": 0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.0034332273062318563
+                    }
+                ]
+            },
+            "end": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 2.309999942779541,
+                    "y": 0.6499999761581421
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 96.6400146484375,
+                "time": 0.25999996066093445,
+                "bodyLeft": 2.016566753387451,
+                "bodyRight": 2.4817347526550293,
+                "feet": 0.18794822692871094,
+                "spriteLeft": 1.8477777242660522,
+                "spriteRight": 2.7722220420837402,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": []
+        }
+    ]
+}

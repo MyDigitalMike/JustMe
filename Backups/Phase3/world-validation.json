@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "verification": "Pure C# model; does not claim physical completion of every seed",
+  "assertions": 125,
+  "cases": [
+    {
+      "profile": "Horizontal",
+      "seed": 0,
+      "hash": "56-90-45-C4-EF-FF-A6-7F-25-B4-75-D6-8D-EA-D1-FF-0E-16-A8-13-35-6F-CD-5A-E0-70-97-5F-09-86-D8-08",
+      "predictedSeconds": 105.19999764859676,
+      "remaining": 70.99983215332031
+    },
+    {
+      "profile": "Horizontal",
+      "seed": 1,
+      "hash": "04-B3-C0-42-5D-9C-49-C7-89-2A-4D-93-01-DB-12-7A-CD-55-FF-1E-B7-5A-4A-68-89-57-02-D5-E2-7B-63-AA",
+      "predictedSeconds": 105.99999763071537,
+      "remaining": 58.39986038208008
+    },
+    {
+      "profile": "Horizontal",
+      "seed": -1,
+      "hash": "85-32-0F-B5-49-79-2B-C0-DB-02-C3-5F-DA-E8-E7-3B-3B-6B-E0-63-65-A0-33-77-37-1F-30-43-63-FF-85-6F",
+      "predictedSeconds": 105.19999764859676,
+      "remaining": 70.99983215332031
+    },
+    {
+      "profile": "Horizontal",
+      "seed": 2147483647,
+      "hash": "47-67-E4-EA-A2-77-2C-EB-D7-A8-7E-5E-E9-32-C8-90-F8-F6-7A-AB-BA-6F-59-00-C3-EB-8E-34-07-32-52-D6",
+      "predictedSeconds": 104.43999766558409,
+      "remaining": 67.19989013671875
+    },
+    {
+      "profile": "Ascent",
+      "seed": 0,
+      "hash": "6D-C4-9D-F0-D8-B9-18-B6-0D-C7-0F-01-AC-0A-1D-93-28-3B-FF-AA-2D-E5-BE-D3-AE-E3-D5-6A-67-63-57-DF",
+      "predictedSeconds": 174.17999610677361,
+      "remaining": 100.0
+    },
+    {
+      "profile": "Ascent",
+      "seed": 1,
+      "hash": "59-AA-A7-53-FD-73-C6-B3-75-6F-CD-D7-E7-CD-04-66-DE-86-6E-09-A0-D4-2B-E2-62-62-AE-E4-A3-65-12-B0",
+      "predictedSeconds": 174.17999610677361,
+      "remaining": 100.0
+    },
+    {
+      "profile": "Ascent",
+      "seed": -1,
+      "hash": "A0-8C-00-65-68-E5-F2-1F-46-74-B2-BD-10-CA-4A-E1-5F-FC-63-92-02-93-7A-19-11-EF-CC-6D-A6-7D-13-78",
+      "predictedSeconds": 174.17999610677361,
+      "remaining": 100.0
+    },
+    {
+      "profile": "Ascent",
+      "seed": 2147483647,
+      "hash": "D4-C9-93-80-D7-17-10-F2-5A-02-85-F6-B6-65-EC-5D-EF-4E-2F-5B-02-44-E0-A6-DF-1F-19-D3-9B-5B-39-85",
+      "predictedSeconds": 174.17999610677361,
+      "remaining": 100.0
+    },
+    {
+      "profile": "Descent",
+      "seed": 0,
+      "hash": "17-7A-76-76-07-36-DC-F7-15-DB-7A-99-5C-83-BD-92-92-59-6A-E2-FC-CF-0C-EF-79-3B-D4-9F-89-2F-3D-71",
+      "predictedSeconds": 175.77999607101083,
+      "remaining": 100.0
+    },
+    {
+      "profile": "Descent",
+      "seed": 1,
+      "hash": "0C-70-18-9F-14-C2-60-4E-E2-9C-43-E6-C4-3A-8E-20-D6-EA-28-13-0A-11-C3-E1-DF-44-62-F1-31-9A-CF-07",
+      "predictedSeconds": 175.77999607101083,
+      "remaining": 100.0
+    },
+    {
+      "profile": "Descent",
+      "seed": -1,
+      "hash": "CE-CB-D3-F9-7B-13-E3-37-49-C8-04-D4-26-A4-E0-3C-DA-6A-D1-7A-45-7B-A7-C4-F9-0D-86-F5-AE-6F-C3-50",
+      "predictedSeconds": 175.77999607101083,
+      "remaining": 100.0
+    },
+    {
+      "profile": "Descent",
+      "seed": 2147483647,
+      "hash": "37-71-D1-97-3B-60-F2-C5-48-FD-A5-9D-E8-11-D4-0A-86-95-5A-56-21-EA-A5-AE-E9-21-DC-EC-E8-06-04-81",
+      "predictedSeconds": 175.77999607101083,
+      "remaining": 100.0
+    },
+    {
+      "profile": "Mixed",
+      "seed": 0,
+      "hash": "39-3F-13-C8-EB-37-2D-37-77-20-AE-B9-6A-E7-8E-64-70-D4-72-DA-AA-03-6F-FD-AD-1D-39-AF-72-4D-18-6D",
+      "predictedSeconds": 104.37999766692519,
+      "remaining": 94.99977111816406
+    },
+    {
+      "profile": "Mixed",
+      "seed": 1,
+      "hash": "CE-CC-11-25-A6-C2-84-48-C5-F9-DF-5E-42-E8-84-0A-DA-4B-0E-16-D7-B0-0F-D4-9A-16-4F-10-A3-1C-F6-EE",
+      "predictedSeconds": 104.79999765753746,
+      "remaining": 98.63972473144531
+    },
+    {
+      "profile": "Mixed",
+      "seed": -1,
+      "hash": "6C-D9-61-D9-9A-08-2F-A6-30-DB-CA-92-AB-40-B3-8F-4F-00-4E-09-DD-C5-19-2D-E8-9C-EA-BE-3D-36-FB-81",
+      "predictedSeconds": 104.39999766647816,
+      "remaining": 98.63972473144531
+    },
+    {
+      "profile": "Mixed",
+      "seed": 2147483647,
+      "hash": "37-94-55-B2-F4-4B-7A-EA-35-C0-58-46-D8-DA-7A-62-50-C3-5C-05-21-36-B6-C8-4E-19-FC-4A-8B-2D-D7-5B",
+      "predictedSeconds": 103.63999768346548,
+      "remaining": 94.83978271484375
+    }
+  ],
+  "automaticSeed": 341584523,
+  "rejectedCases": [
+    "spawn obstruction",
+    "low stamina",
+    "crawl exhaustion",
+    "removed recovery",
+    "airborne walk",
+    "forged jump",
+    "missing climbable regions",
+    "impossible crawl speed",
+    "impossible climb speed",
+    "lethal path",
+    "unsafe rest",
+    "bounded rejection"
+  ]
+}

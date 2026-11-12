@@ -1,0 +1,63 @@
+{
+    "measurements": [
+        {
+            "composite": false,
+            "gridCollisions": false,
+            "heightRange": 0.004889845848083496,
+            "maximumUpwardSpeed": 0.09486264735460281,
+            "horizontalDistance": 6.074001789093018,
+            "contactLossSteps": 0,
+            "diagonalContactSteps": 10,
+            "colliderShapes": 81,
+            "stoppingDistance": 0.0,
+            "jumpHeight": 0.9563882350921631,
+            "landedAfterJump": true,
+            "fallDistance": 13.550966262817383
+        },
+        {
+            "composite": true,
+            "gridCollisions": false,
+            "heightRange": 0.000010192394256591797,
+            "maximumUpwardSpeed": 0.0000010132795296158292,
+            "horizontalDistance": 6.081927299499512,
+            "contactLossSteps": 0,
+            "diagonalContactSteps": 0,
+            "colliderShapes": 51,
+            "stoppingDistance": 0.0,
+            "jumpHeight": 0.9563882350921631,
+            "landedAfterJump": true,
+            "fallDistance": 13.550966262817383
+        },
+        {
+            "composite": false,
+            "gridCollisions": true,
+            "heightRange": 0.004809021949768066,
+            "maximumUpwardSpeed": 0.09957730770111084,
+            "horizontalDistance": 6.074437618255615,
+            "contactLossSteps": 0,
+            "diagonalContactSteps": 10,
+            "colliderShapes": 81,
+            "stoppingDistance": 0.0,
+            "jumpHeight": 0.9563887119293213,
+            "landedAfterJump": true,
+            "fallDistance": 13.550966262817383
+        },
+        {
+            "composite": true,
+            "gridCollisions": true,
+            "heightRange": 0.000008344650268554688,
+            "maximumUpwardSpeed": 0.0000010132795296158292,
+            "horizontalDistance": 6.081927299499512,
+            "contactLossSteps": 0,
+            "diagonalContactSteps": 0,
+            "colliderShapes": 1,
+            "stoppingDistance": 0.0,
+            "jumpHeight": 0.9563887119293213,
+            "landedAfterJump": true,
+            "fallDistance": 13.550966262817383
+        }
+    ],
+    "terrainPrefabUsesComposite": true,
+    "fixedSeedRepeatsBaseMap": true,
+    "error": ""
+}

@@ -1,0 +1,706 @@
+[
+  {
+    "Path": "Assets/FireBase/google-services.json",
+    "Sha256": "811B6A0BCA38BE70E506CFCE0F760F47D17117A42429D5F5DC6D7C8895D62D8C"
+  },
+  {
+    "Path": "Assets/FireBase/google-services.json.meta",
+    "Sha256": "F37B3A8310FA446DE5B560140E2126542BDEC5C3AFBE8690B180D7D4F5B07F96"
+  },
+  {
+    "Path": "Assets/FireBase.meta",
+    "Sha256": "1E8A4068398F0E3AADED4247C9DBD5E243D282394D40681651448B7206390FD2"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase/AndroidManifest.xml",
+    "Sha256": "3ACDAE3CC9960176C7ADE1BDCAA20BEB8E3FF67E3AEE7126FC36F4943D1C3C03"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase/AndroidManifest.xml.meta",
+    "Sha256": "C2025BBBBC4085C5CD279C16E6F1E1F56A8BC70720F4ADB7FE4B16CE68986093"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase/project.properties",
+    "Sha256": "A11B3E62ED4B0962636AD17C881A34DC984C23F68B90EAF997541482D98F1AD0"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase/project.properties.meta",
+    "Sha256": "D3751ABDECB009416B700E2D1106B69D22421706508856F787287A3A83E8AB90"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase/res.meta",
+    "Sha256": "83A7924042520A846131E9BDE38F7C09A822F5C7E0BD6A6A9824EB63F50AE474"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase/res/values.meta",
+    "Sha256": "6F2C3882F478F4EE001E5EEAFF66CA235E416B43A01212CA62D8EB0B3BC75E46"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase/res/values/google-services.xml",
+    "Sha256": "A982EBA8766F0FDA82E229A34C11BB3F637FAD7EF67EC5807C86192E54C88755"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase/res/values/google-services.xml.meta",
+    "Sha256": "49B856BD5632B77CD0D35E26229588A9F389F9676562631913152661E8705261"
+  },
+  {
+    "Path": "Assets/Plugins/Android/Firebase.meta",
+    "Sha256": "E7ABC788620A51E5138E379EB8CBA1167A8FC67943BA76BA98F444194D2B1A5B"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework.meta",
+    "Sha256": "44619A62EE805AD8C65152CEE85F9253037F2CD4A2AE33F86C0609CC36DC3C92"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsPurchasingWrapper.h",
+    "Sha256": "1A538F709C64584B9B15185B399F8B53E2ADA8CF01DDF4803ED33357D9FFF92E"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsPurchasingWrapper.h.meta",
+    "Sha256": "F17BA51F7A9741F23610A5BD84BFE26FFCF2566E6D5C8F434E4C8D3BC7F489EA"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsPurchasingWrapper.m",
+    "Sha256": "C6055EFAE96275FB343B14B25F453F6277F75D01094553772A65A12DC2388543"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsPurchasingWrapper.m.meta",
+    "Sha256": "4779C32E0F62881674BCD5FF7915D024FB2C70F30F3480104BA65FB8DEF92A9B"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsUnityWrapper.m",
+    "Sha256": "567389DD084A615DE09931F9C73FA18A67A7E267DF934BFE88DD01D4B481D366"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsUnityWrapper.m.meta",
+    "Sha256": "3669EAEF7F5B5C58FDDB6B7405173B8453B99E10D692526FA0DA4EA455B0AC6E"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsUtilities.h",
+    "Sha256": "561B3211BAD8F3E8D1F21FBA0B8FF51CAF7C0F13CF7ACE6100BF186778BDE47A"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsUtilities.h.meta",
+    "Sha256": "ED6E18809A2F2C6F78CB421CA43422DA2AF0EC733189D2C224128D3813EFD5B7"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsUtilities.m",
+    "Sha256": "5C9095C7A2500298C526FDCA84084EBBE093BB94FC6F5AE0D67A26141F6986CC"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAdsUtilities.m.meta",
+    "Sha256": "B55C118311EE83E3BB12827A28B0D85C2B1E0034F1185D7696E7079E6A04C060"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAnalyticsWrapper.m",
+    "Sha256": "805B8CFB086878A946C6CF721162FFA690812249704274BFD5F660BA20AE73D0"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAnalyticsWrapper.m.meta",
+    "Sha256": "E6816A279B37E50D4FF055B021A0E6F7B1CCA63B4D70D46A7FD5526E10EF6C1B"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityBannerUnityWrapper.m",
+    "Sha256": "DD3BA329475A73F65F55D00E557D2B744F5A5905202F78F3A399886FF7F2F154"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityBannerUnityWrapper.m.meta",
+    "Sha256": "A8F1F83984F34D59144F76EDA4A6B6FE6E1FCC1DDF123AE3B135FA424090DC9C"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityJsonAdditions.h",
+    "Sha256": "CED3A4E71B5AE0A95EA6BA078133BEB4B59D4EDB432277E221C4637472B96738"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityJsonAdditions.h.meta",
+    "Sha256": "56D92F75E1F23F043111AB383B49D5740F582C52FB48C603720B01431E8CBC8A"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityJsonAdditions.m",
+    "Sha256": "4D242CD44069B64AD5BC5AB25F278FB288291153C69F57E75278E3DA1053448E"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityJsonAdditions.m.meta",
+    "Sha256": "D4D0A7643415956BEE218BBCCD2B61834A14D62B166A843EBF52A45366BC89ED"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityMonetizationDecisionWrapper.m",
+    "Sha256": "7ACFB0E79B705D5189238C23FBA9849AEBB19575F4B66C2AC29B9A39772A4D27"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityMonetizationDecisionWrapper.m.meta",
+    "Sha256": "7072E8068CB21B16C2EB5677A2F2721C1146EE6A034F68DEB599B6B16F9B4604"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityMonetizationNativePromoAdapterWrapper.m",
+    "Sha256": "032CCAFE2FB35BDB2021AFD145189135FB1889055D68E7572F01D853FE8F7F34"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityMonetizationNativePromoAdapterWrapper.m.meta",
+    "Sha256": "9FDB570CD5B3A102B4F4FA7660F1D36E41DC7E80E0D01559D7BD0CD0CC578128"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityMonetizationPurchasingAdapter.m",
+    "Sha256": "E4AA320F8B551EAF4A9109030099160E4D71F4628B085C0F454BE9BE4CD248E1"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityMonetizationPurchasingAdapter.m.meta",
+    "Sha256": "82525B4A0BF16FE83DE52147A00AB467B27F9189D803B5DE6D391E2F52B267BE"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityMonetizationUnityWrapper.m",
+    "Sha256": "413A267133ADBE69A53B49E37B71FB81D1F863B271C40F1A67FFB5BF82BE8E6B"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityMonetizationUnityWrapper.m.meta",
+    "Sha256": "15045B85578AD08AB8B95D47E7D3CE7B03DD4413BACE07F44A65FD825F98DE5F"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers.meta",
+    "Sha256": "134E92E857D4ACB5B8EBFE67142530CFCCED479FCCA7B93036DAEC6C1F16F710"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Info.plist",
+    "Sha256": "EF47DDDB03792D9834084E379AAC2FC4FBFB137C26DB74281008A2D7ECFB48F7"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Info.plist.meta",
+    "Sha256": "4E76E416D30DAA8E40AFF228FA03306C64B6A003C46433B3AF2E53790F3CC237"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Modules.meta",
+    "Sha256": "82A889EF374AF89399C51668C26CC5389C601CD9CA65A516D027974C84499C7B"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/UnityAds",
+    "Sha256": "20A09853965E85133DF072F6B15B593975CFFE0F331ECC94B82AD42148765883"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/UnityAds.meta",
+    "Sha256": "765691CED2BE8ADCB719FCADB28CC3B6A4DC079A4826B0C5518B7D9CC98431C4"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/NSString+UnityAdsError.h",
+    "Sha256": "A8CD12717AFED7701992D1B4CC98EC5158631F20C135713B865361ADBA352338"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/NSString+UnityAdsError.h.meta",
+    "Sha256": "BF8AD36F27B70138785EDB45AC44327C96EDA2F03B5056BE91C292C39189D124"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBanner.h",
+    "Sha256": "57809901959F7827D68AA96421FEA72DA6DFB8124A3FEE8D4E290E5471875174"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBanner.h.meta",
+    "Sha256": "850F6196146B87E5CAE7D7EF021F203B4DA54B2CADA6F06422E7093EAA39DEE3"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerError.h",
+    "Sha256": "35870DE69E5D4DC091668DC7BA423A40C5567D4E75E4B7BE44CA5A63B275FDAE"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerError.h.meta",
+    "Sha256": "83615930048086BAA73445B13609B5ECCDC951886AB6BFDD840D911876E506BB"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerView.h",
+    "Sha256": "CABA62419BBDF143CC9215669B789EFE29BCB61AE39217E7205C39266D417453"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerView.h.meta",
+    "Sha256": "9D267E61F433DD1E988B8DED4E5109020783C6337487CCD112E69DEFD01F31B0"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerViewDelegate.h",
+    "Sha256": "5C8485311F5C079F4EB45B61776018C772287B744E78A0053CCEB9296FE23CB3"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerViewDelegate.h.meta",
+    "Sha256": "D6D67CCD902E1E7A4AAE6943225A9E7C081C9287ED7E63EEBBFE48251B4FF1BF"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h",
+    "Sha256": "198058AF161212E9E6B5D4FBC4B78D8B52986B2400075F137E739C91F511AA49"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h.meta",
+    "Sha256": "2C63C77592625D266FCDBFFFCCAB2E65989DCACF021B56CC0CD87DB40D9627FB"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSMediationMetaData.h",
+    "Sha256": "34FB353E49B38D30597D0F82E21604276F009A8748E9B367E33DBD43F8401EDA"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSMediationMetaData.h.meta",
+    "Sha256": "A52364D11F9A91946441F58596B49E25448F696021C529DCA7E1C8D01D2736EB"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSMetaData.h",
+    "Sha256": "850BA13BD3DF09C45AA68CCBEB0031D52AAAFEB512A7952410AC7AFB874A574A"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSMetaData.h.meta",
+    "Sha256": "1A0DD675C2C2216182F9C916F26629A1FB95DDFBA897DB17CB719E0E76D52CF9"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSPlayerMetaData.h",
+    "Sha256": "B500F433EC82E625B94B4AAADF50C0C44EC6AFBE2072B9C5B1363C0540AC6702"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSPlayerMetaData.h.meta",
+    "Sha256": "43C34FE2D953E04A31FAB2D49BAB9C417578B662CCAE573219283C01D4D1D330"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSPurchasing.h",
+    "Sha256": "DA0F96CF46D0B597455B1F2BD89BA9EA6FB513095C77DD916E7C6069EC73D77E"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UADSPurchasing.h.meta",
+    "Sha256": "F68C055F9B6BA1DEBC4FB4EDD46FAD1F4663FF9DEB255C1F1F9569C122709B73"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UANAApiAnalytics.h",
+    "Sha256": "B9D6A74B7AF3F738B5B53AC73759689B61DDF9668184B01129F0682BE2E51244"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UANAApiAnalytics.h.meta",
+    "Sha256": "D63AE149AA22AD0BF4B8C422F5D6EE18EC855D2780305B8AEFDEF56F4F6986FD"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONCustomEvent.h",
+    "Sha256": "3B4BAF27D9C269819DD6F918BE02D0EC6A39AC3BCF1FC938AADD176E557DD625"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONCustomEvent.h.meta",
+    "Sha256": "5926748B7606194427B5D8A64407CB678E0622DE893A7D8C4F5CB95E6D4B7CD7"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONItem.h",
+    "Sha256": "E22481BF1C538023928B9F8ED86C4A1A068AD42850AE3734497591C34D367145"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONItem.h.meta",
+    "Sha256": "9BA42F58CA3994B8A994FBDCE86BE7794D21B32453484EB9D55CD77C0156D2FF"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONNativePromoAdapter.h",
+    "Sha256": "7D819EE8AD53B091CAA7FD6FFFC8014C5E50C6E3D466D9866A6F1B3A5D3E7088"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONNativePromoAdapter.h.meta",
+    "Sha256": "FB7FD3649B28DE9AA3225BFAF1001EC4DD82056A67C9642FA494010C68604BD3"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPlacementContent.h",
+    "Sha256": "C7D11A67ED305CDD96202694A42FD3E73E081A695C3D02ECE823768A0FBCE591"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPlacementContent.h.meta",
+    "Sha256": "791CD5014F3404BC7E8DE4DA494C4C8EE5CAA3C85055DFED687CB2C2FE56FCCC"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPromoAdPlacementContent.h",
+    "Sha256": "312D35AAF47C6DADF5E32D5FF7F06E292791611E87671F47A312DA0E92245F51"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPromoAdPlacementContent.h.meta",
+    "Sha256": "435308D959ACDBEFA09E2925055070265C26BF281C07E4484F8321B75B2CABAC"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPromoMetaData.h",
+    "Sha256": "5F3A7D9AE02243BA5B5F345737A7D888AE6D915B4AE17342E3E31D1E9ED0777C"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPromoMetaData.h.meta",
+    "Sha256": "AB5AC5DEF1F4AE7F869B61E61842C979FABBA9405CFF98C25214F11B4EB7EEC8"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONRewardablePlacementContent.h",
+    "Sha256": "C9D4112987A4465DBF74B85E3217A6956BB60F21374CF0B51D7D5A98D27B13B4"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONRewardablePlacementContent.h.meta",
+    "Sha256": "2191A7F1282FE6C28758D6A66FE314D62419758E1C145BF9391593B9E396434D"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONShowAdPlacementContent.h",
+    "Sha256": "0BCE771E9204C94D28CCEB74D666E054FFDD944DBDDDC13D9C21AE387AED8DD8"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UMONShowAdPlacementContent.h.meta",
+    "Sha256": "FD3DD15654D04D16D3F726EED84201F8E87EF543897E601A0B56EC6E6C7A3DB9"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAds.h",
+    "Sha256": "179138FDD4C2C0C4C77A3825EA1AA65A2D5B775AEA2395D1B21235620539B857"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAds.h.meta",
+    "Sha256": "A7C4619272604C30B47387A94A806F8E1B11001C49F131939ADD9124E12F7784"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsBannerDelegate.h",
+    "Sha256": "B6F4671CB34AD307D264228850A2289345BE63B4275178151A1381E4771F84CE"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsBannerDelegate.h.meta",
+    "Sha256": "B95844A3AD0B2F11A9CC536562B9ED632434D97591C2346CDB6FCC48B56E5700"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsDelegate.h",
+    "Sha256": "3871371F76A45ED7B280835D37C924F060D3A6582275D24B4C99AB1266A8EEC5"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsDelegate.h.meta",
+    "Sha256": "34597902225777092930BBAC525C585A07BCFA87819D62C13A307A19507EACBA"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsError.h",
+    "Sha256": "AA21C5F9A16DB76D41ECF4023D1D98C9FA8953A785B388493C1A16A74BECB35B"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsError.h.meta",
+    "Sha256": "87C7EF6921986AA95D3069853E91D529C9F31719F22FB6C05DE903310EA584B2"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtended.h",
+    "Sha256": "825550B17F21C1DC7AF76A88ED0ACA8B887404337775E0727E39CC146195E351"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtended.h.meta",
+    "Sha256": "735BE601C3F5AE29BB555568B1DA42CBB6E96CBCB4DC3FD3D6F9B31CC0BB929C"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtendedDelegate.h",
+    "Sha256": "BAE271AE9EFB1C839CF307D52E52C97719EDC9ABA5C185B7C24E9C8E89C4179C"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtendedDelegate.h.meta",
+    "Sha256": "708ACD36D5730591BB249348541FC5717F1AA5AC8E3B0B47C8E918B0AC57043C"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsFinishState.h",
+    "Sha256": "C8C6E47367AE699761DED7ACF3C09B529E106D8FA886A44A31C4F2F480E47E08"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsFinishState.h.meta",
+    "Sha256": "7CF6EED342824991F44CA82E3791C68DD6BA33B586A833A437FFC21B09CBF4BB"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsPlacementState.h",
+    "Sha256": "5F876E525B79BE8D623C567236BC5CF6C3401B7B3B29E8579B02E23769DDD362"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsPlacementState.h.meta",
+    "Sha256": "D53E84D06A2A04EAFBBB02E3ED7ED7902E652F45302BF9BB3DF62598345DD903"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAnalytics.h",
+    "Sha256": "889502EE66D6297AAC1277241158AA3525DC2A8E209ED5D3CE271EAF98213A01"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAnalytics.h.meta",
+    "Sha256": "A2227AB7A280A390AC55E9758006C238586F70BECC34DB8E5AF6847404A11951"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAnalyticsAcquisitionType.h",
+    "Sha256": "42E3889446DEE1C7BA81A0FBDED2CF7A9EA6B4E2703F7EA5C682C2ED61EEA915"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAnalyticsAcquisitionType.h.meta",
+    "Sha256": "983DD201E6012E78DE8D596777903B2227EB14B3C752A577A8CF969260BBCB8A"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetization.h",
+    "Sha256": "DBBE71298F79DAC15C30D694BD7A0EC63D233050CE6500D6BFD0EF2AFD88DAE4"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetization.h.meta",
+    "Sha256": "E0B384F69F6559B14A0CF684C344691FBE040728FEFF785DA2032F7F6D192A75"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationDelegate.h",
+    "Sha256": "E8EEFE97E6AEAD9BB850B0584ED5F9822C185916F0315713A7D329A39FBF309D"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationDelegate.h.meta",
+    "Sha256": "ADA3F6486D0BCFE9A5A13346CA099E8C6154770558CE35763BBB68200990F61D"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationPlacementContentState.h",
+    "Sha256": "152EE3C7DA1A08DF54C7ACA5AE0202D30960408F0F89A2CD98FEFD042F87E9BF"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationPlacementContentState.h.meta",
+    "Sha256": "115F968A58C17D6A561E54646DAC768B155E126DB03C1E8B4E68CAB1736FF57C"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityServices.h",
+    "Sha256": "E38630109B20922F0234038BDC02603630B610086658631CF9B8D2616ACE014F"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UnityServices.h.meta",
+    "Sha256": "D30EFCB322E3F012F8ADA427613349E4D613D3E0B3704E88B5F70C4721007CC0"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURProduct.h",
+    "Sha256": "5B480003E412B7EC12D8C861F5AD9DB32CCA9B9C0B8F3EAD51261EF193195130"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURProduct.h.meta",
+    "Sha256": "02C8EBC1C6A4737489B4E0BA1159977A88A0B2537000779893D7CAD124D7D6E8"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURStore.h",
+    "Sha256": "3F4098C7857A2A82E3BF3DA566E076CE5370AC16FDF3FD42E75C70D397369E67"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURStore.h.meta",
+    "Sha256": "319D979761902956B6B40317349C85D94F02CC2FFB9D7DFBC845B83841AB716F"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionDetails.h",
+    "Sha256": "CD74E59FC66FBB95AECDD565D2E806488AFE6F11C660C92C4BECE7FF639685E7"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionDetails.h.meta",
+    "Sha256": "9DBD953A9E11F7217A629AE2F65E4BC6E5D409B65232A89539A8CC6BAF63F211"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionError.h",
+    "Sha256": "737D0460B904835DC67A0C9260FA24CB60C848CB7BD4FDB61D5CC743AD0F8318"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionError.h.meta",
+    "Sha256": "E7C8C99E10DE5CAA5EB1899B4C64D64C9DB172727FE16FC78E2ECC84E558AF4C"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionErrorDetails.h",
+    "Sha256": "EE3578821EB772416F98F1FD4FCCFCB09FAA9CC79ED9B590B8E0507E28584DFF"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionErrorDetails.h.meta",
+    "Sha256": "2642549503A55300A6FE8599A1FA2DAFA89571FAC03E1922A148FDE42F51482A"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorage.h",
+    "Sha256": "3EF7F502030AAA1FA8A8A3B875D1F13CD7CBFAE99F2F722D35C0796C1554D3EA"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorage.h.meta",
+    "Sha256": "DD5D3F0EA6B6D40AAA07EBC45AC0BF77E1DA5ABEE3401BD6BE5771A122020C0D"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasing.h",
+    "Sha256": "9C60B612838AA629A0D58B43E471764FE6349B8B0A4D6F15B5E90CA19BEF3E3E"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasing.h.meta",
+    "Sha256": "2121B48733BAA7A89251CA8951A196DB5D7FA8526C164E6E9A19D37A74BC5F93"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasingDelegate.h",
+    "Sha256": "C3DF4A9AAB875A6B87611B34D696DA46564F416A8E41559168EA519385237FC0"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasingDelegate.h.meta",
+    "Sha256": "5E764ADE5585AA201CEF95CE6C0680BEF951AAE5F73D055CC688B022F91B76BB"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Modules/module.modulemap",
+    "Sha256": "78391AA111A14548DCFA544AC2192D3C507927DFAEF3A250F63FDA42048CC64B"
+  },
+  {
+    "Path": "Assets/Plugins/iOS/UnityAds.framework/Modules/module.modulemap.meta",
+    "Sha256": "0FA8CE39612A9E028538EC171D851C725968A959C4A9A7EF680A917EF2EDDB86"
+  },
+  {
+    "Path": "Assets/Plugins/iOS.meta",
+    "Sha256": "788E6963190503637D05E520400FB17F696D2B027156BE7411E38F3DA27756C5"
+  },
+  {
+    "Path": "Assets/StreamingAssets/google-services-desktop.json",
+    "Sha256": "811B6A0BCA38BE70E506CFCE0F760F47D17117A42429D5F5DC6D7C8895D62D8C"
+  },
+  {
+    "Path": "Assets/StreamingAssets/google-services-desktop.json.meta",
+    "Sha256": "D73431B2072B5F2FD98847DCD68014EF603E65BCD78EBE85BB7B2D93736AB731"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-17.0.0.aar",
+    "Sha256": "B01C408C265B3AA171D19BE86D7B8D4F3454F3085169A775690A6A85F57ABB73"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-17.0.0.aar.meta",
+    "Sha256": "FDAFC4EBEB0A98462C6303EE9B53F7486A3DF5BD158A2ED6B6EFA43B8ED98FEA"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-17.3.0.aar",
+    "Sha256": "0C54E0DEE7DF4EB6BDBA91F5955A9D5A65F029C02E14620AF557EA34EA5045A8"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-17.3.0.aar.meta",
+    "Sha256": "F37EC57FB46594BA4A8E8832D93E826D4F34FDD3B0EAA5216702178EEFECB542"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-17.3.0.aar",
+    "Sha256": "10AD930B13DDFE8CE474FC841A46F8BBB41A1C7F9874707106A16E5B36BC83B8"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-17.3.0.aar.meta",
+    "Sha256": "B8D7F90904735EFF32E323DD521887E17F2AF9037A50E989B006187AF7159478"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-17.3.0.aar",
+    "Sha256": "89A7333F13042C4FCDC5FB058D18542DAB35D0526BAF8BAB3055E0395B4E4E3D"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-17.3.0.aar.meta",
+    "Sha256": "67B4327D95F8F40D52758D5AC6945F59594CA72943F24081641AA75E40328782"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-impl-17.3.0.aar",
+    "Sha256": "9B6C50B4C2CA218FDD80724E9974C72A3DC9265EF5ABB2B8BF2C0FE221E56F83"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-impl-17.3.0.aar.meta",
+    "Sha256": "A2E0FD30FEC556DDC5449218BE94EC1AA43E3B03F2D7C586B571E6E15EAB6CAF"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-17.3.0.aar",
+    "Sha256": "2C09B2B05156BEC2FDBC8E5591AE930BCCBBE9BA2B903DE15321D8E89DEEA1F7"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-17.3.0.aar.meta",
+    "Sha256": "752A672AC0AA89C6627F86049E670D5F50D322BEC3890D228B2EB396829F8C47"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-17.3.0.aar",
+    "Sha256": "31712540AF7BAEE4E3DB5FA540A0AFB070B9BFDEB5D7A79C83D463A4B95E8C4E"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-17.3.0.aar.meta",
+    "Sha256": "8F38B45961DB3A87C468337763C7C7C80D6509FF72B7A6EC30157428C9430F06"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-analytics-17.3.0.aar",
+    "Sha256": "75A342D27C8807150B03A29550EC548676832974C30B9ACBEA7ACD2FF99FB2C5"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-analytics-17.3.0.aar.meta",
+    "Sha256": "4980BB8ECA25658725D3CAD5BD3EB21B5871D232B91BE4B8D29A53AE9196A4DF"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-app-unity-6.14.0.aar",
+    "Sha256": "0C4955818AE952F07AFA1ED04DE61719127BD6ED89EDDC05700B0F9A0941DECB"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-app-unity-6.14.0.aar.meta",
+    "Sha256": "9399CA9D5B25B8C9DCA640600C88B7360D0F9ACBB081F92A1BA9FCB4B9CC5AF6"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-auth-19.3.0.aar",
+    "Sha256": "869D0B401B2126ECCBE1FAF9CE64EFBB8FE01EFC6BB81FA1CA8328E22126A9F6"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-auth-19.3.0.aar.meta",
+    "Sha256": "E58E0ABE41484655D7F109A465EFFF68D525391CA5BBCA36A72D955223EA093C"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-19.0.0.aar",
+    "Sha256": "17998142300169D07172E79557CB3B392FB3A2AD6EB44030E3F3EC3937F3A222"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-19.0.0.aar.meta",
+    "Sha256": "3EA7827637B3D1B4C1D1D042966514FB7F8142BB325BF4C66769765BF6524002"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-6.14.0.aar",
+    "Sha256": "76CA625CEB881ADA0A1CF841FBC1BD8FD7F2DBEF055026CFF3D787A1906FDAF5"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-6.14.0.aar.meta",
+    "Sha256": "E7477B22CD1F15FF300E8B09FFF6D2E7D432A6A4646B3C8936654CA3DB1E3EA0"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-common-19.3.0.aar",
+    "Sha256": "14966E8B1B3F608A88592C5E5E5B0A1F24101FF2555CC0DCC82BE1AAF8E7A6F9"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-common-19.3.0.aar.meta",
+    "Sha256": "506E3A05184C8C08D0BDCB74644D7CF26281A127DE0CC9C9464F7B581871777F"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-components-16.0.0.aar",
+    "Sha256": "8EF43B412DE4EC3E36A87C66D8A0A14A3DE0A2E8566946DA6A0E799B7FDD8EC9"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-components-16.0.0.aar.meta",
+    "Sha256": "D90EEE142A514BD35B045B9D799548F37BA80AC96F26F969F3B847A3789FBE75"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-iid-20.0.2.aar",
+    "Sha256": "B887A924DF62398B9551B38A1387139EAFD431595993345B78877836D42BD83F"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-iid-20.0.2.aar.meta",
+    "Sha256": "1FA6D5E80111F810CCD3B7D1A94A9C3F3F4E88B21D25A6A63907F85C832AE45F"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-17.0.0.aar",
+    "Sha256": "B6F4AD581EB489370BE3BF38A4BDABFC6EA3D4E716234C625A0F42516C53523C"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-17.0.0.aar.meta",
+    "Sha256": "3A4D055897B959B37FA2D2C7703B12D8F77F0A4FCEFB04F638CBF8AF3552863A"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-18.0.0.aar",
+    "Sha256": "17E8B9B60AC0A79FCBED754D03D4B966CC5BB8837E79C2308BF2970F1D05700C"
+  },
+  {
+    "Path": "Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-18.0.0.aar.meta",
+    "Sha256": "3919E8B1939EFB290A9676D526D376DB29F64A5F084B6132CF168CF963978606"
+  },
+  {
+    "Path": "Assets/Plugins/Android/UnityAds.aar",
+    "Sha256": "710A83C40E20E2110CCE3037004BBFA1B8D4447DD94970FF2086C07815128DF9"
+  },
+  {
+    "Path": "Assets/Plugins/Android/UnityAds.aar.meta",
+    "Sha256": "4E22155EE94E6C91AFA0C3C635276146B23810B5826E693E2040F2F4771BB3DF"
+  },
+  {
+    "Path": "Assets/Plugins/Android/UnityAdsAndroidPlugin.aar",
+    "Sha256": "69F3F68FF9ED520907583956DB76D645A205EAAA65DDFCC6796C3E3849A861DD"
+  },
+  {
+    "Path": "Assets/Plugins/Android/UnityAdsAndroidPlugin.aar.meta",
+    "Sha256": "48EA203EEB0198B54BD63BA45947C7F2A4E6CB17B1D15D781FC28361AE1CD129"
+  },
+  {
+    "Path": "Assets/Scenes/GameOver.unity",
+    "Sha256": "32CA21C5EBFA23B32480034E2E461D93FD1DC34247B051E280D9BF3A9974B6B4"
+  },
+  {
+    "Path": "Assets/Scenes/GameOver.unity.meta",
+    "Sha256": "5C84AA24C6E466819CF7A296ACB3985E1BB8615EF8FF4FC699DD9B779A6E2FEE"
+  },
+  {
+    "Path": "Assets/Script/Game/Libro.cs",
+    "Sha256": "CD993DDDDB3896C6CBCF33895682953D3880F81FF6F5A37C9A3B754CF200AD7D"
+  },
+  {
+    "Path": "Assets/Script/Game/Libro.cs.meta",
+    "Sha256": "AA0283085E4201F02F338C093394B0216B050A9C5733F9DE9678F9AF82EA1392"
+  },
+  {
+    "Path": "Assets/Script/UI/MainMenu.cs",
+    "Sha256": "E1950AD01FD2FD12F73A0C27E6F768F7388EEBD469CBC9C4FAA899D8B5643E78"
+  },
+  {
+    "Path": "Assets/Script/UI/MainMenu.cs.meta",
+    "Sha256": "90390A932F8FEB472ED688E09CE0ED7B11F3F047E84D90BE0FEAA707B9FEDF5D"
+  }
+]

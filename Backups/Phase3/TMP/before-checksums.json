@@ -1,0 +1,734 @@
+[
+  {
+    "path": "Documentation.meta",
+    "sha256": "B8D6BB09E9ABAE7C5661AE82525F08C2356300C709672C2B7831B5A69981157E"
+  },
+  {
+    "path": "Examples & Extras.meta",
+    "sha256": "EADCFAE35577E48A4AFFAE82AAECACD86EECEFF92E08054AF55E8CB76EFAFEED"
+  },
+  {
+    "path": "Fonts.meta",
+    "sha256": "8C596298D518C27D3F42A08E9849E679A66D62B8E79823A6D3B48525290ED647"
+  },
+  {
+    "path": "Resources.meta",
+    "sha256": "4BC87DA5A85B45FB3252482A603B56E3D34B2174973C527940B225E0B6D9F062"
+  },
+  {
+    "path": "Sprites.meta",
+    "sha256": "A12889276C3ED48211E92EC2C7C6FF5A1C41CD6E8A7FA2B06883A4BDEBBEA9E9"
+  },
+  {
+    "path": "Documentation/TextMesh Pro User Guide 2016.pdf",
+    "sha256": "93D6D3CA8A7D8423B01FAACD00FA3921FE055FB2187873653A925E4CC1AF85C0"
+  },
+  {
+    "path": "Documentation/TextMesh Pro User Guide 2016.pdf.meta",
+    "sha256": "662AEB2EBB201FA3C53020E6421421959C102AF001D62F73E85DFEF6796B0E5F"
+  },
+  {
+    "path": "Examples & Extras/Fonts.meta",
+    "sha256": "0EFDF1FDCE6DAC7F20BAB973541CF37E717C746F30FA0D2298F8CD112693FB3D"
+  },
+  {
+    "path": "Examples & Extras/Materials.meta",
+    "sha256": "DAB456EA25D7084707410327587366873BA93FFCE216F9B82058CADF411F94AA"
+  },
+  {
+    "path": "Examples & Extras/Resources.meta",
+    "sha256": "22DF814ACA7606F0EC314972B611FB71EF9294B98E5998632F6BF5D08D35E6E4"
+  },
+  {
+    "path": "Examples & Extras/Sprites.meta",
+    "sha256": "4DEFD88B4F99A5A5949241A1EBBC6103EBB409131C77C53C911705AF21AC2F81"
+  },
+  {
+    "path": "Examples & Extras/Textures.meta",
+    "sha256": "0A7F965C8FA6644FDA35B4427E7D5B1D75558C7A3D9180AF25CB803093253E5F"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Anton OFL.txt",
+    "sha256": "2D2D50DEDC217F2E0AC0AC86FBFDB8924E4A53522753E0F8F16F2A7B8C8E419A"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Anton OFL.txt.meta",
+    "sha256": "47A494C87B973482148234C23B310F298DEFAC693E4E1277ECFB48367B0E3F63"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Anton.ttf",
+    "sha256": "D86F6A6F364AB85B0AB275F770355D9847BBE5FEFF040B55BB392E825C50B4BC"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Anton.ttf.meta",
+    "sha256": "A090771210ADB5B5064B237952A7AD7013B4CF690A2A1CF09630E57E45ECAFEB"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Bangers - OFL.txt",
+    "sha256": "18B29DD9AA5A7BCDF57D57332BA65EF0EB1F90C09DBF348B473B6611BAB4D2D1"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Bangers - OFL.txt.meta",
+    "sha256": "0ECB4424D085696C2933F1AB10A6E9474F182E4CF57E4658A6F644E632F601DB"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Bangers.ttf",
+    "sha256": "321FFD247939D12810B05472FB87E2BDAC3FB8FCB430D1817B934B3AD55CAF40"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Bangers.ttf.meta",
+    "sha256": "0028DCBED692B479D1844DF8BB5EAA896F45DFC4F9A29717742648E4CDF209E4"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Electronic Highway Sign.TTF",
+    "sha256": "09C9C0E13ED67BF202A61057AFB0B6E4FEB4241E74561624A2ED6CF03307EC3C"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta",
+    "sha256": "F70AB232C237A461AEA32F7A1AB0E642626803213DDAC1F6C2E4C3E2DB655E71"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Oswald-Bold - OFL.txt",
+    "sha256": "36D79DAA59517826275ADB2E1615E49AC93528851C5516F5E7329BCEAF0BE792"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta",
+    "sha256": "233F41496E5FA72C012B80A4479A34E54572C85FE1B31FEB02005DC6D7611552"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Oswald-Bold.ttf",
+    "sha256": "FDDD19F5A6D8E9F5CCF42FA3CB4542DB815B05BA14C0B1CD00F484E6C1C431A1"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Oswald-Bold.ttf.meta",
+    "sha256": "73B2ADC7FEA369BF73DC297B6CFC54B7675145B630FE19697A117104E279A1F7"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Roboto-Bold.ttf",
+    "sha256": "7D0B991EE3E0BE7AF01AD7EA8CD2BEEA6C00A25E679A0226B6737F079AAFFF86"
+  },
+  {
+    "path": "Examples & Extras/Fonts/Roboto-Bold.ttf.meta",
+    "sha256": "ED35033DCAF88F5767151BE93D01A350A1307AB41FE0A32F2BB85F9448DFD246"
+  },
+  {
+    "path": "Examples & Extras/Materials/Crate - Surface Shader Scene.mat",
+    "sha256": "BB217B280FD02ED4562BA0A7054B91C3AF6BC351F31045E5DF68ACD4357FD66B"
+  },
+  {
+    "path": "Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta",
+    "sha256": "F1E2BC03370E60C45EE16D0DF1474E912131377A0C1AEF8F5CC80118EE9368F4"
+  },
+  {
+    "path": "Examples & Extras/Materials/Ground - Logo Scene.mat",
+    "sha256": "C9E9E044924566575344FBE1A84D1D648EAE6D3B38BEA60967C86E0F7E562A05"
+  },
+  {
+    "path": "Examples & Extras/Materials/Ground - Logo Scene.mat.meta",
+    "sha256": "E8C15568A66A1DD889861ED9EE9FD51E48F59F7755C38D4E7D91F93884EF1519"
+  },
+  {
+    "path": "Examples & Extras/Materials/Ground - Surface Shader Scene.mat",
+    "sha256": "770F91E9D143A81A55242CBCE0A89F8A58FD8CB0F9D249E893E13CA83DC0640E"
+  },
+  {
+    "path": "Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta",
+    "sha256": "0A3A14F6289AC418474A70AD9860D96AD073B675D30E683B412D241A1F99A87E"
+  },
+  {
+    "path": "Examples & Extras/Materials/Small Crate_diffuse.mat",
+    "sha256": "3436BAA26F3C725EE902B4F0BAFE73DA3E0F47D5453237F019A56ECBE6069608"
+  },
+  {
+    "path": "Examples & Extras/Materials/Small Crate_diffuse.mat.meta",
+    "sha256": "D35D58A459F31F8B1367C5BD9F1354C939D2E81C70F024EE53FF505EB402412B"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets.meta",
+    "sha256": "7BC24B9F88E62482D3190E2E1EF48CFF3FF7353C84CDC7776BF14C7BFC241281"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials.meta",
+    "sha256": "E1BC4F0CC675555E69EA59D3D7739E4E15F1A07CEE36F8080B7409FAC4B0F194"
+  },
+  {
+    "path": "Examples & Extras/Resources/Sprite Assets.meta",
+    "sha256": "AD730742D37AC6900AA7A953B1102C99F1F90681540F89D877604EAD7FB4FB87"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset",
+    "sha256": "AEEA13303C0702C4096CF0396BFC2B92BD9F49DC874D4EFFE63BCBACD343E646"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta",
+    "sha256": "D6EAECA9C0797907775EAC69F9028B2D8D1DDA76ED201797BB16FCBA1C300AEF"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset",
+    "sha256": "0F531C44A4B7F31FD0D7EF46C95E74B792B77028DA5C466FD5874DEBC10B1B77"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta",
+    "sha256": "BBEBD92931F2126218DD3C5C70931E86AE03720C899F901B615DFF0DDBFB0873"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset",
+    "sha256": "0145EC18B2BF14C5AFC686015EF26B69D324A56824DE3BE597A0E1FA0993576D"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta",
+    "sha256": "67BDF48DE596332E144DDCAAF444282C47910D9AD275564C79D7C60F73235AC4"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset",
+    "sha256": "60054985ED078CAD3C16EC3C7A2009CED1948D53BC85C10935E98129C9C277B7"
+  },
+  {
+    "path": "Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta",
+    "sha256": "09B8CBDCEDDE5F0438CFDFD0F0D0021C42DA80D79117E2F914232A4626ADC700"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat",
+    "sha256": "59D3C7137371C5EF76F6848E24884E6B95A3DA2ED8DDF7163C569CA397759E01"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat.meta",
+    "sha256": "B5B360EA0FAE9108437082AC4FFB7A2F66D89C808981253687E75B974C99B9A7"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat",
+    "sha256": "4256D808B88480F95FC09A77F88BE8F8E619F994578A98DC3D8E2482A5A2D9A5"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat.meta",
+    "sha256": "B48C3E20BE233DD51AB67041BDAFCA0FCC4FC8B5A04EB439E99D41C45678609D"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat",
+    "sha256": "1E9504AE29BDB807BF1423C33B477B5B35FD2F0279914754548D105076CEC048"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat.meta",
+    "sha256": "F28C1519D118378D41386F1FAD7AC87BF5079487E21558D294395EE8F4D28008"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset",
+    "sha256": "F5435186178DA492DC63F656162AA665E42EB2151230D55949E2FFA4782FA5FF"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta",
+    "sha256": "C8033E18FF185169E77A24B9D74CDEF2FCF45457A96B31CD989319F31503E3D8"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat",
+    "sha256": "82D468A12702973351407DBFD3D32D33CE11326A0C5891D5226D4094D5ED9C48"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat.meta",
+    "sha256": "5A70F47393213F8F80A6286D5964A9A4333ADE9DEB018DE90603C6331E7AB686"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat",
+    "sha256": "689B80E19C08A46B6FBFE96E9BE1ED97B5F5B23E9737643B7BCF73D3609986EA"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat.meta",
+    "sha256": "314B151BEEA7AA3775F2518360827044DEFF086271834716538927D4A2D7FD54"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat",
+    "sha256": "F5B941F485C4702BF2CFE7C1BF96BAF9E3936B9A26F060AF7722A837106EAAC4"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat.meta",
+    "sha256": "2CCDCEF0D83501A7EA40F65B16960BD5EF849CD0B7C2B0C569C8C0B185BE737C"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat",
+    "sha256": "CC5DA60AFD0FF5DE5CFE15E4E2252ECAB80E8296F5184EE9936B0112D47B06F4"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat.meta",
+    "sha256": "20FED8E5208E0E7E9F85B515FFFED1653B72FD3F3217C9796F82541FDDEF0B4A"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset",
+    "sha256": "01777327BE99D193AE75CCDA29D2233306931117F0283B9C99F16123D084B68C"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta",
+    "sha256": "7E23C9B036E425426AD6A4B6FFF86AACD9C96D1D12FB3FB069E0C12B483B5452"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset",
+    "sha256": "E01D591629514CFDF3AE9EEAA2E10166D42C475F88CD6F3CAF1D8D3D1D493B04"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset.meta",
+    "sha256": "7B15D299F25821CF76F05C9934A6218BA9B23CD6107E3710950F5C942E7BB154"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat",
+    "sha256": "D48CEDCE20F617DA05B36944CE8C05F38550C8E87D8D98EDE833DB7BCB44D29D"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat.meta",
+    "sha256": "3B9DD94633E2F5FA9C1C852E657ACAAB339AEBBE6B2CA5B15704E1DAA6641132"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat",
+    "sha256": "760945F513BCCDA8CA17C47E46A7DA50FD2F289E78FC58C9424B56805F94178C"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat.meta",
+    "sha256": "3F9A293A3DC0B822B480178D65367BB5040639E1D5AF4646021FBCABAC7C3E62"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat",
+    "sha256": "97343CBDAAD5B1319A7290E94FDA92CDE850778C4AF0B8C62CB6493A1EDAE909"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat.meta",
+    "sha256": "94E2BC6C0E4E03AA5D3F847DAFEB6FC5AC392CD860DCFDB7A16B147B19F6FEC3"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset",
+    "sha256": "33C2938ED0C8EB8E9EB8960E105926705F7F5A3E2E7BB21E74AF22D7D04B4DEF"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset.meta",
+    "sha256": "6D0EC1EAE7224151FBBCC39F100B796967A4B3D0B3D07E4CF585CDAF53BDB2E0"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat",
+    "sha256": "7A1B99CA66FA54149B4B0B07488AAFBBC2DED83E0CF615E539D9A96B927064F5"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat.meta",
+    "sha256": "26ECB9D2E9976122EC6B632CFA812EAA01CB07AFEA6D427426B01B1468A6C835"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat",
+    "sha256": "C460B32EDD53430BF17E29E96970C63FEF9C68FDCD00C72B866136F98906737D"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat.meta",
+    "sha256": "D7C298C8C93231320F30359F411F3544C750E2B9742C8DBD290ABDBAE387D551"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset",
+    "sha256": "3E15FB9C01C55004248C9E4169B29BF28B9CC1A0A5808F3B844BAAC48043EB95"
+  },
+  {
+    "path": "Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset.meta",
+    "sha256": "A361AFE86A156859DF5EE21EE72340918ED797605478023AFBF5317C2764C4CF"
+  },
+  {
+    "path": "Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset",
+    "sha256": "30FAD27852D8991DD3078BB1D12EBED8BB0C563552525CCE57C9726AB77828F4"
+  },
+  {
+    "path": "Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta",
+    "sha256": "6B1D9163E7E16FCB147BFAA62D6F47F04688C1E8A2A3BA59084D1E2AFAA356A5"
+  },
+  {
+    "path": "Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset",
+    "sha256": "3B7B1C1AD7352ED2734F8FCCE9E9CF2E222FCAA1BE9229C983D2CE8020ED582E"
+  },
+  {
+    "path": "Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta",
+    "sha256": "2F561EB1007E8E2A3109369D482021FD523FE25A809A6A9D9D6DDC4732F18457"
+  },
+  {
+    "path": "Examples & Extras/Sprites/Default Sprites.png",
+    "sha256": "F0ED23200980B5DFC4115A3EA99D26706D06A00F4946E4CCC01B83950456201B"
+  },
+  {
+    "path": "Examples & Extras/Sprites/Default Sprites.png.meta",
+    "sha256": "63C4FCD8CBD9F5B576C5455F1214CE193F9F4D920AD4DA5CE48723F0364A0460"
+  },
+  {
+    "path": "Examples & Extras/Sprites/DropCap Numbers.psd",
+    "sha256": "A8DA6E26A9DD8789A9D55D80636E4955DDD2C8CE5388CB0344EEF52029ECA106"
+  },
+  {
+    "path": "Examples & Extras/Sprites/DropCap Numbers.psd.meta",
+    "sha256": "D842E05900CC26CEEFA74DEF18B26AAD03140A4D30315B0053D7E40B92BCF048"
+  },
+  {
+    "path": "Examples & Extras/Textures/Brushed Metal 3.jpg",
+    "sha256": "7D21ED4AEAED1DB486303ADB34F3687F2EC9BDAC1167CBB1D4CB9BC0974CFDB8"
+  },
+  {
+    "path": "Examples & Extras/Textures/Brushed Metal 3.jpg.meta",
+    "sha256": "55CCCBDE732F5B7498C3317EB7DC3F32C1C36CF861E9B46206BA84908F5E9D40"
+  },
+  {
+    "path": "Examples & Extras/Textures/Floor Cement.jpg",
+    "sha256": "D9C5332CBDAEACAE60A48E31EBDD565CB93545605193BA7D5AA4E2F5AC92D6D5"
+  },
+  {
+    "path": "Examples & Extras/Textures/Floor Cement.jpg.meta",
+    "sha256": "E19CB557458F18FCE8979B14895E0E9763F9BA41C9FD152E08C4556C50300797"
+  },
+  {
+    "path": "Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg",
+    "sha256": "17CAC82BA5118E5F057461EB8F5C85126C57A7186A41F62C95CCA6203FF4D245"
+  },
+  {
+    "path": "Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta",
+    "sha256": "64EC4239243BF2E4671C8CB9671DC546B78A23489ADDDB66D4AE4C9194791570"
+  },
+  {
+    "path": "Examples & Extras/Textures/Fruit Jelly (B&W).jpg",
+    "sha256": "DCDB715F73DDA61219860185ECCC1A6BD81FBEACC171D7BF2A5F766F8EEA8E0C"
+  },
+  {
+    "path": "Examples & Extras/Textures/Fruit Jelly (B&W).jpg.meta",
+    "sha256": "4708DF2B68D71930A636B4572833057B24F189C00D22E250717CB6B6FD8AB339"
+  },
+  {
+    "path": "Examples & Extras/Textures/Gradient Diagonal (Color).jpg",
+    "sha256": "51735B2A99F9D6BAAE14B01CF2E01FA1AEEF69C9A95553B73BDEA5A8957A19A7"
+  },
+  {
+    "path": "Examples & Extras/Textures/Gradient Diagonal (Color).jpg.meta",
+    "sha256": "B15839BBC738D9BECCD5855E2881BB7F5B1A7F7DCB6531B86F5F8090D9264C9E"
+  },
+  {
+    "path": "Examples & Extras/Textures/Gradient Horizontal (Color).jpg",
+    "sha256": "B2099F0FD08520B82FEFB8E4E37DFDAEFD283CF4AEDB074D11DCFDD9841F24F1"
+  },
+  {
+    "path": "Examples & Extras/Textures/Gradient Horizontal (Color).jpg.meta",
+    "sha256": "AFA32AAE513BA37C309106FA3D593D5380EDC91649CF183C3DF192462A0B17FA"
+  },
+  {
+    "path": "Examples & Extras/Textures/Gradient Vertical (Color).jpg",
+    "sha256": "D9D7AB2C8D016B29574B13607E0579983D13B3377A6A3A330B945C5F07ADC059"
+  },
+  {
+    "path": "Examples & Extras/Textures/Gradient Vertical (Color).jpg.meta",
+    "sha256": "C43C4989626439DF99111D0AEEF3A65822177454DC19D055A65B93F0A25DF5FF"
+  },
+  {
+    "path": "Examples & Extras/Textures/Mask Zig-n-Zag.psd",
+    "sha256": "62C198307C982DF2E7FECC53CFB5D932FFAD8F1056F046448619C6F314DAC249"
+  },
+  {
+    "path": "Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta",
+    "sha256": "848AAD14DD7AD0716BFBC099DE87CAE7BBAD35B1B65F933D773FBCBB80635EE0"
+  },
+  {
+    "path": "Examples & Extras/Textures/Small Crate_diffuse.jpg",
+    "sha256": "79D17105E2A4BA39880B0092D6792D985C380789047FD0459E1AF099CCF8521D"
+  },
+  {
+    "path": "Examples & Extras/Textures/Small Crate_diffuse.jpg.meta",
+    "sha256": "206B178340899E879F8A33A652C25313D1926DF954FB8337F6133ECE31AF7D9D"
+  },
+  {
+    "path": "Examples & Extras/Textures/Small Crate_normal.jpg",
+    "sha256": "432295D5FEF530C8927B80CFB1B33EE58D1B6060237DF82A0CC460E784074460"
+  },
+  {
+    "path": "Examples & Extras/Textures/Small Crate_normal.jpg.meta",
+    "sha256": "3893C1076E288FC8B9EBB7AD2B15B024555D215F19FEC148565C35630E3C5275"
+  },
+  {
+    "path": "Examples & Extras/Textures/Sunny Days - Seamless.jpg",
+    "sha256": "AB6536DAF74188DFC075D65F5D85ACA9EFEAEAD7F03B905514E53076D854F365"
+  },
+  {
+    "path": "Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta",
+    "sha256": "11FF8BF04F7E58E4404B520C821AA114B06C4B7ED8B7A9CA1E1F7D2AE74DDF3A"
+  },
+  {
+    "path": "Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png",
+    "sha256": "A1CEE03C0AD0D42B302819E32C87651C946583A1F9C755B421A6A438F593BB67"
+  },
+  {
+    "path": "Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png.meta",
+    "sha256": "5C1A392B69549CD120898EDD439E99E4309A1C4ECE1DF15C4F04002E1BAEFEA1"
+  },
+  {
+    "path": "Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png",
+    "sha256": "6085A191A9981DF78A26F7218BC051FD113430674B545F0889DD757E87DF0941"
+  },
+  {
+    "path": "Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta",
+    "sha256": "5594C8D86DBB459B4CDCA8483446A4D112430661B1B25E021F7E78189D102C6E"
+  },
+  {
+    "path": "Examples & Extras/Textures/Wipe Pattern - Circle.psd",
+    "sha256": "9146C89277CDA5A0A4C5B00E7C9FF089B3486AF113C09A5A3BFAEFD103ED7E01"
+  },
+  {
+    "path": "Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta",
+    "sha256": "56E94ECDF09FE49D288B412307EA0F2535FD33EDE2603D6FB9709E858B9834BE"
+  },
+  {
+    "path": "Examples & Extras/Textures/Wipe Pattern - Diagonal.psd",
+    "sha256": "9DD31B2053CE4F178D014A87E70AD1D829229AAF486AA9607C7BA8370B1F631E"
+  },
+  {
+    "path": "Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta",
+    "sha256": "7EACEFFBCFA1C40D8F8251A5FBDCA9FDA57894EC67E6D4724BCEC4D0D7F9FC17"
+  },
+  {
+    "path": "Examples & Extras/Textures/Wipe Pattern - Radial Double.psd",
+    "sha256": "6CDBCE6A3732CE075694A0B18630847B9DF8C96CE73CBBBE7154A5DFB2660F23"
+  },
+  {
+    "path": "Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta",
+    "sha256": "452C6642A22878477E94DEA905F5F8CEBEAF090DC1543CE772421A5142853F65"
+  },
+  {
+    "path": "Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd",
+    "sha256": "E014157602C4E690F54C01F221B15D2C428F8131DCE86CE0FC21BA5C6AD9495D"
+  },
+  {
+    "path": "Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta",
+    "sha256": "00044382FE5F4E3EB55226C64293180A754E87E21C55426EBCE603594CEB5A86"
+  },
+  {
+    "path": "Fonts/LiberationSans - OFL.txt",
+    "sha256": "A130E89B7B2326B599C4B2BBD873EAAE63FEDA407541A2899CB8ACB306723DE6"
+  },
+  {
+    "path": "Fonts/LiberationSans - OFL.txt.meta",
+    "sha256": "1B8062370A3BB2BE74A46B0AE08688C87CD207CAD602FCC77A750CAFB106C9AF"
+  },
+  {
+    "path": "Fonts/LiberationSans.ttf",
+    "sha256": "E5B0AF421EA2BFBC1AC8D251D647268087AE82786234C57F757D1F0B90FA8B49"
+  },
+  {
+    "path": "Fonts/LiberationSans.ttf.meta",
+    "sha256": "58603424F5D1F468AF3F0C031C288CC9EAA96CB3FB82A0429B16A204A18A5012"
+  },
+  {
+    "path": "Resources/Fonts & Materials.meta",
+    "sha256": "124F26D6401F350502D4EA38E1B27353DFBD9905EBF50A1B813CD695C2C4EEFE"
+  },
+  {
+    "path": "Resources/LineBreaking Following Characters.txt",
+    "sha256": "3A73E5FFE2510756DD3C2E982FDC1218B4BE82C6E21ABDE88070D6860E1BC8E6"
+  },
+  {
+    "path": "Resources/LineBreaking Following Characters.txt.meta",
+    "sha256": "64EF1DA1E73F25BA842200E26D43908685C4B9BE66856D47103A26C1CAE94FA9"
+  },
+  {
+    "path": "Resources/LineBreaking Leading Characters.txt",
+    "sha256": "89FCC8F7B3D33A5A80B8D97EA19859BEB0C5BA5C6D2749D8D3A7D6374A71CD95"
+  },
+  {
+    "path": "Resources/LineBreaking Leading Characters.txt.meta",
+    "sha256": "92A36FB59AE49C6974D4EF75B41FFE4C1612110C4B49ED7AF5539DCB35E86E8F"
+  },
+  {
+    "path": "Resources/Shaders.meta",
+    "sha256": "F5E835E3DF0BE7D7B1B62B0514B68598B3C1A830364678B6E538F9B09DA037E8"
+  },
+  {
+    "path": "Resources/Sprite Assets.meta",
+    "sha256": "7F0B98E06DB610FB684666D25ABF31846C89EE28A778463B893AB85C3DBBA13D"
+  },
+  {
+    "path": "Resources/Style Sheets.meta",
+    "sha256": "9029980FFD3AF688190A28CB7F0397A82EFE9BD3A8861ED40DFC9018E76D5933"
+  },
+  {
+    "path": "Resources/TMP Settings.asset",
+    "sha256": "7FE054688D2B0C8CE5EC0C9DF9A51CB98D229DFAD8315C9EBBE970995F598640"
+  },
+  {
+    "path": "Resources/TMP Settings.asset.meta",
+    "sha256": "7E88F07FD05C1C4F829C55D8D7660D7AC572E906A5D7152857EF12A574D13375"
+  },
+  {
+    "path": "Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat",
+    "sha256": "73F941D7702C761483BB184FAD6E262648032969F0F310344155758B8FAD764F"
+  },
+  {
+    "path": "Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta",
+    "sha256": "FA0B8BA96378D1FED663D2206054A5E48139892E3D1C6A6ECE97808A6869D70D"
+  },
+  {
+    "path": "Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+    "sha256": "9196541CC8F3CCFD6F857AC6B2169D64E7CD533E85BFFABFFFBD5B9814735AB7"
+  },
+  {
+    "path": "Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta",
+    "sha256": "0A7CCE8A8D21C28BC719E5842C3FB8A3DE8EAC864A577160D7413D1DF08D79D1"
+  },
+  {
+    "path": "Resources/Fonts & Materials/LiberationSans SDF - Outline.mat",
+    "sha256": "4A07F16FCFA697F984D78B7ACC005985FE45A256B4BF8B7907FAEA08075B4961"
+  },
+  {
+    "path": "Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta",
+    "sha256": "CB8F2ABE533EF11A46AB112CF8DBEFB44CB01FA4B7262060A3C480862824D1FB"
+  },
+  {
+    "path": "Resources/Fonts & Materials/LiberationSans SDF.asset",
+    "sha256": "3E255BF16C9D35F6019C541174813B6F9E2DBFA5B0B458311CAC63FEA66A0357"
+  },
+  {
+    "path": "Resources/Fonts & Materials/LiberationSans SDF.asset.meta",
+    "sha256": "EEF709D8A9D8B4C781C532712A61AA28F3EF123B902F6B5A8903F0EA61845B50"
+  },
+  {
+    "path": "Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader",
+    "sha256": "38C3E7833B0201CECCA9E04F12891D518F2B076D93682C77425C0EA0087A67D4"
+  },
+  {
+    "path": "Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta",
+    "sha256": "1ACCCF4AB80B01A7126E471BAB0A130F2BC328988118891EC0F3878063B0EA71"
+  },
+  {
+    "path": "Resources/Shaders/TMP_Bitmap-Mobile.shader",
+    "sha256": "6FF64F1317772F8B117165D2CF030075D6A462EF31B528F02318397C02B74E94"
+  },
+  {
+    "path": "Resources/Shaders/TMP_Bitmap-Mobile.shader.meta",
+    "sha256": "4282743BA536326A3113A5E6199F1D2CC8FD8FEBD5E322EEE0E0D0DC10009BBA"
+  },
+  {
+    "path": "Resources/Shaders/TMP_Bitmap.shader",
+    "sha256": "C804F12D9BCC109C7BB65E3024CFB92441F80D5217CA1D41AAF96FBE766B97C2"
+  },
+  {
+    "path": "Resources/Shaders/TMP_Bitmap.shader.meta",
+    "sha256": "7C4E43FDE88C9CCB812F4FE7F12B6657F4A4129F37E23C0A1A61A0BB0ECCF36B"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF Overlay.shader",
+    "sha256": "1B6B09C32E82222558996268F190FA7B36EB9C3F80440518337A80CBE3357A60"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF Overlay.shader.meta",
+    "sha256": "779DFC8F87A66BBA28BFD084B3BDB6204BBDAF69F3E93A087F688F89FBB5C205"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Mobile Masking.shader",
+    "sha256": "F53B0CA40A8580A7CE775B0E58EF9F50C4B9B55D9FFAA70F0C80C1131C6A5DC0"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta",
+    "sha256": "F31A19D3B4E0EB62E39118B0A13C832FC0DE85EF62B99608550FDD58147D36AB"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Mobile Overlay.shader",
+    "sha256": "4EB46E0A3E61A9849C0A11AEACAAF5945F373E4B51CD5EDBF9C88A2D83C602A7"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta",
+    "sha256": "BF41F49C617AF9CCA556471133834D9D70037FF2FBD57B6EC5D694DFB762BBFA"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Mobile.shader",
+    "sha256": "62CA1C2DAD80B9AF38AC3EFF6BC9691A7521C508249FD6DCF955A65823B46CDF"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Mobile.shader.meta",
+    "sha256": "DD10AB9AA8B676C8A787A8FFC314C9BF926CDC0D8ABCC778A3BF7F79F9999468"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Surface-Mobile.shader",
+    "sha256": "C2A39D2B29B2238FBE1F8AFE8937CE5EB1B0006AA80F8CFBB02632A1C58D2D11"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta",
+    "sha256": "AC1B539E06009602439621988947711D96C550AF9D3C70BAC247A2A153FA70E1"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Surface.shader",
+    "sha256": "7D1CF95B37567AE8BF8B0C7E8910C0DB2E781D2BD83890D16BB991F5ED267203"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF-Surface.shader.meta",
+    "sha256": "23E808B8DC803A53F136659A45BFE34CE568942CF32A05824A71262C16F020F4"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF.shader",
+    "sha256": "A603410B588558ADD9A93B170BF76A80B1780509456300A5F3FEC422F8C8E316"
+  },
+  {
+    "path": "Resources/Shaders/TMP_SDF.shader.meta",
+    "sha256": "1BA1D1DF9B232321E60B63D6277C1F095AA6FC8767437F0617A6E28605661236"
+  },
+  {
+    "path": "Resources/Shaders/TMP_Sprite.shader",
+    "sha256": "3D389CA104BDDF06B4B0D58FFA2E5A92DF00624DE4CB3107540938BE4D86EF84"
+  },
+  {
+    "path": "Resources/Shaders/TMP_Sprite.shader.meta",
+    "sha256": "BF56FBB51CC992969CE8C27184F8312F068D0E2046716208C839F76508760781"
+  },
+  {
+    "path": "Resources/Shaders/TMPro_Properties.cginc",
+    "sha256": "BFF345B3F9A4F4D6F0E183A8692B3DCBC94F3153B064C77F6D430D1D6C60FED8"
+  },
+  {
+    "path": "Resources/Shaders/TMPro_Properties.cginc.meta",
+    "sha256": "9DE3EA76A363993A7F7B3C5391E90749A4EF2A974F5BFA8C6218BBF8359E886D"
+  },
+  {
+    "path": "Resources/Shaders/TMPro_Surface.cginc",
+    "sha256": "41532F8A229B67BB0E4FB5C2D2372FC2DE79B8EA0F042448051CAE249EEF66E7"
+  },
+  {
+    "path": "Resources/Shaders/TMPro_Surface.cginc.meta",
+    "sha256": "1B0F65500F67B3AD77151934A92238EB0C51E9D55A71623A06332BB2458BB79C"
+  },
+  {
+    "path": "Resources/Shaders/TMPro.cginc",
+    "sha256": "7B5E42E957E80DDAC2C42CD49D15DC48C50B97A0E263248BE8A074D1B3C79543"
+  },
+  {
+    "path": "Resources/Shaders/TMPro.cginc.meta",
+    "sha256": "F59EC332DB43A7DD20AD059AC9BBF60D523E2AC1328DD614E21709291FD5BE25"
+  },
+  {
+    "path": "Resources/Sprite Assets/EmojiOne.asset",
+    "sha256": "5CE8FE20FCD137CAD62D34F2F04A7B054B0FF0B64817E6F897F6C56725D74F2B"
+  },
+  {
+    "path": "Resources/Sprite Assets/EmojiOne.asset.meta",
+    "sha256": "D14793D1F1C86E8F372F44A1CC053D1867AAE32231F6BD2B179CA923D5EE69CB"
+  },
+  {
+    "path": "Resources/Style Sheets/Default Style Sheet.asset",
+    "sha256": "5E19480D4EF48BA9753CBBD20BEFAB3DA1CBEEFCB1E0939133BEEE812B23AE8B"
+  },
+  {
+    "path": "Resources/Style Sheets/Default Style Sheet.asset.meta",
+    "sha256": "B652BFC488EBEA2AC241CC440AD73C4A9AF993C265C800FE0F7CC4917286D0B0"
+  },
+  {
+    "path": "Sprites/EmojiOne Attribution.txt",
+    "sha256": "095907D2631301D08DBFF9388FC0C278904FD86E18BA76BB0D401A790ADE8F83"
+  },
+  {
+    "path": "Sprites/EmojiOne Attribution.txt.meta",
+    "sha256": "938914DBAE57244FC250929BD4D8914E5680D3477A9965B5D8EB9E893299C5CC"
+  },
+  {
+    "path": "Sprites/EmojiOne.json",
+    "sha256": "FA35C4A1B7CFC12E872BCBA7D0D20702077A5478472B87D619B2C72BF5BB48D0"
+  },
+  {
+    "path": "Sprites/EmojiOne.json.meta",
+    "sha256": "D44B132C16AC22869DCCC075D43857436C654625D58431AC5ED4E211C682953C"
+  },
+  {
+    "path": "Sprites/EmojiOne.png",
+    "sha256": "8D1830E21C290B1A2CE398FC98BAD6B0EBB5FEAA259B8969EA03066AB2F7ACED"
+  },
+  {
+    "path": "Sprites/EmojiOne.png.meta",
+    "sha256": "950C4C4EBC21A770BA3DBF7B9821D958F6DDA4094AF59A66ADA23F397D1E4E5B"
+  }
+]

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 public class LightController : MonoBehaviour
 {
     public float delayTime = 30f;
@@ -8,12 +8,12 @@ public class LightController : MonoBehaviour
     public float minFlickerIntensity = 0.1f;
     public float maxFlickerIntensity = 0.8f;
     public float lightRadius = 5f;
-    private Light2D pointLight;
+    private UnityEngine.Rendering.Universal.Light2D pointLight;
     private bool lightOn;
     private bool canTurnOnLight = false;
     void Start()
     {
-        pointLight = GetComponent<Light2D>();
+        pointLight = GetComponent<UnityEngine.Rendering.Universal.Light2D>();
         lightOn = false;
     }
     void Update()

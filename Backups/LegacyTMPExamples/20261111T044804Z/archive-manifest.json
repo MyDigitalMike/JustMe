@@ -1,0 +1,518 @@
+[
+  {
+    "RelativePath": "Scripts/Benchmark01_UGUI.cs",
+    "Sha256": "0AD01C7D86C6103F9977D859549AF2AF1379E572D2EC6D58F9471B7B0F1DE5A3"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark01_UGUI.cs.meta",
+    "Sha256": "9F720F8DFCCCE4CCB2F5065F876E214973B7F41D74B9263838757B2B9931E1F8"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark01.cs",
+    "Sha256": "B1D8EFD3D081FF6200330D72C7969F5A619C5C18151DFF73C543B76285375DB8"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark01.cs.meta",
+    "Sha256": "B5A5F2D161FCF4CF76AD6FDCF14255A80E035378350BD8230AB7910434D4193D"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark02.cs",
+    "Sha256": "2BE16D47CBFB7C2AB2C94BE096C2567F07779B7A458C387FB54A1250F1340971"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark02.cs.meta",
+    "Sha256": "B6899DA74FBA0BD88AB9E393F9DBD78D6FF17348903A36E1FEB9944FB1C42808"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark03.cs",
+    "Sha256": "400C59F20FEB2A45CCB15821AE35AA15D63D28E3F7EE07FB8B99F98A5E00F16D"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark03.cs.meta",
+    "Sha256": "FEA08E0CA90E38D37AD8A4B0DCD465D56140D40717F4FDED0BB43FB4B6B0D05B"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark04.cs",
+    "Sha256": "E57DE8B625BC3598D1E93A5831C91AA6D47661F7C221336983489F8DAE86902C"
+  },
+  {
+    "RelativePath": "Scripts/Benchmark04.cs.meta",
+    "Sha256": "A4DDC5DFAFAA1BAB5ADE3409884BB183C912B7227BE29D13555F1458A9B48204"
+  },
+  {
+    "RelativePath": "Scripts/CameraController.cs",
+    "Sha256": "907922FAEB2A8889662E779B4A3BE0044A13D6485A0C49C007C5D6F693F6FD8D"
+  },
+  {
+    "RelativePath": "Scripts/CameraController.cs.meta",
+    "Sha256": "53E3045212388D6242A1DEE7C0F3A9A833E24578CFD14F29032BEF69D8B369E4"
+  },
+  {
+    "RelativePath": "Scripts/ChatController.cs",
+    "Sha256": "82D468CA86269F290B5FFD26ACE78C50AB31AB4FD530396F6D62D60AD827134A"
+  },
+  {
+    "RelativePath": "Scripts/ChatController.cs.meta",
+    "Sha256": "2609282B9076C1198BBD29BDE1ABCF1D727A91FCCF2F7559BFAB449D73FA4ABA"
+  },
+  {
+    "RelativePath": "Scripts/EnvMapAnimator.cs",
+    "Sha256": "5E1A229404D5A5ED0FBE6B7481F0337F2FC1FE8352A1CB70477DE2C0AF81FFFA"
+  },
+  {
+    "RelativePath": "Scripts/EnvMapAnimator.cs.meta",
+    "Sha256": "28ABA07BF6E79F41860BC58AA87D5CA3A065141549F310DB87599499213A5521"
+  },
+  {
+    "RelativePath": "Scripts/ObjectSpin.cs",
+    "Sha256": "E2476BAEB79ACE4B0C34A6C5C54A99E3D9A4918099D1E5C533508E37E8D46258"
+  },
+  {
+    "RelativePath": "Scripts/ObjectSpin.cs.meta",
+    "Sha256": "6E68138DE91547485FEBEAAB69C18A0BF62D8F3B7D599BA56B43162B4FE7CDF2"
+  },
+  {
+    "RelativePath": "Scripts/ShaderPropAnimator.cs",
+    "Sha256": "7258B6C0032CBF8294200681873DFB0CC3CDF3077F9413E911F076E98CFAA110"
+  },
+  {
+    "RelativePath": "Scripts/ShaderPropAnimator.cs.meta",
+    "Sha256": "A53541F484A5C39CBE51E2E67ADDCA6688E25DE8941240153ED1994A21F0C99A"
+  },
+  {
+    "RelativePath": "Scripts/SimpleScript.cs",
+    "Sha256": "CDA5C0436263BAB6C30FA247178CCCDE199242AD6ACA98185C3402980B52A29F"
+  },
+  {
+    "RelativePath": "Scripts/SimpleScript.cs.meta",
+    "Sha256": "287B8C3810CD5940177DB820E350FCEB7A02C21B326D2F5CA2F69677D166630B"
+  },
+  {
+    "RelativePath": "Scripts/SkewTextExample.cs",
+    "Sha256": "BBA0DEF6229DC39BE9ABF191E58851CC00BBCA046DFD5D2CF112FEC3789D3EC2"
+  },
+  {
+    "RelativePath": "Scripts/SkewTextExample.cs.meta",
+    "Sha256": "2DB0CAF23502642BFD65A64EEE53E5B666D0F7A6702B65A46B6FAD118C6C3910"
+  },
+  {
+    "RelativePath": "Scripts/TeleType.cs",
+    "Sha256": "0B13BFC05BE73BF67756D49644DECB0F776015265CDC4418AA043974A56298E8"
+  },
+  {
+    "RelativePath": "Scripts/TeleType.cs.meta",
+    "Sha256": "06EE76A4F3EF485B035A31D75CA2561374F2A70AD856901806B2F41E2F3F07CE"
+  },
+  {
+    "RelativePath": "Scripts/TextConsoleSimulator.cs",
+    "Sha256": "391A52B353F2AEFF13BF4DA77BF07A217B4AF0C213F0FDCE006B054D13497213"
+  },
+  {
+    "RelativePath": "Scripts/TextConsoleSimulator.cs.meta",
+    "Sha256": "4A2BDA1B1DE71A8F841CC11297C012B1DE2D4026D86D05E93B9D5618A5859DE2"
+  },
+  {
+    "RelativePath": "Scripts/TextMeshProFloatingText.cs",
+    "Sha256": "984E0910176C43C5785C2FF085FE3F8E09B9F0690CF0BDF98209E4B192AE6304"
+  },
+  {
+    "RelativePath": "Scripts/TextMeshProFloatingText.cs.meta",
+    "Sha256": "1B36C2AA3BBD135C29E7D5EAE1120C2804B257F9BEB4B1D19B33B9B1FA66B4F5"
+  },
+  {
+    "RelativePath": "Scripts/TextMeshSpawner.cs",
+    "Sha256": "B868C62F876E92818C8B6F0A215ABF8162059A509661FFAA609F580C23F99211"
+  },
+  {
+    "RelativePath": "Scripts/TextMeshSpawner.cs.meta",
+    "Sha256": "C5BF0999CE13C8D493E2B47BF8122227835A49E743DD02A8376B295D014F228E"
+  },
+  {
+    "RelativePath": "Scripts/TMP_DigitValidator.cs",
+    "Sha256": "7ECC702354644BEB032889255B2313A14F9D2FC0EB26A11D5750298A3EA461BA"
+  },
+  {
+    "RelativePath": "Scripts/TMP_DigitValidator.cs.meta",
+    "Sha256": "5B30A78025F1DB5973300011F559BFB447D65333451845DE29B4879A3011595E"
+  },
+  {
+    "RelativePath": "Scripts/TMP_ExampleScript_01.cs",
+    "Sha256": "4ADF8032F66749939A2D1B35758854CA8185F3E045A9172DA31E1B3496D6125D"
+  },
+  {
+    "RelativePath": "Scripts/TMP_ExampleScript_01.cs.meta",
+    "Sha256": "F7A924D50B18D967688A31C4469CEF19E71945B6C5F291FC4410C9C26E87E2BC"
+  },
+  {
+    "RelativePath": "Scripts/TMP_FrameRateCounter.cs",
+    "Sha256": "60787C1135FDAA1D10875DC14CC25E8C2A0F7050CAB406D7A103A6441EF99379"
+  },
+  {
+    "RelativePath": "Scripts/TMP_FrameRateCounter.cs.meta",
+    "Sha256": "D2C1DCF8261A81D09FE2EC376FD26410B562C7D9DD6F8345050081CBA4975344"
+  },
+  {
+    "RelativePath": "Scripts/TMP_PhoneNumberValidator.cs",
+    "Sha256": "F100ED955A203117CFD33C8513E55C0D78CFD04E38E701906701EDF08B4230C4"
+  },
+  {
+    "RelativePath": "Scripts/TMP_PhoneNumberValidator.cs.meta",
+    "Sha256": "3AB1B18A3F7149A2C810E22F8A2B4054543BAE510D5B7FE374B62258E4A1A3E8"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextEventCheck.cs",
+    "Sha256": "F66C742D42CC73472A075D23D5E9DEE06CBE2A6D0A69FCA68E0CC66BE839AEF3"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextEventCheck.cs.meta",
+    "Sha256": "C268E7CFFDB144A9353F6C77F34876F6BD5DD792A5A7C58F5BEFDDB8E59D9FA5"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextEventHandler.cs",
+    "Sha256": "6057F6E2BF775B263B74DC02513C3166AF98FB64748EB4BA03B757B95BFF7070"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextEventHandler.cs.meta",
+    "Sha256": "BAE6F5CB3385929BF93AF742A4C2BF6C71AF978042B4AEF8BC7972F8C47BF7EB"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextInfoDebugTool.cs",
+    "Sha256": "572C281D3796C20F79F53C3F5A98968547029BE0114ABF76AD906D25E25062CB"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextInfoDebugTool.cs.meta",
+    "Sha256": "FD67DBC127FA77EDA6CBA77554B034605585E27FF367893125AB0A1116AD653C"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextSelector_A.cs",
+    "Sha256": "B0DA872056634D738957E518BBAEEAB7349AED638E6790BB3EF7A93ADF082944"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextSelector_A.cs.meta",
+    "Sha256": "053931D636F6652744A5EAFA292A9B311A83761A67B62422A5D11E0E5D132C53"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextSelector_B.cs",
+    "Sha256": "368E129FF7293666E70E4DD8826A36376CB413BA088CCCA6F5AE423705C7B9A0"
+  },
+  {
+    "RelativePath": "Scripts/TMP_TextSelector_B.cs.meta",
+    "Sha256": "416A600727E67F87066FC3DEC35EAAC1117509BC11206070D3ED170D35917CB2"
+  },
+  {
+    "RelativePath": "Scripts/TMP_UiFrameRateCounter.cs",
+    "Sha256": "625472FEEEFEBDD37FE8585069B5FB00DB8B0FE662E7B5AAB2FE7074972F9638"
+  },
+  {
+    "RelativePath": "Scripts/TMP_UiFrameRateCounter.cs.meta",
+    "Sha256": "A747934F3763B89468615EA59BE602032147B52A5C055A5B68399FB9321BE958"
+  },
+  {
+    "RelativePath": "Scripts/TMPro_InstructionOverlay.cs",
+    "Sha256": "80B7DFD7560715CAAAECA1B449634CCE4B7487C39C71A58B63E18BE4994CF6C8"
+  },
+  {
+    "RelativePath": "Scripts/TMPro_InstructionOverlay.cs.meta",
+    "Sha256": "D864750729865D73457C743D823102D3F78846DCFB6B813FDB3D159410DCED31"
+  },
+  {
+    "RelativePath": "Scripts/VertexColorCycler.cs",
+    "Sha256": "FD8C8AF9F8982CB3507800E70F8497B5A081A70C8391C066D6C6BB3C612F33DA"
+  },
+  {
+    "RelativePath": "Scripts/VertexColorCycler.cs.meta",
+    "Sha256": "9512CBA0597BA6F85D327BAD94FA220632921A8207E08E3ADE71BC3E4EFE6F1A"
+  },
+  {
+    "RelativePath": "Scripts/VertexJitter.cs",
+    "Sha256": "945CCB91D2EB3042D235CE0C5CE49250CC2A4F70C45FDFDFBBACDDB63E4D4F13"
+  },
+  {
+    "RelativePath": "Scripts/VertexJitter.cs.meta",
+    "Sha256": "81DB7F6AB33F739C1AA33EF6BF101E4DB8B77DFB47EC00A8F77864921F8E8D0A"
+  },
+  {
+    "RelativePath": "Scripts/VertexShakeA.cs",
+    "Sha256": "E7C100C9A978359968D1E22F192BDF49741FD87C2F3F46195E86F9413998F995"
+  },
+  {
+    "RelativePath": "Scripts/VertexShakeA.cs.meta",
+    "Sha256": "CE62339CF19C85E8DD748CA224D6273FB32546C529E8A9BF155A098188944A71"
+  },
+  {
+    "RelativePath": "Scripts/VertexShakeB.cs",
+    "Sha256": "9D884E810C94A4824B78B3DA58801DF126E748F51BBB906B103F7E60B9E69CB6"
+  },
+  {
+    "RelativePath": "Scripts/VertexShakeB.cs.meta",
+    "Sha256": "7D0D9C9C53DD6DB1F5A8520883AFC810286737F744D17B340B759F2B1B22E4FC"
+  },
+  {
+    "RelativePath": "Scripts/VertexZoom.cs",
+    "Sha256": "2BFE8EE0D2C0B9E9B7301A4C10BB0DE2C9D2ACD6E181EA9CCF573F1EEDB653DE"
+  },
+  {
+    "RelativePath": "Scripts/VertexZoom.cs.meta",
+    "Sha256": "663FE1E96693F4485FEC624A5F23C4C699A174296ECCD810C498AD018987F63A"
+  },
+  {
+    "RelativePath": "Scripts/WarpTextExample.cs",
+    "Sha256": "89CCA285CFF0A515721DCF257DCFC9C5C508547724A470E79A1B8828AE7C2F4C"
+  },
+  {
+    "RelativePath": "Scripts/WarpTextExample.cs.meta",
+    "Sha256": "BBF69161FC81DF2B36DE02139C4BD15A2BEDD46C95242132E824E61AF97F1B17"
+  },
+  {
+    "RelativePath": "Scripts.meta",
+    "Sha256": "A66212561DD183A284696723BC354DAA735C26EB7E1B426B8BA64C7EF39F3059"
+  },
+  {
+    "RelativePath": "Scenes/01-  Single Line TextMesh Pro.unity",
+    "Sha256": "E1A48BA64E093AA8C4E71C6FA0B0B4BF38A7522A05D50E9FD9B9FEB39E1167BA"
+  },
+  {
+    "RelativePath": "Scenes/01-  Single Line TextMesh Pro.unity.meta",
+    "Sha256": "E0E8C5DBF080382D4CC0DBCE11BEBE3A8468317737A573EE643144A017C43CF3"
+  },
+  {
+    "RelativePath": "Scenes/02 - Multi-line TextMesh Pro.unity",
+    "Sha256": "F355C7AA1D41AC3989AF54B69843BC990BDE8CBF42BE3C66E6543F1516D7C8A0"
+  },
+  {
+    "RelativePath": "Scenes/02 - Multi-line TextMesh Pro.unity.meta",
+    "Sha256": "DB3C993AEE3579C72DD92BEEAF4338F5BB145E8DF662FFC153C4AFD2B0AD43FB"
+  },
+  {
+    "RelativePath": "Scenes/03 - Line Justification.unity",
+    "Sha256": "19DC524CD9A7636775A4DE5BFF4EA2E05A6C011579052E79FB132CE7D5A4CC99"
+  },
+  {
+    "RelativePath": "Scenes/03 - Line Justification.unity.meta",
+    "Sha256": "3ADAAE3F7B42A115B3014E455C98235CDD6C6AC401A313504FAE56E248B7DBA9"
+  },
+  {
+    "RelativePath": "Scenes/04 - Word Wrapping.unity",
+    "Sha256": "EB8E46519B18AA664F4516F1DFEB026A86575206D3EB3242707606900234115E"
+  },
+  {
+    "RelativePath": "Scenes/04 - Word Wrapping.unity.meta",
+    "Sha256": "17F10DB46ED5DD366EE8F5B4FA44885980975FFD18B9E5701F360E3A8F5427DE"
+  },
+  {
+    "RelativePath": "Scenes/05 - Style Tags.unity",
+    "Sha256": "D611F52A74A69C3C5ABE7CCFF9FE08AC2770935DCA09AD87D114A251E372F350"
+  },
+  {
+    "RelativePath": "Scenes/05 - Style Tags.unity.meta",
+    "Sha256": "8C54D7C42584235A7850117A5A453BF694178E1D2B6DD914945ABD5866D16F0A"
+  },
+  {
+    "RelativePath": "Scenes/06 - Extra Rich Text Examples.unity",
+    "Sha256": "17EBB9B3CEAA368B6D0DF43C4924AEB8D7AD921A163672A7532972886CBA3C80"
+  },
+  {
+    "RelativePath": "Scenes/06 - Extra Rich Text Examples.unity.meta",
+    "Sha256": "C17F3C08DE1A45AC86A6053EC27FF3CC83690E0F0B5DC76C5BE29FF0B0AEC9D0"
+  },
+  {
+    "RelativePath": "Scenes/07 - Superscript & Subscript Example.unity",
+    "Sha256": "A22114F8F339C1132C819D7C88296822BD8284D374677146CECC1D640185F0F8"
+  },
+  {
+    "RelativePath": "Scenes/07 - Superscript & Subscript Example.unity.meta",
+    "Sha256": "9D877009E672B1D6BA89AA4020525D03BC6A52E593004261A7EF85DF8267F8CD"
+  },
+  {
+    "RelativePath": "Scenes/08 - Improved Text Alignment.unity",
+    "Sha256": "74051E24B7A48217B8493A794B0FF47533D094B5F6905954B5B7C78E6370E190"
+  },
+  {
+    "RelativePath": "Scenes/08 - Improved Text Alignment.unity.meta",
+    "Sha256": "2AD88C6E65AEDAA31AF0B9852D3319A66028CAC03A5B3AD2BF0CD0C74EA0098F"
+  },
+  {
+    "RelativePath": "Scenes/09 - Margin Tag Example.unity",
+    "Sha256": "2512102487080A1849EAB0772ABEB882456C7D97C9266C30DEFED3CF560A82B6"
+  },
+  {
+    "RelativePath": "Scenes/09 - Margin Tag Example.unity.meta",
+    "Sha256": "A8F3D7371628067E6E41E75037EBFD4732C9142E2D6267F7D2BDA9149A726D28"
+  },
+  {
+    "RelativePath": "Scenes/10 - Bullets & Numbered List Example.unity",
+    "Sha256": "252B43C2250F15FEB303D375FA50303B2C55D59335AE75F019508F1527598E78"
+  },
+  {
+    "RelativePath": "Scenes/10 - Bullets & Numbered List Example.unity.meta",
+    "Sha256": "4BC5ADD79B8A0A982C453333765F1C4E0631C43BF999D48592F18B676C165BDB"
+  },
+  {
+    "RelativePath": "Scenes/11 - The Style Tag.unity",
+    "Sha256": "A87B7974777E495D5EB4AFF746957337945C4D064F9B81B3D11263218DC2F5AE"
+  },
+  {
+    "RelativePath": "Scenes/11 - The Style Tag.unity.meta",
+    "Sha256": "C33C6C21DCE958D1CCC318740D48415390BDF4D8724BF46E70CD3F764AB89AD2"
+  },
+  {
+    "RelativePath": "Scenes/12 - Link Example.unity",
+    "Sha256": "C6C6936AEABE753BEDF82F8B8944562222CCC235D3A8FE1E0B24A284C7AD8FC8"
+  },
+  {
+    "RelativePath": "Scenes/12 - Link Example.unity.meta",
+    "Sha256": "BE2C994D0C40671B7EBB1913142374839A14642D9870D9C1B0B4DF8614E2F95E"
+  },
+  {
+    "RelativePath": "Scenes/12a - Text Interactions.unity",
+    "Sha256": "4A2489BCEEC0E0C9105B85B789FF22426A243E1A857748524D0166330748DECD"
+  },
+  {
+    "RelativePath": "Scenes/12a - Text Interactions.unity.meta",
+    "Sha256": "FD7473A0D95AED7E6D8B8989603791F72A89E6B0372E1B5D458274A97DA5A570"
+  },
+  {
+    "RelativePath": "Scenes/13 - Soft Hyphenation.unity",
+    "Sha256": "6A5A0A610C0D5DE405D1BDE9DDD2CF401D19809799BD88CD02D2A08E221C52A1"
+  },
+  {
+    "RelativePath": "Scenes/13 - Soft Hyphenation.unity.meta",
+    "Sha256": "1143BD85921D569AE97DAC0594D53AB1184974415FC0AA0A60A4A5A4BC8FC206"
+  },
+  {
+    "RelativePath": "Scenes/14 - Multi Font & Sprites.unity",
+    "Sha256": "42035525B0C515D360588922E6C5CFDA8075BCE474F8B80ACD13BB7C27AB71DB"
+  },
+  {
+    "RelativePath": "Scenes/14 - Multi Font & Sprites.unity.meta",
+    "Sha256": "CDA3EB96E68CF9C057B1C3740982FE19ED084016445E10CEC257CDD2340D1118"
+  },
+  {
+    "RelativePath": "Scenes/15 - Inline Graphics & Sprites.unity",
+    "Sha256": "2F4EC418EE38188A01471D7A490D555380C76754077A191B8BC882DAF5EF2379"
+  },
+  {
+    "RelativePath": "Scenes/15 - Inline Graphics & Sprites.unity.meta",
+    "Sha256": "A9BE1010D50BE11D2A99D81B1BF1D7AEB5C40D4B7EAAC768F8AB23B9022301EF"
+  },
+  {
+    "RelativePath": "Scenes/16 - Linked text overflow mode example.unity",
+    "Sha256": "73A5038F4714F574B04669FA3F5DB81730C04414426C3E5C1478CCE829E65867"
+  },
+  {
+    "RelativePath": "Scenes/16 - Linked text overflow mode example.unity.meta",
+    "Sha256": "822841FF32A9A19CF452E73114715CD4EB2DA5B5A88F6C3499C354AC1456EBEB"
+  },
+  {
+    "RelativePath": "Scenes/17 - Old Computer Terminal.unity",
+    "Sha256": "9808CA7ED98EE4BB81989921EE8553F3C6629A614797B9B26713F1FF47D6C469"
+  },
+  {
+    "RelativePath": "Scenes/17 - Old Computer Terminal.unity.meta",
+    "Sha256": "C0C347F78FB3019F360FCA774D0CF5A282417913A2CCCD141C1DE3A4C618456D"
+  },
+  {
+    "RelativePath": "Scenes/18 - ScrollRect & Masking & Layout.unity",
+    "Sha256": "882213B4AF2629DBACEBB07AD9D4E6F02059EA43F49DEA0D0437F80E15BDE545"
+  },
+  {
+    "RelativePath": "Scenes/18 - ScrollRect & Masking & Layout.unity.meta",
+    "Sha256": "C436C31B892F1306F08622E3A1179D604621EA7B5C847AAFD157466059D8BF65"
+  },
+  {
+    "RelativePath": "Scenes/19 - Masking Texture & Soft Mask.unity",
+    "Sha256": "9B99FB8D2F68AB5D1F19541C978F820D3E469B9F7AF32A9C9CAC01B9887B3704"
+  },
+  {
+    "RelativePath": "Scenes/19 - Masking Texture & Soft Mask.unity.meta",
+    "Sha256": "59965B8C34D8A5D8E020F085CA641B7C881092768B7187100475E6C86CF6E337"
+  },
+  {
+    "RelativePath": "Scenes/20 - Input Field with Scrollbar.unity",
+    "Sha256": "A4C42E0C56EF2767AB9FE20C69846BCC1E2089049B99FC466B358D038DE57D61"
+  },
+  {
+    "RelativePath": "Scenes/20 - Input Field with Scrollbar.unity.meta",
+    "Sha256": "325EEB5CC8C058ACCFD1796BAF49AFA6DCD4136A750E2AB6233513F2CAAAFDE8"
+  },
+  {
+    "RelativePath": "Scenes/21 - Script Example.unity",
+    "Sha256": "D80D7E00DE3B5DBE0DB42AF321707FBA24E00D9690B2B55C233B494F3DFAE2D8"
+  },
+  {
+    "RelativePath": "Scenes/21 - Script Example.unity.meta",
+    "Sha256": "F000C908447E0CCCEC516A8D7495C00299C07C5FEC4AAD672BA4C33234E48F50"
+  },
+  {
+    "RelativePath": "Scenes/22 - Basic Scripting Example.unity",
+    "Sha256": "65F992B8A755AF8081DE23AC63BDA7270C7DF72741327CE721C9EC7EB5DDA7C2"
+  },
+  {
+    "RelativePath": "Scenes/22 - Basic Scripting Example.unity.meta",
+    "Sha256": "6F2E8A7CDB4F5D0A77F2A895D2F7290ABF04669D88F79F5A6E4CBC355F408A66"
+  },
+  {
+    "RelativePath": "Scenes/23 - Animating Vertex Attributes.unity",
+    "Sha256": "440BB43080E34D501B5F9418E8E4619ED8E4AD818DE2A7070744964788A6A5AE"
+  },
+  {
+    "RelativePath": "Scenes/23 - Animating Vertex Attributes.unity.meta",
+    "Sha256": "27ADAC726CBFEB782763C826FCCDF2276235192D717690880914E1DF276AEF86"
+  },
+  {
+    "RelativePath": "Scenes/24 - Surface Shader Example.unity",
+    "Sha256": "010343C2A8ED9797A534CAFF4F97BC0A4665B7BB68357AB8AE41E2F6ACC1A5FF"
+  },
+  {
+    "RelativePath": "Scenes/24 - Surface Shader Example.unity.meta",
+    "Sha256": "847EAB6D58049FC88B120B0E6BBCA8BCEB0137E41C7EAD7CA9E7B31C22EA63FD"
+  },
+  {
+    "RelativePath": "Scenes/25 - Sunny Days Example.unity",
+    "Sha256": "8393FEFBCEB3F9BEDEE0447829C03B8DE2F02D975CEAD46F81C2655CCF0E5EC8"
+  },
+  {
+    "RelativePath": "Scenes/25 - Sunny Days Example.unity.meta",
+    "Sha256": "3255B94A7A8FD3493B7DD0C60D479F7745A0095EB91FD06C4CD62281AAA46CF9"
+  },
+  {
+    "RelativePath": "Scenes/Benchmark (Floating Text).unity",
+    "Sha256": "253DC906D515992892AE5D50AA808453BB4F5C55012D8C348C19BD10A973D637"
+  },
+  {
+    "RelativePath": "Scenes/Benchmark (Floating Text).unity.meta",
+    "Sha256": "F732578E6D687749E0B69EA845AE61123110ACFA44685BD9A67A2E407C7F2883"
+  },
+  {
+    "RelativePath": "Scenes.meta",
+    "Sha256": "E7BA28C033D02A2B202A12579B05F4861239427BA0C5A06BE842B0DE2F31A167"
+  },
+  {
+    "RelativePath": "Prefabs/Text Popup.prefab",
+    "Sha256": "27F93BEDC3B20866E6D1EF8A1F45042A7E19D2B6DAFC06B850C93F0C687DE0E6"
+  },
+  {
+    "RelativePath": "Prefabs/Text Popup.prefab.meta",
+    "Sha256": "B3A7983E927FDE3F37F36874DEF74B0631ABE3790043E9E293EA6CD27F02DE6E"
+  },
+  {
+    "RelativePath": "Prefabs/TextMeshPro - Prefab 1.prefab",
+    "Sha256": "2125AAF2C843904E5AA311E578B21DE72A678C7DAE5AAFAA8173C48DEED9DB76"
+  },
+  {
+    "RelativePath": "Prefabs/TextMeshPro - Prefab 1.prefab.meta",
+    "Sha256": "38DDCE1DA9D64F55A77DA718F076615879F27B818E8A94C9C056DA0AB439E1E5"
+  },
+  {
+    "RelativePath": "Prefabs/TextMeshPro - Prefab 2.prefab",
+    "Sha256": "FC625AA0DA6BFA13C5694BA07E8D2F1EEDA33D01ED77C04C6677351CA20AE5BE"
+  },
+  {
+    "RelativePath": "Prefabs/TextMeshPro - Prefab 2.prefab.meta",
+    "Sha256": "75C60321F2E7C7057053DFC8E760BF4A6B7778523250AACF06AD85CB7AE7AB63"
+  },
+  {
+    "RelativePath": "Prefabs.meta",
+    "Sha256": "770545995B89588CFE45A2EC65379E25DF66F113EB3A2CDC7D2097059E1E9903"
+  }
+]

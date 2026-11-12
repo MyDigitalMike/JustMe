@@ -1,0 +1,120 @@
+--- Backups/HoverFix/Player.before.cs
++++ Assets/Script/Game/Player.cs
+@@ -47,6 +47,9 @@
+     float horizontalInput, verticalInput, knockbackUntil;
+     bool doubleJump, jumpQueued, sprintHeld, crouchHeld, touchSprint, touchCrouch;
+     Vector2 ledgePoint, pullTarget;
++    Collider2D gripCollider;
++    Vector2 gripPosition;
++    float gripFacing;
+     bool regrabBlocked, pullRaised;
+     TraversalEnvironment environment;
+     SpriteRenderer crouchVisual;
+@@ -136,12 +139,12 @@
+         if (State == TraversalState.PullingUp)
+         {
+             exerting = true;
+-            if (!MovePullUp(dt)) ReleaseGrip();
++            if (!GripSurfaceExists() || !MovePullUp(dt)) ReleaseGrip();
+         }
+         else if (State == TraversalState.Hanging)
+         {
+             exerting = true;
+-            if (verticalInput < -.3f || crouchHeld || !Stamina.TrySpend(staminaSettings.LedgeHangDrainPerSecond * dt)) ReleaseGrip();
++            if (!HasValidGrip() || verticalInput < -.3f || crouchHeld || !Stamina.TrySpend(staminaSettings.LedgeHangDrainPerSecond * dt)) ReleaseGrip();
+             else if (wantsJump || verticalInput > .3f)
+             {
+                 jumpRequestedUntil = float.NegativeInfinity;
+@@ -258,15 +261,35 @@
+         Vector2 chest = rb2d.position + Vector2.up * (StandingTop - .12f);
+         int hits = PhysicsScene.Raycast(chest, Vector2.right * facing, reach, SolidFilter, casts);
+         var wall = hits > 0 ? casts[0] : default(RaycastHit2D);
+-        if (wall.collider == null || Mathf.Abs(wall.normal.x) < .8f) return;
++        if (wall.collider == null || wall.distance <= 0 || Mathf.Abs(wall.normal.x) < .8f) return;
+         Vector2 above = new Vector2(wall.point.x + facing * .08f, rb2d.position.y + StandingTop + .35f);
+         hits = PhysicsScene.Raycast(above, Vector2.down, .65f, SolidFilter, casts);
+         var top = hits > 0 ? casts[0] : default(RaycastHit2D);
+-        if (top.collider == null || top.normal.y < .9f || top.point.y - (rb2d.position.y + SoleOffset) > maximumLedgeHeight) return;
++        if (top.collider != wall.collider || top.distance <= 0 || top.normal.y < .9f || top.point.y - (rb2d.position.y + SoleOffset) > maximumLedgeHeight) return;
+         Vector2 target = new Vector2(top.point.x + facing * (bodyBox.bounds.extents.x + .06f), top.point.y - SoleOffset + .025f);
+         if (!CanStandAt(target, true)) return;
+-        ledgePoint = top.point; pullTarget = target;
++        ledgePoint = new Vector2(wall.point.x, top.point.y); pullTarget = target;
++        gripCollider = wall.collider; gripPosition = rb2d.position; gripFacing = facing;
+         State = TraversalState.Hanging; Grounded = false; rb2d.gravityScale = 0; rb2d.linearVelocity = Vector2.zero;
++    }
++
++    bool GripSurfaceExists()
++    {
++        if (gripCollider == null || !gripCollider.enabled || !gripCollider.gameObject.activeInHierarchy) return false;
++        Vector2 chest = gripPosition + Vector2.up * (StandingTop - .12f);
++        int hits = PhysicsScene.Raycast(chest, Vector2.right * gripFacing, bodyBox.bounds.extents.x + ledgeReach, SolidFilter, casts);
++        if (hits == 0 || casts[0].collider != gripCollider || casts[0].distance <= 0 ||
++            Mathf.Abs(casts[0].normal.x) < .8f || Mathf.Abs(casts[0].point.x - ledgePoint.x) > .025f) return false;
++        Vector2 above = new Vector2(casts[0].point.x + gripFacing * .08f, gripPosition.y + StandingTop + .35f);
++        hits = PhysicsScene.Raycast(above, Vector2.down, .65f, SolidFilter, casts);
++        return hits > 0 && casts[0].collider == gripCollider && casts[0].distance > 0 &&
++            casts[0].normal.y >= .9f && Mathf.Abs(casts[0].point.y - ledgePoint.y) <= .025f;
++    }
++
++    bool HasValidGrip()
++    {
++        // Keep the captured anchor; never teleport back to an obsolete edge or switch sides.
++        return (rb2d.position - gripPosition).sqrMagnitude <= .025f * .025f && GripSurfaceExists();
+     }
+ 
+     bool MovePullUp(float dt)
+@@ -288,6 +311,7 @@
+ 
+     void ReleaseGrip()
+     {
++        gripCollider = null;
+         regrabBlocked = true; State = TraversalState.Airborne; Grounded = false;
+         rb2d.gravityScale = gravity; doubleJump = false;
+     }
+--- Backups/HoverFix/TraversalWorld.before.cs
++++ Assets/Script/GeneracionMundo/TraversalWorld.cs
+@@ -240,7 +240,8 @@
+                     (int)Math.Ceiling(p.X / .5) + 2, (int)Math.Ceiling((p.Y + caps.SoleLocalY + caps.StandingHeight) / .5) + 2, 1);
+             if (link.Primary && (link.Action == TraversalAction.Jump || link.Action == TraversalAction.DoubleJump))
+             {
+-                int landing = b.FloorX - (link.Action == TraversalAction.Jump ? 1 : 2);
++                // A single half-unit opening can support the compound body across its corners.
++                int landing = b.FloorX - (link.Action == TraversalAction.Jump ? 0 : 2);
+                 voids.Add(new TileRegion(a.FloorX + 1, 1, landing - 1, a.FloorY - 1) { CueX = a.FloorX, CueY = a.FloorY + 1 });
+             }
+         }
+@@ -291,7 +292,7 @@
+         if (!link.Primary && link.Action == TraversalAction.DoubleJump) return;
+         TraversalNode a = world.Route.Nodes[link.FromNode], b = world.Route.Nodes[link.ToNode];
+         if (link.Action == TraversalAction.Jump || link.Action == TraversalAction.DoubleJump)
+-        { Floor(world, a.FloorX - 3, a.FloorX, a.FloorY); Floor(world, b.FloorX - (link.Action == TraversalAction.Jump ? 1 : 2), b.FloorX + 2, b.FloorY); }
++        { Floor(world, a.FloorX - 3, a.FloorX, a.FloorY); Floor(world, b.FloorX - (link.Action == TraversalAction.Jump ? 0 : 2), b.FloorX + 2, b.FloorY); }
+         else if (link.Action == TraversalAction.Climb)
+         {
+             int direction = Math.Sign(b.FloorX - a.FloorX);
+--- Backups/HoverFix/Run-WorldSuite.before.ps1
++++ Tools/TraversalChecks/Run-WorldSuite.ps1
+@@ -1,3 +1,4 @@
++param([string]$ReportPath)
+ $ErrorActionPreference='Stop'
+ $rootPath=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
+ $sources=@('Assets/Script/Game/TraversalStamina.cs','Assets/Script/GeneracionMundo/ProceduralWorld.cs','Assets/Script/GeneracionMundo/TraversalWorld.cs','Assets/Script/GeneracionMundo/TraversalValidator.cs')|ForEach-Object{Join-Path $rootPath $_}
+@@ -23,6 +24,9 @@
+   Assert-Check (@($world.Route.Links|Where-Object Action -eq 'DoubleJump').Count -ge 1) 'Missing double jump challenge'
+   Assert-Check (@($world.Route.Links|Where-Object BranchId -eq 2).Count -eq 4) 'Missing directed dead-end return'
+   Assert-Check ($world.VoidRegions.Length -gt 0) 'Missing explicit lethal hazards'
++  foreach($hazard in $world.VoidRegions){
++   Assert-Check ((($hazard.MaxX-$hazard.MinX+1)*$world.CellSize) -ge 1) 'Mandatory gap clear width must be at least the approved 1 unit'
++  }
+   $records.Add([pscustomobject]@{profile=$profile;seed=$seed;hash=(World-Hash $world);predictedSeconds=$validation.TotalSeconds;remaining=$validation.RemainingStamina})
+  }
+ }
+@@ -59,5 +63,6 @@
+ $bounded=$false;try{[void][ProceduralWorld]::GenerateTraversal($settings,$caps,$low,1)}catch{$bounded=$_.Exception.InnerException -is [TraversalGenerationException]}
+ Assert-Check $bounded 'Failed route was silently accepted or not bounded'
+ $report=[ordered]@{passed=$true;verification='Pure C# model; does not claim physical completion of every seed';assertions=$script:assertions;cases=$records;automaticSeed=$random.Seed;rejectedCases=@('spawn obstruction','low stamina','crawl exhaustion','removed recovery','airborne walk','forged jump','missing climbable regions','impossible crawl speed','impossible climb speed','lethal path','unsafe rest','bounded rejection')}
+-$report|ConvertTo-Json -Depth 5|Set-Content -LiteralPath (Join-Path $rootPath 'Backups/Phase3/world-validation.json')
++if(!$ReportPath){$ReportPath=Join-Path $rootPath 'Backups/Phase3/world-validation.json'}
++$report|ConvertTo-Json -Depth 5|Set-Content -LiteralPath $ReportPath
+ [pscustomobject]@{passed=$true;assertions=$script:assertions;acceptedCases=$records.Count;rejectedCases=12}

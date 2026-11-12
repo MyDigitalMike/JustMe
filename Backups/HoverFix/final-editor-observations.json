@@ -1,0 +1,13 @@
+{
+  "source": "Observed in native Unity UI",
+  "editor": "6000.6.8f1",
+  "exactUserCaseCaptured": true,
+  "rootCase": "Idle, Grounded true, gravity 3, box supported by left terrain; no marker collider",
+  "approvedGeometry": "Single-jump gaps widened from 0.5 to 1 world unit",
+  "finalPlayWithoutTemporaryProbes": true,
+  "consoleErrorsVisible": 0,
+  "stoppedPlay": true,
+  "temporaryProbeFilesArchived": 8,
+  "noSceneOrColliderAssetEdits": true,
+  "verifiedUtc": "2026-11-12T04:42:00.5581341Z"
+}

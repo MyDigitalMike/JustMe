@@ -1,0 +1,7 @@
+Assets/Scenes/JustMe.unity: 0
+Assets/Scenes/GameOver.unity: 0
+Assets/Scenes/MainMenu.unity: 0
+Assets/Prefabs/Character/Player.prefab: 0
+Assets/Prefabs/Character/Libro.prefab: 0
+Assets/Prefabs/Tilemap.prefab: 0
+Assets/Resources/WorldPresentation.prefab: 0

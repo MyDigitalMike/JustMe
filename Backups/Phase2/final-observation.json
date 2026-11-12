@@ -1,0 +1,73 @@
+{
+  "unity": "6000.6.8f1",
+  "finalPlayObserved": true,
+  "finalPlayErrorsObserved": 0,
+  "editorLeftOutsidePlay": true,
+  "temporaryProbeRemovedFromAssets": true,
+  "knownErrorOnClosingTMPImporter": "Existing TMP Settings assetVersion differs from current version 2; no resources imported",
+  "referencesScope": "3 scenes and 4 prefabs; missing scripts and prefab instances",
+  "sourceHashes": [
+    {
+      "path": "Assets/Script/Game/Player.cs",
+      "sha256": "6E343A0ED613791CBD7F8B373E73159B1FEC122D6307CE5A8E5F95963A11C36C",
+      "lastWriteTimeUtc": "2026-11-11T19:27:43.8335334Z"
+    },
+    {
+      "path": "Assets/Script/Game/CheckGround.cs",
+      "sha256": "2606A47F2D98CAA4776E7348640A0DA0150E7F2F0F0C6DE05EA8DE817D0A1746",
+      "lastWriteTimeUtc": "2026-11-11T19:22:38.3957109Z"
+    },
+    {
+      "path": "Assets/Script/Game/Libro.cs",
+      "sha256": "B84B37CBB80D78001D5F291807A18A0C7BB3FF5921AA44F532C0A027D04348F2",
+      "lastWriteTimeUtc": "2026-11-11T19:41:17.8525653Z"
+    },
+    {
+      "path": "Assets/Script/UI/CameraFollow.cs",
+      "sha256": "301E620FC2D9F2769DD304D40B78E42811C0E24F4CAF685D6DC4660A1AC53DB4",
+      "lastWriteTimeUtc": "2026-11-11T19:30:52.1111013Z"
+    },
+    {
+      "path": "Assets/Script/GeneracionMundo/ProceduralWorld.cs",
+      "sha256": "2E4EA0D32A022D0B6904BA716BED23331A4C02656FEA9BFF44FD90BB37463153",
+      "lastWriteTimeUtc": "2026-11-11T19:25:08.8794317Z"
+    },
+    {
+      "path": "Assets/Script/GeneracionMundo/WorldTilemapRenderer.cs",
+      "sha256": "3B2C1BC075E845B848C9E67B6183548EA8B338FA9E7535C4571DEA02F630A956",
+      "lastWriteTimeUtc": "2026-11-11T19:25:23.3672193Z"
+    },
+    {
+      "path": "Assets/Script/UI/ParallaxBackground.cs",
+      "sha256": "1516FB8F0C2963EF75DF54625875FB49BFD8ABF157A37413E328303847202C08",
+      "lastWriteTimeUtc": "2026-11-11T19:25:23.1654843Z"
+    },
+    {
+      "path": "Assets/Script/Game/WorldLighting.cs",
+      "sha256": "C9EAD8D2182B632718CD55C094A6E6E42066666FD9E3FB7E745280A4C507C6BD",
+      "lastWriteTimeUtc": "2026-11-11T19:25:23.5645089Z"
+    },
+    {
+      "path": "Assets/Resources/WorldPresentation.prefab",
+      "sha256": "A052F71FEE58A5B855090469BFBF8918B98CB2390D9679323E3E2784EDEDB853",
+      "lastWriteTimeUtc": "2026-11-11T19:29:53.6170700Z"
+    },
+    {
+      "path": "Assets/Resources/WorldBackgroundUnlit.mat",
+      "sha256": "4B9403F1A639D8DC833818E4DEA85DDB9B1D284834FA442A89E910825D5EC740",
+      "lastWriteTimeUtc": "2026-11-11T19:29:53.4490806Z"
+    }
+  ],
+  "assemblies": [
+    {
+      "Name": "Assembly-CSharp.dll",
+      "LastWriteTimeUtc": "2026-11-11T19:41:35.0044159Z",
+      "Length": 44544
+    },
+    {
+      "Name": "Assembly-CSharp-Editor.dll",
+      "LastWriteTimeUtc": "2026-11-11T19:46:05.5821466Z",
+      "Length": 30208
+    }
+  ]
+}

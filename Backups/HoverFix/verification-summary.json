@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": {
+    "nativeCaseCount": true,
+    "widerGapFalls": true,
+    "invalidGripDrops": true,
+    "closeWallTransitions": true,
+    "releaseAndExhaustion": true,
+    "correctRigidbodyState": true,
+    "movementRegression": true,
+    "physicalProfiles": true,
+    "generationModel": true,
+    "goal": true,
+    "gameOver": true
+  },
+  "movementChecks": 38,
+  "focusedNativeCases": 15,
+  "pureAssertions": 157,
+  "physicalSeed": 1,
+  "playerHash": "335EFBBDB979CC5F351B817EECF32BBC9BA203618EAD2C2F8BF5EA932F98845E",
+  "generatorHash": "20F8F1162811B6E10434EAB0632E5D46343458DE0C12B01FCE357FE1702B7D54"
+}

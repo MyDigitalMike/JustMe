@@ -1,0 +1,15 @@
+{
+    "expectedLevel": 2,
+    "actualLevel": 2,
+    "seed": 2,
+    "enemies": 2,
+    "springs": 0,
+    "advanced": true,
+    "safeSpawn": true,
+    "cameraContainsPlayer": true,
+    "player": {
+        "x": 3.0,
+        "y": 4.987636566162109,
+        "z": 0.0
+    }
+}

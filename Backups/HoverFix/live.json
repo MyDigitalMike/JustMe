@@ -1,0 +1,152 @@
+{
+    "editor": "6000.6.8f1",
+    "error": "",
+    "cases": [
+        {
+            "name": "live",
+            "error": "",
+            "gap": 0.0,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Idle",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 5.834290981292725,
+                    "y": 9.156135559082031
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 0.0,
+                "bodyLeft": 5.662556171417236,
+                "bodyRight": 6.1277241706848145,
+                "feet": 8.694084167480469,
+                "spriteLeft": 5.372068881988525,
+                "spriteRight": 6.296513080596924,
+                "grounded": true,
+                "contacts": [
+                    {
+                        "a": "Tilemap",
+                        "b": "Player",
+                        "point": {
+                            "x": 5.749972820281982,
+                            "y": 8.757503509521484
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005002021789550781
+                    },
+                    {
+                        "a": "Tilemap",
+                        "b": "Player",
+                        "point": {
+                            "x": 5.642556190490723,
+                            "y": 8.757503509521484
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000114440917969
+                    },
+                    {
+                        "a": "Tilemap",
+                        "b": "Player",
+                        "point": {
+                            "x": 5.749972820281982,
+                            "y": 8.757503509521484
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005002021789550781
+                    }
+                ]
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": []
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "editor": "6000.6.8f1",
+    "error": "",
+    "cases": [
+        {
+            "name": "jump between close walls right",
+            "error": "",
+            "gap": 0.75,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.375,
+                    "y": 1.188310146331787
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -0.5844929814338684
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 2.7199981212615967,
+                "bodyLeft": 0.20326519012451172,
+                "bodyRight": 0.6684333086013794,
+                "feet": 0.726258397102356,
+                "spriteLeft": -0.08722221851348877,
+                "spriteRight": 0.8372222185134888,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": []
+        },
+        {
+            "name": "jump between close walls left",
+            "error": "",
+            "gap": 0.75,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.375,
+                    "y": 1.188310146331787
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -0.5844929814338684
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 2.7199981212615967,
+                "bodyLeft": 0.0815666913986206,
+                "bodyRight": 0.5467348098754883,
+                "feet": 0.726258397102356,
+                "spriteLeft": -0.08722221851348877,
+                "spriteRight": 0.8372222185134888,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": []
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "scene": "JustMe",
+    "state": "Idle",
+    "error": "",
+    "enemies": 0,
+    "coins": 0,
+    "springs": 0,
+    "lights": 2,
+    "seed": 1,
+    "level": 1,
+    "stamina": 100.0,
+    "radius": 1.100000023841858,
+    "ambientIntensity": 0.0,
+    "backgroundBlack": true,
+    "ordinaryFallSafe": false,
+    "goalAdvanced": false,
+    "staminaPreserved": false,
+    "voidReachedGameOver": false,
+    "player": {
+        "x": 4.0,
+        "y": 9.220361709594727,
+        "z": 0.0
+    }
+}

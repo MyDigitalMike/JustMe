@@ -1,0 +1,3726 @@
+{
+    "editor": "6000.6.8f1",
+    "error": "",
+    "cases": [
+        {
+            "name": "walk-off right",
+            "error": "",
+            "gap": 0.3499999940395355,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Idle",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.1685040295124054,
+                    "y": 0.4061325192451477
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 11.600075721740723,
+                "bodyLeft": -0.0032307803630828857,
+                "bodyRight": 0.4619373381137848,
+                "feet": -0.05591922998428345,
+                "spriteLeft": -0.2937181890010834,
+                "spriteRight": 0.6307262182235718,
+                "grounded": true,
+                "contacts": [
+                    {
+                        "a": "Right terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.34999990463256836,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Right terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.4819374084472656,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Left terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.0,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Left terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.02323077991604805,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Right terrain",
+                        "b": "GroundCollider",
+                        "point": {
+                            "x": 0.34367579221725464,
+                            "y": 0.0043545812368392944
+                        },
+                        "normal": {
+                            "x": -0.8236324191093445,
+                            "y": 0.5671239495277405
+                        },
+                        "separation": -0.004643312189728022
+                    }
+                ]
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": -0.6347951889038086,
+                        "y": 0.4703618884086609
+                    },
+                    "velocity": {
+                        "x": 0.760238528251648,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": -0.8065299987792969,
+                    "bodyRight": -0.3413618803024292,
+                    "feet": 0.008310139179229736,
+                    "spriteLeft": -1.0970174074172974,
+                    "spriteRight": -0.17257297039031982,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": -0.5850934982299805,
+                                "y": 0.009155131876468658
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016897469758987427
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.018057052046060562,
+                        "y": 0.44163957238197327
+                    },
+                    "velocity": {
+                        "x": 1.054306983947754,
+                        "y": -0.5172233581542969
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": -0.15367776155471802,
+                    "bodyRight": 0.31149035692214966,
+                    "feet": -0.020412176847457886,
+                    "spriteLeft": -0.4441651701927185,
+                    "spriteRight": 0.48027926683425903,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.0031086094677448273,
+                                "y": 0.006336580961942673
+                            },
+                            "normal": {
+                                "x": 0.44043612480163574,
+                                "y": 0.8977840542793274
+                            },
+                            "separation": -0.005883915815502405
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.03955397382378578,
+                        "y": 0.4262365400791168
+                    },
+                    "velocity": {
+                        "x": 1.0748460292816162,
+                        "y": -0.770151674747467
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4799991846084595,
+                    "bodyLeft": -0.1321808397769928,
+                    "bodyRight": 0.3329872786998749,
+                    "feet": -0.03581520915031433,
+                    "spriteLeft": -0.4226682484149933,
+                    "spriteRight": 0.5017762184143066,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.0047301724553108215,
+                                "y": 0.006601560860872269
+                            },
+                            "normal": {
+                                "x": 0.5824416875839233,
+                                "y": 0.8128725290298462
+                            },
+                            "separation": -0.00375743443146348
+                        }
+                    ]
+                },
+                {
+                    "state": "Idle",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.1685040295124054,
+                        "y": 0.4061325192451477
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 2.6199982166290283,
+                    "bodyLeft": -0.0032307803630828857,
+                    "bodyRight": 0.4619373381137848,
+                    "feet": -0.05591922998428345,
+                    "spriteLeft": -0.2937181890010834,
+                    "spriteRight": 0.6307262182235718,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.34999990463256836,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Right terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.4819374084472656,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Left terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.0,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Left terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": -0.02323077991604805,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.34367579221725464,
+                                "y": 0.0043545812368392944
+                            },
+                            "normal": {
+                                "x": -0.8236324191093445,
+                                "y": 0.5671239495277405
+                            },
+                            "separation": -0.004643312189728022
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "walk-off left",
+            "error": "",
+            "gap": 0.3499999940395355,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Idle",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.1814955174922943,
+                    "y": 0.4061325192451477
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 11.600075721740723,
+                "bodyLeft": -0.11193779110908508,
+                "bodyRight": 0.3532303273677826,
+                "feet": -0.05591922998428345,
+                "spriteLeft": -0.28072670102119446,
+                "spriteRight": 0.6437177658081055,
+                "grounded": true,
+                "contacts": [
+                    {
+                        "a": "Left terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.0,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Left terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.13193778693675995,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Right terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.34999990463256836,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Right terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.3732304573059082,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Left terrain",
+                        "b": "GroundCollider",
+                        "point": {
+                            "x": 0.006324015557765961,
+                            "y": 0.004354503005743027
+                        },
+                        "normal": {
+                            "x": 0.8236315846443176,
+                            "y": 0.567125141620636
+                        },
+                        "separation": -0.0046436055563390255
+                    }
+                ]
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.9847952127456665,
+                        "y": 0.4703618884086609
+                    },
+                    "velocity": {
+                        "x": -0.760238528251648,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": 0.6913619041442871,
+                    "bodyRight": 1.1565300226211548,
+                    "feet": 0.008310139179229736,
+                    "spriteLeft": 0.5225729942321777,
+                    "spriteRight": 1.4470174312591553,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.9350935220718384,
+                                "y": 0.009155131876468658
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016897469758987427
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.33194243907928467,
+                        "y": 0.44163933396339417
+                    },
+                    "velocity": {
+                        "x": -1.0543091297149658,
+                        "y": -0.5172281265258789
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": 0.03850913047790527,
+                    "bodyRight": 0.503677248954773,
+                    "feet": -0.020412415266036987,
+                    "spriteLeft": -0.1302797794342041,
+                    "spriteRight": 0.7941646575927734,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.34689125418663025,
+                                "y": 0.00633661076426506
+                            },
+                            "normal": {
+                                "x": -0.4404386281967163,
+                                "y": 0.8977827429771423
+                            },
+                            "separation": -0.005883862264454365
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.31044548749923706,
+                        "y": 0.42623618245124817
+                    },
+                    "velocity": {
+                        "x": -1.0748469829559326,
+                        "y": -0.7701578140258789
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4799991846084595,
+                    "bodyLeft": 0.017012178897857666,
+                    "bodyRight": 0.48218029737472534,
+                    "feet": -0.03581556677818298,
+                    "spriteLeft": -0.1517767310142517,
+                    "spriteRight": 0.7726677060127258,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.34526968002319336,
+                                "y": 0.0066015832126140594
+                            },
+                            "normal": {
+                                "x": -0.5824443697929382,
+                                "y": 0.8128705024719238
+                            },
+                            "separation": -0.003757401369512081
+                        }
+                    ]
+                },
+                {
+                    "state": "Idle",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.1814955174922943,
+                        "y": 0.4061325192451477
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 2.6199982166290283,
+                    "bodyLeft": -0.11193779110908508,
+                    "bodyRight": 0.3532303273677826,
+                    "feet": -0.05591922998428345,
+                    "spriteLeft": -0.28072670102119446,
+                    "spriteRight": 0.6437177658081055,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.0,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Left terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": -0.13193778693675995,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Right terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.34999990463256836,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Right terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.3732304573059082,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.006324015557765961,
+                                "y": 0.004354503005743027
+                            },
+                            "normal": {
+                                "x": 0.8236315846443176,
+                                "y": 0.567125141620636
+                            },
+                            "separation": -0.0046436055563390255
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "walk-off right",
+            "error": "",
+            "gap": 0.5,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Idle",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.3150325119495392,
+                    "y": 0.4061325192451477
+                },
+                "velocity": {
+                    "x": -1.2939427307401274e-9,
+                    "y": -1.2024603535110145e-9
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 11.600075721740723,
+                "bodyLeft": 0.1432976871728897,
+                "bodyRight": 0.6084657907485962,
+                "feet": -0.05591922998428345,
+                "spriteLeft": -0.14718970656394958,
+                "spriteRight": 0.7772547006607056,
+                "grounded": true,
+                "contacts": [
+                    {
+                        "a": "Right terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.5,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Right terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.6284656524658203,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Right terrain",
+                        "b": "GroundCollider",
+                        "point": {
+                            "x": 0.49242305755615234,
+                            "y": 0.0050663575530052185
+                        },
+                        "normal": {
+                            "x": -0.8312869071960449,
+                            "y": 0.5558435916900635
+                        },
+                        "separation": -0.0017705592326819897
+                    }
+                ]
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": -0.6347951889038086,
+                        "y": 0.4703618884086609
+                    },
+                    "velocity": {
+                        "x": 0.760238528251648,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": -0.8065299987792969,
+                    "bodyRight": -0.3413618803024292,
+                    "feet": 0.008310139179229736,
+                    "spriteLeft": -1.0970174074172974,
+                    "spriteRight": -0.17257297039031982,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": -0.5850934982299805,
+                                "y": 0.009155131876468658
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016897469758987427
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.018057052046060562,
+                        "y": 0.44163957238197327
+                    },
+                    "velocity": {
+                        "x": 1.054306983947754,
+                        "y": -0.5172233581542969
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": -0.15367776155471802,
+                    "bodyRight": 0.31149035692214966,
+                    "feet": -0.020412176847457886,
+                    "spriteLeft": -0.4441651701927185,
+                    "spriteRight": 0.48027926683425903,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.0031086094677448273,
+                                "y": 0.006336580961942673
+                            },
+                            "normal": {
+                                "x": 0.44043612480163574,
+                                "y": 0.8977840542793274
+                            },
+                            "separation": -0.005883915815502405
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.03955397382378578,
+                        "y": 0.4262365400791168
+                    },
+                    "velocity": {
+                        "x": 1.0748460292816162,
+                        "y": -0.770151674747467
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4799991846084595,
+                    "bodyLeft": -0.1321808397769928,
+                    "bodyRight": 0.3329872786998749,
+                    "feet": -0.03581520915031433,
+                    "spriteLeft": -0.4226682484149933,
+                    "spriteRight": 0.5017762184143066,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.0047301724553108215,
+                                "y": 0.006601560860872269
+                            },
+                            "normal": {
+                                "x": 0.5824416875839233,
+                                "y": 0.8128725290298462
+                            },
+                            "separation": -0.00375743443146348
+                        }
+                    ]
+                },
+                {
+                    "state": "Idle",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.3150325119495392,
+                        "y": 0.4061325192451477
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 2.6199982166290283,
+                    "bodyLeft": 0.1432976871728897,
+                    "bodyRight": 0.6084657907485962,
+                    "feet": -0.05591922998428345,
+                    "spriteLeft": -0.14718970656394958,
+                    "spriteRight": 0.7772547006607056,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.5,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Right terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.6284656524658203,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.49242305755615234,
+                                "y": 0.0050663575530052185
+                            },
+                            "normal": {
+                                "x": -0.8312869071960449,
+                                "y": 0.5558435916900635
+                            },
+                            "separation": -0.0017705592326819897
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "walk-off left",
+            "error": "",
+            "gap": 0.5,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Idle",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.18496675789356232,
+                    "y": 0.4061325192451477
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 11.600075721740723,
+                "bodyLeft": -0.10846655815839767,
+                "bodyRight": 0.3567015528678894,
+                "feet": -0.05591922998428345,
+                "spriteLeft": -0.27725547552108765,
+                "spriteRight": 0.6471889615058899,
+                "grounded": true,
+                "contacts": [
+                    {
+                        "a": "Left terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 0.0,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Left terrain",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.12846654653549194,
+                            "y": 0.007499963045120239
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.005000073462724686
+                    },
+                    {
+                        "a": "Left terrain",
+                        "b": "GroundCollider",
+                        "point": {
+                            "x": 0.007576685398817062,
+                            "y": 0.0050662122666835785
+                        },
+                        "normal": {
+                            "x": 0.8312853574752808,
+                            "y": 0.5558459162712097
+                        },
+                        "separation": -0.0017711688997223973
+                    }
+                ]
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 1.1347951889038086,
+                        "y": 0.4703618884086609
+                    },
+                    "velocity": {
+                        "x": -0.760238528251648,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": 0.841361939907074,
+                    "bodyRight": 1.3065299987792969,
+                    "feet": 0.008310139179229736,
+                    "spriteLeft": 0.6725729703903198,
+                    "spriteRight": 1.5970174074172974,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 1.0850934982299805,
+                                "y": 0.009155131876468658
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016897469758987427
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.4819420874118805,
+                        "y": 0.4416390657424927
+                    },
+                    "velocity": {
+                        "x": -1.0543115139007568,
+                        "y": -0.5172335505485535
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": 0.1885087639093399,
+                    "bodyRight": 0.6536768674850464,
+                    "feet": -0.020412683486938477,
+                    "spriteLeft": 0.019719868898391724,
+                    "spriteRight": 0.9441642761230469,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.4968913197517395,
+                                "y": 0.006336633116006851
+                            },
+                            "normal": {
+                                "x": -0.4404415786266327,
+                                "y": 0.897781252861023
+                            },
+                            "separation": -0.005883808247745037
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.4604451358318329,
+                        "y": 0.42623576521873474
+                    },
+                    "velocity": {
+                        "x": -1.0748478174209595,
+                        "y": -0.7701643109321594
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4799991846084595,
+                    "bodyLeft": 0.16701184213161469,
+                    "bodyRight": 0.6321799755096436,
+                    "feet": -0.03581598401069641,
+                    "spriteLeft": -0.0017770826816558838,
+                    "spriteRight": 0.922667384147644,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.495269775390625,
+                                "y": 0.006601560860872269
+                            },
+                            "normal": {
+                                "x": -0.5824474096298218,
+                                "y": 0.8128684759140015
+                            },
+                            "separation": -0.0037573534063994884
+                        }
+                    ]
+                },
+                {
+                    "state": "Idle",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.18496675789356232,
+                        "y": 0.4061325192451477
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 2.6199982166290283,
+                    "bodyLeft": -0.10846655815839767,
+                    "bodyRight": 0.3567015528678894,
+                    "feet": -0.05591922998428345,
+                    "spriteLeft": -0.27725547552108765,
+                    "spriteRight": 0.6471889615058899,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 0.0,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Left terrain",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": -0.12846654653549194,
+                                "y": 0.007499963045120239
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.005000073462724686
+                        },
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.007576685398817062,
+                                "y": 0.0050662122666835785
+                            },
+                            "normal": {
+                                "x": 0.8312853574752808,
+                                "y": 0.5558459162712097
+                            },
+                            "separation": -0.0017711688997223973
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "walk-off right",
+            "error": "",
+            "gap": 0.75,
+            "firstHangRemote": false,
+            "fell": true,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.3966168463230133,
+                    "y": -0.22547173500061035
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 100.0,
+                "time": 1.9199987649917603,
+                "bodyLeft": 0.22488202154636383,
+                "bodyRight": 0.6900501251220703,
+                "feet": -0.6875234842300415,
+                "spriteLeft": -0.06560537219047546,
+                "spriteRight": 0.8588390350341797,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.3966168463230133,
+                    "y": -75.2919692993164
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -52.15586471557617
+                },
+                "gravity": 3.0,
+                "stamina": 0.040260493755340576,
+                "time": 11.600075721740723,
+                "bodyLeft": 0.22488202154636383,
+                "bodyRight": 0.6900501251220703,
+                "feet": -75.75402069091797,
+                "spriteLeft": -0.06560537219047546,
+                "spriteRight": 0.8588390350341797,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": -0.6347951889038086,
+                        "y": 0.4703618884086609
+                    },
+                    "velocity": {
+                        "x": 0.760238528251648,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": -0.8065299987792969,
+                    "bodyRight": -0.3413618803024292,
+                    "feet": 0.008310139179229736,
+                    "spriteLeft": -1.0970174074172974,
+                    "spriteRight": -0.17257297039031982,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": -0.5850934982299805,
+                                "y": 0.009155131876468658
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016897469758987427
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.018057052046060562,
+                        "y": 0.44163957238197327
+                    },
+                    "velocity": {
+                        "x": 1.054306983947754,
+                        "y": -0.5172233581542969
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": -0.15367776155471802,
+                    "bodyRight": 0.31149035692214966,
+                    "feet": -0.020412176847457886,
+                    "spriteLeft": -0.4441651701927185,
+                    "spriteRight": 0.48027926683425903,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.0031086094677448273,
+                                "y": 0.006336580961942673
+                            },
+                            "normal": {
+                                "x": 0.44043612480163574,
+                                "y": 0.8977840542793274
+                            },
+                            "separation": -0.005883915815502405
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.03955397382378578,
+                        "y": 0.4262365400791168
+                    },
+                    "velocity": {
+                        "x": 1.0748460292816162,
+                        "y": -0.770151674747467
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4799991846084595,
+                    "bodyLeft": -0.1321808397769928,
+                    "bodyRight": 0.3329872786998749,
+                    "feet": -0.03581520915031433,
+                    "spriteLeft": -0.4226682484149933,
+                    "spriteRight": 0.5017762184143066,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.0047301724553108215,
+                                "y": 0.006601560860872269
+                            },
+                            "normal": {
+                                "x": 0.5824416875839233,
+                                "y": 0.8128725290298462
+                            },
+                            "separation": -0.00375743443146348
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.23757116496562958,
+                        "y": 0.3711026906967163
+                    },
+                    "velocity": {
+                        "x": 0.9940357208251953,
+                        "y": -1.1654999256134033
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.7399989366531372,
+                    "bodyLeft": 0.06583636999130249,
+                    "bodyRight": 0.5310044884681702,
+                    "feet": -0.09094905853271484,
+                    "spriteLeft": -0.2246510535478592,
+                    "spriteRight": 0.6997933983802795,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Hanging",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.3966168463230133,
+                        "y": -0.22547173500061035
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 0.0,
+                    "stamina": 100.0,
+                    "time": 1.9199987649917603,
+                    "bodyLeft": 0.22488202154636383,
+                    "bodyRight": 0.6900501251220703,
+                    "feet": -0.6875234842300415,
+                    "spriteLeft": -0.06560537219047546,
+                    "spriteRight": 0.8588390350341797,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Hanging",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.3966168463230133,
+                        "y": -0.22547173500061035
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 0.0,
+                    "stamina": 90.20004272460938,
+                    "time": 2.6199982166290283,
+                    "bodyLeft": 0.22488202154636383,
+                    "bodyRight": 0.6900501251220703,
+                    "feet": -0.6875234842300415,
+                    "spriteLeft": -0.06560537219047546,
+                    "spriteRight": 0.8588390350341797,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.3966168463230133,
+                        "y": -0.23716160655021667
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": -0.5844929814338684
+                    },
+                    "gravity": 3.0,
+                    "stamina": 0.040260493755340576,
+                    "time": 9.080018043518066,
+                    "bodyLeft": 0.22488202154636383,
+                    "bodyRight": 0.6900501251220703,
+                    "feet": -0.6992133855819702,
+                    "spriteLeft": -0.06560537219047546,
+                    "spriteRight": 0.8588390350341797,
+                    "grounded": false,
+                    "contacts": []
+                }
+            ]
+        },
+        {
+            "name": "walk-off left",
+            "error": "",
+            "gap": 0.75,
+            "firstHangRemote": false,
+            "fell": true,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.353382408618927,
+                    "y": -0.22547179460525513
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 100.0,
+                "time": 1.9199987649917603,
+                "bodyLeft": 0.05994910001754761,
+                "bodyRight": 0.5251172184944153,
+                "feet": -0.6875235438346863,
+                "spriteLeft": -0.10883980989456177,
+                "spriteRight": 0.8156046271324158,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 0.353382408618927,
+                    "y": -75.2919692993164
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -52.15586471557617
+                },
+                "gravity": 3.0,
+                "stamina": 0.040260493755340576,
+                "time": 11.600075721740723,
+                "bodyLeft": 0.05994910001754761,
+                "bodyRight": 0.5251172184944153,
+                "feet": -75.75402069091797,
+                "spriteLeft": -0.10883980989456177,
+                "spriteRight": 0.8156046271324158,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 1.3847951889038086,
+                        "y": 0.4703618884086609
+                    },
+                    "velocity": {
+                        "x": -0.760238528251648,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": 1.0913619995117188,
+                    "bodyRight": 1.5565299987792969,
+                    "feet": 0.008310139179229736,
+                    "spriteLeft": 0.9225729703903198,
+                    "spriteRight": 1.8470174074172974,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 1.3350934982299805,
+                                "y": 0.009155131876468658
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016897469758987427
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.7319420576095581,
+                        "y": 0.4416390657424927
+                    },
+                    "velocity": {
+                        "x": -1.0543115139007568,
+                        "y": -0.5172334909439087
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": 0.4385087490081787,
+                    "bodyRight": 0.9036768674850464,
+                    "feet": -0.020412683486938477,
+                    "spriteLeft": 0.26971983909606934,
+                    "spriteRight": 1.1941642761230469,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.7468913197517395,
+                                "y": 0.006336614489555359
+                            },
+                            "normal": {
+                                "x": -0.4404415190219879,
+                                "y": 0.8977813124656677
+                            },
+                            "separation": -0.005883841775357723
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.7104451060295105,
+                        "y": 0.42623576521873474
+                    },
+                    "velocity": {
+                        "x": -1.074847936630249,
+                        "y": -0.7701644897460938
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4799991846084595,
+                    "bodyLeft": 0.4170117974281311,
+                    "bodyRight": 0.8821799159049988,
+                    "feet": -0.03581598401069641,
+                    "spriteLeft": 0.24822288751602173,
+                    "spriteRight": 1.1726672649383545,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.745269775390625,
+                                "y": 0.006601560860872269
+                            },
+                            "normal": {
+                                "x": -0.5824474096298218,
+                                "y": 0.8128684759140015
+                            },
+                            "separation": -0.003757336176931858
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.5124281048774719,
+                        "y": 0.37110263109207153
+                    },
+                    "velocity": {
+                        "x": -0.9940357208251953,
+                        "y": -1.1654999256134033
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.7399989366531372,
+                    "bodyLeft": 0.21899479627609253,
+                    "bodyRight": 0.6841629147529602,
+                    "feet": -0.09094911813735962,
+                    "spriteLeft": 0.050205886363983154,
+                    "spriteRight": 0.9746503233909607,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Hanging",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.353382408618927,
+                        "y": -0.22547179460525513
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 0.0,
+                    "stamina": 100.0,
+                    "time": 1.9199987649917603,
+                    "bodyLeft": 0.05994910001754761,
+                    "bodyRight": 0.5251172184944153,
+                    "feet": -0.6875235438346863,
+                    "spriteLeft": -0.10883980989456177,
+                    "spriteRight": 0.8156046271324158,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Hanging",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.353382408618927,
+                        "y": -0.22547179460525513
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 0.0,
+                    "stamina": 90.20004272460938,
+                    "time": 2.6199982166290283,
+                    "bodyLeft": 0.05994910001754761,
+                    "bodyRight": 0.5251172184944153,
+                    "feet": -0.6875235438346863,
+                    "spriteLeft": -0.10883980989456177,
+                    "spriteRight": 0.8156046271324158,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.353382408618927,
+                        "y": -0.23716166615486145
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": -0.5844929814338684
+                    },
+                    "gravity": 3.0,
+                    "stamina": 0.040260493755340576,
+                    "time": 9.080018043518066,
+                    "bodyLeft": 0.05994910001754761,
+                    "bodyRight": 0.5251172184944153,
+                    "feet": -0.6992133855819702,
+                    "spriteLeft": -0.10883980989456177,
+                    "spriteRight": 0.8156046271324158,
+                    "grounded": false,
+                    "contacts": []
+                }
+            ]
+        },
+        {
+            "name": "walk-off right",
+            "error": "",
+            "gap": 1.0,
+            "firstHangRemote": false,
+            "fell": true,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 1.092442274093628,
+                    "y": -660.0302734375
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -92.92626190185547
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 11.600075721740723,
+                "bodyLeft": 0.9207074046134949,
+                "bodyRight": 1.3858754634857178,
+                "feet": -660.4923095703125,
+                "spriteLeft": 0.6302200555801392,
+                "spriteRight": 1.5546644926071167,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": -0.6347951889038086,
+                        "y": 0.4703618884086609
+                    },
+                    "velocity": {
+                        "x": 0.760238528251648,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": -0.8065299987792969,
+                    "bodyRight": -0.3413618803024292,
+                    "feet": 0.008310139179229736,
+                    "spriteLeft": -1.0970174074172974,
+                    "spriteRight": -0.17257297039031982,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": -0.5850934982299805,
+                                "y": 0.009155131876468658
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016897469758987427
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.018057052046060562,
+                        "y": 0.44163957238197327
+                    },
+                    "velocity": {
+                        "x": 1.054306983947754,
+                        "y": -0.5172233581542969
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": -0.15367776155471802,
+                    "bodyRight": 0.31149035692214966,
+                    "feet": -0.020412176847457886,
+                    "spriteLeft": -0.4441651701927185,
+                    "spriteRight": 0.48027926683425903,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.0031086094677448273,
+                                "y": 0.006336580961942673
+                            },
+                            "normal": {
+                                "x": 0.44043612480163574,
+                                "y": 0.8977840542793274
+                            },
+                            "separation": -0.005883915815502405
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.03955397382378578,
+                        "y": 0.4262365400791168
+                    },
+                    "velocity": {
+                        "x": 1.0748460292816162,
+                        "y": -0.770151674747467
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4799991846084595,
+                    "bodyLeft": -0.1321808397769928,
+                    "bodyRight": 0.3329872786998749,
+                    "feet": -0.03581520915031433,
+                    "spriteLeft": -0.4226682484149933,
+                    "spriteRight": 0.5017762184143066,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Left terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.0047301724553108215,
+                                "y": 0.006601560860872269
+                            },
+                            "normal": {
+                                "x": 0.5824416875839233,
+                                "y": 0.8128725290298462
+                            },
+                            "separation": -0.00375743443146348
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.23757116496562958,
+                        "y": 0.3711026906967163
+                    },
+                    "velocity": {
+                        "x": 0.9940357208251953,
+                        "y": -1.1654999256134033
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.7399989366531372,
+                    "bodyLeft": 0.06583636999130249,
+                    "bodyRight": 0.5310044884681702,
+                    "feet": -0.09094905853271484,
+                    "spriteLeft": -0.2246510535478592,
+                    "spriteRight": 0.6997933983802795,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 1.092442274093628,
+                        "y": -11.170621871948242
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": -23.574941635131836
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 2.6199982166290283,
+                    "bodyLeft": 0.9207074046134949,
+                    "bodyRight": 1.3858754634857178,
+                    "feet": -11.632673263549805,
+                    "spriteLeft": 0.6302200555801392,
+                    "spriteRight": 1.5546644926071167,
+                    "grounded": false,
+                    "contacts": []
+                }
+            ]
+        },
+        {
+            "name": "walk-off left",
+            "error": "",
+            "gap": 1.0,
+            "firstHangRemote": false,
+            "fell": true,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": -0.09244254231452942,
+                    "y": -660.0302734375
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -92.92626190185547
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 11.600075721740723,
+                "bodyLeft": -0.3858758509159088,
+                "bodyRight": 0.07929226756095886,
+                "feet": -660.4923095703125,
+                "spriteLeft": -0.5546647310256958,
+                "spriteRight": 0.36977967619895935,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 1.6347951889038086,
+                        "y": 0.4703618884086609
+                    },
+                    "velocity": {
+                        "x": -0.760238528251648,
+                        "y": 0.0
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": 1.3413619995117188,
+                    "bodyRight": 1.8065299987792969,
+                    "feet": 0.008310139179229736,
+                    "spriteLeft": 1.1725729703903198,
+                    "spriteRight": 2.097017288208008,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 1.5850934982299805,
+                                "y": 0.009155131876468658
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016897469758987427
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.9819420576095581,
+                        "y": 0.4416390657424927
+                    },
+                    "velocity": {
+                        "x": -1.0543115139007568,
+                        "y": -0.5172334909439087
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": 0.6885087490081787,
+                    "bodyRight": 1.1536768674850464,
+                    "feet": -0.020412683486938477,
+                    "spriteLeft": 0.5197198390960693,
+                    "spriteRight": 1.4441642761230469,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.9968913197517395,
+                                "y": 0.006336614489555359
+                            },
+                            "normal": {
+                                "x": -0.4404415190219879,
+                                "y": 0.8977813124656677
+                            },
+                            "separation": -0.005883841775357723
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.9604451060295105,
+                        "y": 0.42623576521873474
+                    },
+                    "velocity": {
+                        "x": -1.074847936630249,
+                        "y": -0.7701644897460938
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4799991846084595,
+                    "bodyLeft": 0.6670117378234863,
+                    "bodyRight": 1.1321799755096436,
+                    "feet": -0.03581598401069641,
+                    "spriteLeft": 0.49822288751602173,
+                    "spriteRight": 1.4226672649383545,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Right terrain",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 0.995269775390625,
+                                "y": 0.006601560860872269
+                            },
+                            "normal": {
+                                "x": -0.5824474096298218,
+                                "y": 0.8128684759140015
+                            },
+                            "separation": -0.003757336176931858
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 0.7624281048774719,
+                        "y": 0.37110263109207153
+                    },
+                    "velocity": {
+                        "x": -0.9940357208251953,
+                        "y": -1.1654999256134033
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.7399989366531372,
+                    "bodyLeft": 0.46899479627609253,
+                    "bodyRight": 0.9341629147529602,
+                    "feet": -0.09094911813735962,
+                    "spriteLeft": 0.30020588636398315,
+                    "spriteRight": 1.2246503829956055,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": -0.09244254231452942,
+                        "y": -11.170621871948242
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": -23.574941635131836
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 2.6199982166290283,
+                    "bodyLeft": -0.3858758509159088,
+                    "bodyRight": 0.07929226756095886,
+                    "feet": -11.632673263549805,
+                    "spriteLeft": -0.5546647310256958,
+                    "spriteRight": 0.36977967619895935,
+                    "grounded": false,
+                    "contacts": []
+                }
+            ]
+        },
+        {
+            "name": "generated first marked gap seed1",
+            "error": "",
+            "gap": 0.5,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 2,
+            "terrainPaths": 6,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Idle",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 6.065147399902344,
+                    "y": 9.156135559082031
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 12.800103187561035,
+                "bodyLeft": 5.8934125900268555,
+                "bodyRight": 6.358580589294434,
+                "feet": 8.694084167480469,
+                "spriteLeft": 5.6029253005981445,
+                "spriteRight": 6.527369499206543,
+                "grounded": true,
+                "contacts": [
+                    {
+                        "a": "Tilemap(Clone)",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 6.249995231628418,
+                            "y": 8.757488250732422
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.004969596862792969
+                    },
+                    {
+                        "a": "Tilemap(Clone)",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 6.378580570220947,
+                            "y": 8.757488250732422
+                        },
+                        "normal": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "separation": -0.004970550537109375
+                    },
+                    {
+                        "a": "Tilemap(Clone)",
+                        "b": "GroundCollider",
+                        "point": {
+                            "x": 6.24245548248291,
+                            "y": 8.755020141601563
+                        },
+                        "normal": {
+                            "x": -0.8309325575828552,
+                            "y": 0.5563731789588928
+                        },
+                        "separation": -0.0018529701046645641
+                    }
+                ]
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 5.115204334259033,
+                        "y": 9.220361709594727
+                    },
+                    "velocity": {
+                        "x": 0.7602226138114929,
+                        "y": 0.000012302525647100993
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": 4.943469524383545,
+                    "bodyRight": 5.408637523651123,
+                    "feet": 8.758310317993164,
+                    "spriteLeft": 4.652982234954834,
+                    "spriteRight": 5.577426433563232,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.1649088859558105,
+                                "y": 8.759153366088867
+                            },
+                            "normal": {
+                                "x": -0.000016212641639867797,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016851425170898438
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 5.747650623321533,
+                        "y": 9.202352523803711
+                    },
+                    "velocity": {
+                        "x": 0.9387505054473877,
+                        "y": -0.3099363148212433
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4399992227554321,
+                    "bodyLeft": 5.575915813446045,
+                    "bodyRight": 6.041083812713623,
+                    "feet": 8.740301132202148,
+                    "spriteLeft": 5.285428524017334,
+                    "spriteRight": 6.209872722625732,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.75196647644043,
+                                "y": 8.75604248046875
+                            },
+                            "normal": {
+                                "x": 0.31351304054260254,
+                                "y": 0.9495839476585388
+                            },
+                            "separation": -0.0072822412475943565
+                        },
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.75196647644043,
+                                "y": 8.75604248046875
+                            },
+                            "normal": {
+                                "x": 0.31351304054260254,
+                                "y": 0.9495839476585388
+                            },
+                            "separation": -0.0072822412475943565
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 5.768152713775635,
+                        "y": 9.192235946655273
+                    },
+                    "velocity": {
+                        "x": 1.024544596672058,
+                        "y": -0.5069039463996887
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": 5.5964179039001465,
+                    "bodyRight": 6.061585903167725,
+                    "feet": 8.730184555053711,
+                    "spriteLeft": 5.3059306144714355,
+                    "spriteRight": 6.230374813079834,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.753283500671387,
+                                "y": 8.756696701049805
+                            },
+                            "normal": {
+                                "x": 0.44345253705978394,
+                                "y": 0.8962978720664978
+                            },
+                            "separation": -0.005068096797913313
+                        },
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.753283500671387,
+                                "y": 8.756696701049805
+                            },
+                            "normal": {
+                                "x": 0.44345253705978394,
+                                "y": 0.8962978720664978
+                            },
+                            "separation": -0.005068096797913313
+                        }
+                    ]
+                },
+                {
+                    "state": "Idle",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 6.065147399902344,
+                        "y": 9.156135559082031
+                    },
+                    "velocity": {
+                        "x": 1.59858881687569e-9,
+                        "y": -1.5653878193688797e-10
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 3.8199970722198486,
+                    "bodyLeft": 5.8934125900268555,
+                    "bodyRight": 6.358580589294434,
+                    "feet": 8.694084167480469,
+                    "spriteLeft": 5.6029253005981445,
+                    "spriteRight": 6.527369499206543,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 6.249995231628418,
+                                "y": 8.757488250732422
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.004969596862792969
+                        },
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 6.378580570220947,
+                                "y": 8.757488250732422
+                            },
+                            "normal": {
+                                "x": 0.0,
+                                "y": 1.0
+                            },
+                            "separation": -0.004970550537109375
+                        },
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 6.24245548248291,
+                                "y": 8.755020141601563
+                            },
+                            "normal": {
+                                "x": -0.8309325575828552,
+                                "y": 0.5563731789588928
+                            },
+                            "separation": -0.0018529701046645641
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "candidate 1u gap (test data only)",
+            "error": "",
+            "gap": 1.0,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": false,
+            "exhaustedFell": false,
+            "warpCleared": false,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": true,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 2,
+            "terrainPaths": 6,
+            "firstHang": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "end": {
+                "state": "Dead",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 6.206375598907471,
+                    "y": 8.082324981689453
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -1.1654999256134033
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 1.999998688697815,
+                "bodyLeft": 6.034640789031982,
+                "bodyRight": 6.4998087882995605,
+                "feet": 7.620273113250732,
+                "spriteLeft": 5.7441534996032715,
+                "spriteRight": 6.66859769821167,
+                "grounded": false,
+                "contacts": []
+            },
+            "released": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "exhausted": {
+                "state": "",
+                "bodyType": "",
+                "constraints": "",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 0.0,
+                "time": 0.0,
+                "bodyLeft": 0.0,
+                "bodyRight": 0.0,
+                "feet": 0.0,
+                "spriteLeft": 0.0,
+                "spriteRight": 0.0,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 5.115204334259033,
+                        "y": 9.220361709594727
+                    },
+                    "velocity": {
+                        "x": 0.7602226138114929,
+                        "y": 0.000012302525647100993
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 0.6199999451637268,
+                    "bodyLeft": 4.943469524383545,
+                    "bodyRight": 5.408637523651123,
+                    "feet": 8.758310317993164,
+                    "spriteLeft": 4.652982234954834,
+                    "spriteRight": 5.577426433563232,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.1649088859558105,
+                                "y": 8.759153366088867
+                            },
+                            "normal": {
+                                "x": -0.000016212641639867797,
+                                "y": 1.0
+                            },
+                            "separation": -0.0016851425170898438
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 5.747650623321533,
+                        "y": 9.202352523803711
+                    },
+                    "velocity": {
+                        "x": 0.9387505054473877,
+                        "y": -0.3099363148212433
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4399992227554321,
+                    "bodyLeft": 5.575915813446045,
+                    "bodyRight": 6.041083812713623,
+                    "feet": 8.740301132202148,
+                    "spriteLeft": 5.285428524017334,
+                    "spriteRight": 6.209872722625732,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.75196647644043,
+                                "y": 8.75604248046875
+                            },
+                            "normal": {
+                                "x": 0.31351304054260254,
+                                "y": 0.9495839476585388
+                            },
+                            "separation": -0.0072822412475943565
+                        },
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.75196647644043,
+                                "y": 8.75604248046875
+                            },
+                            "normal": {
+                                "x": 0.31351304054260254,
+                                "y": 0.9495839476585388
+                            },
+                            "separation": -0.0072822412475943565
+                        }
+                    ]
+                },
+                {
+                    "state": "Walking",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 5.768152713775635,
+                        "y": 9.192235946655273
+                    },
+                    "velocity": {
+                        "x": 1.024544596672058,
+                        "y": -0.5069039463996887
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.4599992036819458,
+                    "bodyLeft": 5.5964179039001465,
+                    "bodyRight": 6.061585903167725,
+                    "feet": 8.730184555053711,
+                    "spriteLeft": 5.3059306144714355,
+                    "spriteRight": 6.230374813079834,
+                    "grounded": true,
+                    "contacts": [
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.753283500671387,
+                                "y": 8.756696701049805
+                            },
+                            "normal": {
+                                "x": 0.44345253705978394,
+                                "y": 0.8962978720664978
+                            },
+                            "separation": -0.005068096797913313
+                        },
+                        {
+                            "a": "Tilemap(Clone)",
+                            "b": "GroundCollider",
+                            "point": {
+                                "x": 5.753283500671387,
+                                "y": 8.756696701049805
+                            },
+                            "normal": {
+                                "x": 0.44345253705978394,
+                                "y": 0.8962978720664978
+                            },
+                            "separation": -0.005068096797913313
+                        }
+                    ]
+                },
+                {
+                    "state": "Airborne",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 5.987687110900879,
+                        "y": 9.121135711669922
+                    },
+                    "velocity": {
+                        "x": 0.9940357208251953,
+                        "y": -1.1654999256134033
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.7399989366531372,
+                    "bodyLeft": 5.815952301025391,
+                    "bodyRight": 6.281120300292969,
+                    "feet": 8.65908432006836,
+                    "spriteLeft": 5.52546501159668,
+                    "spriteRight": 6.449909210205078,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Dead",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 6.206375598907471,
+                        "y": 8.105634689331055
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": -0.5844929814338684
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.9799987077713013,
+                    "bodyLeft": 6.034640789031982,
+                    "bodyRight": 6.4998087882995605,
+                    "feet": 7.643582820892334,
+                    "spriteLeft": 5.7441534996032715,
+                    "spriteRight": 6.66859769821167,
+                    "grounded": false,
+                    "contacts": []
+                },
+                {
+                    "state": "Dead",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 6.206375598907471,
+                        "y": 8.082324981689453
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": -1.1654999256134033
+                    },
+                    "gravity": 3.0,
+                    "stamina": 100.0,
+                    "time": 1.999998688697815,
+                    "bodyLeft": 6.034640789031982,
+                    "bodyRight": 6.4998087882995605,
+                    "feet": 7.620273113250732,
+                    "spriteLeft": 5.7441534996032715,
+                    "spriteRight": 6.66859769821167,
+                    "grounded": false,
+                    "contacts": []
+                }
+            ]
+        },
+        {
+            "name": "legitimate ledge right",
+            "error": "",
+            "gap": 0.0,
+            "firstHangRemote": false,
+            "fell": false,
+            "explicitReleaseFell": true,
+            "exhaustedFell": true,
+            "warpCleared": true,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": -0.3100000023841858,
+                    "y": 0.6499999761581421
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 100.0,
+                "time": 0.019999999552965164,
+                "bodyLeft": -0.48173481225967407,
+                "bodyRight": -0.016566693782806396,
+                "feet": 0.18794822692871094,
+                "spriteLeft": -0.7722222208976746,
+                "spriteRight": 0.15222221612930298,
+                "grounded": false,
+                "contacts": [
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.008283345028758049,
+                            "y": 0.23886734247207642
+                        },
+                        "normal": {
+                            "x": -0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.003433306934311986
+                    },
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.008283345028758049,
+                            "y": 0.9919601678848267
+                        },
+                        "normal": {
+                            "x": -0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.003433306934311986
+                    }
+                ]
+            },
+            "end": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": -0.3100000023841858,
+                    "y": 0.6499999761581421
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 100.0,
+                "time": 0.019999999552965164,
+                "bodyLeft": -0.48173481225967407,
+                "bodyRight": -0.016566693782806396,
+                "feet": 0.18794822692871094,
+                "spriteLeft": -0.7722222208976746,
+                "spriteRight": 0.15222221612930298,
+                "grounded": false,
+                "contacts": [
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.008283345028758049,
+                            "y": 0.23886734247207642
+                        },
+                        "normal": {
+                            "x": -0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.003433306934311986
+                    },
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.008283345028758049,
+                            "y": 0.9919601678848267
+                        },
+                        "normal": {
+                            "x": -0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.003433306934311986
+                    }
+                ]
+            },
+            "released": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": -0.3100000023841858,
+                    "y": -0.1063958927989006
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -6.241077899932861
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 0.23999996483325958,
+                "bodyLeft": -0.48173481225967407,
+                "bodyRight": -0.016566693782806396,
+                "feet": -0.5684476494789124,
+                "spriteLeft": -0.7722222208976746,
+                "spriteRight": 0.15222221612930298,
+                "grounded": false,
+                "contacts": [
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.008283345028758049,
+                            "y": 0.0
+                        },
+                        "normal": {
+                            "x": -0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.003433306934311986
+                    },
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": -0.008283345028758049,
+                            "y": 0.36038583517074585
+                        },
+                        "normal": {
+                            "x": -0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.003433306934311986
+                    }
+                ]
+            },
+            "exhausted": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": -0.3100000023841858,
+                    "y": -9.539073944091797
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -22.22724151611328
+                },
+                "gravity": 3.0,
+                "stamina": 0.040260493755340576,
+                "time": 8.25999927520752,
+                "bodyLeft": -0.48173481225967407,
+                "bodyRight": -0.016566693782806396,
+                "feet": -10.00112533569336,
+                "spriteLeft": -0.7722222208976746,
+                "spriteRight": 0.15222221612930298,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Hanging",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": -0.3100000023841858,
+                        "y": 0.6499999761581421
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 0.0,
+                    "stamina": 100.0,
+                    "time": 0.019999999552965164,
+                    "bodyLeft": -0.48173481225967407,
+                    "bodyRight": -0.016566693782806396,
+                    "feet": 0.18794822692871094,
+                    "spriteLeft": -0.7722222208976746,
+                    "spriteRight": 0.15222221612930298,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Ledge",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": -0.008283345028758049,
+                                "y": 0.23886734247207642
+                            },
+                            "normal": {
+                                "x": -0.9999999403953552,
+                                "y": 0.0
+                            },
+                            "separation": -0.003433306934311986
+                        },
+                        {
+                            "a": "Ledge",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": -0.008283345028758049,
+                                "y": 0.9919601678848267
+                            },
+                            "normal": {
+                                "x": -0.9999999403953552,
+                                "y": 0.0
+                            },
+                            "separation": -0.003433306934311986
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "legitimate ledge left",
+            "error": "",
+            "gap": 0.0,
+            "firstHangRemote": true,
+            "fell": false,
+            "explicitReleaseFell": true,
+            "exhaustedFell": true,
+            "warpCleared": true,
+            "markerHasCollider": false,
+            "invalidLedgeReleased": false,
+            "candidateJumpLanded": false,
+            "anchorHeld": false,
+            "jumpedAndGrabbed": false,
+            "markerCount": 0,
+            "terrainPaths": 0,
+            "firstHang": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 2.309999942779541,
+                    "y": 0.6499999761581421
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 100.0,
+                "time": 0.019999999552965164,
+                "bodyLeft": 2.016566753387451,
+                "bodyRight": 2.4817347526550293,
+                "feet": 0.18794822692871094,
+                "spriteLeft": 1.8477777242660522,
+                "spriteRight": 2.7722220420837402,
+                "grounded": false,
+                "contacts": [
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 2.0082833766937256,
+                            "y": 0.9919601678848267
+                        },
+                        "normal": {
+                            "x": 0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.0034332273062318563
+                    },
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 2.0082833766937256,
+                            "y": 0.2388673722743988
+                        },
+                        "normal": {
+                            "x": 0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.0034332273062318563
+                    }
+                ]
+            },
+            "end": {
+                "state": "Hanging",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 2.309999942779541,
+                    "y": 0.6499999761581421
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "gravity": 0.0,
+                "stamina": 100.0,
+                "time": 0.019999999552965164,
+                "bodyLeft": 2.016566753387451,
+                "bodyRight": 2.4817347526550293,
+                "feet": 0.18794822692871094,
+                "spriteLeft": 1.8477777242660522,
+                "spriteRight": 2.7722220420837402,
+                "grounded": false,
+                "contacts": [
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 2.0082833766937256,
+                            "y": 0.9919601678848267
+                        },
+                        "normal": {
+                            "x": 0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.0034332273062318563
+                    },
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 2.0082833766937256,
+                            "y": 0.2388673722743988
+                        },
+                        "normal": {
+                            "x": 0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.0034332273062318563
+                    }
+                ]
+            },
+            "released": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 2.309999942779541,
+                    "y": -0.1063958927989006
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -6.241077899932861
+                },
+                "gravity": 3.0,
+                "stamina": 100.0,
+                "time": 0.23999996483325958,
+                "bodyLeft": 2.016566753387451,
+                "bodyRight": 2.4817347526550293,
+                "feet": -0.5684476494789124,
+                "spriteLeft": 1.8477777242660522,
+                "spriteRight": 2.7722220420837402,
+                "grounded": false,
+                "contacts": [
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 2.0082833766937256,
+                            "y": 0.0
+                        },
+                        "normal": {
+                            "x": 0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.0034332273062318563
+                    },
+                    {
+                        "a": "Ledge",
+                        "b": "Player(Clone)",
+                        "point": {
+                            "x": 2.0082833766937256,
+                            "y": 0.36038586497306824
+                        },
+                        "normal": {
+                            "x": 0.9999999403953552,
+                            "y": 0.0
+                        },
+                        "separation": -0.0034332273062318563
+                    }
+                ]
+            },
+            "exhausted": {
+                "state": "Airborne",
+                "bodyType": "Dynamic",
+                "constraints": "FreezeRotation",
+                "position": {
+                    "x": 2.309999942779541,
+                    "y": -9.539073944091797
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": -22.22724151611328
+                },
+                "gravity": 3.0,
+                "stamina": 0.040260493755340576,
+                "time": 8.25999927520752,
+                "bodyLeft": 2.016566753387451,
+                "bodyRight": 2.4817347526550293,
+                "feet": -10.00112533569336,
+                "spriteLeft": 1.8477777242660522,
+                "spriteRight": 2.7722220420837402,
+                "grounded": false,
+                "contacts": []
+            },
+            "transitions": [
+                {
+                    "state": "Hanging",
+                    "bodyType": "Dynamic",
+                    "constraints": "FreezeRotation",
+                    "position": {
+                        "x": 2.309999942779541,
+                        "y": 0.6499999761581421
+                    },
+                    "velocity": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "gravity": 0.0,
+                    "stamina": 100.0,
+                    "time": 0.019999999552965164,
+                    "bodyLeft": 2.016566753387451,
+                    "bodyRight": 2.4817347526550293,
+                    "feet": 0.18794822692871094,
+                    "spriteLeft": 1.8477777242660522,
+                    "spriteRight": 2.7722220420837402,
+                    "grounded": false,
+                    "contacts": [
+                        {
+                            "a": "Ledge",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 2.0082833766937256,
+                                "y": 0.9919601678848267
+                            },
+                            "normal": {
+                                "x": 0.9999999403953552,
+                                "y": 0.0
+                            },
+                            "separation": -0.0034332273062318563
+                        },
+                        {
+                            "a": "Ledge",
+                            "b": "Player(Clone)",
+                            "point": {
+                                "x": 2.0082833766937256,
+                                "y": 0.2388673722743988
+                            },
+                            "normal": {
+                                "x": 0.9999999403953552,
+                                "y": 0.0
+                            },
+                            "separation": -0.0034332273062318563
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

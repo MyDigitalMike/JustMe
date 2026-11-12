@@ -1,0 +1,17 @@
+{
+  "scene": "JustMe",
+  "editor": "6000.6.8f1",
+  "source": "Observed via native Unity UI",
+  "finalPlayWithoutTemporaryProbes": true,
+  "finalVisibleErrorCount": 0,
+  "stoppedPlay": true,
+  "tmpImporterReappeared": false,
+  "darkBackgroundAndReadableHUD": true,
+  "gameOverControlsVisible": true,
+  "clickedGameOverSalirReachedMainMenu": true,
+  "clickedNewGameReachedJustMe": true,
+  "nativeProbeFilesArchived": 6,
+  "independentReview": "No blocking regression; read-only final review",
+  "remainingWarnings": "Legacy BinaryFormatter, Metodos serialization and unused LightController field",
+  "observedAtUtc": "2026-11-11T22:12:27.7243016Z"
+}

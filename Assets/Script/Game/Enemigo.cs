@@ -25,12 +25,12 @@ public class Enemigo : MonoBehaviour
     void FixedUpdate()
     {
         rb2d.AddForce(Vector2.right * Speed);
-        float LimitedSpeed = Mathf.Clamp(rb2d.velocity.x, -MaxSpeed, MaxSpeed);
-        rb2d.velocity = new Vector2(LimitedSpeed, rb2d.velocity.y);
-        if (rb2d.velocity.x > -0.01f && rb2d.velocity.x < 0.01f)
+        float LimitedSpeed = Mathf.Clamp(rb2d.linearVelocity.x, -MaxSpeed, MaxSpeed);
+        rb2d.linearVelocity = new Vector2(LimitedSpeed, rb2d.linearVelocity.y);
+        if (rb2d.linearVelocity.x > -0.01f && rb2d.linearVelocity.x < 0.01f)
         {
             Speed = -Speed;
-            rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
+            rb2d.linearVelocity = new Vector2(Speed, rb2d.linearVelocity.y);
         }
         if (Speed < 0)
         {

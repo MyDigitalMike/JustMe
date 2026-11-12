@@ -1,0 +1,22 @@
+{
+  "editorVersion": "6000.6.8f1",
+  "source": "Native Unity Editor Logs/Editor.log, last script compilation",
+  "lastCompilerExit": "ExitCode: 0 Duration: 2s598ms",
+  "nativeCompilationObserved": true,
+  "errorCount": 0,
+  "warnings": [
+    "Assets\\Script\\Game\\Libro.cs(16,20): warning UAC1001: Field 'metodos' type 'Metodos' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)",
+    "Assets\\Script\\Game\\LightController.cs(13,18): warning CS0414: The field 'LightController.canTurnOnLight' is assigned but its value is never used",
+    "Assets\\Script\\Game\\SaveSystem.cs(11,41): warning UAC0023: BinaryFormatter is deprecated in the future .NET versions and may prevent assemblies from unloading or return incorrect results. Please use UnityEngine.JsonUtility, System.Runtime.Serialization.DataContractSerializer or System.Text.Json.JsonSerializer instead.",
+    "Assets\\Script\\Game\\SaveSystem.cs(11,9): warning UAC0023: BinaryFormatter is deprecated in the future .NET versions and may prevent assemblies from unloading or return incorrect results. Please use UnityEngine.JsonUtility, System.Runtime.Serialization.DataContractSerializer or System.Text.Json.JsonSerializer instead.",
+    "Assets\\Script\\Game\\SaveSystem.cs(15,19): warning UAC0023: method 'Serialize' on BinaryFormatter is deprecated in the future .NET versions and may prevent assemblies from unloading or return incorrect results. Please use UnityEngine.JsonUtility, System.Runtime.Serialization.DataContractSerializer or System.Text.Json.JsonSerializer instead.",
+    "Assets\\Script\\Game\\SaveSystem.cs(23,13): warning UAC0023: BinaryFormatter is deprecated in the future .NET versions and may prevent assemblies from unloading or return incorrect results. Please use UnityEngine.JsonUtility, System.Runtime.Serialization.DataContractSerializer or System.Text.Json.JsonSerializer instead.",
+    "Assets\\Script\\Game\\SaveSystem.cs(23,45): warning UAC0023: BinaryFormatter is deprecated in the future .NET versions and may prevent assemblies from unloading or return incorrect results. Please use UnityEngine.JsonUtility, System.Runtime.Serialization.DataContractSerializer or System.Text.Json.JsonSerializer instead.",
+    "Assets\\Script\\Game\\SaveSystem.cs(26,39): warning UAC0023: method 'Deserialize' on BinaryFormatter is deprecated in the future .NET versions and may prevent assemblies from unloading or return incorrect results. Please use UnityEngine.JsonUtility, System.Runtime.Serialization.DataContractSerializer or System.Text.Json.JsonSerializer instead."
+  ],
+  "compilerCommands": [
+    "[744/953    2s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)",
+    "[949/953    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)"
+  ],
+  "verifiedAtUtc": "2026-11-11T22:12:27.7014039Z"
+}

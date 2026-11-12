@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Advertisements;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
@@ -11,6 +10,12 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Keep the recovered GameOver controls inside wide or short viewports.
+        if (SceneManager.GetActiveScene().name == "GameOver")
+        {
+            var scaler = GetComponent<UnityEngine.UI.CanvasScaler>();
+            if (scaler != null) scaler.screenMatchMode = UnityEngine.UI.CanvasScaler.ScreenMatchMode.Expand;
+        }
         ClosePanelSettings();
         OpenMainPanel();
     }
@@ -19,6 +24,7 @@ public class MainMenu : MonoBehaviour
     /// </summary>
     public void OpenPanelSettings()
     {
+        if (PanelSettings == null) return;
         PanelSettings.SetActive(true);
         CloseMainPanel();
     }
@@ -27,7 +33,7 @@ public class MainMenu : MonoBehaviour
     /// </summary>
     public void ClosePanelSettings()
     {
-        PanelSettings.SetActive(false);
+        if (PanelSettings != null) PanelSettings.SetActive(false);
         OpenMainPanel();
     }
     /// <summary>
@@ -35,14 +41,14 @@ public class MainMenu : MonoBehaviour
     /// </summary>
     public void OpenMainPanel()
     {
-        PrincipalMenu.SetActive(true);
+        if (PrincipalMenu != null) PrincipalMenu.SetActive(true);
     }
     /// <summary>
     /// Close the main menu
     /// </summary>
     public void CloseMainPanel()
     {
-        PrincipalMenu.SetActive(false);
+        if (PrincipalMenu != null) PrincipalMenu.SetActive(false);
     }
     public void Creditos()
     {

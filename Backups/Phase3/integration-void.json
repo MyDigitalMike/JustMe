@@ -1,0 +1,24 @@
+{
+    "scene": "GameOver",
+    "state": "",
+    "error": "",
+    "enemies": 0,
+    "coins": 0,
+    "springs": 0,
+    "lights": 1,
+    "seed": 0,
+    "level": 0,
+    "stamina": 0.0,
+    "radius": 0.0,
+    "ambientIntensity": 0.20000000298023224,
+    "backgroundBlack": false,
+    "ordinaryFallSafe": false,
+    "goalAdvanced": false,
+    "staminaPreserved": false,
+    "voidReachedGameOver": true,
+    "player": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    }
+}

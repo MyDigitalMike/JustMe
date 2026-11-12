@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "verification": "PowerShell Add-Type: pure C# contract checks; not a Unity compilation or playtest",
+  "testFirstEvidence": "Missing generator API: ProceduralWorld.cs does not exist.",
+  "assertions": 84359,
+  "mapsChecked": 13,
+  "seeds": [
+    0,
+    1,
+    -1,
+    42,
+    -90210,
+    8675309,
+    -2147483648,
+    2147483647
+  ],
+  "automaticSeedReplayed": 1522617860,
+  "checks": [
+    "determinism",
+    "seed variation",
+    "replayable automatic seed",
+    "air connectivity",
+    "gallery/floor",
+    "spawn clearance",
+    "surface bounds/variation/visibility",
+    "cave fill/smoothing",
+    "dimension limits",
+    "invalid settings",
+    "independent maps"
+  ],
+  "limitation": "Connectivity is topological. Only the main horizontal gallery is guaranteed walkable; cave ledges are not claimed jump-reachable."
+}

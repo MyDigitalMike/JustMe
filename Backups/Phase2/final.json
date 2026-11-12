@@ -1,0 +1,124 @@
+{
+    "samples": [
+        {
+            "startX": 0.5,
+            "endX": 0.5,
+            "endY": 0.4670509397983551,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 1.0,
+            "circleSolid": true,
+            "supported": true,
+            "reportedGrounded": true
+        },
+        {
+            "startX": 0.5,
+            "endX": 0.5,
+            "endY": 0.4061325192451477,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 1.0,
+            "circleSolid": false,
+            "supported": true,
+            "reportedGrounded": true
+        },
+        {
+            "startX": 1.0,
+            "endX": 1.05975341796875,
+            "endY": 0.4061325192451477,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 1.0,
+            "circleSolid": true,
+            "supported": true,
+            "reportedGrounded": true
+        },
+        {
+            "startX": 1.0,
+            "endX": 0.9999999403953552,
+            "endY": 0.4061325192451477,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 1.0,
+            "circleSolid": false,
+            "supported": true,
+            "reportedGrounded": true
+        },
+        {
+            "startX": 1.149999976158142,
+            "endX": 1.149999976158142,
+            "endY": 0.4061325192451477,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 1.0,
+            "circleSolid": true,
+            "supported": true,
+            "reportedGrounded": true
+        },
+        {
+            "startX": 1.149999976158142,
+            "endX": 1.1500000953674316,
+            "endY": 0.4061325192451477,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 1.0,
+            "circleSolid": false,
+            "supported": true,
+            "reportedGrounded": true
+        },
+        {
+            "startX": 1.25,
+            "endX": 1.25,
+            "endY": -162.87640380859375,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 0.0,
+            "circleSolid": true,
+            "supported": false,
+            "reportedGrounded": false
+        },
+        {
+            "startX": 1.25,
+            "endX": 1.25,
+            "endY": -162.87640380859375,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 0.0,
+            "circleSolid": false,
+            "supported": false,
+            "reportedGrounded": false
+        },
+        {
+            "startX": 1.3200000524520874,
+            "endX": 1.3200000524520874,
+            "endY": -162.87640380859375,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 0.0,
+            "circleSolid": true,
+            "supported": false,
+            "reportedGrounded": false
+        },
+        {
+            "startX": 1.3200000524520874,
+            "endX": 1.320000171661377,
+            "endY": -162.87640380859375,
+            "minimumNormalY": 1.0,
+            "maximumNormalY": 0.0,
+            "circleSolid": false,
+            "supported": false,
+            "reportedGrounded": false
+        }
+    ],
+    "error": "",
+    "walking": true,
+    "stopped": true,
+    "jumped": true,
+    "landed": true,
+    "fellFromEdge": true,
+    "wallNotGround": true,
+    "counterHidden": true,
+    "generated": true,
+    "composite": true,
+    "parallaxStationary": true,
+    "parallaxMoved": true,
+    "parallaxCoverage": true,
+    "missingScripts": 0,
+    "seed": 1,
+    "doubleJump": true,
+    "cooldownRetainsDoubleJump": true,
+    "thirdJumpRejected": true,
+    "walkedLeft": true,
+    "seamHeightRange": 0.000015757977962493896
+}

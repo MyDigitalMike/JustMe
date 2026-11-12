@@ -1,0 +1,154 @@
+[
+  {
+    "name": "flat walk speed",
+    "passed": true
+  },
+  {
+    "name": "sprint speed before exhaustion",
+    "passed": true
+  },
+  {
+    "name": "sprint continuous stamina drain",
+    "passed": true
+  },
+  {
+    "name": "crawl speed",
+    "passed": true
+  },
+  {
+    "name": "crawl continuous stamina drain",
+    "passed": true
+  },
+  {
+    "name": "crouching preserves compound sole",
+    "passed": true
+  },
+  {
+    "name": "walking single jump completes measured trajectory",
+    "passed": true
+  },
+  {
+    "name": "sprinting single jump completes measured trajectory",
+    "passed": true
+  },
+  {
+    "name": "walking double jump completes measured trajectory",
+    "passed": true
+  },
+  {
+    "name": "walking double jump pays second-jump cost",
+    "passed": true
+  },
+  {
+    "name": "sprinting double jump completes measured trajectory",
+    "passed": true
+  },
+  {
+    "name": "sprinting double jump pays second-jump cost",
+    "passed": true
+  },
+  {
+    "name": "double jump extends walking ascent and reach",
+    "passed": true
+  },
+  {
+    "name": "standing rejected in 0.5 high tunnel",
+    "passed": true
+  },
+  {
+    "name": "releasing crouch under roof stays crouched",
+    "passed": true
+  },
+  {
+    "name": "jump rejected under tunnel roof",
+    "passed": true
+  },
+  {
+    "name": "crawl through 0.5 high tunnel and stand clear",
+    "passed": true
+  },
+  {
+    "name": "left ledge grabs while falling",
+    "passed": true
+  },
+  {
+    "name": "left ledge pull-up uses two segments and lands",
+    "passed": true
+  },
+  {
+    "name": "left ledge pull-up discrete stamina cost",
+    "passed": true
+  },
+  {
+    "name": "right ledge grabs while falling",
+    "passed": true
+  },
+  {
+    "name": "right ledge pull-up uses two segments and lands",
+    "passed": true
+  },
+  {
+    "name": "right ledge pull-up discrete stamina cost",
+    "passed": true
+  },
+  {
+    "name": "ledge grab height limit is measured and bracketed",
+    "passed": true
+  },
+  {
+    "name": "ledge grab horizontal reach is measured and bracketed",
+    "passed": true
+  },
+  {
+    "name": "blocked landing rejects ledge grab",
+    "passed": true
+  },
+  {
+    "name": "Piso trigger cannot support a ledge grab",
+    "passed": true
+  },
+  {
+    "name": "down releases ledge and falls",
+    "passed": true
+  },
+  {
+    "name": "hanging exhaustion drops player",
+    "passed": true
+  },
+  {
+    "name": "exhausted hanging cannot regrab",
+    "passed": true
+  },
+  {
+    "name": "wall contact is not ground",
+    "passed": true
+  },
+  {
+    "name": "ordinary wall cannot be climbed",
+    "passed": true
+  },
+  {
+    "name": "designated climb speed",
+    "passed": true
+  },
+  {
+    "name": "designated climb continuous stamina drain",
+    "passed": true
+  },
+  {
+    "name": "climb exhaustion drops player",
+    "passed": true
+  },
+  {
+    "name": "walking remains available at zero stamina",
+    "passed": true
+  },
+  {
+    "name": "recovery waits after exertion",
+    "passed": true
+  },
+  {
+    "name": "grounded idle then recovers stamina",
+    "passed": true
+  }
+]

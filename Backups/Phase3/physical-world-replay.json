@@ -1,0 +1,57 @@
+{
+    "worlds": [
+        {
+            "profile": "Horizontal",
+            "error": "",
+            "completedLinks": 19,
+            "failedLink": -1,
+            "stamina": 72.19983673095703,
+            "seconds": 100.13520812988281,
+            "position": {
+                "x": 25.969226837158203,
+                "y": 4.717080593109131
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Ascent",
+            "error": "",
+            "completedLinks": 27,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 166.8388214111328,
+            "position": {
+                "x": 23.02306365966797,
+                "y": 36.71702575683594
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Descent",
+            "error": "",
+            "completedLinks": 27,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 166.65878295898438,
+            "position": {
+                "x": 22.97310447692871,
+                "y": 12.717070579528809
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Mixed",
+            "error": "",
+            "completedLinks": 19,
+            "failedLink": -1,
+            "stamina": 99.63976287841797,
+            "seconds": 99.07538604736328,
+            "position": {
+                "x": 25.97468376159668,
+                "y": 7.717050552368164
+            },
+            "reachedGoal": true
+        }
+    ],
+    "error": ""
+}

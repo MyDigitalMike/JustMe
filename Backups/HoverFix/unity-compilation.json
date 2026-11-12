@@ -1,0 +1,15 @@
+{
+  "editorVersion": "6000.6.8f1",
+  "source": "Native Unity Editor Logs/Editor.log",
+  "lastCompilerExit": "ExitCode: 0 Duration: 3s12ms",
+  "recentNativeCompilerCommands": [
+    "[744/953    2s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)",
+    "[949/953    2s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)",
+    "[949/953    2s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)"
+  ],
+  "latestCompilationErrors": 0,
+  "temporaryProbesRemaining": 0,
+  "playerHash": "335EFBBDB979CC5F351B817EECF32BBC9BA203618EAD2C2F8BF5EA932F98845E",
+  "generatorHash": "20F8F1162811B6E10434EAB0632E5D46343458DE0C12B01FCE357FE1702B7D54",
+  "verifiedUtc": "2026-11-12T04:40:47.3683336Z"
+}

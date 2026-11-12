@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "verification": "PowerShell Add-Type: pure C# stamina contract checks; not a Unity compilation or playtest",
+  "testFirstEvidence": "Missing stamina API: TraversalStamina.cs does not exist.",
+  "assertions": 161,
+  "checks": [
+    "prototype tuning",
+    "atomic spend/rejection",
+    "continuous exhaustion",
+    "zero-cost walking at zero",
+    "delayed idle/walking recovery",
+    "partitioned cooldown",
+    "air/exertion blocks healing",
+    "transition persistence",
+    "invalid settings/inputs",
+    "large finite arithmetic"
+  ]
+}

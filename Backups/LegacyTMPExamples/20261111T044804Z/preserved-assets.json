@@ -1,0 +1,606 @@
+[
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\Creditos.unity",
+    "Sha256": "C18FC5EEF59394E92F59835549052853A601EFF714A0F744079909CB7E1E0C25"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\Creditos.unity.meta",
+    "Sha256": "CFF6B29890EE186D673656D3DC4C5642708B281E9CA1BEF65FA986E3C7DBF310"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\CreditosSettings.lighting",
+    "Sha256": "1E50B61841E68E9E9A91C80EA6B695C0DC0B6FBD8EF1145DC4CD8639833C6B6F"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\CreditosSettings.lighting.meta",
+    "Sha256": "D612C26268FA3E1051C1E6B6C00ED691FBFDA3869FC141ABF1244F4298C268C8"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\GameOver.unity",
+    "Sha256": "32CA21C5EBFA23B32480034E2E461D93FD1DC34247B051E280D9BF3A9974B6B4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\GameOver.unity.meta",
+    "Sha256": "5C84AA24C6E466819CF7A296ACB3985E1BB8615EF8FF4FC699DD9B779A6E2FEE"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\JustMe.unity",
+    "Sha256": "147ADB05D57111D521B56A4CD5EC6157157E139F8AEB220887BDA9D3BB1FA3D3"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\JustMe.unity.meta",
+    "Sha256": "954917D3BDCAB77EA08A56D28D0E88E9909B07AAA4EC5520058AA39732DD387E"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\JustMeLevelCreator.unity",
+    "Sha256": "DDD156FC14A9D8975CF919F626D68585514D7C20A0BD9B1B9EBC95879EC5B56D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\JustMeLevelCreator.unity.meta",
+    "Sha256": "84D0396EC38945DA26E23BE1116B8AFAA382D877C4A916474F01DD211E872893"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\MainMenu.unity",
+    "Sha256": "659545F6B6EF00CED4528B879206167FE6F50EE587CF76E89BE0B6F2DA07CEF1"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\MainMenu.unity.meta",
+    "Sha256": "A18AEF7C78C72358D383BE541B4AE078DDA5FA8B4CDF48B7FDD93A413FE68D73"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\MainMenuSettings.lighting",
+    "Sha256": "C4C713F71ABA92E7B782A9DF27778C641E0B255884A11705335413CD8BDD3DC0"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Scenes\\MainMenuSettings.lighting.meta",
+    "Sha256": "4E921A8B0B06936996DA335D74DBFFF007FEAE6D79B087E12D167E7E241511A5"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character.meta",
+    "Sha256": "B587C8E0CBB339092416E0FA38877B5C94AA292ADD1F7FD6EDAFB4D005A49514"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\GameLevelStatus.prefab",
+    "Sha256": "2E6C1B5643F611FE9014419E2AB0311EF1209D36FA5CAB2160229661FE049704"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\GameLevelStatus.prefab.meta",
+    "Sha256": "4598CFC6ABDD72C0689F1F6290273657BE893EF606DC6640C469CB82813371F9"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\LevelLoader.prefab",
+    "Sha256": "97BB971AA2B0E16E7418DAB973FA5FD9FE017F34994AE650C0B84F0CA12788B3"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\LevelLoader.prefab.meta",
+    "Sha256": "443E9AF8BD0FDEECF54F61C788B5EBDC4AF52A916F3F633338D630BC36FF125A"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Tilemap.prefab",
+    "Sha256": "94D3FB86CCD8FEA3AD410A151B563998F22F3797D1BBFD13A4839EC137C9D595"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Tilemap.prefab.meta",
+    "Sha256": "5399C7DD8B9FC604CC1C50325F5F34F49749AAAF0007E573E0EDBE2F1CDC70FE"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI.meta",
+    "Sha256": "6E2108820864BB6C47F53CAE1D8EF86CF5FF93DADE2D0C509764C5D1CD9FF62C"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character\\EnemigoSimple.prefab",
+    "Sha256": "8DC7EE918D5B4C4FF7DC15C160C37A4E5E2AA38A56B98E9FED2D1EED74C93CC4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character\\EnemigoSimple.prefab.meta",
+    "Sha256": "61210D69878043BCD5FC646B6EE83E3066C9C993DAC158ED263CEF248E8633D7"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character\\JumpHard.prefab",
+    "Sha256": "CAF5B0BE7A710667C5F9203F18D6E8AAE769DB83ADBDFDEBE1BC2057ED98FD2F"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character\\JumpHard.prefab.meta",
+    "Sha256": "30C55E2B1AD432431E86B676F9C50F9D7162330A4A9DCCB91CCF42F5F04B5A31"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character\\Libro.prefab",
+    "Sha256": "88B1EDE00ED428F07D97D4AF6CEB2D0B9D96971063B820CDDDEA1A794538F5A8"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character\\Libro.prefab.meta",
+    "Sha256": "6BCBC34FEE6857C6E53E561C15B1B809FBD1C78B793D22E843ABCD031B272156"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character\\Player.prefab",
+    "Sha256": "E57E4C78E61766293991209746DE43832AE9657668C3D3DE1A2D41002393F630"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\Character\\Player.prefab.meta",
+    "Sha256": "60A01A848ADE9355FE151A046E2B5DB6563FB0CE1691F10A7D8FA66794D4207D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\BookCollected.prefab",
+    "Sha256": "62685E2AE874BE873B1977C01063AB7F4AB9E7DA031396C5AAF9FA48F5AB41D2"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\BookCollected.prefab.meta",
+    "Sha256": "51AB7CCEF4B0789EAD58F0A7D793B31C56658D87EC8594988C26725495993BD4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\Coin.prefab",
+    "Sha256": "5B5E2D70DDDF771448D8D882537BBA541E6694F5A82E3C2773EE77719BE7D2F3"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\Coin.prefab.meta",
+    "Sha256": "964971D189836567E7101C8613469FEF7913174D46FB6871C1EC01FAA15DA2D9"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\CountDown.prefab",
+    "Sha256": "F60D0E3C84E98FECD17DFBC4443C6C3B1E2088794374F55621C97CA553CF2E83"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\CountDown.prefab.meta",
+    "Sha256": "37FF536721A143B2CF12C6F3410EF1B16428E00F5D34FD91ED1B88F93758DCEF"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\Enemys.prefab",
+    "Sha256": "30F078399F03780B2EA995E913D509950BE0A3431CD5C1F93E10A12DB192BF3F"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\Enemys.prefab.meta",
+    "Sha256": "6BC20E21152B5BBC8381CABDA4F0FB04A5E3E9B42F1DB26BB684597A7DFC0CAD"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\EnemysDown.prefab",
+    "Sha256": "558D026C0D2238050030C5A77234AD52826BAE1C982C42AF6F066F017C67604B"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\EnemysDown.prefab.meta",
+    "Sha256": "5256A8845BCCFB0F0378F2444FBC8D02FC332D88CDD2E5886BDDDABCE1289A18"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\Ghost.prefab",
+    "Sha256": "2D5C7A822C76D185441D478E2475D988E39C33A7B91DFC05D2E63CAE446D68C8"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\Prefabs\\UI\\Ghost.prefab.meta",
+    "Sha256": "8779C6D8050D2D0FAEEF92DFB5142FD37277D18DDD28D9ECC59F7D42F085AE5E"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Fonts\\LiberationSans - OFL.txt",
+    "Sha256": "A130E89B7B2326B599C4B2BBD873EAAE63FEDA407541A2899CB8ACB306723DE6"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Fonts\\LiberationSans - OFL.txt.meta",
+    "Sha256": "1B8062370A3BB2BE74A46B0AE08688C87CD207CAD602FCC77A750CAFB106C9AF"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Fonts\\LiberationSans.ttf",
+    "Sha256": "E5B0AF421EA2BFBC1AC8D251D647268087AE82786234C57F757D1F0B90FA8B49"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Fonts\\LiberationSans.ttf.meta",
+    "Sha256": "58603424F5D1F468AF3F0C031C288CC9EAA96CB3FB82A0429B16A204A18A5012"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials.meta",
+    "Sha256": "124F26D6401F350502D4EA38E1B27353DFBD9905EBF50A1B813CD695C2C4EEFE"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\LineBreaking Following Characters.txt",
+    "Sha256": "3A73E5FFE2510756DD3C2E982FDC1218B4BE82C6E21ABDE88070D6860E1BC8E6"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\LineBreaking Following Characters.txt.meta",
+    "Sha256": "64EF1DA1E73F25BA842200E26D43908685C4B9BE66856D47103A26C1CAE94FA9"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\LineBreaking Leading Characters.txt",
+    "Sha256": "89FCC8F7B3D33A5A80B8D97EA19859BEB0C5BA5C6D2749D8D3A7D6374A71CD95"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\LineBreaking Leading Characters.txt.meta",
+    "Sha256": "92A36FB59AE49C6974D4EF75B41FFE4C1612110C4B49ED7AF5539DCB35E86E8F"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders.meta",
+    "Sha256": "F5E835E3DF0BE7D7B1B62B0514B68598B3C1A830364678B6E538F9B09DA037E8"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Sprite Assets.meta",
+    "Sha256": "7F0B98E06DB610FB684666D25ABF31846C89EE28A778463B893AB85C3DBBA13D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Style Sheets.meta",
+    "Sha256": "9029980FFD3AF688190A28CB7F0397A82EFE9BD3A8861ED40DFC9018E76D5933"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\TMP Settings.asset",
+    "Sha256": "7FE054688D2B0C8CE5EC0C9DF9A51CB98D229DFAD8315C9EBBE970995F598640"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\TMP Settings.asset.meta",
+    "Sha256": "7E88F07FD05C1C4F829C55D8D7660D7AC572E906A5D7152857EF12A574D13375"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials\\LiberationSans SDF - Drop Shadow.mat",
+    "Sha256": "73F941D7702C761483BB184FAD6E262648032969F0F310344155758B8FAD764F"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials\\LiberationSans SDF - Drop Shadow.mat.meta",
+    "Sha256": "FA0B8BA96378D1FED663D2206054A5E48139892E3D1C6A6ECE97808A6869D70D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials\\LiberationSans SDF - Fallback.asset",
+    "Sha256": "9196541CC8F3CCFD6F857AC6B2169D64E7CD533E85BFFABFFFBD5B9814735AB7"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials\\LiberationSans SDF - Fallback.asset.meta",
+    "Sha256": "0A7CCE8A8D21C28BC719E5842C3FB8A3DE8EAC864A577160D7413D1DF08D79D1"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials\\LiberationSans SDF - Outline.mat",
+    "Sha256": "4A07F16FCFA697F984D78B7ACC005985FE45A256B4BF8B7907FAEA08075B4961"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials\\LiberationSans SDF - Outline.mat.meta",
+    "Sha256": "CB8F2ABE533EF11A46AB112CF8DBEFB44CB01FA4B7262060A3C480862824D1FB"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials\\LiberationSans SDF.asset",
+    "Sha256": "3E255BF16C9D35F6019C541174813B6F9E2DBFA5B0B458311CAC63FEA66A0357"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Fonts & Materials\\LiberationSans SDF.asset.meta",
+    "Sha256": "EEF709D8A9D8B4C781C532712A61AA28F3EF123B902F6B5A8903F0EA61845B50"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_Bitmap-Custom-Atlas.shader",
+    "Sha256": "38C3E7833B0201CECCA9E04F12891D518F2B076D93682C77425C0EA0087A67D4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_Bitmap-Custom-Atlas.shader.meta",
+    "Sha256": "1ACCCF4AB80B01A7126E471BAB0A130F2BC328988118891EC0F3878063B0EA71"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_Bitmap-Mobile.shader",
+    "Sha256": "6FF64F1317772F8B117165D2CF030075D6A462EF31B528F02318397C02B74E94"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_Bitmap-Mobile.shader.meta",
+    "Sha256": "4282743BA536326A3113A5E6199F1D2CC8FD8FEBD5E322EEE0E0D0DC10009BBA"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_Bitmap.shader",
+    "Sha256": "C804F12D9BCC109C7BB65E3024CFB92441F80D5217CA1D41AAF96FBE766B97C2"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_Bitmap.shader.meta",
+    "Sha256": "7C4E43FDE88C9CCB812F4FE7F12B6657F4A4129F37E23C0A1A61A0BB0ECCF36B"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF Overlay.shader",
+    "Sha256": "1B6B09C32E82222558996268F190FA7B36EB9C3F80440518337A80CBE3357A60"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF Overlay.shader.meta",
+    "Sha256": "779DFC8F87A66BBA28BFD084B3BDB6204BBDAF69F3E93A087F688F89FBB5C205"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Mobile Masking.shader",
+    "Sha256": "F53B0CA40A8580A7CE775B0E58EF9F50C4B9B55D9FFAA70F0C80C1131C6A5DC0"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Mobile Masking.shader.meta",
+    "Sha256": "F31A19D3B4E0EB62E39118B0A13C832FC0DE85EF62B99608550FDD58147D36AB"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Mobile Overlay.shader",
+    "Sha256": "4EB46E0A3E61A9849C0A11AEACAAF5945F373E4B51CD5EDBF9C88A2D83C602A7"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Mobile Overlay.shader.meta",
+    "Sha256": "BF41F49C617AF9CCA556471133834D9D70037FF2FBD57B6EC5D694DFB762BBFA"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Mobile.shader",
+    "Sha256": "62CA1C2DAD80B9AF38AC3EFF6BC9691A7521C508249FD6DCF955A65823B46CDF"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Mobile.shader.meta",
+    "Sha256": "DD10AB9AA8B676C8A787A8FFC314C9BF926CDC0D8ABCC778A3BF7F79F9999468"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Surface-Mobile.shader",
+    "Sha256": "C2A39D2B29B2238FBE1F8AFE8937CE5EB1B0006AA80F8CFBB02632A1C58D2D11"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Surface-Mobile.shader.meta",
+    "Sha256": "AC1B539E06009602439621988947711D96C550AF9D3C70BAC247A2A153FA70E1"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Surface.shader",
+    "Sha256": "7D1CF95B37567AE8BF8B0C7E8910C0DB2E781D2BD83890D16BB991F5ED267203"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF-Surface.shader.meta",
+    "Sha256": "23E808B8DC803A53F136659A45BFE34CE568942CF32A05824A71262C16F020F4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF.shader",
+    "Sha256": "A603410B588558ADD9A93B170BF76A80B1780509456300A5F3FEC422F8C8E316"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_SDF.shader.meta",
+    "Sha256": "1BA1D1DF9B232321E60B63D6277C1F095AA6FC8767437F0617A6E28605661236"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_Sprite.shader",
+    "Sha256": "3D389CA104BDDF06B4B0D58FFA2E5A92DF00624DE4CB3107540938BE4D86EF84"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMP_Sprite.shader.meta",
+    "Sha256": "BF56FBB51CC992969CE8C27184F8312F068D0E2046716208C839F76508760781"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMPro_Properties.cginc",
+    "Sha256": "BFF345B3F9A4F4D6F0E183A8692B3DCBC94F3153B064C77F6D430D1D6C60FED8"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMPro_Properties.cginc.meta",
+    "Sha256": "9DE3EA76A363993A7F7B3C5391E90749A4EF2A974F5BFA8C6218BBF8359E886D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMPro_Surface.cginc",
+    "Sha256": "41532F8A229B67BB0E4FB5C2D2372FC2DE79B8EA0F042448051CAE249EEF66E7"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMPro_Surface.cginc.meta",
+    "Sha256": "1B0F65500F67B3AD77151934A92238EB0C51E9D55A71623A06332BB2458BB79C"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMPro.cginc",
+    "Sha256": "7B5E42E957E80DDAC2C42CD49D15DC48C50B97A0E263248BE8A074D1B3C79543"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Shaders\\TMPro.cginc.meta",
+    "Sha256": "F59EC332DB43A7DD20AD059AC9BBF60D523E2AC1328DD614E21709291FD5BE25"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Sprite Assets\\EmojiOne.asset",
+    "Sha256": "5CE8FE20FCD137CAD62D34F2F04A7B054B0FF0B64817E6F897F6C56725D74F2B"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Sprite Assets\\EmojiOne.asset.meta",
+    "Sha256": "D14793D1F1C86E8F372F44A1CC053D1867AAE32231F6BD2B179CA923D5EE69CB"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Style Sheets\\Default Style Sheet.asset",
+    "Sha256": "5E19480D4EF48BA9753CBBD20BEFAB3DA1CBEEFCB1E0939133BEEE812B23AE8B"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Resources\\Style Sheets\\Default Style Sheet.asset.meta",
+    "Sha256": "B652BFC488EBEA2AC241CC440AD73C4A9AF993C265C800FE0F7CC4917286D0B0"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Sprites\\EmojiOne Attribution.txt",
+    "Sha256": "095907D2631301D08DBFF9388FC0C278904FD86E18BA76BB0D401A790ADE8F83"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Sprites\\EmojiOne Attribution.txt.meta",
+    "Sha256": "938914DBAE57244FC250929BD4D8914E5680D3477A9965B5D8EB9E893299C5CC"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Sprites\\EmojiOne.json",
+    "Sha256": "FA35C4A1B7CFC12E872BCBA7D0D20702077A5478472B87D619B2C72BF5BB48D0"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Sprites\\EmojiOne.json.meta",
+    "Sha256": "D44B132C16AC22869DCCC075D43857436C654625D58431AC5ED4E211C682953C"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Sprites\\EmojiOne.png",
+    "Sha256": "8D1830E21C290B1A2CE398FC98BAD6B0EBB5FEAA259B8969EA03066AB2F7ACED"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Sprites\\EmojiOne.png.meta",
+    "Sha256": "950C4C4EBC21A770BA3DBF7B9821D958F6DDA4094AF59A66ADA23F397D1E4E5B"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets.meta",
+    "Sha256": "7BC24B9F88E62482D3190E2E1EF48CFF3FF7353C84CDC7776BF14C7BFC241281"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials.meta",
+    "Sha256": "E1BC4F0CC675555E69EA59D3D7739E4E15F1A07CEE36F8080B7409FAC4B0F194"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Sprite Assets.meta",
+    "Sha256": "AD730742D37AC6900AA7A953B1102C99F1F90681540F89D877604EAD7FB4FB87"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets\\Blue to Purple - Vertical.asset",
+    "Sha256": "AEEA13303C0702C4096CF0396BFC2B92BD9F49DC874D4EFFE63BCBACD343E646"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets\\Blue to Purple - Vertical.asset.meta",
+    "Sha256": "D6EAECA9C0797907775EAC69F9028B2D8D1DDA76ED201797BB16FCBA1C300AEF"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets\\Dark to Light Green - Vertical.asset",
+    "Sha256": "0F531C44A4B7F31FD0D7EF46C95E74B792B77028DA5C466FD5874DEBC10B1B77"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets\\Dark to Light Green - Vertical.asset.meta",
+    "Sha256": "BBEBD92931F2126218DD3C5C70931E86AE03720C899F901B615DFF0DDBFB0873"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets\\Light to Dark Green - Vertical.asset",
+    "Sha256": "0145EC18B2BF14C5AFC686015EF26B69D324A56824DE3BE597A0E1FA0993576D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets\\Light to Dark Green - Vertical.asset.meta",
+    "Sha256": "67BDF48DE596332E144DDCAAF444282C47910D9AD275564C79D7C60F73235AC4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets\\Yellow to Orange - Vertical.asset",
+    "Sha256": "60054985ED078CAD3C16EC3C7A2009CED1948D53BC85C10935E98129C9C277B7"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Color Gradient Presets\\Yellow to Orange - Vertical.asset.meta",
+    "Sha256": "09B8CBDCEDDE5F0438CFDFD0F0D0021C42DA80D79117E2F914232A4626ADC700"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Anton SDF - Drop Shadow.mat",
+    "Sha256": "59D3C7137371C5EF76F6848E24884E6B95A3DA2ED8DDF7163C569CA397759E01"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Anton SDF - Drop Shadow.mat.meta",
+    "Sha256": "B5B360EA0FAE9108437082AC4FFB7A2F66D89C808981253687E75B974C99B9A7"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Anton SDF - Outline.mat",
+    "Sha256": "4256D808B88480F95FC09A77F88BE8F8E619F994578A98DC3D8E2482A5A2D9A5"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Anton SDF - Outline.mat.meta",
+    "Sha256": "B48C3E20BE233DD51AB67041BDAFCA0FCC4FC8B5A04EB439E99D41C45678609D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Anton SDF - Sunny Days.mat",
+    "Sha256": "1E9504AE29BDB807BF1423C33B477B5B35FD2F0279914754548D105076CEC048"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Anton SDF - Sunny Days.mat.meta",
+    "Sha256": "F28C1519D118378D41386F1FAD7AC87BF5079487E21558D294395EE8F4D28008"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Anton SDF.asset",
+    "Sha256": "F5435186178DA492DC63F656162AA665E42EB2151230D55949E2FFA4782FA5FF"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Anton SDF.asset.meta",
+    "Sha256": "C8033E18FF185169E77A24B9D74CDEF2FCF45457A96B31CD989319F31503E3D8"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF - Drop Shadow.mat",
+    "Sha256": "82D468A12702973351407DBFD3D32D33CE11326A0C5891D5226D4094D5ED9C48"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF - Drop Shadow.mat.meta",
+    "Sha256": "5A70F47393213F8F80A6286D5964A9A4333ADE9DEB018DE90603C6331E7AB686"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF - Outline.mat",
+    "Sha256": "689B80E19C08A46B6FBFE96E9BE1ED97B5F5B23E9737643B7BCF73D3609986EA"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF - Outline.mat.meta",
+    "Sha256": "314B151BEEA7AA3775F2518360827044DEFF086271834716538927D4A2D7FD54"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF Glow.mat",
+    "Sha256": "F5B941F485C4702BF2CFE7C1BF96BAF9E3936B9A26F060AF7722A837106EAAC4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF Glow.mat.meta",
+    "Sha256": "2CCDCEF0D83501A7EA40F65B16960BD5EF849CD0B7C2B0C569C8C0B185BE737C"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF Logo.mat",
+    "Sha256": "CC5DA60AFD0FF5DE5CFE15E4E2252ECAB80E8296F5184EE9936B0112D47B06F4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF Logo.mat.meta",
+    "Sha256": "20FED8E5208E0E7E9F85B515FFFED1653B72FD3F3217C9796F82541FDDEF0B4A"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF.asset",
+    "Sha256": "01777327BE99D193AE75CCDA29D2233306931117F0283B9C99F16123D084B68C"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF.asset.meta",
+    "Sha256": "7E23C9B036E425426AD6A4B6FFF86AACD9C96D1D12FB3FB069E0C12B483B5452"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Electronic Highway Sign SDF.asset",
+    "Sha256": "E01D591629514CFDF3AE9EEAA2E10166D42C475F88CD6F3CAF1D8D3D1D493B04"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Electronic Highway Sign SDF.asset.meta",
+    "Sha256": "7B15D299F25821CF76F05C9934A6218BA9B23CD6107E3710950F5C942E7BB154"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\LiberationSans SDF - Metalic Green.mat",
+    "Sha256": "D48CEDCE20F617DA05B36944CE8C05F38550C8E87D8D98EDE833DB7BCB44D29D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\LiberationSans SDF - Metalic Green.mat.meta",
+    "Sha256": "3B9DD94633E2F5FA9C1C852E657ACAAB339AEBBE6B2CA5B15704E1DAA6641132"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\LiberationSans SDF - Overlay.mat",
+    "Sha256": "760945F513BCCDA8CA17C47E46A7DA50FD2F289E78FC58C9424B56805F94178C"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\LiberationSans SDF - Overlay.mat.meta",
+    "Sha256": "3F9A293A3DC0B822B480178D65367BB5040639E1D5AF4646021FBCABAC7C3E62"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\LiberationSans SDF - Soft Mask.mat",
+    "Sha256": "97343CBDAAD5B1319A7290E94FDA92CDE850778C4AF0B8C62CB6493A1EDAE909"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\LiberationSans SDF - Soft Mask.mat.meta",
+    "Sha256": "94E2BC6C0E4E03AA5D3F847DAFEB6FC5AC392CD860DCFDB7A16B147B19F6FEC3"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Oswald Bold SDF.asset",
+    "Sha256": "33C2938ED0C8EB8E9EB8960E105926705F7F5A3E2E7BB21E74AF22D7D04B4DEF"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Oswald Bold SDF.asset.meta",
+    "Sha256": "6D0EC1EAE7224151FBBCC39F100B796967A4B3D0B3D07E4CF585CDAF53BDB2E0"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Roboto-Bold SDF - Drop Shadow.mat",
+    "Sha256": "7A1B99CA66FA54149B4B0B07488AAFBBC2DED83E0CF615E539D9A96B927064F5"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Roboto-Bold SDF - Drop Shadow.mat.meta",
+    "Sha256": "26ECB9D2E9976122EC6B632CFA812EAA01CB07AFEA6D427426B01B1468A6C835"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Roboto-Bold SDF - Surface.mat",
+    "Sha256": "C460B32EDD53430BF17E29E96970C63FEF9C68FDCD00C72B866136F98906737D"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Roboto-Bold SDF - Surface.mat.meta",
+    "Sha256": "D7C298C8C93231320F30359F411F3544C750E2B9742C8DBD290ABDBAE387D551"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Roboto-Bold SDF.asset",
+    "Sha256": "3E15FB9C01C55004248C9E4169B29BF28B9CC1A0A5808F3B844BAAC48043EB95"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Roboto-Bold SDF.asset.meta",
+    "Sha256": "A361AFE86A156859DF5EE21EE72340918ED797605478023AFBF5317C2764C4CF"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Sprite Assets\\Default Sprite Asset.asset",
+    "Sha256": "30FAD27852D8991DD3078BB1D12EBED8BB0C563552525CCE57C9726AB77828F4"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Sprite Assets\\Default Sprite Asset.asset.meta",
+    "Sha256": "6B1D9163E7E16FCB147BFAA62D6F47F04688C1E8A2A3BA59084D1E2AFAA356A5"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Sprite Assets\\DropCap Numbers.asset",
+    "Sha256": "3B7B1C1AD7352ED2734F8FCCE9E9CF2E222FCAA1BE9229C983D2CE8020ED582E"
+  },
+  {
+    "Path": "C:\\Personal\\JustMe\\Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Sprite Assets\\DropCap Numbers.asset.meta",
+    "Sha256": "2F561EB1007E8E2A3109369D482021FD523FE25A809A6A9D9D6DDC4732F18457"
+  }
+]
