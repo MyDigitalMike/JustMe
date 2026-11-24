@@ -1,0 +1,15 @@
+{
+    "error": "System.Exception: Shift sprints and spends stamina\r\n  at InputMigrationChecks.Assert (InputMigrationChecks+Report report, System.Boolean passed, System.String name) [0x00016] in C:\\Personal\\JustMe\\Assets\\Editor\\InputMigrationChecks.cs:28 \r\n  at InputMigrationChecks.TickFlow () [0x00322] in C:\\Personal\\JustMe\\Assets\\Editor\\InputMigrationChecks.cs:160 ",
+    "newBackend": true,
+    "legacyBackend": false,
+    "checks": [
+        "Starts resumed",
+        "Escape pauses live Update",
+        "F8 disables visibility while paused",
+        "F8 restores visibility while paused",
+        "Escape resumes live Update",
+        "C crouches actual Player",
+        "C release restores standing",
+        "D moves actual Player"
+    ]
+}

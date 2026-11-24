@@ -1,0 +1,65 @@
+{
+    "worlds": [
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 2,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 140,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 885.4815063476563,
+            "position": {
+                "x": 7.030259132385254,
+                "y": 34.717071533203125
+            },
+            "reachedGoal": true,
+            "fallVerified": true,
+            "fallKind": "left exterior",
+            "fallDistance": 2.849346160888672,
+            "deathEvents": 1
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 11,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 165,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 1154.00341796875,
+            "position": {
+                "x": 77.4722900390625,
+                "y": 27.21705436706543
+            },
+            "reachedGoal": true,
+            "fallVerified": true,
+            "fallKind": "right exterior",
+            "fallDistance": 2.849346160888672,
+            "deathEvents": 1
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 42,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 147,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 1050.9228515625,
+            "position": {
+                "x": 5.025595188140869,
+                "y": 50.21704864501953
+            },
+            "reachedGoal": true,
+            "fallVerified": true,
+            "fallKind": "marked pit",
+            "fallDistance": 2.849346160888672,
+            "deathEvents": 1
+        }
+    ],
+    "error": ""
+}

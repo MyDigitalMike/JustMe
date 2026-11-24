@@ -1,0 +1,26 @@
+[
+  {
+    "path": "Assets/Scenes/Prototypes/ParallaxDepthTest.unity",
+    "sha256": "463a6100e8d55bde4be62426cc8236366bd1fb49ee7a5fa865cf6df0f75d01b9"
+  },
+  {
+    "path": "Assets/Scenes/Prototypes/ParallaxDepthTest.unity.meta",
+    "sha256": "4d854ef2b308f741dd724ebc0067f9cf84a40e7c3e8bcf12567735c36dcf88af"
+  },
+  {
+    "path": "Assets/Script/Prototypes/ParallaxDepthDemo.cs",
+    "sha256": "cbefa3e4507fa0c3deabff520005b5dbab984adc862bb84d3005c1cf0fca601e"
+  },
+  {
+    "path": "Assets/Script/Prototypes/ParallaxDepthDemo.cs.meta",
+    "sha256": "f6f27225e6d2fd7fe013be576820e6c2248faa79cb3c54db6580521131698984"
+  },
+  {
+    "path": "Assets/Resources/WorldPresentation.prefab",
+    "sha256": "ce2ef968b0cd1178a243494d7fed274604ddc30b001c19bbd20040fdabfb8b99"
+  },
+  {
+    "path": "Assets/Resources/WorldPresentation.prefab.meta",
+    "sha256": "a6bc5aed395259b012bcb3db1332f214bd510e2dbd7c9f71b4ca76c7efc6c00f"
+  }
+]

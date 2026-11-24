@@ -1,0 +1,65 @@
+{
+  "editor": "6000.6.8f1",
+  "completed": [
+    "Tres profundidades arquitectónicas integradas en JustMe mediante WorldPresentation.",
+    "Parallax X/Y y composición determinista por semilla/coordenadas; espejo horizontal, escala y desplazamiento variables.",
+    "Pool fijo de 27 sprites: no crecimiento por recorrer el mundo; arquitectura sin colliders.",
+    "Shader con suavizado de extremos del recorte y máscara radial de oscuridad.",
+    "F9 alterna arquitectura en Editor/desarrollo; F10 sigue controlando la niebla sin modificarla."
+  ],
+  "actualChecks": [
+    {
+      "error": "",
+      "level": 1,
+      "instances": 1,
+      "renderers": 27,
+      "noColliders": true,
+      "shaderOK": true,
+      "stable": true,
+      "toggle": true,
+      "reusesPool": true,
+      "negativeCoordinates": true
+    },
+    {
+      "error": "",
+      "level": 2,
+      "instances": 1,
+      "renderers": 27,
+      "noColliders": true,
+      "shaderOK": true,
+      "stable": true,
+      "toggle": true,
+      "reusesPool": true,
+      "negativeCoordinates": true
+    }
+  ],
+  "observed": "Compilación y Play en niveles 1 y 2; arquitectura visible detrás del terreno/personaje. Comprobación final de consola después de retirar el diagnóstico temporal.",
+  "preserved": "13 archivos focalizados idénticos por hash, incluyendo niebla C#/shader/material, Player, WorldLighting, renderer del terreno, tres escenas, atlas, paquetes y ProjectSettings. Configuración serializada de WorldFog idéntica dentro del prefab modificado; .meta existentes idénticos.",
+  "libroChange": "Solo se añadieron seis líneas en ConfigureWorldPresentation para pasar semilla y orden visual. El resto coincide con el respaldo.",
+  "changedExisting": [
+    "Assets/Script/Game/Libro.cs",
+    "Assets/Resources/WorldPresentation.prefab",
+    "docs/context/source/VISUAL_CHECKPOINT.md"
+  ],
+  "newRuntimeFiles": [
+    "Assets/Script/GeneracionMundo/WorldBackdropLayers.cs",
+    "Assets/Art/Atmosphere/ParallaxRuins.shader",
+    "Assets/Art/Atmosphere/ParallaxRuins.mat"
+  ],
+  "assets": "Reutiliza DepthArches, DepthRooms y DepthNear en Assets/Art/Prototypes/ParallaxDepth/Layers.png; ese atlas ahora tiene referencias de producción: conservarlo con su .meta.",
+  "limitations": [
+    "Integración inicial: tres recursos arquitectónicos reutilizados; no se afirma ausencia de repetición visual en todo recorrido.",
+    "Falta afinar composición, escala, separación visual de plataformas físicas y variedad artística.",
+    "Progresión Fragmentación/Reconexión/Integración por nivel todavía pendiente.",
+    "No se verificaron todos los zoom/aspectos, travesía completa de diario/Goal, captura de píxeles en cada zona oscura ni rendimiento móvil/build.",
+    "La comprobación de coordenadas negativas verifica valores finitos y reutilización, no demuestra por sí sola ausencia de todo salto visual."
+  ],
+  "initialCompileCorrections": [
+    "Se sustituyó la referencia incorrecta a la configuración por CurrentSeed.",
+    "El diagnóstico dejó de usar GetInstanceID, obsoleto con error en este Editor, y compara referencias. Ambas incidencias se resolvieron antes de los tests finales."
+  ],
+  "finalErrors": [],
+  "backup": "Originals; diagnóstico .cs y .meta archivados y verificados por hash en EditorProbes, retirados de Assets fuera de Play.",
+  "finalState": "JustMe abierto fuera de Play; niebla sin cambios; contexto actualizado y pendientes explícitos.",
+  "evidence": "Backups/WorldParallax/gameplay.png"
+}

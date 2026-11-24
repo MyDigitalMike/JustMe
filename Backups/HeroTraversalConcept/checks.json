@@ -1,0 +1,10 @@
+{
+    "error": "",
+    "sprites": 24,
+    "clips": 4,
+    "distinctActions": true,
+    "onlySpriteCurves": true,
+    "noPhysics": true,
+    "noRootMotion": true,
+    "sampledAllStates": true
+}

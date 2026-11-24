@@ -1,0 +1,39 @@
+{
+  "cause": "Run repeated one fixed obstacle sequence, and Stairs repeated a fixed two-cell/eight-cell footprint.",
+  "correction": "Seeded obstacle-order draws without replacement, variable inter-challenge spacing and varied climb footprints with local repeat suppression.",
+  "checks": {
+    "antiRepeatSeeds": [
+      0,
+      1,
+      42
+    ],
+    "topologyWorlds": 42,
+    "topologyAssertions": 211,
+    "nativePhysicalRoutes": 14,
+    "allFragmentsAndGoal": true,
+    "nativeCompilationObserved": true,
+    "consoleErrorsObserved": 0
+  },
+  "preserved": [
+    "Player movement and collider tuning",
+    "stamina and rests",
+    "measured jump/crawl constraints",
+    "diary progression",
+    "temporary full lighting"
+  ],
+  "limitations": "Checks cover sampled seeds and current bounded layouts; reusable primitives and genuine backtracking are not prohibited.",
+  "files": [
+    {
+      "path": "Assets/Script/GeneracionMundo/TraversalTopology.cs",
+      "sha256": "259bca3d4f632fc8c58443ef8fb3d556a773229898934b8e5997c7bcc2b245bd"
+    },
+    {
+      "path": "Tools/TraversalChecks/Run-VarietyChecks.ps1",
+      "sha256": "1417feae57cd98fab41756977326d65d7bcaa7c9571c3e677aa46021b5813e1f"
+    },
+    {
+      "path": "docs/design/CORE_GAMEPLAY.md",
+      "sha256": "5c6446fc21bcca6cef0ef82dc7d678486e173b13cafc6cafa25e379108874427"
+    }
+  ]
+}

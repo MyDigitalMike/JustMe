@@ -1,0 +1,27 @@
+{
+    "error": "",
+    "newBackend": true,
+    "legacyBackend": true,
+    "checks": [
+        "Neutral input",
+        "A horizontal negative",
+        "Arrow axes",
+        "Space jump press and hold",
+        "Jump release",
+        "W jump key and vertical axis",
+        "Sprint and crouch held",
+        "Pause and lighting keys",
+        "Gamepad raw axes preserve scale and inversion",
+        "Legacy joystick dead zone 0.19",
+        "Legacy joystick button 3 jump",
+        "Debug dpad axis remains bounded",
+        "Keyboard sensitivity 3 per second",
+        "Keyboard gravity returns to zero",
+        "Opposite direction snap",
+        "Focus loss neutralizes input",
+        "Live UI has persisted action references",
+        "Stationary absolute touch press",
+        "Second pointer cannot steal touchpad",
+        "Touch release neutralizes axes"
+    ]
+}

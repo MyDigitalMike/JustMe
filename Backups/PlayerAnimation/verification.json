@@ -1,0 +1,22 @@
+{
+  "fallFrames": 19,
+  "runFrames": 28,
+  "playModeObserved": true,
+  "generatedSheets": 3,
+  "generationMode": "Built-in image_gen",
+  "generatedClips": 11,
+  "originalSpriteFilesPreserved": 232,
+  "finalEditorState": "Last observed playing; subsequent automated stop was blocked by user input",
+  "nativePosesPassed": 8,
+  "idleFrames": 24,
+  "physicsMethodsUnchanged": 10,
+  "generatedSprites": 64,
+  "originalMetaFilesPreserved": 5,
+  "unityVersion": "6000.6.8f1",
+  "walkFrames": 28,
+  "prompts": "Backups/PlayerAnimation/prompts.json",
+  "nativeCompilationObserved": true,
+  "probeRetired": true,
+  "limits": "Generated art needs manual visual/style and cycle review. Native verification exercised pose selection and presentation properties, not a complete gameplay traversal regression.",
+  "jumpFrames": 19
+}

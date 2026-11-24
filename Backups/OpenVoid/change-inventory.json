@@ -1,0 +1,14 @@
+[
+  {
+    "sha256": "7789E915748F23ABE4665C8104068C223C5FEA3F16A4B0833BE5A73341F9BA7B",
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs"
+  },
+  {
+    "sha256": "1DA17E5A601F4335B939E63346BF22D2DF1EBE3E245BE58289274170C2052146",
+    "path": "Tools/TraversalChecks/Run-VoidChecks.ps1"
+  },
+  {
+    "sha256": "A2B96397300B77A917EE79B37799187E88E77854F9045F95940412F92DAC20BF",
+    "path": "docs/design/CORE_GAMEPLAY.md"
+  }
+]

@@ -1,0 +1,405 @@
+{
+  "rejectedFixedSeeds": [
+    {
+      "reason": "Traversal rejected: seed=24, profile=Horizontal, attempt=4: link=7: Insufficient collider clearance at (58.08,16.20).",
+      "seed": 24
+    }
+  ],
+  "rooms": [
+    {
+      "irregular": 14,
+      "branches": 2,
+      "regular": 10,
+      "largestBank": 4,
+      "layout": "Ascent",
+      "seed": 0
+    },
+    {
+      "irregular": 21,
+      "branches": 2,
+      "regular": 6,
+      "largestBank": 4,
+      "layout": "Ascent",
+      "seed": 1
+    },
+    {
+      "irregular": 14,
+      "branches": 2,
+      "regular": 8,
+      "largestBank": 4,
+      "layout": "Ascent",
+      "seed": 42
+    },
+    {
+      "irregular": 14,
+      "branches": 3,
+      "regular": 8,
+      "largestBank": 4,
+      "layout": "Descent",
+      "seed": 0
+    },
+    {
+      "irregular": 24,
+      "branches": 2,
+      "regular": 4,
+      "largestBank": 4,
+      "layout": "Descent",
+      "seed": 1
+    },
+    {
+      "irregular": 13,
+      "branches": 3,
+      "regular": 6,
+      "largestBank": 4,
+      "layout": "Descent",
+      "seed": 42
+    },
+    {
+      "irregular": 23,
+      "branches": 3,
+      "regular": 18,
+      "largestBank": 4,
+      "layout": "U",
+      "seed": 0
+    },
+    {
+      "irregular": 21,
+      "branches": 3,
+      "regular": 14,
+      "largestBank": 4,
+      "layout": "U",
+      "seed": 1
+    },
+    {
+      "irregular": 25,
+      "branches": 2,
+      "regular": 12,
+      "largestBank": 4,
+      "layout": "U",
+      "seed": 42
+    },
+    {
+      "irregular": 20,
+      "branches": 2,
+      "regular": 8,
+      "largestBank": 4,
+      "layout": "Switchback",
+      "seed": 0
+    },
+    {
+      "irregular": 21,
+      "branches": 3,
+      "regular": 12,
+      "largestBank": 3,
+      "layout": "Switchback",
+      "seed": 1
+    },
+    {
+      "irregular": 26,
+      "branches": 3,
+      "regular": 6,
+      "largestBank": 4,
+      "layout": "Switchback",
+      "seed": 42
+    },
+    {
+      "irregular": 28,
+      "branches": 3,
+      "regular": 16,
+      "largestBank": 4,
+      "layout": "Cross",
+      "seed": 0
+    },
+    {
+      "irregular": 36,
+      "branches": 2,
+      "regular": 10,
+      "largestBank": 4,
+      "layout": "Cross",
+      "seed": 1
+    },
+    {
+      "irregular": 34,
+      "branches": 3,
+      "regular": 8,
+      "largestBank": 4,
+      "layout": "Cross",
+      "seed": 42
+    },
+    {
+      "irregular": 11,
+      "branches": 2,
+      "regular": 8,
+      "largestBank": 4,
+      "layout": "Random",
+      "seed": 0
+    },
+    {
+      "irregular": 16,
+      "branches": 2,
+      "regular": 8,
+      "largestBank": 3,
+      "layout": "Random",
+      "seed": 1
+    },
+    {
+      "irregular": 19,
+      "branches": 2,
+      "regular": 8,
+      "largestBank": 4,
+      "layout": "Random",
+      "seed": 42
+    }
+  ],
+  "normalRuns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "challengeCountPatterns": 3,
+  "exploration": [
+    {
+      "seed": 0,
+      "profile": "Mixed",
+      "width": 215,
+      "height": 116
+    },
+    {
+      "seed": 1,
+      "profile": "Mixed",
+      "width": 240,
+      "height": 139
+    },
+    {
+      "seed": 2,
+      "profile": "Mixed",
+      "width": 144,
+      "height": 123
+    },
+    {
+      "seed": 3,
+      "profile": "Mixed",
+      "width": 281,
+      "height": 115
+    },
+    {
+      "seed": 4,
+      "profile": "Mixed",
+      "width": 268,
+      "height": 164
+    },
+    {
+      "seed": 5,
+      "profile": "Mixed",
+      "width": 264,
+      "height": 116
+    },
+    {
+      "seed": 6,
+      "profile": "Mixed",
+      "width": 180,
+      "height": 185
+    },
+    {
+      "seed": 7,
+      "profile": "Mixed",
+      "width": 128,
+      "height": 117
+    },
+    {
+      "seed": 8,
+      "profile": "Mixed",
+      "width": 188,
+      "height": 155
+    },
+    {
+      "seed": 9,
+      "profile": "Mixed",
+      "width": 238,
+      "height": 109
+    },
+    {
+      "seed": 10,
+      "profile": "Mixed",
+      "width": 317,
+      "height": 115
+    },
+    {
+      "seed": 11,
+      "profile": "Mixed",
+      "width": 166,
+      "height": 148
+    },
+    {
+      "seed": 12,
+      "profile": "Mixed",
+      "width": 248,
+      "height": 140
+    },
+    {
+      "seed": 13,
+      "profile": "Mixed",
+      "width": 289,
+      "height": 117
+    },
+    {
+      "seed": 14,
+      "profile": "Mixed",
+      "width": 307,
+      "height": 155
+    },
+    {
+      "seed": 15,
+      "profile": "Mixed",
+      "width": 244,
+      "height": 117
+    },
+    {
+      "seed": 16,
+      "profile": "Mixed",
+      "width": 218,
+      "height": 156
+    },
+    {
+      "seed": 17,
+      "profile": "Mixed",
+      "width": 266,
+      "height": 133
+    },
+    {
+      "seed": 18,
+      "profile": "Mixed",
+      "width": 208,
+      "height": 139
+    },
+    {
+      "seed": 19,
+      "profile": "Mixed",
+      "width": 287,
+      "height": 124
+    },
+    {
+      "seed": 20,
+      "profile": "Mixed",
+      "width": 277,
+      "height": 124
+    },
+    {
+      "seed": 21,
+      "profile": "Mixed",
+      "width": 156,
+      "height": 146
+    },
+    {
+      "seed": 22,
+      "profile": "Mixed",
+      "width": 262,
+      "height": 117
+    },
+    {
+      "seed": 23,
+      "profile": "Mixed",
+      "width": 245,
+      "height": 139
+    },
+    {
+      "seed": 25,
+      "profile": "Mixed",
+      "width": 227,
+      "height": 180
+    },
+    {
+      "seed": 26,
+      "profile": "Mixed",
+      "width": 271,
+      "height": 146
+    },
+    {
+      "seed": 27,
+      "profile": "Mixed",
+      "width": 244,
+      "height": 133
+    },
+    {
+      "seed": 28,
+      "profile": "Mixed",
+      "width": 234,
+      "height": 148
+    },
+    {
+      "seed": 29,
+      "profile": "Mixed",
+      "width": 252,
+      "height": 101
+    },
+    {
+      "seed": 30,
+      "profile": "Mixed",
+      "width": 226,
+      "height": 107
+    },
+    {
+      "seed": 31,
+      "profile": "Mixed",
+      "width": 279,
+      "height": 185
+    }
+  ],
+  "ceilingsIndependentOfAction": true,
+  "cases": [
+    {
+      "counts": {
+        "Jump": 4,
+        "DoubleJump": 2,
+        "Crawl": 2
+      },
+      "seed": 0
+    },
+    {
+      "counts": {
+        "Jump": 4,
+        "DoubleJump": 0,
+        "Crawl": 2
+      },
+      "seed": 1
+    },
+    {
+      "counts": {
+        "Jump": 3,
+        "DoubleJump": 0,
+        "Crawl": 1
+      },
+      "seed": 42
+    }
+  ],
+  "passed": true
+}

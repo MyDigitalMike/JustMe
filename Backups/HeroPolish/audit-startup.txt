@@ -1,0 +1,18 @@
+Grounded=False state=Airborne root=(71.00, 24.72) soleY=24.25831
+sprite=Idle_00 rect=(x:41.00, y:1052.00, width:119.00, height:185.00) pivot=(87.88, 86.21) bounds=Center: (70.84, 24.77, 0.00), Extents: (0.33, 0.52, 0.10) sortLayer=0 order=0
+material=Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat shader=Universal Render Pipeline/2D/Sprite-Lit-Default
+shaderProperty=_MainTex
+shaderProperty=_MaskTex
+shaderProperty=_NormalMap
+shaderProperty=_ZWrite
+shaderProperty=_Color
+shaderProperty=_RendererColor
+shaderProperty=_AlphaTex
+shaderProperty=_EnableExternalAlpha
+opaqueFootY=24.25762 rectFootY=24.25205 opaqueInset=0.005567638
+tilemap=House terrain skin anchor=(0.00, 0.00, 0.00) sort=0
+tilemap=Tilemap anchor=(0.00, 0.00, 0.00) sort=0
+rope edge 0 alphaBottom=0 alphaTop=0.007843138
+rope edge 1 alphaBottom=0.4431373 alphaTop=0.2392157
+rope edge 2 alphaBottom=0.9411765 alphaTop=0.7568628
+rope edge 3 alphaBottom=0.9882353 alphaTop=0.9607843

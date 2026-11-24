@@ -1,0 +1,23 @@
+[
+  {
+    "asset": "Backups/ParallaxProposal/ParallaxStages.png",
+    "tool": "built-in image_gen.imagegen",
+    "source": "C:/Users/mydig/.codex/generated_images/01a1c76f-9083-7522-93dd-5b23c729d5b0/exec-ce19ba24-a969-4c71-ba0c-e2a4e1b502d1.png",
+    "reference": "Backups/HouseRuins/approved-concept.png",
+    "prompt": "Use case: stylized-concept. Create an art-direction comparison board for JUSTME, matching the supplied approved visual reference: hand-painted 2D side-view ruined domestic interiors suspended in cavernous blue depth, weathered stone arches, timber, muted desaturated teal and tiny warm amber light. Three landscape game-background illustrations stacked vertically, clearly separated, same wide camera scale and visual family; no player, no HUD, no text inside the artwork except small elegant Spanish labels in the gutter: '1 · FRAGMENTACIÓN', '2 · RECONEXIÓN', '3 · INTEGRACIÓN'. The house is an indirect metaphor for a fractured identity slowly reassembling, never literal brains, faces or explanatory symbols. Top: spatially disjoint ruined arches and empty rooms drifting at different depths, much negative dark space and isolated hints of warmth. Middle: incomplete connections begin to form across uneven rooms and arches, still asymmetric and unsettling, more diffuse warm light. Bottom: architecture more coherent and sheltering with subtle plants and warmer highlights, still weathered and emotionally ambiguous, never a pristine happy house. Every panel should have clear far atmospheric silhouettes, middle-distance architectural fragments and near dark stone framing, with the center legible for future gameplay. Do not repeat identical room modules or mirrored layouts. Domestic objects are sparse distant narrative hints, not tiled foreground obstacles; no large furniture. No gore, no characters, no fake terrain map. This is a visual proposal for later multilayer parallax, not a sprite sheet; make painterly depth immediately readable. Portrait board with three high-detail wide illustrations."
+  },
+  {
+    "asset": "Assets/Art/MenuBackdrops/GameOverHouse.png",
+    "tool": "built-in image_gen.imagegen",
+    "source": "C:/Users/mydig/.codex/generated_images/01a1c76f-9083-7522-93dd-5b23c729d5b0/exec-a05bd165-0951-42d0-b25e-b16df054cf2d.png",
+    "reference": "Backups/HouseRuins/approved-concept.png",
+    "prompt": "Use case: stylized-concept. Asset: full-screen 16:9 Game Over background for JUSTME. Match the supplied approved visual exactly in painterly 2D game illustration style, quiet desaturated blue/teal stone, worn timber, soft textures, ruined domestic architecture suspended in a deep cavern. Create a new composition, not a crop of the reference. An abandoned broken wooden landing on the lower left holds a small closed worn diary and a few loose page fragments; a modest surviving amber lamp glows on the far right, implying the possibility of trying again. Layer distant broken arches through blue mist and an incomplete doorway. Dark calm central 45 percent with soft atmospheric texture, suitable for clearly legible existing white 'Game Over' title and a menu-return button, but DO NOT DRAW ANY TEXT OR BUTTONS. Strong subtle depth at the sides, emotional exhaustion and loss of orientation, tender rather than violent. No character, no corpse, no blood, no skulls, no literal brain. No busy center, no bright center bloom, no logo or watermark. Wide landscape 16:9, finished hand-painted art consistent with the original proposal."
+  },
+  {
+    "asset": "Assets/Art/MenuBackdrops/ApprovedHouseMainMenu.png",
+    "tool": "file copy only",
+    "source": "Backups/HouseRuins/approved-concept.png",
+    "prompt": null,
+    "note": "Copia exacta de la imagen previamente aprobada; no se volvió a generar."
+  }
+]

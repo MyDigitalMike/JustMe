@@ -1,0 +1,14 @@
+{
+  "sharedDependencies": 37,
+  "changed": [],
+  "preserved": [
+    {
+      "path": "Assets/Script/Game/Player.cs",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Script/Game/WorldLighting.cs",
+      "unchanged": true
+    }
+  ]
+}

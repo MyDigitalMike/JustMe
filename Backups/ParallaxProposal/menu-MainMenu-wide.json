@@ -1,0 +1,21 @@
+{
+    "scene": "MainMenu",
+    "texture": "Assets/Art/MenuBackdrops/ApprovedHouseMainMenu.png",
+    "playing": true,
+    "coversViewport": true,
+    "noRaycastTargets": true,
+    "eventSystems": 1,
+    "buttons": 5,
+    "imageSize": {
+        "x": 1308.0,
+        "y": 736.14111328125
+    },
+    "canvasSize": {
+        "x": 1308.0,
+        "y": 451.0
+    },
+    "screenSize": {
+        "x": 1308.0,
+        "y": 451.0
+    }
+}

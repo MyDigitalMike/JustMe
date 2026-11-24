@@ -1,0 +1,43 @@
+{
+  "editor": "6000.6.8f1",
+  "scene": "Assets/Scenes/Prototypes/ParallaxDepthTest.unity",
+  "scope": "Prototipo pequeño y finito, sin integrar a generación ni Build Settings.",
+  "runtimeComponent": "Assets/Script/Prototypes/ParallaxDepthDemo.cs",
+  "atlas": "Assets/Art/Prototypes/ParallaxDepth/Layers.png",
+  "generationMode": "ImageGen integrado: una hoja de cuatro planos y una limpieza de alpha; prompts en art-prompts.json.",
+  "controls": [
+    "Play en la escena de prueba",
+    "A/D o flechas: caminar",
+    "Espacio: salto del controlador existente",
+    "F9 o botón superior: comparar con/sin parallax"
+  ],
+  "nativeChecks": {
+    "error": "",
+    "distinctDepths": true,
+    "xyMotion": true,
+    "stoppedStable": true,
+    "toggleNoSnap": true,
+    "flatMode": true,
+    "restored": true,
+    "noLayerColliders": true,
+    "observedSpeeds": [
+      0.050000011920928955,
+      0.18000000715255737,
+      0.41999995708465576,
+      0.699999988079071
+    ]
+  },
+  "observed": "Entró en Play Mode, capas y personaje visibles; se observó cambio del encuadre durante uso de la prueba. El cambio de modo se verificó mediante la API del componente; la automatización del clic fue bloqueada por actividad del usuario.",
+  "preserved": "SHA-256 idénticos en los 11 archivos focalizados: prefab/metadata y Player, parallax anterior, tres escenas del juego, paquetes, ProjectSettings y Build Settings.",
+  "limitations": [
+    "Arte provisional: recortes, resolución y soportes visuales simples de prueba.",
+    "Habitación con límites finitos; sin repetición de fondos ni pruebas de mundos extensos, warps o cambios de nivel.",
+    "Comparación sin parallax congela los planos en el mundo: todos se desplazan aparentemente al ritmo del terreno.",
+    "Las capas son decorativas; sus plataformas pintadas no tienen collider."
+  ],
+  "probe": "Respaldado con .meta y SHA-256 en EditorProbes, retirado de Assets fuera de Play Mode.",
+  "editorState": "Escena de prueba abierta, fuera de Play Mode, sin cambios sin guardar.",
+  "newCompileOrRuntimeErrors": [],
+  "warnings": "Aviso UDP de VS/Unity y advertencias heredadas fuera del alcance.",
+  "context": "docs/context/source/VISUAL_CHECKPOINT.md actualizado; sin indexación ni Graphify."
+}

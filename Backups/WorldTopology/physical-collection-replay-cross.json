@@ -1,0 +1,53 @@
+{
+    "worlds": [
+        {
+            "profile": "Cross",
+            "error": "",
+            "seed": 0,
+            "required": 3,
+            "collected": 3,
+            "completedLinks": 135,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 793.9922485351563,
+            "position": {
+                "x": 64.46560668945313,
+                "y": 45.717071533203125
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Cross",
+            "error": "",
+            "seed": 1,
+            "required": 3,
+            "collected": 3,
+            "completedLinks": 135,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 796.3545532226563,
+            "position": {
+                "x": 5.02845573425293,
+                "y": 45.717071533203125
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Cross",
+            "error": "",
+            "seed": 42,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 135,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 795.3135375976563,
+            "position": {
+                "x": 65.4673843383789,
+                "y": 45.717071533203125
+            },
+            "reachedGoal": true
+        }
+    ],
+    "error": ""
+}

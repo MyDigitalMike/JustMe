@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 
 public enum WorldProfile { Horizontal, Ascent, Descent, Mixed }
+public enum TraversalLayout { Legacy, Random, Horizontal, Ascent, Descent, U, Switchback, Cross, Exploration }
 public enum TraversalAction { Walk, Sprint, Jump, DoubleJump, Crawl, Climb, Rest, Drop }
 
 [Serializable]
@@ -11,6 +12,8 @@ public sealed class TraversalGenerationSettings
     public WorldProfile Profile;
     public double CellSize = 0.5;
     public int MaximumAttempts = 4;
+    public int RequiredFragments = 3;
+    public TraversalLayout Layout;
 }
 
 [Serializable]
@@ -52,7 +55,10 @@ public sealed class TraversalLink
     public double Duration;
     public bool Primary = true;
     public int BranchId;
+    public bool LethalGap = true;
     public double ClimbX;
+    // Zero uses the continuous irregular roof field; positive values define a regular room.
+    public double ChamberHeight;
     public TrajectorySample[] Path;
 }
 
@@ -60,6 +66,7 @@ public sealed class TraversalLink
 public sealed class TraversalPlan
 {
     public WorldProfile Profile;
+    public TraversalLayout Layout;
     public TraversalNode[] Nodes;
     public TraversalLink[] Links;
     public int[] PrimaryLinks;
@@ -96,8 +103,12 @@ public static class HardcoreWorldGenerator
         string failure = "No candidate attempted.";
         for (int attempt = 0; attempt < settings.MaximumAttempts; attempt++)
         {
-            WorldData world = Build(settings, caps, actualSeed, attempt);
-            TraversalValidation result = TraversalValidator.Validate(world, caps, stamina);
+            WorldData world;
+            try { world = Build(settings, caps, actualSeed, attempt); }
+            catch (TraversalGenerationException e) { failure = e.Message; continue; }
+            string placementError = DiaryPlanner.Attach(world, settings.RequiredFragments);
+            if (placementError != null) { failure = placementError; continue; }
+            TraversalValidation result = TraversalValidator.Validate(world, caps, stamina, settings.RequiredFragments);
             if (result.Valid) return world;
             failure = "link=" + result.FailedLink + ": " + result.Reason;
         }
@@ -107,10 +118,11 @@ public static class HardcoreWorldGenerator
     private static void ValidateSettings(TraversalGenerationSettings s)
     {
         if (s == null || s.Terrain == null) throw new ArgumentException("Traversal settings and Terrain are required.");
+        if (s.RequiredFragments < 1 || s.RequiredFragments > 12) throw new ArgumentException("Required fragments must be 1..12.");
         WorldGenerationSettings t = s.Terrain;
         if (t.Width < 56 || t.Width > 256 || t.Height < 30 || t.Height > 128)
             throw new ArgumentException("Traversal dimensions must be 56..256 by 30..128; smaller worlds cannot contain the hard route.");
-        if (!Enum.IsDefined(typeof(WorldProfile), s.Profile) || s.CellSize != .5 || s.MaximumAttempts < 1 || s.MaximumAttempts > 12)
+        if (!Enum.IsDefined(typeof(TraversalLayout), s.Layout) || !Enum.IsDefined(typeof(WorldProfile), s.Profile) || s.CellSize != .5 || s.MaximumAttempts < 1 || s.MaximumAttempts > 12)
             throw new ArgumentException("Invalid profile, half-unit cell size or bounded attempt count.");
         if (t.SurfaceVariation < 0 || t.SurfaceVariation > 32 || t.SurfaceHeight < 10 + t.SurfaceVariation ||
             t.SurfaceHeight > t.Height - 3 - t.SurfaceVariation || !Finite(t.SurfaceScale) || t.SurfaceScale < .005 || t.SurfaceScale > 1 ||
@@ -126,6 +138,7 @@ public static class HardcoreWorldGenerator
 
     private static WorldData Build(TraversalGenerationSettings s, TraversalCapabilities caps, int seed, int attempt)
     {
+        if (s.Layout != TraversalLayout.Legacy) return TraversalTopology.Build(s, caps, seed, attempt);
         int w = s.Terrain.Width, h = s.Terrain.Height;
         WorldData world = new WorldData { Seed = seed, CellSize = s.CellSize, Tiles = new int[w, h], Surface = new int[w] };
         uint random = Mix(unchecked((uint)seed) + (uint)attempt * 31u);
@@ -214,6 +227,7 @@ public static class HardcoreWorldGenerator
         links.Add(new TraversalLink { FromNode = firstLaunch, ToNode = firstRest, Action = TraversalAction.DoubleJump, Primary = false, BranchId = 1 });
         int branchLanding = AddNode(nodes, 6, y0 - 4);
         int deadEnd = AddNode(nodes, 2, y0 - 4);
+        world.ExplorationNode = deadEnd;
         links.Add(new TraversalLink { FromNode = 0, ToNode = branchLanding, Action = TraversalAction.Climb, Primary = false, BranchId = 2 });
         links.Add(new TraversalLink { FromNode = branchLanding, ToNode = deadEnd, Action = TraversalAction.Walk, Primary = false, BranchId = 2 });
         links.Add(new TraversalLink { FromNode = deadEnd, ToNode = branchLanding, Action = TraversalAction.Walk, Primary = false, BranchId = 2 });
@@ -221,7 +235,16 @@ public static class HardcoreWorldGenerator
         world.Route = new TraversalPlan { Profile = s.Profile, Nodes = nodes.ToArray(), Links = links.ToArray(), PrimaryLinks = primary.ToArray() };
         world.SpawnX = nodes[0].FloorX; world.SpawnY = nodes[0].FloorY + 1;
         world.GoalX = nodes[current].FloorX; world.GoalY = nodes[current].FloorY + 1;
+        Rasterize(world, caps, 0);
+        return world;
+    }
+
+    internal static void Rasterize(WorldData world, TraversalCapabilities caps, double passageHeight)
+    {
+        TraversalNode[] nodes = world.Route.Nodes;
+        var climbs = new List<TileRegion>();
         List<TileRegion> voids = new List<TileRegion>();
+        var gaps = new List<TileRegion>();
         foreach (TraversalLink link in world.Route.Links)
         {
             TraversalNode a = nodes[link.FromNode], b = nodes[link.ToNode];
@@ -237,25 +260,92 @@ public static class HardcoreWorldGenerator
             // Seal each traversable envelope before carving. Natural caves remain outside its protective shell.
             foreach (TrajectorySample p in link.Path)
                 Rectangle(world, (int)Math.Floor(p.X / .5) - 2, (int)Math.Floor((p.Y + caps.SoleLocalY) / .5) - 2,
-                    (int)Math.Ceiling(p.X / .5) + 2, (int)Math.Ceiling((p.Y + caps.SoleLocalY + caps.StandingHeight) / .5) + 2, 1);
+                    (int)Math.Ceiling(p.X / .5) + 2, (int)Math.Ceiling((p.Y + caps.SoleLocalY + Math.Max(caps.StandingHeight, passageHeight)) / .5) + 2, 1);
             if (link.Primary && (link.Action == TraversalAction.Jump || link.Action == TraversalAction.DoubleJump))
             {
                 // A single half-unit opening can support the compound body across its corners.
-                int landing = b.FloorX - (link.Action == TraversalAction.Jump ? 0 : 2);
-                voids.Add(new TileRegion(a.FloorX + 1, 1, landing - 1, a.FloorY - 1) { CueX = a.FloorX, CueY = a.FloorY + 1 });
+                int direction = Math.Sign(b.FloorX - a.FloorX);
+                int landing = b.FloorX - direction * (link.Action == TraversalAction.Jump ? 0 : 2);
+                int edge = a.FloorX + direction, far = landing - direction;
+                int depth = 3 + (int)(Mix(unchecked((uint)world.Seed ^ (uint)a.FloorX * 31u ^ (uint)a.FloorY * 137u)) % 3u);
+                int bottom = passageHeight > 0 ? Math.Max(1, a.FloorY - depth) : 1;
+                var gap = new TileRegion(Math.Min(edge, far), bottom, Math.Max(edge, far), a.FloorY - 1) { CueX = a.FloorX, CueY = a.FloorY + 1 };
+                gaps.Add(gap);
+                if (link.LethalGap) voids.Add(gap);
             }
         }
-        foreach (TraversalLink link in world.Route.Links) CarvePath(world, link, caps);
-        foreach (TraversalLink link in world.Route.Links) Support(world, link);
+        foreach (TraversalLink link in world.Route.Links)
+        {
+            bool chamber = passageHeight > 0 && (link.Action == TraversalAction.Walk || link.Action == TraversalAction.Sprint ||
+                link.Action == TraversalAction.Rest || link.Action == TraversalAction.Jump || link.Action == TraversalAction.DoubleJump);
+            if (chamber) CarveChamber(world, link);
+            else CarvePath(world, link, caps, passageHeight);
+        }
+        foreach (TraversalLink link in world.Route.Links) Support(world, link, passageHeight > 0);
         foreach (TraversalLink link in world.Route.Links)
             if (link.Action == TraversalAction.Crawl)
             {
                 TraversalNode a = nodes[link.FromNode];
-                Rectangle(world, a.FloorX + 2, a.FloorY + 2, a.FloorX + 2, a.FloorY + 3, 1);
+                int roofX = a.FloorX + Math.Sign(world.Route.Nodes[link.ToNode].FloorX - a.FloorX) * 2;
+                Rectangle(world, roofX, a.FloorY + 2, roofX, a.FloorY + 3, 1);
             }
-        foreach (TileRegion region in voids) Rectangle(world, region.MinX, region.MinY, region.MaxX, region.MaxY + 1, 0);
+        foreach (TileRegion region in gaps) Rectangle(world, region.MinX, region.MinY, region.MaxX, region.MaxY + 1, 0);
         world.ClimbRegions = climbs.ToArray(); world.VoidRegions = voids.ToArray();
-        return world;
+        if (passageHeight > 0) OpenExterior(world);
+    }
+
+    private static void OpenExterior(WorldData world)
+    {
+        int width = world.Tiles.GetLength(0), height = world.Tiles.GetLength(1);
+        var shell = new bool[width, height];
+        // Keep local cave walls/ceilings; storage bounds are not physical map walls.
+        const int thickness = 2;
+        for (int x = 1; x < width - 1; x++) for (int y = 1; y < height - 1; y++)
+            if (world.Tiles[x, y] == 0)
+                for (int dx = -thickness; dx <= thickness; dx++) for (int dy = -thickness; dy <= thickness; dy++)
+                {
+                    int tx = x + dx, ty = y + dy;
+                    if (tx > 0 && tx < width - 1 && ty > 0 && ty < height - 1) shell[tx, ty] = true;
+                }
+        // Reuse the exact support rules, including upper climb ledges and jump landings.
+        var supports = new WorldData { Tiles = new int[width, height], Route = world.Route, CellSize = world.CellSize };
+        foreach (TraversalLink link in world.Route.Links) Support(supports, link, true);
+        for (int x = 0; x < width; x++) for (int y = 0; y < height; y++)
+            if (x == 0 || y == 0 || x == width - 1 || y == height - 1 || (!shell[x, y] && supports.Tiles[x, y] == 0))
+                world.Tiles[x, y] = 0;
+        // A warning marks a real open drop. Stop at a protected lower route instead
+        // of cutting its floor; its own passage must remain traversable and safe.
+        foreach (TileRegion gap in world.VoidRegions)
+            for (int x = gap.MinX; x <= gap.MaxX; x++)
+                for (int y = gap.MinY - 1; y >= 0; y--)
+                {
+                    if (supports.Tiles[x, y] != 0) break;
+                    world.Tiles[x, y] = 0;
+                }
+        TraversalNode left = world.Route.Nodes[0], right = left;
+        foreach (TraversalNode node in world.Route.Nodes)
+        {
+            if (node.FloorX < left.FloorX) left = node;
+            if (node.FloorX > right.FloorX) right = node;
+        }
+        var hazards = new List<TileRegion>(world.VoidRegions);
+        OpenSide(world, supports, left, -1, hazards);
+        OpenSide(world, supports, right, 1, hazards);
+        world.VoidRegions = hazards.ToArray();
+    }
+
+    private static void OpenSide(WorldData world, WorldData supports, TraversalNode node, int direction, List<TileRegion> hazards)
+    {
+        int width = world.Tiles.GetLength(0), edge = node.FloorX;
+        while (edge + direction > 0 && edge + direction < width - 1 && supports.Tiles[edge + direction, node.FloorY] != 0)
+            edge += direction;
+        int first = direction < 0 ? 0 : edge + 1, last = direction < 0 ? edge - 1 : width - 1;
+        // Open the outward face of the extreme chamber into air. Its last supported
+        // tile stays intact; there is no extra floor or collider at storage bounds.
+        for (int x = first; x <= last; x++)
+            for (int y = 0; y <= Math.Min(world.Tiles.GetLength(1) - 1, node.FloorY + 6); y++)
+                if (supports.Tiles[x, y] == 0) world.Tiles[x, y] = 0;
+        hazards.Add(new TileRegion(first, 0, last, node.FloorY - 2) { CueX = edge, CueY = node.FloorY + 1 });
     }
 
     private static int AddNode(List<TraversalNode> nodes, int x, int y) { nodes.Add(new TraversalNode(x, y)); return nodes.Count - 1; }
@@ -272,9 +362,28 @@ public static class HardcoreWorldGenerator
         for (int x = Math.Max(1, minX); x <= Math.Min(world.Tiles.GetLength(0) - 2, maxX); x++)
             for (int y = Math.Max(1, minY); y <= Math.Min(world.Tiles.GetLength(1) - 2, maxY); y++) world.Tiles[x, y] = value;
     }
-    private static void CarvePath(WorldData world, TraversalLink link, TraversalCapabilities caps)
+    private static void CarveChamber(WorldData world, TraversalLink link)
     {
-        double bodyHeight = link.Action == TraversalAction.Crawl ? caps.CrouchedHeight : caps.StandingHeight;
+        TraversalNode a = world.Route.Nodes[link.FromNode], b = world.Route.Nodes[link.ToNode];
+        double left = Math.Min(a.FloorX, b.FloorX) * world.CellSize - .325;
+        double right = Math.Max(a.FloorX, b.FloorX) * world.CellSize + .325;
+        double bottom = (a.FloorY + .5) * world.CellSize + .04;
+        int roomSeed = unchecked(world.Seed ^ a.FloorY * 73856093);
+        // One continuous spatial roof field across adjacent links, independent of jump arcs.
+        for (int x = Math.Max(1, Math.Min(a.FloorX, b.FloorX) - 1); x <= Math.Min(world.Tiles.GetLength(0) - 2, Math.Max(a.FloorX, b.FloorX) + 1); x++)
+        {
+            if ((x + .5) * world.CellSize <= left || (x - .5) * world.CellSize >= right) continue;
+            double noise = Math.Max(0, Math.Min(1, ProceduralWorld.SampleSurface(x * .075, roomSeed) * .5 + .5));
+            double ceiling = bottom + (link.ChamberHeight > 0 ? link.ChamberHeight : 3.5 + noise * 2.5);
+            int lastY = Math.Min(world.Tiles.GetLength(1) - 2, (int)Math.Ceiling(ceiling / world.CellSize + .5));
+            for (int y = a.FloorY + 1; y <= lastY; y++)
+                if ((y - .5) * world.CellSize < ceiling) world.Tiles[x, y] = 0;
+        }
+    }
+
+    private static void CarvePath(WorldData world, TraversalLink link, TraversalCapabilities caps, double passageHeight)
+    {
+        double bodyHeight = link.Action == TraversalAction.Crawl ? caps.CrouchedHeight : Math.Max(caps.StandingHeight, passageHeight);
         for (int i = 1; i < link.Path.Length; i++)
         {
             TrajectorySample a = link.Path[i - 1], b = link.Path[i];
@@ -287,23 +396,28 @@ public static class HardcoreWorldGenerator
         }
     }
     private static void Floor(WorldData world, int from, int to, int y) { Rectangle(world, from, y - 1, to, y, 1); }
-    private static void Support(WorldData world, TraversalLink link)
+    private static void Support(WorldData world, TraversalLink link, bool openLandings)
     {
         if (!link.Primary && link.Action == TraversalAction.DoubleJump) return;
         TraversalNode a = world.Route.Nodes[link.FromNode], b = world.Route.Nodes[link.ToNode];
         if (link.Action == TraversalAction.Jump || link.Action == TraversalAction.DoubleJump)
-        { Floor(world, a.FloorX - 3, a.FloorX, a.FloorY); Floor(world, b.FloorX - (link.Action == TraversalAction.Jump ? 0 : 2), b.FloorX + 2, b.FloorY); }
+        {
+            int direction = Math.Sign(b.FloorX - a.FloorX);
+            Floor(world, Math.Min(a.FloorX - direction * 3, a.FloorX), Math.Max(a.FloorX - direction * 3, a.FloorX), a.FloorY);
+            int near = b.FloorX - direction * (link.Action == TraversalAction.Jump ? 0 : 2), far = b.FloorX + direction * 2;
+            Floor(world, Math.Min(near, far), Math.Max(near, far), b.FloorY);
+        }
         else if (link.Action == TraversalAction.Climb)
         {
             int direction = Math.Sign(b.FloorX - a.FloorX);
             if (b.FloorY > a.FloorY)
             {
                 Floor(world, Math.Min(a.FloorX, b.FloorX - direction), Math.Max(a.FloorX, b.FloorX - direction), a.FloorY);
-                Rectangle(world, Math.Min(b.FloorX, b.FloorX + direction * 2), a.FloorY, Math.Max(b.FloorX, b.FloorX + direction * 2), b.FloorY, 1);
+                Rectangle(world, Math.Min(b.FloorX, b.FloorX + direction * 2), openLandings ? b.FloorY - 1 : a.FloorY, Math.Max(b.FloorX, b.FloorX + direction * 2), b.FloorY, 1);
             }
             else
             {
-                Rectangle(world, Math.Min(a.FloorX - direction * 2, a.FloorX), b.FloorY, Math.Max(a.FloorX - direction * 2, a.FloorX), a.FloorY, 1);
+                Rectangle(world, Math.Min(a.FloorX - direction * 2, a.FloorX), openLandings ? a.FloorY - 1 : b.FloorY, Math.Max(a.FloorX - direction * 2, a.FloorX), a.FloorY, 1);
                 Floor(world, Math.Min(a.FloorX + direction, b.FloorX), Math.Max(a.FloorX + direction, b.FloorX), b.FloorY);
             }
         }
@@ -322,7 +436,7 @@ internal static class TraversalGeometry
         if (link.Action == TraversalAction.Jump || link.Action == TraversalAction.DoubleJump)
         {
             TrajectorySample[] trace = link.Action == TraversalAction.Jump ? c.SingleJumpSamples : c.DoubleJumpSamples;
-            for (int i = 1; i < trace.Length; i++) path.Add(new TrajectorySample(trace[i].Time * 1.1, x + trace[i].X, y + trace[i].Y));
+            for (int i = 1; i < trace.Length; i++) path.Add(new TrajectorySample(trace[i].Time * 1.1, x + Math.Sign(targetX - x) * trace[i].X, y + trace[i].Y));
             TrajectorySample end = path[path.Count - 1]; time = end.Time + Math.Abs(targetX - end.X) / c.WalkSpeed * 1.15;
             path.Add(new TrajectorySample(time, targetX, targetY));
         }

@@ -1,0 +1,53 @@
+{
+    "worlds": [
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 2,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 134,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 856.9736938476563,
+            "position": {
+                "x": 85.47622680664063,
+                "y": 34.71707534790039
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 4,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 109,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 778.1968383789063,
+            "position": {
+                "x": 117.47575378417969,
+                "y": 15.71705150604248
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 11,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 165,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 1153.92333984375,
+            "position": {
+                "x": 77.4681625366211,
+                "y": 27.21705436706543
+            },
+            "reachedGoal": true
+        }
+    ],
+    "error": ""
+}

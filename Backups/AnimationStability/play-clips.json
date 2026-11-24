@@ -1,0 +1,53 @@
+{
+    "clips": [
+        {
+            "path": "Assets/Animaciones/Player/PlayerIdle.anim",
+            "poses": 16,
+            "mixedKeys": 0,
+            "missing": false
+        },
+        {
+            "path": "Assets/Animaciones/Player/PlayerWalk.anim",
+            "poses": 20,
+            "mixedKeys": 0,
+            "missing": false
+        },
+        {
+            "path": "Assets/Animaciones/Player/PlayerFall.anim",
+            "poses": 15,
+            "mixedKeys": 0,
+            "missing": false
+        },
+        {
+            "path": "Assets/Animaciones/Player/Expanded/PlayerIdleExpanded.anim",
+            "poses": 16,
+            "mixedKeys": 0,
+            "missing": false
+        },
+        {
+            "path": "Assets/Animaciones/Player/Expanded/PlayerWalkExpanded.anim",
+            "poses": 20,
+            "mixedKeys": 0,
+            "missing": false
+        },
+        {
+            "path": "Assets/Animaciones/Player/Expanded/PlayerRun.anim",
+            "poses": 20,
+            "mixedKeys": 0,
+            "missing": false
+        },
+        {
+            "path": "Assets/Animaciones/Player/Expanded/PlayerJump.anim",
+            "poses": 15,
+            "mixedKeys": 0,
+            "missing": false
+        },
+        {
+            "path": "Assets/Animaciones/Player/Expanded/PlayerFallExpanded.anim",
+            "poses": 15,
+            "mixedKeys": 0,
+            "missing": false
+        }
+    ],
+    "coherent": true
+}

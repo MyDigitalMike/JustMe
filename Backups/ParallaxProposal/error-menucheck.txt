@@ -1,0 +1,3 @@
+System.Exception: Menu backdrop blocks or fails coverage.
+  at AtmosphereProposalProbe.MenuCheck () [0x00155] in C:\Personal\JustMe\Assets\Editor\AtmosphereProposalProbe.cs:151 
+  at AtmosphereProposalProbe.Poll () [0x000e5] in C:\Personal\JustMe\Assets\Editor\AtmosphereProposalProbe.cs:39 

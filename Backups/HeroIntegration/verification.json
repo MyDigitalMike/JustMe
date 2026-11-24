@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-24",
+  "unity": "6000.6.8f1",
+  "approval": "User explicitly approved replacing current avatar and integrating rope/cornice concept, adding Subir",
+  "import": {
+    "sprites": 60,
+    "clips": 12,
+    "props": 4,
+    "rootMotion": false,
+    "physicsChanged": false
+  },
+  "play": {
+    "error": "",
+    "poses": 20,
+    "physicsCases": 4,
+    "allAnime": true,
+    "spriteOnly": true,
+    "soleAligned": true,
+    "naturalScale": true,
+    "doubleJumpAccepted": true,
+    "doubleJumpDenied": true,
+    "pullUpBothSides": true,
+    "releaseRestoresGravity": true,
+    "stoppedClimbFreezes": true,
+    "decorativeOnly": true,
+    "maximumClimbAnchorStep": 0.10592460632324219,
+    "detail": [
+      "Idle facing=1 sprite=Idle_04",
+      "Walking facing=1 sprite=Walk_01",
+      "Sprinting facing=1 sprite=Run_00",
+      "Airborne facing=1 sprite=Jump_04",
+      "Airborne facing=1 sprite=Jump_05",
+      "Crouching facing=1 sprite=CrouchEnter_05",
+      "Crawling facing=1 sprite=Crawl_03",
+      "Climbing facing=1 sprite=Climb_03",
+      "Hanging facing=1 sprite=Hang_04",
+      "PullingUp facing=1 sprite=PullUp_05",
+      "Idle facing=-1 sprite=Idle_04",
+      "Walking facing=-1 sprite=Walk_01",
+      "Sprinting facing=-1 sprite=Run_00",
+      "Airborne facing=-1 sprite=Jump_04",
+      "Airborne facing=-1 sprite=Jump_05",
+      "Crouching facing=-1 sprite=CrouchEnter_05",
+      "Crawling facing=-1 sprite=Crawl_03",
+      "Climbing facing=-1 sprite=Climb_03",
+      "Hanging facing=-1 sprite=Hang_04",
+      "PullingUp facing=-1 sprite=PullUp_05",
+      "PullUp facing=1 distinctFrames=6 landed=True",
+      "PullUp facing=-1 distinctFrames=6 landed=True",
+      "Live climb regions=41 rope renderers=41",
+      "Synthetic traversal props=4 colliderCount=0"
+    ]
+  },
+  "preserved": [
+    {
+      "path": "Assets/Script/Game/Player.cs",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Script/Game/Player.cs.meta",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Script/Game/TraversalEnvironment.cs",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Script/Game/TraversalEnvironment.cs.meta",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Animaciones/Player/Player.controller",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Animaciones/Player/Player.controller.meta",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Prefabs/Character/Player.prefab",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Prefabs/Character/Player.prefab.meta",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Scenes/JustMe.unity",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Scenes/JustMe.unity.meta",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Script/GeneracionMundo/WorldFog.cs",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Script/GeneracionMundo/WorldFog.cs.meta",
+      "unchanged": true
+    },
+    {
+      "path": "Packages/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "unchanged": true
+    }
+  ],
+  "changed": [
+    "Assets/Script/Game/Player.cs",
+    "Assets/Script/Game/HeroVisualAlignment.cs",
+    "Assets/Script/Game/TraversalEnvironment.cs",
+    "Assets/Animaciones/Player/Player.controller",
+    "Assets/Prefabs/Character/Player.prefab",
+    "Assets/Animaciones/Player/AnimeHero",
+    "Assets/Art/Character/AnimeHero",
+    "Assets/Resources/HeroTraversal/Props.png",
+    "docs/context/source/VISUAL_CHECKPOINT.md"
+  ],
+  "observed": [
+    "Character rendered in actual JustMe gameplay",
+    "Rope climb and arrival atop platform seen in temporary native visual fixture",
+    "Compilation and Play in matching Unity Editor",
+    "Temporary fixture/camera gone after stopping Play, Editor probe+meta archived with hash verification"
+  ],
+  "independentReview": "No blocking issue found; moving hand anchor concern corrected with 0.1s transfer, measured 0.105925 maximum world anchor step per 0.02s",
+  "scope": "Visual-only integration, original forces/casts/grip/stamina rules and physical collider parameters preserved; no package or scene changes",
+  "limitations": [
+    "First art integration; anatomical continuity and exact per-frame contacts still need manual play-feel polish",
+    "Small possible rope tiling seams remain",
+    "Stone dressing decorates old void-warning cue positions, not all map ledges",
+    "No full generated-world completion regression repeated"
+  ],
+  "prompts": "Backups/HeroIntegration/art-prompts.json",
+  "sourceMode": "built-in ImageGen",
+  "documentation": [
+    "Installed Sprite Data Provider Documentation~/DataProvider.md",
+    "https://docs.unity.com/en-us/engine/6000.6/script-reference/unityeditor/animations/animatorstate/timeparameteractive",
+    "https://docs.unity.com/en-us/engine/6000.6/script-reference/unityengine/spritedrawmode/tiled"
+  ]
+}

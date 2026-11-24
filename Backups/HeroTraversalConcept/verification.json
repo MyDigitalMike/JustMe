@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-24",
+  "unity": "6000.6.8f1",
+  "mode": "built-in ImageGen",
+  "concept": "Backups/HeroTraversalConcept/CharacterAndGrips.png",
+  "atlas": "Assets/Art/Prototypes/HeroMotion/MotionDraft.png",
+  "scene": "Assets/Scenes/Prototypes/HeroMotionDraft.unity",
+  "prompts": "Backups/HeroTraversalConcept/art-prompts.json",
+  "import": {
+    "sprites": 24,
+    "clips": 4,
+    "physicsAdded": false,
+    "productionAnimatorReplaced": false,
+    "uniformPixelsPerUnit": 128
+  },
+  "playChecks": {
+    "error": "",
+    "sprites": 24,
+    "clips": 4,
+    "distinctActions": true,
+    "onlySpriteCurves": true,
+    "noPhysics": true,
+    "noRootMotion": true,
+    "sampledAllStates": true
+  },
+  "observed": [
+    "Preview entered Play Mode in matching Unity Editor",
+    "Transparent background visible",
+    "DoubleJump and Climb selected and sampled visibly",
+    "Console error count zero during Play",
+    "No new compilation/exception log matches since import offset"
+  ],
+  "preserved": [
+    {
+      "path": "Assets/Script/Game/Player.cs",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Script/Game/TraversalEnvironment.cs",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Animaciones/Player/Player.controller",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Animaciones/Player/Expanded/PlayerClimb.anim",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Animaciones/Player/Expanded/PlayerJump.anim",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Prefabs/Character/Player.prefab",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Scenes/JustMe.unity",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Script/GeneracionMundo/WorldFog.cs",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Resources/WorldPresentation.prefab",
+      "unchanged": true
+    },
+    {
+      "path": "Packages/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "unchanged": true
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "unchanged": true
+    }
+  ],
+  "diagnosis": [
+    "Red marker is Void edge warning without collider",
+    "Production visual selector does not distinguish double jump",
+    "Existing climb clip has eight unique frames"
+  ],
+  "limitations": [
+    "Draft only: frame continuity and anatomy need manual polish",
+    "No production character or traversal art replaced",
+    "No live gameplay hand/foot locking verified or fixed",
+    "Jump clips loop for preview, not final gameplay transitions",
+    "No claim that original sliding is fixed"
+  ],
+  "cleanup": "Play stopped, temporary Editor probe archived outside Assets with available meta preserved and hash verified",
+  "finalProductionBaselineUnchanged": true
+}

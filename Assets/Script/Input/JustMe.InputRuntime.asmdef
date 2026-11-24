@@ -1,0 +1,5 @@
+{
+  "name": "JustMe.InputRuntime",
+  "references": ["Unity.InputSystem"],
+  "autoReferenced": true
+}

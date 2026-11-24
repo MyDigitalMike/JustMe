@@ -1,0 +1,5 @@
+{
+    "error": "System.InvalidOperationException: This can only be used during play mode, please use EditorSceneManager.NewScene() instead.\r\n  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.CreateScene_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.SceneManagement.CreateSceneParameters&,UnityEngine.SceneManagement.Scene&)\r\n  at UnityEngine.SceneManagement.SceneManager.CreateScene (System.String sceneName, UnityEngine.SceneManagement.CreateSceneParameters parameters) [0x00039] in <eef04556956e4cb98ff60ea01f3f73dc>:0 \r\n  at HouseRuinsProbe.Verify (System.Boolean baseline) [0x00044] in C:\\Personal\\JustMe\\Assets\\Editor\\HouseRuinsProbe.cs:210 ",
+    "ready": true,
+    "worlds": []
+}

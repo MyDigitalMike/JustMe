@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Script/Game/TraversalEnvironment.cs",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Animaciones/Player/Player.controller",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerClimb.anim",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerJump.anim",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Prefabs/Character/Player.prefab",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldFog.cs",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Resources/WorldPresentation.prefab",
+    "unchanged": true
+  },
+  {
+    "path": "Packages/manifest.json",
+    "unchanged": true
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "unchanged": true
+  },
+  {
+    "path": "ProjectSettings/EditorBuildSettings.asset",
+    "unchanged": true
+  }
+]

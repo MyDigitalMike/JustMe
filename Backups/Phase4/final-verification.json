@@ -1,0 +1,60 @@
+{
+  "phase4-pure.json": {
+    "passed": true,
+    "assertions": 355,
+    "worldCases": 64
+  },
+  "world-regression.json": {
+    "passed": true,
+    "assertions": 157,
+    "rejectedCases": [
+      "spawn obstruction",
+      "low stamina",
+      "crawl exhaustion",
+      "removed recovery",
+      "airborne walk",
+      "forged jump",
+      "missing climbable regions",
+      "impossible crawl speed",
+      "impossible climb speed",
+      "lethal path",
+      "unsafe rest",
+      "bounded rejection"
+    ]
+  },
+  "legacy-world-regression.json": {
+    "passed": true,
+    "assertions": 84346,
+    "mapsChecked": 13
+  },
+  "integration.json": {
+    "complete": true,
+    "checks": 32,
+    "failures": [],
+    "error": ""
+  },
+  "movement-measurements.json": {
+    "tests": 38,
+    "failed": [],
+    "productFailures": [],
+    "harnessErrors": []
+  },
+  "physical-collection-replay.json": {
+    "worlds": 6,
+    "allCollectedAndReachedGoal": true,
+    "error": ""
+  },
+  "assets-verify.json": {
+    "complete": true,
+    "missingScripts": 0,
+    "missingPrefabs": 0,
+    "error": ""
+  },
+  "finalEditor": {
+    "version": "6000.6.8f1",
+    "playModeWithoutProbesObserved": true,
+    "leftOutsidePlayMode": true,
+    "consoleErrorsObserved": 0,
+    "remainingWarning": "VS/Unity messaging UDP port 56158 unavailable; security and networking settings unchanged"
+  }
+}

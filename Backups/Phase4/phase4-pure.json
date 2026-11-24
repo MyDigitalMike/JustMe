@@ -1,0 +1,520 @@
+{
+  "passed": true,
+  "verification": "Pure C# policy and complete collection model; not Unity compilation or physical proof of every seed",
+  "assertions": 355,
+  "worldCases": 64,
+  "worlds": [
+    {
+      "profile": "Horizontal",
+      "count": 1,
+      "seed": 0,
+      "remaining": 70.99983215332031,
+      "seconds": 117.33999737724662,
+      "signature": "C2B783AD244447D4"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 1,
+      "seed": 1,
+      "remaining": 58.39986038208008,
+      "seconds": 118.13999735936522,
+      "signature": "08ACFED0315D4197"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 1,
+      "seed": -1,
+      "remaining": 70.99983215332031,
+      "seconds": 117.33999737724662,
+      "signature": "B97CD74D4A95B957"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 1,
+      "seed": 2147483647,
+      "remaining": 67.19989013671875,
+      "seconds": 116.57999739423394,
+      "signature": "0F85637B8108BE1E"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 3,
+      "seed": 0,
+      "remaining": 70.99983215332031,
+      "seconds": 117.33999737724662,
+      "signature": "C2B783AD244447D4"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 3,
+      "seed": 1,
+      "remaining": 58.39986038208008,
+      "seconds": 118.13999735936522,
+      "signature": "08ACFED0315D4197"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 3,
+      "seed": -1,
+      "remaining": 70.99983215332031,
+      "seconds": 117.33999737724662,
+      "signature": "B97CD74D4A95B957"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 3,
+      "seed": 2147483647,
+      "remaining": 67.19989013671875,
+      "seconds": 116.57999739423394,
+      "signature": "0F85637B8108BE1E"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 4,
+      "seed": 0,
+      "remaining": 70.99983215332031,
+      "seconds": 117.33999737724662,
+      "signature": "C2B783AD244447D4"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 4,
+      "seed": 1,
+      "remaining": 58.39986038208008,
+      "seconds": 118.13999735936522,
+      "signature": "08ACFED0315D4197"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 4,
+      "seed": -1,
+      "remaining": 70.99983215332031,
+      "seconds": 117.33999737724662,
+      "signature": "B97CD74D4A95B957"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 4,
+      "seed": 2147483647,
+      "remaining": 67.19989013671875,
+      "seconds": 116.57999739423394,
+      "signature": "0F85637B8108BE1E"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 12,
+      "seed": 0,
+      "remaining": 70.99983215332031,
+      "seconds": 117.33999737724662,
+      "signature": "C2B783AD244447D4"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 12,
+      "seed": 1,
+      "remaining": 58.39986038208008,
+      "seconds": 118.13999735936522,
+      "signature": "08ACFED0315D4197"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 12,
+      "seed": -1,
+      "remaining": 70.99983215332031,
+      "seconds": 117.33999737724662,
+      "signature": "B97CD74D4A95B957"
+    },
+    {
+      "profile": "Horizontal",
+      "count": 12,
+      "seed": 2147483647,
+      "remaining": 67.19989013671875,
+      "seconds": 116.57999739423394,
+      "signature": "0F85637B8108BE1E"
+    },
+    {
+      "profile": "Ascent",
+      "count": 1,
+      "seed": 0,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "7E2C15B473C9B770"
+    },
+    {
+      "profile": "Ascent",
+      "count": 1,
+      "seed": 1,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "494EB9E90D65FF84"
+    },
+    {
+      "profile": "Ascent",
+      "count": 1,
+      "seed": -1,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "E45EEEAC1B3DAB85"
+    },
+    {
+      "profile": "Ascent",
+      "count": 1,
+      "seed": 2147483647,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "B4FA09755028AFA9"
+    },
+    {
+      "profile": "Ascent",
+      "count": 3,
+      "seed": 0,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "7E2C15B473C9B770"
+    },
+    {
+      "profile": "Ascent",
+      "count": 3,
+      "seed": 1,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "494EB9E90D65FF84"
+    },
+    {
+      "profile": "Ascent",
+      "count": 3,
+      "seed": -1,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "E45EEEAC1B3DAB85"
+    },
+    {
+      "profile": "Ascent",
+      "count": 3,
+      "seed": 2147483647,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "B4FA09755028AFA9"
+    },
+    {
+      "profile": "Ascent",
+      "count": 4,
+      "seed": 0,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "7E2C15B473C9B770"
+    },
+    {
+      "profile": "Ascent",
+      "count": 4,
+      "seed": 1,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "494EB9E90D65FF84"
+    },
+    {
+      "profile": "Ascent",
+      "count": 4,
+      "seed": -1,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "E45EEEAC1B3DAB85"
+    },
+    {
+      "profile": "Ascent",
+      "count": 4,
+      "seed": 2147483647,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "B4FA09755028AFA9"
+    },
+    {
+      "profile": "Ascent",
+      "count": 12,
+      "seed": 0,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "7E2C15B473C9B770"
+    },
+    {
+      "profile": "Ascent",
+      "count": 12,
+      "seed": 1,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "494EB9E90D65FF84"
+    },
+    {
+      "profile": "Ascent",
+      "count": 12,
+      "seed": -1,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "E45EEEAC1B3DAB85"
+    },
+    {
+      "profile": "Ascent",
+      "count": 12,
+      "seed": 2147483647,
+      "remaining": 100.0,
+      "seconds": 186.31999583542347,
+      "signature": "B4FA09755028AFA9"
+    },
+    {
+      "profile": "Descent",
+      "count": 1,
+      "seed": 0,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "FFCA9719554FE15A"
+    },
+    {
+      "profile": "Descent",
+      "count": 1,
+      "seed": 1,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "DF5E5C07B904C145"
+    },
+    {
+      "profile": "Descent",
+      "count": 1,
+      "seed": -1,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "66925E1DE9AA9377"
+    },
+    {
+      "profile": "Descent",
+      "count": 1,
+      "seed": 2147483647,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "47828C9016C93A8E"
+    },
+    {
+      "profile": "Descent",
+      "count": 3,
+      "seed": 0,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "FFCA9719554FE15A"
+    },
+    {
+      "profile": "Descent",
+      "count": 3,
+      "seed": 1,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "DF5E5C07B904C145"
+    },
+    {
+      "profile": "Descent",
+      "count": 3,
+      "seed": -1,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "66925E1DE9AA9377"
+    },
+    {
+      "profile": "Descent",
+      "count": 3,
+      "seed": 2147483647,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "47828C9016C93A8E"
+    },
+    {
+      "profile": "Descent",
+      "count": 4,
+      "seed": 0,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "FFCA9719554FE15A"
+    },
+    {
+      "profile": "Descent",
+      "count": 4,
+      "seed": 1,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "DF5E5C07B904C145"
+    },
+    {
+      "profile": "Descent",
+      "count": 4,
+      "seed": -1,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "66925E1DE9AA9377"
+    },
+    {
+      "profile": "Descent",
+      "count": 4,
+      "seed": 2147483647,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "47828C9016C93A8E"
+    },
+    {
+      "profile": "Descent",
+      "count": 12,
+      "seed": 0,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "FFCA9719554FE15A"
+    },
+    {
+      "profile": "Descent",
+      "count": 12,
+      "seed": 1,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "DF5E5C07B904C145"
+    },
+    {
+      "profile": "Descent",
+      "count": 12,
+      "seed": -1,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "66925E1DE9AA9377"
+    },
+    {
+      "profile": "Descent",
+      "count": 12,
+      "seed": 2147483647,
+      "remaining": 100.0,
+      "seconds": 187.91999579966068,
+      "signature": "47828C9016C93A8E"
+    },
+    {
+      "profile": "Mixed",
+      "count": 1,
+      "seed": 0,
+      "remaining": 94.99977111816406,
+      "seconds": 116.51999739557505,
+      "signature": "23E17E949155BA19"
+    },
+    {
+      "profile": "Mixed",
+      "count": 1,
+      "seed": 1,
+      "remaining": 98.63972473144531,
+      "seconds": 116.93999738618731,
+      "signature": "86905BFE3DCA2610"
+    },
+    {
+      "profile": "Mixed",
+      "count": 1,
+      "seed": -1,
+      "remaining": 98.63972473144531,
+      "seconds": 116.53999739512801,
+      "signature": "BCE1FBBF38704F3D"
+    },
+    {
+      "profile": "Mixed",
+      "count": 1,
+      "seed": 2147483647,
+      "remaining": 94.83978271484375,
+      "seconds": 115.77999741211534,
+      "signature": "BB4A3A6068A053D6"
+    },
+    {
+      "profile": "Mixed",
+      "count": 3,
+      "seed": 0,
+      "remaining": 94.99977111816406,
+      "seconds": 116.51999739557505,
+      "signature": "23E17E949155BA19"
+    },
+    {
+      "profile": "Mixed",
+      "count": 3,
+      "seed": 1,
+      "remaining": 98.63972473144531,
+      "seconds": 116.93999738618731,
+      "signature": "86905BFE3DCA2610"
+    },
+    {
+      "profile": "Mixed",
+      "count": 3,
+      "seed": -1,
+      "remaining": 98.63972473144531,
+      "seconds": 116.53999739512801,
+      "signature": "BCE1FBBF38704F3D"
+    },
+    {
+      "profile": "Mixed",
+      "count": 3,
+      "seed": 2147483647,
+      "remaining": 94.83978271484375,
+      "seconds": 115.77999741211534,
+      "signature": "BB4A3A6068A053D6"
+    },
+    {
+      "profile": "Mixed",
+      "count": 4,
+      "seed": 0,
+      "remaining": 94.99977111816406,
+      "seconds": 116.51999739557505,
+      "signature": "23E17E949155BA19"
+    },
+    {
+      "profile": "Mixed",
+      "count": 4,
+      "seed": 1,
+      "remaining": 98.63972473144531,
+      "seconds": 116.93999738618731,
+      "signature": "86905BFE3DCA2610"
+    },
+    {
+      "profile": "Mixed",
+      "count": 4,
+      "seed": -1,
+      "remaining": 98.63972473144531,
+      "seconds": 116.53999739512801,
+      "signature": "BCE1FBBF38704F3D"
+    },
+    {
+      "profile": "Mixed",
+      "count": 4,
+      "seed": 2147483647,
+      "remaining": 94.83978271484375,
+      "seconds": 115.77999741211534,
+      "signature": "BB4A3A6068A053D6"
+    },
+    {
+      "profile": "Mixed",
+      "count": 12,
+      "seed": 0,
+      "remaining": 94.99977111816406,
+      "seconds": 116.51999739557505,
+      "signature": "23E17E949155BA19"
+    },
+    {
+      "profile": "Mixed",
+      "count": 12,
+      "seed": 1,
+      "remaining": 98.63972473144531,
+      "seconds": 116.93999738618731,
+      "signature": "86905BFE3DCA2610"
+    },
+    {
+      "profile": "Mixed",
+      "count": 12,
+      "seed": -1,
+      "remaining": 98.63972473144531,
+      "seconds": 116.53999739512801,
+      "signature": "BCE1FBBF38704F3D"
+    },
+    {
+      "profile": "Mixed",
+      "count": 12,
+      "seed": 2147483647,
+      "remaining": 94.83978271484375,
+      "seconds": 115.77999741211534,
+      "signature": "BB4A3A6068A053D6"
+    }
+  ]
+}

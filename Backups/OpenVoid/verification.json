@@ -1,0 +1,26 @@
+{
+  "finalPlayState": "Not rechecked after user input and window activation timeout; GameOver was observed before probe retirement",
+  "nativeGameOverObserved": true,
+  "playerPreserved": true,
+  "nativeSceneOutlineInspected": true,
+  "legacyAssertions": 157,
+  "unityVersion": "6000.6.8f1",
+  "consoleErrorsAtGameOver": 0,
+  "nativeCollectionWorlds": 3,
+  "manualLightingPreserved": true,
+  "limits": "Supported lower routes remain intact; only unsupported exterior/pit drops are lethal. Representative native samples, not proof of every seed.",
+  "topologyCases": 42,
+  "sourceHash": "7789E915748F23ABE4665C8104068C223C5FEA3F16A4B0833BE5A73341F9BA7B",
+  "normalModelRuns": 32,
+  "runtimeFile": "Assets/Script/GeneracionMundo/TraversalWorld.cs",
+  "topologyAssertions": 211,
+  "metaPreserved": true,
+  "nativeFalls": [
+    "left exterior",
+    "right exterior",
+    "marked pit"
+  ],
+  "nativeCompilationObserved": true,
+  "probeRetired": true,
+  "fragmentsPerWorld": 12
+}

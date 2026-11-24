@@ -19,6 +19,9 @@ public sealed class WorldData
     public double CellSize = 1;
     public TraversalPlan Route;
     public TileRegion[] ClimbRegions, VoidRegions;
+    public int RequiredFragments;
+    public int ExplorationNode = -1;
+    public int[] FragmentNodes, CollectionLinks;
     public int Seed;
     public int[,] Tiles;
     public int[] Surface;

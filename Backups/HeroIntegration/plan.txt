@@ -1,0 +1,9 @@
+Approved scope: replace production avatar with approved anime concept; add PullUp; distinguish double jump; replace rope/red cue art without collider changes.
+Approach: preserve existing Animator and sprite bindings, remap motions through native Editor APIs. New double-jump visual pose; PullUp timing follows actual movement progress. Scale through importer PPU, never character transform. Back up serialized assets before edits.
+Alternatives: separate sprite driver risks two rendering owners; full movement/controller rewrite is unnecessary. Use a minimal extension of existing presentation.
+1. Generate missing poses and rope/stone art; preserve originals and GUIDs.
+2. Observe focused failing native checks for anime set, double-jump pose, PullUp sequence.
+3. Import with installed Sprite Data Provider, uniform scale and sole/hand registration. Remap existing states; add double-jump state. Save through Unity APIs.
+4. Dress traversal regions with rope and stone, no collision/lethal-region/generation changes.
+5. Compile; exercise double jump, crouch, climbing, hanging and PullUp in both directions. Check collider/rigidbody preservation and physics recovery. Archive temporary probe, keep old assets for rollback.
+Constraints: no packages, input, fog, world-generation, saves, Git operations or unrelated scene edits.

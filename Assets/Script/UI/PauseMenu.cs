@@ -1,4 +1,5 @@
-﻿using System.Collections;
+using Input = GameInput;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,7 +13,7 @@ public class PauseMenu : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (pauseMenuUI != null && Input.GetKeyDown(KeyCode.Escape))
         {
             if (EnPausa)
             {

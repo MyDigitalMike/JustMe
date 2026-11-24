@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7516002601802950376}
   - component: {fileID: 6908904801748082830}
   - component: {fileID: 8528968373289321609}
+  - component: {fileID: 3398244735850544813}
+  - component: {fileID: 2397384170739765886}
   m_Layer: 0
   m_Name: WorldPresentation
   m_TagString: Untagged
@@ -48,7 +50,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2226828096960850292}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e399ccb02730def4aa82e21be69f4d56, type: 3}
   m_Name: 
@@ -88,6 +90,49 @@ MonoBehaviour:
   caveAmbient: 0.3
   surfaceAmbient: 0.85
   player: {fileID: 0}
+  nearTotalDarkness: 1
+  visibilityRadius: 1.1
+  localIntensity: 1.1
+  localFalloff: 0.7
+  backgroundDarkness: 1
+  followSharpness: 18
+  debugFullVisibility: 1
+--- !u!114 &3398244735850544813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2226828096960850292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ea8b550648315498a3a6499f7a614d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldFog
+  materialTemplate: {fileID: 2100000, guid: 976143ed66f248747b2bb87e5fb54cd0, type: 2}
+  sortingLayerID: 0
+  sortingOrder: -50
+  density: 0.65
+  fogColor: {r: 0.5, g: 0.62, b: 0.72, a: 1}
+  visible: 1
+--- !u!114 &2397384170739765886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2226828096960850292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54cc7a102bfc77448562f8d3b0412b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldBackdropLayers
+  sprites:
+  - {fileID: 1932745132, guid: 7fd8117db496dcd41842f88be3549a4e, type: 3}
+  - {fileID: -2097620839, guid: 7fd8117db496dcd41842f88be3549a4e, type: 3}
+  - {fileID: -126141081, guid: 7fd8117db496dcd41842f88be3549a4e, type: 3}
+  materialTemplate: {fileID: 2100000, guid: a5d9cb4d061a7a644a8ead0dcc623486, type: 2}
+  visible: 1
 --- !u!1 &2398458131273735976
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,7 +149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8164252722527594016
 Transform:
   m_ObjectHideFlags: 0
@@ -300,7 +345,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4776966031130031872
 Transform:
   m_ObjectHideFlags: 0
@@ -392,7 +437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8617064889900951513
 Transform:
   m_ObjectHideFlags: 0
@@ -484,7 +529,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6812697409178435750
 Transform:
   m_ObjectHideFlags: 0
@@ -680,7 +725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3831536420759021287
 Transform:
   m_ObjectHideFlags: 0
@@ -772,7 +817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7403245281677282178
 Transform:
   m_ObjectHideFlags: 0

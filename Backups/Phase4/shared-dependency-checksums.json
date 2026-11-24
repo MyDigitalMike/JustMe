@@ -1,0 +1,150 @@
+[
+  {
+    "path": "Assets/Animaciones/Enemigo/EnemigoSimple.controller",
+    "sha256": "71EEBB13602C76FA78F60061763C84A8EAEB177858172B6B60A092D71FE884E7"
+  },
+  {
+    "path": "Assets/Animaciones/Enemigo/EnemyIdol.anim",
+    "sha256": "F66E702C382F97E34F1E40596FCBA459FE584658B5CCCF54C4B0C0E38738DE5D"
+  },
+  {
+    "path": "Assets/Animaciones/Enemigo/OnDead.anim",
+    "sha256": "402281BE1694DAAF0B7779273DFB41974A4963C5BA2AFDB75C4A609E29C23206"
+  },
+  {
+    "path": "Assets/Animaciones/Moneda/IdolCoin.anim",
+    "sha256": "AD4CC6D999EEB2FD3685E3A2CAB0DE8979327E7AAA6310ABB0B65A488B787F1E"
+  },
+  {
+    "path": "Assets/Animaciones/Moneda/JustMe.controller",
+    "sha256": "14CD5F97146C17E6BF5C9EA1B9474EA3F8515EDF0FC8335F4B050FD098DD6F62"
+  },
+  {
+    "path": "Assets/Fonts/Sanseriffic.otf",
+    "sha256": "830893D1F8848ADA805DD28C0B86ED7761F5AF01F07F7AB867EEF3625371CB78"
+  },
+  {
+    "path": "Assets/Imagenes/Materials/Enemy.physicsMaterial2D",
+    "sha256": "9B00AEFBEB63B99E050C4D0FA319C007303F89CD0BBDD621EAA29055B5F36EEE"
+  },
+  {
+    "path": "Assets/Imagenes/Materials/Material.physicsMaterial2D",
+    "sha256": "37F61B70BBCF89085C709C2FE2E8CF1DC887D5FB8B546CCC527BFA4FB2374938"
+  },
+  {
+    "path": "Assets/Imagenes/Skeleton.png",
+    "sha256": "D9279292BAD24351582DB4DC7C217E7E21E996FE8251F9E37ACC5EBF3EF341EA"
+  },
+  {
+    "path": "Assets/Script/Game/CoinManager.cs",
+    "sha256": "EDAE31EFC66273A08056507EE45CC74B774ED3055994410384B3A23BA3330146"
+  },
+  {
+    "path": "Assets/Script/Game/Enemigo.cs",
+    "sha256": "BC5B1E9DFFDA2016E22761A66DF905B4D0DAC162E7D36E16AC7F1F6592A0249E"
+  },
+  {
+    "path": "Assets/Script/Game/JumpingHard.cs",
+    "sha256": "8CA42FD08467889B397BE2B6A605D85CCB691D49BBD4E450E021B685A1759E4F"
+  },
+  {
+    "path": "Assets/Sounds/Efectos/Ghost.wav",
+    "sha256": "545151C3F1247998DCD942DCC2040942EC562F20401D680209514A66913DA042"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_000.png",
+    "sha256": "7E499F4C2D0EEEEF2456F8B94B5FEC6EDF69A2F59CEE1299A2E692E1A95A42AB"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_001.png",
+    "sha256": "78C2E0618142D103D7957E5BA577A5E6BE34247FEE963B7AF21C6E23296792AA"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_002.png",
+    "sha256": "6B9244075A3C23F5FB9A4D8788BC7A57250D5F284E2FF9F88898475C6CE9382F"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_003.png",
+    "sha256": "4D1D68A88AE5A9476A1A0B8328FE3BD7DBDF5AFFF0FD844B048D0D4D58A40E27"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_004.png",
+    "sha256": "EF915905DA0E56D45223930E12153B654D612FEADFB69E156429E3382C17A3D4"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_005.png",
+    "sha256": "59CEC16629B7B2327CF0D4F4B483188CDBABCF8B400DCB4031848CD868E70F23"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_006.png",
+    "sha256": "EF0E313C54012B2DB2FDAA1EB5C7782B94719E6908DDF3951895AF0D39551D11"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_007.png",
+    "sha256": "E2FF77837456BCBC179A283F36E6EA7B62011BF934C31DBC50C2B8E95F94E8AD"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_008.png",
+    "sha256": "197C3A7C897359625F2C48DD59F397F2856FFE3B281FAFA2F365863A39CEAB85"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Die_009.png",
+    "sha256": "4CA5AC6FF82D8A612BFAC425E5EA7E925B649B8A1EF9520F087C82324E228B95"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/Idle__009.png",
+    "sha256": "2D437C032E2B557C6D8C5BB9B9C7312EF94F2862A867845320368A29F63CA18E"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_001.png",
+    "sha256": "4CD6EB02F0039F2EE8CC743ADCA8073D8C913F11EA8474D40CBA03D1A09881D7"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_002.png",
+    "sha256": "D18F7BE3AF64282A49FCEE02B51779C6BBA81C06FDC85E1FE1FA95E4E465B37B"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_003.png",
+    "sha256": "74E8AC02F36C9D4C6EF354E2E050A0A6B613133008EFA8B082D2C0A436D0F2CB"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_004.png",
+    "sha256": "F740FC3E6BC6BF8DA79308DBAD13794042F11A3AF9594ADE102711AF90561FEF"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_005.png",
+    "sha256": "C8FCDB8E86AE72071B401E7333706CA1DFA0A99CEBBC6C044E26CAE0D5C0AF6E"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_006.png",
+    "sha256": "F4146464B3DA48551BC7677F5EA4825DF065AF1BDF7B82A2B843A749377DFC21"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_007.png",
+    "sha256": "C96CF0C2A87DDB1486F630BE316F52AC666C484746F52EE3E01C5E2A9357E2D1"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_008.png",
+    "sha256": "D4AB2EBF45256297639E3B11C300B517D0FE254B0C165C547CC5EF13B54C0CC0"
+  },
+  {
+    "path": "Assets/Sprites/Enemigo/AlterEnemy/walk_009.png",
+    "sha256": "6821D68813B359D6E27D215E4C3F245FF1C4329E0E988BFBB28EFDCBA4D04616"
+  },
+  {
+    "path": "Assets/Sprites/Gema/Coin_0000000.png",
+    "sha256": "4CDDB2767EC306B406F14C2CD1CC6EACA3AEBE427E3BECC21306FDF18899F888"
+  },
+  {
+    "path": "Assets/Sprites/Gema/Coin_0000001.png",
+    "sha256": "0DB81FF492DF590D4805FA93AAA8C04F3C87AA34231F6CD8F1D680C904C59EF9"
+  },
+  {
+    "path": "Assets/Sprites/Gema/Coin_0000002.png",
+    "sha256": "EB2158680CAB24247DF714736CD63EB883865DC15240B72C54502E8A7BA78E81"
+  },
+  {
+    "path": "Assets/Sprites/Gema/Coin_0000003.png",
+    "sha256": "2304FBFBD2433A425AE4B01AC4A88673C4A0D9434396538C7B84DB65D2306DE2"
+  }
+]

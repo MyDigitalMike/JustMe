@@ -1,3 +1,4 @@
+using Input = GameInput;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
@@ -54,6 +55,24 @@ public class Player : MonoBehaviour
     TraversalEnvironment environment;
     SpriteRenderer crouchVisual;
     Vector2 previousPosition;
+    bool enhancedAnimations, animationWasCrouched;
+    int traversalAnimationLayer = -1;
+    float crouchAnimationStarted;
+    float doubleJumpVisualUntil = float.NegativeInfinity;
+    HeroVisualAlignment heroVisual;
+    static readonly int TraversalPoseParameter = Animator.StringToHash("TraversalPose");
+    static readonly int ClimbPlaybackParameter = Animator.StringToHash("ClimbPlayback");
+    static readonly int PullUpProgressParameter = Animator.StringToHash("PullUpProgress");
+    public Vector2 GripAnchor { get { return ledgePoint; } }
+    public float PullUpProgress
+    {
+        get
+        {
+            float distance = Mathf.Abs(pullTarget.y - gripPosition.y) + Mathf.Abs(pullTarget.x - gripPosition.x);
+            float remaining = Mathf.Abs(pullTarget.y - rb2d.position.y) + Mathf.Abs(pullTarget.x - rb2d.position.x);
+            return distance > .001f ? Mathf.Clamp01(1 - remaining / distance) : 1;
+        }
+    }
 
     ContactFilter2D SolidFilter
     {
@@ -66,6 +85,12 @@ public class Player : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>(); bodyBox = GetComponent<BoxCollider2D>();
         foot = GetComponentInChildren<CircleCollider2D>();
         anim = GetComponent<Animator>(); spr = GetComponent<SpriteRenderer>();
+        heroVisual = GetComponent<HeroVisualAlignment>();
+        if (anim != null)
+            foreach (AnimatorControllerParameter parameter in anim.parameters)
+                if (parameter.nameHash == TraversalPoseParameter) enhancedAnimations = true;
+        if (enhancedAnimations)
+        { traversalAnimationLayer = anim.GetLayerIndex("Traversal Visuals"); if (traversalAnimationLayer >= 0) anim.SetLayerWeight(traversalAnimationLayer, 0); }
         standingSize = bodyBox.size; standingOffset = bodyBox.offset;
         initialScale = transform.localScale; gravity = rb2d.gravityScale;
         float scaleY = Mathf.Abs(transform.lossyScale.y);
@@ -106,7 +131,27 @@ public class Player : MonoBehaviour
             Sprint = touchSprint || Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift),
             Crouch = touchCrouch || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.C)
         });
-        if (anim != null) { anim.SetFloat("Speed", Mathf.Abs(rb2d.linearVelocity.x)); anim.SetBool("Grounded", Grounded); }
+        if (anim != null)
+        {
+            anim.SetFloat("Speed", Mathf.Abs(rb2d.linearVelocity.x)); anim.SetBool("Grounded", Grounded);
+            UpdateTraversalAnimation();
+        }
+    }
+
+    // Presentation only: the existing physics state remains the authority.
+    void UpdateTraversalAnimation()
+    {
+        if (!enhancedAnimations) return;
+        if (IsCrouched && !animationWasCrouched) crouchAnimationStarted = Time.time;
+        animationWasCrouched = IsCrouched;
+        int pose = State == TraversalState.PullingUp ? 7 : State == TraversalState.Hanging ? 6 : State == TraversalState.Climbing ? 5 :
+            IsCrouched ? (Time.time - crouchAnimationStarted < .18f ? 8 : Mathf.Abs(rb2d.linearVelocity.x) > .05f ? 4 : 3) :
+            State == TraversalState.Airborne && simulationTime < doubleJumpVisualUntil ? 9 :
+            State == TraversalState.Airborne && rb2d.linearVelocity.y > .05f ? 2 : State == TraversalState.Sprinting ? 1 : 0;
+        anim.SetInteger(TraversalPoseParameter, pose);
+        if (traversalAnimationLayer >= 0) anim.SetLayerWeight(traversalAnimationLayer, pose == 0 ? 0 : 1);
+        anim.SetFloat(ClimbPlaybackParameter, Mathf.Abs(rb2d.linearVelocity.y) / Mathf.Max(.01f, climbSpeed));
+        if (heroVisual != null) anim.SetFloat(PullUpProgressParameter, PullUpProgress);
     }
 
     void FixedUpdate() { SimulateTraversal(Time.fixedDeltaTime); }
@@ -128,7 +173,7 @@ public class Player : MonoBehaviour
         bool wantsJump = fresh || simulationTime <= jumpRequestedUntil;
         bool gripping = State == TraversalState.Hanging || State == TraversalState.PullingUp || State == TraversalState.Climbing;
         RefreshGroundContact(gripping);
-        if (Grounded) { doubleJump = true; regrabBlocked = false; }
+        if (Grounded) { doubleJump = true; regrabBlocked = false; doubleJumpVisualUntil = float.NegativeInfinity; }
         if (regrabBlocked && Vector2.Distance(position, ledgePoint) > 1f) regrabBlocked = false;
 
         // Posture remains independent of locomotion: every expansion is clearance-checked.
@@ -209,6 +254,7 @@ public class Player : MonoBehaviour
                         rb2d.AddForce(Vector2.up * JumpPower, ForceMode2D.Impulse);
                         lastJumpTime = simulationTime; jumpRequestedUntil = float.NegativeInfinity;
                         doubleJump = fromGround; Grounded = false; State = TraversalState.Airborne;
+                        doubleJumpVisualUntil = fromGround ? float.NegativeInfinity : simulationTime + .375f;
                         exerting |= !fromGround;
                     }
                 }
@@ -311,6 +357,7 @@ public class Player : MonoBehaviour
 
     void ReleaseGrip()
     {
+        doubleJumpVisualUntil = float.NegativeInfinity;
         gripCollider = null;
         regrabBlocked = true; State = TraversalState.Airborne; Grounded = false;
         rb2d.gravityScale = gravity; doubleJump = false;
@@ -319,6 +366,12 @@ public class Player : MonoBehaviour
     void LateUpdate()
     {
         if (spr == null) return;
+        if (heroVisual != null)
+        {
+            if (crouchVisual != null) crouchVisual.enabled = false;
+            heroVisual.Apply(this, spr, anim, environment, Time.deltaTime);
+            return;
+        }
         if (!IsCrouched)
         {
             if (crouchVisual != null) { crouchVisual.enabled = false; spr.enabled = true; }
@@ -333,6 +386,15 @@ public class Player : MonoBehaviour
         crouchVisual.sprite = spr.sprite; crouchVisual.color = spr.color;
         crouchVisual.sortingLayerID = spr.sortingLayerID; crouchVisual.sortingOrder = spr.sortingOrder;
         crouchVisual.flipX = spr.flipX; crouchVisual.flipY = spr.flipY;
+        if (enhancedAnimations)
+        {
+            // The artwork already depicts the crouched pose; do not shrink it again.
+            // Anchor its soles without changing the body or its colliders.
+            float scaleY = Mathf.Abs(transform.lossyScale.y);
+            crouchVisual.transform.localScale = Vector3.one;
+            crouchVisual.transform.localPosition = new Vector3(0, SoleOffset / scaleY - (spr.sprite != null ? spr.sprite.bounds.min.y : 0), 0);
+            crouchVisual.enabled = true; spr.enabled = false; return;
+        }
         float height = standingOffset.y - standingSize.y * .5f + standingSize.y * crouchedBoxRatio - SoleOffset;
         float ratio = spr.sprite != null ? height / Mathf.Max(.01f, spr.sprite.bounds.size.y) : .4f;
         crouchVisual.transform.localScale = new Vector3(1, ratio, 1);

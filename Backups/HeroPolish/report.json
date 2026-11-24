@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-24",
+  "unity": "6000.6.8f1",
+  "visualChecks": {
+    "error": "",
+    "sprites": 60,
+    "ledges": 148,
+    "ropes": 48,
+    "alphaNoiseRejected": true,
+    "opaqueSoles": true,
+    "ropeEdgesOpaque": true,
+    "cornersAligned": true,
+    "cornersSupported": true,
+    "drawOrder": true,
+    "noNewColliders": true,
+    "footToContact": 0.0008449554443359375,
+    "details": [
+      "Correct terrain-relative draw order and physical convex top corners, both inward directions."
+    ]
+  },
+  "regression": {
+    "poses": 20,
+    "physicsCases": 4,
+    "error": "",
+    "doubleJumpAccepted": true,
+    "doubleJumpDenied": true,
+    "pullUpBothSides": true,
+    "releaseRestoresGravity": true,
+    "stoppedClimbFreezes": true,
+    "legacyDecorationFlag": "Superseded: old test assumed void-warning decorations; dedicated visualChecks is authoritative."
+  },
+  "preservation": [
+    {
+      "path": "Assets/Script/Game/HeroVisualAlignment.cs",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Script/Game/TraversalEnvironment.cs",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Script/Game/Player.cs",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Script/GeneracionMundo/WorldTilemapRenderer.cs",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Art/Character/AnimeHero/Actions.png.meta",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Art/Character/AnimeHero/Motion.png.meta",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Resources/HeroTraversal/Props.png.meta",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Scenes/JustMe.unity",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Prefabs/Character/Player.prefab",
+      "unchanged": false
+    },
+    {
+      "path": "Assets/Script/GeneracionMundo/WorldFog.cs",
+      "unchanged": true
+    },
+    {
+      "path": "Packages/manifest.json",
+      "unchanged": true
+    }
+  ],
+  "rootCauses": [
+    "Generated source atlas empty pixels had alpha 1-7/255 instead of zero",
+    "One or two pixels of padding under painted soles",
+    "Transparent end rows in repeating Rope sprite",
+    "Old stone positions came from void warnings instead of supported corners",
+    "Same sorting layer/order let terrain cover hero"
+  ],
+  "corrections": [
+    "Artwork Lit shader clips alpha below .05 and keeps installed URP 2D lighting in all passes; original PNG bytes unchanged",
+    "Sprite metadata recropped, IDs and world pivots preserved",
+    "Opaque interior rope repeat",
+    "Exposed cell corners confirmed using actual CompositeCollider2D top/side rays and standing clearance",
+    "Terrain-relative rope/cornice/hero orders +1/+2/+3"
+  ],
+  "observed": [
+    "Native Unity compilation and Play Mode",
+    "No faint rectangle seen around hero in Game",
+    "Continuous rope seen in Game",
+    "Mid-pull-up fixture inspected with artwork ahead of support and stone on both corners",
+    "Temporary fixture camera/scene removed by stopping Play; temporary probes archived with meta and verified hash"
+  ],
+  "limitations": [
+    "Exact hand/anatomy continuity remains art polish, not certified for every frame",
+    "Sloped or obstructed corners can deliberately lack decoration",
+    "No full-world or mobile performance regression repeated"
+  ],
+  "backup": "Backups/HeroPolish/Originals",
+  "evidence": "Backups/HeroPolish/Regression/gameplay.png"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "sha256": "ceed8e57f9b32d09a9da2282c77ebac5364fd097332aaeb4e635b6ccfca942b0"
+  },
+  {
+    "path": "Assets/Script/Game/TraversalEnvironment.cs",
+    "sha256": "7bf0343bc522e17bd8fab2a5904b9e9d07391a890dc1bf4498a363a8b7017767"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Player.controller",
+    "sha256": "9a8407bf2db465d1a0108ca059ad466c2927b2673793fb3416ad712ad098658f"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerClimb.anim",
+    "sha256": "b642b4262881b1ba6c1d10319efb63c80bdb867c4c2221317bd6648246a9e87b"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerJump.anim",
+    "sha256": "bdd1300143cc8e507a15541a03064e878a7586f3e23cb7859cba1812c8529d77"
+  },
+  {
+    "path": "Assets/Prefabs/Character/Player.prefab",
+    "sha256": "e57e4c78e61766293991209746de43832ae9657668c3d3de1a2d41002393f630"
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity",
+    "sha256": "022081931e54d3547e37213f6d1b6740f3c53f90ec57e515a6b06f3dcbb7cdd0"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldFog.cs",
+    "sha256": "2dd2ac68eb6e04ec5cbb466d438b04d845a9d43ca14657a81858c6deb5cbf11d"
+  },
+  {
+    "path": "Assets/Resources/WorldPresentation.prefab",
+    "sha256": "2c440d80eb28e516a1c0e2d3e0903439c1385700e8e37e58f943756afc431703"
+  },
+  {
+    "path": "Packages/manifest.json",
+    "sha256": "6c1867b8ce5923e8207b7865026d37f9b386ff52f0d42d8256be54f5361d032d"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "sha256": "0ff109e038d4327aae330f15d5c865373e6035c23e1673c82ef8e8e56a634feb"
+  },
+  {
+    "path": "ProjectSettings/EditorBuildSettings.asset",
+    "sha256": "3beccf461b077f3d8ae49ab644c4f58dda63dcb3f1f22fe35e3a3009053f0e25"
+  }
+]

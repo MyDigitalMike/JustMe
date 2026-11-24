@@ -1,0 +1,12 @@
+{
+    "error": "",
+    "level": 1,
+    "instances": 1,
+    "renderers": 27,
+    "noColliders": true,
+    "shaderOK": true,
+    "stable": true,
+    "toggle": true,
+    "reusesPool": true,
+    "negativeCoordinates": true
+}

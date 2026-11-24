@@ -1,0 +1,15 @@
+{
+    "error": "System.Exception: No verified corner artwork\r\n  at HeroPolishProbe.Verify () [0x003e4] in C:\\Personal\\JustMe\\Assets\\Editor\\HeroPolishProbe.cs:122 ",
+    "sprites": 60,
+    "ledges": 0,
+    "ropes": 39,
+    "alphaNoiseRejected": true,
+    "opaqueSoles": true,
+    "ropeEdgesOpaque": true,
+    "cornersAligned": true,
+    "cornersSupported": true,
+    "drawOrder": true,
+    "noNewColliders": true,
+    "footToContact": 0.0,
+    "details": []
+}

@@ -1,0 +1,930 @@
+[
+  {
+    "sha256": "6A4F049D55043DC3B79650901E6BD98CEC5C2663BCE6FA41F40BA4DE6F59E8E4",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (1).png"
+  },
+  {
+    "sha256": "DABF2902FB44EEA2A3F4FE29017A390892F159CD1796436DA2F499A79AEF22AF",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (1).png.meta"
+  },
+  {
+    "sha256": "1317299E801A27D6A50144F1D6CCBF30A93C372BB389A02146B1B0C05DB9E992",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (10).png"
+  },
+  {
+    "sha256": "40C34B3086EA67C6E65A7F2EB00F02912B7DFF6B518AE61C60F13998499EACF4",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (10).png.meta"
+  },
+  {
+    "sha256": "C0D6F00DA5C08515A35CC4D168EC3236793A6216607A36F9AA77B47AEA69F8D2",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (11).png"
+  },
+  {
+    "sha256": "A5E521754BF1F3D5CD093F6DEAE1B433FFEDF621DFBB2AF28AA4CE61BC2F447E",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (11).png.meta"
+  },
+  {
+    "sha256": "C7FF92E349C9A50DCBC8A5A479EA9F6A9C45D5B080EA59BD547DE4B42BC0DA11",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (12).png"
+  },
+  {
+    "sha256": "E18827244382E99CDCF16CF304450C274219E18D4CC26F2784DC9D219D1399D1",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (12).png.meta"
+  },
+  {
+    "sha256": "16C141B912A04105FE85189C792569D627F722AA0D84DEAC37819C06B6C27ABC",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (13).png"
+  },
+  {
+    "sha256": "431FC4326544B0738922F28C42D694274B1A61495E2B5B9C0D51C28F98134691",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (13).png.meta"
+  },
+  {
+    "sha256": "557E7370AC16F156051B2514DF15E73DAE7E4A4BEE17A82E502DD8323A54BBB2",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (14).png"
+  },
+  {
+    "sha256": "6D9C426B497D52646D2487E4629BFFE1B5C2E439D3A19BFB825260EDF7A92366",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (14).png.meta"
+  },
+  {
+    "sha256": "A9B94321E768AF4D879EF0358066621D64EAF36FBAB2525F4C8537282836FBD9",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (15).png"
+  },
+  {
+    "sha256": "3120490E59BC68405515226DB121C0E3CC6EE3E99066CC0DF958336CB32E6116",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (15).png.meta"
+  },
+  {
+    "sha256": "E61CA3A71883C7CFE6D8041272B3ABA67EAC7DA73543F525ADB427C59E43A042",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (16).png"
+  },
+  {
+    "sha256": "5307B4FE7025741F0091D85995C8DABE44CF47884D2FC1CE7495C37A181359D0",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (16).png.meta"
+  },
+  {
+    "sha256": "3EC70047A7D596ACDE01D9782F61E75D434C4566F45E96E63D6691CA6945F5F0",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (17).png"
+  },
+  {
+    "sha256": "BE523DD82D661B7677F6422F7D247DFECABFCC4C62E0E78641D99739BC165CF8",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (17).png.meta"
+  },
+  {
+    "sha256": "C8599154D007E294CE14D3C50274CCF548E3B855DE2CD116384C98C2DF7BC6E4",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (18).png"
+  },
+  {
+    "sha256": "5B743FBADB2B60B1B9459FBEF02AA8718142FB3E13AF4212B83AF1491420A655",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (18).png.meta"
+  },
+  {
+    "sha256": "1E093B6A0F8A4D260250DA0485520E6EDF725AC6D606AEE2CAB7E0AF0FA64BA7",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (19).png"
+  },
+  {
+    "sha256": "4F72939D4FE069F165E5AC152AC0CCF04B788439AE9FE650E90FCB53C1E36CDF",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (19).png.meta"
+  },
+  {
+    "sha256": "70EA7634714B9BA61615DFCD202246BA8032D0D3B3A62D88480BC51933C5D87F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (2).png"
+  },
+  {
+    "sha256": "0D62672C6825A8923CCCF02BEE384361A9BAF535741DB0C0803D6D558CFAC268",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (2).png.meta"
+  },
+  {
+    "sha256": "6B6AD0B24B4C152793073DA119E556D21D5DC9E89B0F7D7B641BF93CAD48F376",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (20).png"
+  },
+  {
+    "sha256": "D05D92238C7FFFEB5613830167AF7B9AB1E763FFC7ACE041E4E8FF92C6AEBB12",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (20).png.meta"
+  },
+  {
+    "sha256": "93E742EE2103298D163C3902186A9CACFF21D46EA38EB90361B683250DAB2730",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (21).png"
+  },
+  {
+    "sha256": "4BEBA746A1BC26376A1DB0D5DF773D78F10F035B802C6FE404709B1EC6447DFA",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (21).png.meta"
+  },
+  {
+    "sha256": "FB21D123387BFE0A36DB2076345627854A8D51EBE6617FB5D73533B95914F1B5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (22).png"
+  },
+  {
+    "sha256": "5EBFE65E0422D0E3981D060973558F6F8D094FFE37DA8C55BD2ED06DF9FAB406",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (22).png.meta"
+  },
+  {
+    "sha256": "860D31638D7FA7242F03ABD35747B21BDE7F4217D6BBC56F2A91C0D9D6E211D5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (23).png"
+  },
+  {
+    "sha256": "2F2271E7F6678B1B6B8A7FA9D954FFA756A424FF5C766DD118CFFCC8DE35E858",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (23).png.meta"
+  },
+  {
+    "sha256": "30BA357D1E69BCD00A36B9AD5BFE419C7D0E815CBEB9D068284C413F542DA7A5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (24).png"
+  },
+  {
+    "sha256": "6ED5FA3D760615885F543831560811E720ED2A79B8C18BAFABD4FBE0611EAFC7",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (24).png.meta"
+  },
+  {
+    "sha256": "B131B6D070C0A04A330101EC516C9076B2ABAD8E9AC60753F53F1E85F9C66C8F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (25).png"
+  },
+  {
+    "sha256": "F1CE724B03D6784738FDF0AF647F863D57A90FE8619F6F0DDEFF46630A46F8D0",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (25).png.meta"
+  },
+  {
+    "sha256": "C1BF2074DAC95DE1837BAF228A7344ED0DE6FF30D6BFDB2E218C248E90ED0796",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (26).png"
+  },
+  {
+    "sha256": "DD1BEC3A49267C01D7C5505F052B18E6D2ED500A35A25D0AFAD5E0AF2EA627AA",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (26).png.meta"
+  },
+  {
+    "sha256": "DB708530D019A551B04D0E6B6CFB94244D8C518B0B5E7D6A13B79CC4E5FE0F55",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (27).png"
+  },
+  {
+    "sha256": "0FBF113214BA6ED61A36B2A4E3F12F5400980E1825AD15B1F61FE6D430CB43A1",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (27).png.meta"
+  },
+  {
+    "sha256": "57F17F9F989896EDB731DA91ED54748EB7C434B83F1123F3EB8DFDC78D870BD6",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (28).png"
+  },
+  {
+    "sha256": "EADF1C3052B22B6F7AC4CBAF3A5FE866647204A59495B0770E405FED24CF440E",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (28).png.meta"
+  },
+  {
+    "sha256": "A2556ECB936F711336C3EBFB3BF3095627EFDE84FF1C9AC072B159B6D49556C8",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (29).png"
+  },
+  {
+    "sha256": "CBBB486402607FD88AC4EA69DCD3974DA953B288BCAC7EB1EAA481B60CFBAD77",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (29).png.meta"
+  },
+  {
+    "sha256": "BD2CA7840EBD87E507398FEB0FE2CD76E73848302EDFC4FB25AF7086066CC997",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (3).png"
+  },
+  {
+    "sha256": "656A4A429A2812F3CD24B7D38FA94431AC83C92853ED6FF02F6E098341005DBD",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (3).png.meta"
+  },
+  {
+    "sha256": "A2556ECB936F711336C3EBFB3BF3095627EFDE84FF1C9AC072B159B6D49556C8",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (30).png"
+  },
+  {
+    "sha256": "A8901FE461C0BF8C39556A4B3BDB3968D103987E8A9651639EE9353F832EF910",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (30).png.meta"
+  },
+  {
+    "sha256": "1ECD8A63096FBE71D7F28C5753B9A1C9CD80CCFB4F14E722351820715D72387F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (4).png"
+  },
+  {
+    "sha256": "FE1F487B2F698C500A87E5C9EA89EC09842F7F12B0D427E3711D48DCEC124D97",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (4).png.meta"
+  },
+  {
+    "sha256": "01595F497457CECBCC8FB557CDE148C6FC19D14E3F57D756FFDFDE65F6747F81",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (5).png"
+  },
+  {
+    "sha256": "70BF83CD51D8B65E3D47899A016C16A26B8BAD80B744AD082CE7E15FD928F592",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (5).png.meta"
+  },
+  {
+    "sha256": "F3F1DB4752263B27704CCFCC452F6044CF454F1613E4F1D63311C316AB28DCD1",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (6).png"
+  },
+  {
+    "sha256": "10210F21D3599E603C4615CA444FA1FFE2BC6034146A453B252551258715096B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (6).png.meta"
+  },
+  {
+    "sha256": "EFD95726DDC6E96F73E9341C45D3B0F3F68A2B0440C8A356DECABB3639F30C7B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (7).png"
+  },
+  {
+    "sha256": "9A896756B97A7E43716F1486E6E9E4F27FFC0F015ACDAE4FE64F065B11B9348A",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (7).png.meta"
+  },
+  {
+    "sha256": "A0DFBD979EFC1CA9B01D8D766C58DB4BFFDEDF680A57B01AB82544390107FCE2",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (8).png"
+  },
+  {
+    "sha256": "292047F4BDF000D3334217E4958C848DFAC2DD1462E12E8D3086C333218B94A3",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (8).png.meta"
+  },
+  {
+    "sha256": "EBDBD2C7CD907A1F4338D58DA9DC38848C93206AE8CB46BD05ED164BC4FAFC47",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (9).png"
+  },
+  {
+    "sha256": "D5DB2F8F8D3A8B0F55CDDF0BF3C51B15A951D8FDAEB044AAD3B9ED27BD62CE08",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Dead (9).png.meta"
+  },
+  {
+    "sha256": "939C1F8E6BA129632632D9DC302C905B4674C3C15C00F4C6A1F3DC189073C09E",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (1).png"
+  },
+  {
+    "sha256": "9B41B8EDCB4B357252F4446F723DF24F634DC6F82EF49D49055BA17C240476E9",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (1).png.meta"
+  },
+  {
+    "sha256": "16516DA80667EA4A8D7A9DF3BEDA58530E94B3A6A89DCFCABB9C2500D304ECBD",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (10).png"
+  },
+  {
+    "sha256": "2F265B4DE5FE3D94C8CF3CE313D4E40123F944147512431D97B5C71ECCD59C57",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (10).png.meta"
+  },
+  {
+    "sha256": "05819D730547FC173755EE74AC2796D8788B93247F12ABB345198AD9CFC0482B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (11).png"
+  },
+  {
+    "sha256": "1D1E9087D8EE95F3523C4751837E6A392C9F5EE0D0BD77ED4CA2B90AE148EA6C",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (11).png.meta"
+  },
+  {
+    "sha256": "375D2B8239AB6809E5AF989964A3E42B1171E5F4F051E5BBAA81CB4AF5F78A78",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (12).png"
+  },
+  {
+    "sha256": "E4A7470D15CC8EE2CE28EF396EB5A804509D9D9A265F339D210BC10903B29C49",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (12).png.meta"
+  },
+  {
+    "sha256": "55E1F8E3427AC8985D5ED5B9EFC909A336031A5C5001A20FC64CBC1D874466E5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (13).png"
+  },
+  {
+    "sha256": "2521F5857BBCC8A1242970C57D53464004F0CF656D47AAEA7CF60C2646EF1980",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (13).png.meta"
+  },
+  {
+    "sha256": "89E3413753037E9B233DED03789F1172F2018382F8C86A17D1DE9737032E49C6",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (14).png"
+  },
+  {
+    "sha256": "20DB7DA9D15489E325531BE79130D832A43C8270825F237FE467310199D729E9",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (14).png.meta"
+  },
+  {
+    "sha256": "4E3BDBEF848A021D5EC3C4D7C009441F028CE1A848487FA2B246113B6F11EBC1",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (15).png"
+  },
+  {
+    "sha256": "F1713458D468D5CDC99C0267521AF81C46907DFE592E45C60C7F10E25B264627",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (15).png.meta"
+  },
+  {
+    "sha256": "390E5664B2B1A3F2D9A37E9E5537A53D2D7AE2D426069F7235F34CE1FCB96A1F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (16).png"
+  },
+  {
+    "sha256": "643980064EE3E7B56E1AAD13E1D65659C15530A5CB0B52C4BB7A44B5602F01A4",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (16).png.meta"
+  },
+  {
+    "sha256": "2AF8ECD05ED874776B73B24A4070AD2E6C391F38D6D4BE003636C622D2A53D2C",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (2).png"
+  },
+  {
+    "sha256": "E0F2CE7384D551213BFB074C144A94F6A5978C5F08C633488FBE27E508135577",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (2).png.meta"
+  },
+  {
+    "sha256": "72D03EF5AD31218A123E7CAA79E03FC3F3D521A379C2947D8846724F128328D4",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (3).png"
+  },
+  {
+    "sha256": "2A6AC87228590A6BCF7CC7DC4B292D223F89EEDF8A4FC61D7FD740C2BEAFB4DD",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (3).png.meta"
+  },
+  {
+    "sha256": "9DF513C2CD439E9EFA9E7D020529DFE9190B60DBE5AF0A3D1A1AFFE8D20B0DEB",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (4).png"
+  },
+  {
+    "sha256": "18BE98FDC24C26777E10632F62D5C5A2E4B2AE7ECD6375CBF56A29C88E1260F5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (4).png.meta"
+  },
+  {
+    "sha256": "9798A45D98CA0BB2B8F06CD41C31BFC8EB5B5387E02B33F47B7FF0775731BB75",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (5).png"
+  },
+  {
+    "sha256": "28B4798EFDC990CDAB258AA185CE248B2A12C58DA8D7183B84DC1241CE7F6F2C",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (5).png.meta"
+  },
+  {
+    "sha256": "C4AA79FE5685D1AF873B5AB937658FCDA2D0D52D169DBFA7088D0A97AF23057D",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (6).png"
+  },
+  {
+    "sha256": "A561BF10187804C2962423555D83AE29625261D61EC3012DED0E040D7CBA199F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (6).png.meta"
+  },
+  {
+    "sha256": "716EFE1407AB227E514235EC2A13271230D51D5CA11B9158D527C394C6A08C83",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (7).png"
+  },
+  {
+    "sha256": "B387CF40051E2FED842188B895F0EB8DD35DB08035583904DD3A5CD589B74E2B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (7).png.meta"
+  },
+  {
+    "sha256": "B9289E9C019D366C1B8C1871A369580340FE291C15C890D10FC6660BA8F84DCD",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (8).png"
+  },
+  {
+    "sha256": "BDE7BAF7CD2BD59F69ED644EDEB1D665202FC4D24B64CE37E1A6525E54A2AA62",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (8).png.meta"
+  },
+  {
+    "sha256": "F5FE2BF73DA3CD7C76700A4595BCE8489C8B143A84756817899B1BBE898F4B28",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (9).png"
+  },
+  {
+    "sha256": "A7652E4FE66B5AE7FAE37D9F531943169A6AE9111ABC538C5DC3FA08A8D5F405",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Idle (9).png.meta"
+  },
+  {
+    "sha256": "B7046A795C878AF3F3A8B4D57A7DAED7D10C8CC3A7192CE05B5605AE2AB1C8D7",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (1).png"
+  },
+  {
+    "sha256": "642B83915EB33FA48DF6987C4B8516B5BEC91B6177F202412261919D51E5E0FD",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (1).png.meta"
+  },
+  {
+    "sha256": "86B8A577B17C5DEBEEB8F3549F15E4D5895D9DD0637FA3DBC58AB5DA69D8DB68",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (10).png"
+  },
+  {
+    "sha256": "98C49EB89F2D25758467C8E51BC935BF0DB76DCF6BEC76787B79E8CF85BD956B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (10).png.meta"
+  },
+  {
+    "sha256": "42531D4196EB0FCFD3D10C15CA0B1963A985A6E0F8F43E6F1264FB6F4CA78E04",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (11).png"
+  },
+  {
+    "sha256": "BAB1E0337005E5E9E96477A62963C97A15DD17105FED6147CE2D74986B4F6EF9",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (11).png.meta"
+  },
+  {
+    "sha256": "D1D7EAB69B9B123538D5F53E6DE111F52741FA98D3C80040F33FBFC6A513C2CE",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (12).png"
+  },
+  {
+    "sha256": "562A17DB7406C7051382DDA5A672F12E4203A95EDC4B28BE10FBAE0FCD906D27",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (12).png.meta"
+  },
+  {
+    "sha256": "B5B2DC8495A72A598565BFCAAC7974C1AF71F30D92636F3D82832CCB7C88772C",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (13).png"
+  },
+  {
+    "sha256": "1ED10AF8FEA7B84A64C623BA5449A01F0813A6FD2ED211479A8FA29CC8B964F5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (13).png.meta"
+  },
+  {
+    "sha256": "0707535DDD69C2B5D6C063C57F087A34E314E07F115C15AE36A6C1951D0975D3",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (14).png"
+  },
+  {
+    "sha256": "F7FBFB275CDFDD12038FCA0085C4FF43F9174BDF586E405A711FB48214EEA028",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (14).png.meta"
+  },
+  {
+    "sha256": "0A39CEAE6861719B3C621A111FDA4E788FD815EF8B92EC681FD81A34402048E9",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (15).png"
+  },
+  {
+    "sha256": "073BD5ED651C8E676F397BE0632E26409EB555ABBDDD0211A70565B5B736466F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (15).png.meta"
+  },
+  {
+    "sha256": "CB4A21C1DB74D35C0B55F39D4C9C1D394C730BF22B6B7834CB0AB4D5FBB37627",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (16).png"
+  },
+  {
+    "sha256": "1758BBFFBB42615EA37EA7C097D886F5362E1FE7944129272802750835FA5831",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (16).png.meta"
+  },
+  {
+    "sha256": "6FB284D81D4A3DDC2A0054D2148B28B201E03D4F4E5C373D45EC1CDFCBDD2A1E",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (17).png"
+  },
+  {
+    "sha256": "DF1E28B3B5A0B2CEDCDF4A74AC02DDAA5845FA5824F3FBE0C1079DD5F6BAFAF6",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (17).png.meta"
+  },
+  {
+    "sha256": "93DE49D34088854A5954B9D04124FB66CDCC959F1690CA74E80B6FA0DAA4EB45",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (18).png"
+  },
+  {
+    "sha256": "4853295DE34391C7AD970CB152CDEEAB322B5BF592BC2EE46B063E8741273C36",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (18).png.meta"
+  },
+  {
+    "sha256": "CB08013A35089FE9A961FCC39660D6F2C631DB45EF1B45B25F49894F1089D0AC",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (19).png"
+  },
+  {
+    "sha256": "D5E56810A5DAED428020CE413293F9C2956CF8202968D992B3B32830AD28B0ED",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (19).png.meta"
+  },
+  {
+    "sha256": "13DAE324C1940D8718937CC5984B77817E2BEEFA5C7FECF6982036220DBD97C9",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (2).png"
+  },
+  {
+    "sha256": "10094B82FD7DCF5DDA9DD513C8CB39A75A27A3CA32077F0104D0F947B40B2A43",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (2).png.meta"
+  },
+  {
+    "sha256": "62C20C362EED1E04A0479F08F5413BCEA7F5B2D62CB4035F00AF364F2C5B6762",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (20).png"
+  },
+  {
+    "sha256": "D7C4B34B4F8BF9C08FF7DDFDD716EBFA036EDF04C5DB7CFBDF4F8098FD567C44",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (20).png.meta"
+  },
+  {
+    "sha256": "6649FFD60A5DC0152B2D58EC7B1349E9B9916CB6C506EB0CDF2E6EC882C4CD90",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (21).png"
+  },
+  {
+    "sha256": "EA51D4AB1B794B483AF8179F142C87414ABEAC8B370FD063181BBBBBB6E54248",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (21).png.meta"
+  },
+  {
+    "sha256": "876D3D9E6FDF1733E98A9296CEF5AED9B30753CAA4EE098F33E870C65FBFFBAE",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (22).png"
+  },
+  {
+    "sha256": "D301B1C995C544EF18CBD6BD7143AFEECB6E9F63C7A6586D8A23EF4E90DDB1D0",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (22).png.meta"
+  },
+  {
+    "sha256": "47C449E4A60F2E83E54196AFC074C79E96042DF57A654B4DF07F7848F2D96BB9",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (23).png"
+  },
+  {
+    "sha256": "A0203493F91A2CB0301AF12790C1403EA66B3EC33C24E8D565C432A007630008",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (23).png.meta"
+  },
+  {
+    "sha256": "8E345D4E15486AAF54484B8CC74F34A7B11EDD5A1B460117C9A17CFE93726F44",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (24).png"
+  },
+  {
+    "sha256": "EEBBD7AD7B2790A3EE54685B0D3EE833AB7A3643F3F83C0FACAF83873266D269",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (24).png.meta"
+  },
+  {
+    "sha256": "EA344D3E2D21EFE4BD49F57B1B8889D6C87F00C4C1D3EEB9BA317B27288ED3A5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (25).png"
+  },
+  {
+    "sha256": "CBA8081E24A21125EB0225D098AAE4E98C7648A2115307F6053242936E222EA4",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (25).png.meta"
+  },
+  {
+    "sha256": "27E22CECFD5173B4AF35F0AAA96EDB7A2B79031AEBC8B2E6F537CC0AFDD86AE7",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (26).png"
+  },
+  {
+    "sha256": "2E0244F0235C83806AD5716072DFA9EA572AF97FA4D7864E632207BED29C5426",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (26).png.meta"
+  },
+  {
+    "sha256": "98CEBF051EA02CE181E6B866F3F3CCB264F7A35C964B97014B13ECC4C5CEE58F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (27).png"
+  },
+  {
+    "sha256": "97E1B8E004BF86961140DAC7CDB29454CAE81F4282CC373F5CC6E57C68967738",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (27).png.meta"
+  },
+  {
+    "sha256": "444D3A60FCD915811554A082C0B1FF755650F4BFAEEF9C74760F78FAD5825499",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (28).png"
+  },
+  {
+    "sha256": "80D9CC4F554C7F45C01F0D79692631BD4436ABED9D644FD837B56829B7B859A7",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (28).png.meta"
+  },
+  {
+    "sha256": "B88602BF802E83E3919955D1E5F627702EE6B6F817E23A5BFF1665F10814D554",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (29).png"
+  },
+  {
+    "sha256": "909441140406FC58C94638E577A00F31A79081E7CB46A88ECCFE0BD02FF62908",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (29).png.meta"
+  },
+  {
+    "sha256": "D2D93CE6F51A70759906B1C01CF3682B4A9A26E9CD22AC52F6D93891BB9F36E2",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (3).png"
+  },
+  {
+    "sha256": "B0EDFAD23D923964D07D6D291F3C05C2CA311FD396FDD70141F5F7E840D888D1",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (3).png.meta"
+  },
+  {
+    "sha256": "AB0BEEC9D1FEA86E896A0CA50801DAF81F5D30F73A96B5D229D50A83730CFBC0",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (30).png"
+  },
+  {
+    "sha256": "F88F040BD2BB90FE1F16121C7ADDF9478129925A1F80CC0BA6703493030AEA58",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (30).png.meta"
+  },
+  {
+    "sha256": "6024811A08DD746111398218C7F597DD6EAEAC5F84381848BE3EDF655BABEFAE",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (4).png"
+  },
+  {
+    "sha256": "F4B0639916AB9A60B1597E1AE9E5B7FF97CBD608BA47EE4F63688336D7549912",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (4).png.meta"
+  },
+  {
+    "sha256": "4963122ABD51808CC510C9DD7DEA8E7439BA44272B710DFD160C60C529C7EF91",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (5).png"
+  },
+  {
+    "sha256": "5893D146E5DFD5255348990AEA0A2BBF8F7E72C1741F5DC9E2232463A3B93609",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (5).png.meta"
+  },
+  {
+    "sha256": "EFEAFB04DEAF4F8798DCA1F7E3E9553830E533A33BEF380741B864C5589F8032",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (6).png"
+  },
+  {
+    "sha256": "29E95F9196DE14A90DFE2401FCF9A95AB3CEDB6790E7A58A9A44A3AA37391805",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (6).png.meta"
+  },
+  {
+    "sha256": "1F1D66F90B8951DE21A080D09C9E02A401E7ACDACAD37864FA5F7B63786FDBA7",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (7).png"
+  },
+  {
+    "sha256": "121772C36AD1D4685F1F01A7E38712D56F64819659E710AD19BEFAC95BBB600E",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (7).png.meta"
+  },
+  {
+    "sha256": "9AEA479CA31A7396D5CA4EA070A0398C1E198CEF9738E7E329FE05E7661EF21A",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (8).png"
+  },
+  {
+    "sha256": "7D573C546CC64DAB55278F3D92A3B85A56EE3500A3DCC09063F0FA190A19F210",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (8).png.meta"
+  },
+  {
+    "sha256": "A8C792E85E832927CD62B93EDE4293FF00586E34C8773A706C5DAE105110CAA5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (9).png"
+  },
+  {
+    "sha256": "78A778AE446D21E268BD3A507D4928E7F9AE4D0B074180E915AFAC86FF0F34BB",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Jump (9).png.meta"
+  },
+  {
+    "sha256": "E31F89CF217FB2BFFD8068471C60A9DE75058A09FD26CBFD651B25E9ECCF3DCC",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (1).png"
+  },
+  {
+    "sha256": "8993B6E86D944740FFA7EF3AFDAA8DD88CCEB66AB257051B9AEF671BA0F9D630",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (1).png.meta"
+  },
+  {
+    "sha256": "7B0E753FEDF6FC9DE1D706507FA7AE8A3AC59688FDFD63152A66A5E02AE5965D",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (10).png"
+  },
+  {
+    "sha256": "7DBC691654BF267313A56EC3CF7219D546CE326F656C5CFE56AE276C137B9183",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (10).png.meta"
+  },
+  {
+    "sha256": "5F5169F59217CD3806CAACA5C4DC82FBF886E880B0513681213D805CF62D9897",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (11).png"
+  },
+  {
+    "sha256": "C213DCE8EC8D43C4B906485820468E846F69A938BB01E63640DDDE2CF27349B2",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (11).png.meta"
+  },
+  {
+    "sha256": "44BCEA6EEBBBD7A7B116E0BAE7371804F2827DDB0D6F98C4AB2561B48EC0FF62",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (12).png"
+  },
+  {
+    "sha256": "92F103D4702801CE2555700D81142E9F6BAC51DEF00F0A16CA091AEBA49AB360",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (12).png.meta"
+  },
+  {
+    "sha256": "EDC3A80DB462E6BB0C9A053F66021EF2346269AB70386C7478C0F58982E68326",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (13).png"
+  },
+  {
+    "sha256": "D11B2CEC58EE06E7B8A05920FFC37B6A48544AF427333F04577F3192F376DC40",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (13).png.meta"
+  },
+  {
+    "sha256": "F0A92154E36F3A789C06BB1DA4719621165C6B0259BE104325E024DBC0CB1D7B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (14).png"
+  },
+  {
+    "sha256": "BB8081287B80A4C06020C4BAE4926798C8D00FA88680396925B62F4F80A4E2E3",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (14).png.meta"
+  },
+  {
+    "sha256": "044B05780C48F813BDA09F4A97805D896D094E3B03303A752000499B5311EAE2",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (15).png"
+  },
+  {
+    "sha256": "00F4C211E2ACBD65F2E72148FCF817F220DF22267A013E31A263CB6C7F20D753",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (15).png.meta"
+  },
+  {
+    "sha256": "6A3229D7A58F2836C5F855C71BFD3300B1DE5013129AD3F4E0D4D5D004EF8387",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (16).png"
+  },
+  {
+    "sha256": "7F0BBBF3F98E683D419B65B258500F1F85F03CFC3065AE051B0D5D0B4E5278C3",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (16).png.meta"
+  },
+  {
+    "sha256": "6C4C1D814ABDC732FBCF0CCDF070FBCC6D5F667CAA8E916ACCDCCC06E910BDDA",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (17).png"
+  },
+  {
+    "sha256": "EF23CC874A0C293B774B815F89B62B6CFC6C92E4082A1B049584EE873E6828ED",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (17).png.meta"
+  },
+  {
+    "sha256": "45D0B4BB0F746A053522D9C67C37BFED4675B8B64CCBFBF1FA489081F52D3D0A",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (18).png"
+  },
+  {
+    "sha256": "BB77C533DB422BE0A73CD8006EAC71EB901559F54EBFE0A5E4E22F8CABD77648",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (18).png.meta"
+  },
+  {
+    "sha256": "CD817FE3962FF6BF8D40B4646EC7E86C47E09B891E7FAD994400EF328DEEFEEB",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (19).png"
+  },
+  {
+    "sha256": "D5A2A2D37B2A7A4B090734D5EE7A8587B845026F070E7EBEE1E2AC7FF4C1E11F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (19).png.meta"
+  },
+  {
+    "sha256": "2D2B44156A19215FD58F773F69DB7A35BCD8A4CA83B57A2FE7B51D2C6FBB90D0",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (2).png"
+  },
+  {
+    "sha256": "FFEE0FEF24B6495C267805B15314F88A499CC8907388022A495D5C516CF9CB18",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (2).png.meta"
+  },
+  {
+    "sha256": "734414E6165B9C8741DB6BC33199FBA725A3741BA45D5B0B6A8B63D8F94C8DED",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (20).png"
+  },
+  {
+    "sha256": "DBE8F0DB82239EFA86430F5C55B184DA8FC29B189FC5E422F59B77DCE874EE11",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (20).png.meta"
+  },
+  {
+    "sha256": "C012FFAEE560A6DC4E98A6A275CCE55BDA5D0D0C6AAE38839C3E7229DC25A43B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (3).png"
+  },
+  {
+    "sha256": "5116734A5D0F854D386E253C2DA66143EBA338220CF0EF0769F26331AF7D464E",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (3).png.meta"
+  },
+  {
+    "sha256": "F3394F7DF5ECEA427BC153A56D2E4F8A690576C967AF882AAE3CC3E908663E16",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (4).png"
+  },
+  {
+    "sha256": "C28E5B003C08D2AA9AB3136B29450CEDC555F354A1A4DD0D5EEBE9081DC92266",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (4).png.meta"
+  },
+  {
+    "sha256": "051B5239C0089D647B7AFBB2CFF4D627B2362E43EE55CD4B692D65C763B88523",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (5).png"
+  },
+  {
+    "sha256": "C93318F9FF956FD4A62EBCF9B376B6E65A45CC03E3B4491FBD94B4DB3608A8C6",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (5).png.meta"
+  },
+  {
+    "sha256": "C07599236334D1DC5D8DC880F1E9B34BE502AA37D6E5FB1141AAB93D9FF6389B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (6).png"
+  },
+  {
+    "sha256": "94899ADD110DBEC683614EC22DBAF6C4126D0D6BFA897DAC9144F76E26F1C166",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (6).png.meta"
+  },
+  {
+    "sha256": "71C15D2770A443E0DBB3F768EE75283ED8188C7976620511FE32BF7D2715E310",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (7).png"
+  },
+  {
+    "sha256": "7BE9F04BA7DAA46FD70590891BFA869A80607CA921811ACBBBF9ED3E13D93120",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (7).png.meta"
+  },
+  {
+    "sha256": "C1CF0FF5E076D8C8B09E9C055D619500FEC90E4E76708CE4C746E59893E484C5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (8).png"
+  },
+  {
+    "sha256": "7FC0B50A1136FAB9742DE87B0CFE96F4F9D264657223939ABBECFC87829702B1",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (8).png.meta"
+  },
+  {
+    "sha256": "5E9EC4A0DAFE4D9536078C28BAAA29DDAF20B5EE7DA830A2E5A301919068F0D0",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (9).png"
+  },
+  {
+    "sha256": "F6A663A07DD7489AE983DB48A2F2FDEC5B4A41C51583F7931217395B2B12B75B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Run (9).png.meta"
+  },
+  {
+    "sha256": "93A2302273DE28EC0EBF8C6804DEA921BD8C406F93337DC8F65BE5DBA2423123",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (1).png"
+  },
+  {
+    "sha256": "41A237B5F58F29BD690071C97002CB7D558518DAABF21997CD1F581F45471CE8",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (1).png.meta"
+  },
+  {
+    "sha256": "7090F379B9285DAA042FCED6629EFEAEB0E05944A776867D41DD68068681C62C",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (10).png"
+  },
+  {
+    "sha256": "EB5D35D1419FAB5C6985A1B8101C9898FE093126D2FF2F80F51642E2D0416F3E",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (10).png.meta"
+  },
+  {
+    "sha256": "C67496EFD6D8A56AB79AC290454A362C0A5970617B30B55D11B1379F8F80923C",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (11).png"
+  },
+  {
+    "sha256": "2B72B08D8EF8D81379124EA1C75EB0DAFF2D71DE1A0B3C984B090ABAD5345337",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (11).png.meta"
+  },
+  {
+    "sha256": "F8A54F365281AD668CC5B138956A2A77D1F528247A11BBF17E4EFB519E463BDE",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (12).png"
+  },
+  {
+    "sha256": "B98574FF6E64999270400C205FF8EF8B72D3BFB8CDFB29E2E1F682BD52B41CDC",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (12).png.meta"
+  },
+  {
+    "sha256": "6EED947298A51B6045F4110009F45AF99C3E081392283CBF3A597E1C4F90B44B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (13).png"
+  },
+  {
+    "sha256": "DC55EE02E6DAA707CCFE8DBAFA4C0E61A9DC300CECEF92E2AB2C4E673F81F82F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (13).png.meta"
+  },
+  {
+    "sha256": "69BAD4C55992C49A1DB7F38C3826763B2F7480E73A1B9213064D427B2988EBB4",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (14).png"
+  },
+  {
+    "sha256": "D8C2A119CD7756EE4DB0F03E1C689E823C02C5085DDDBE56BE16461EFC0F245D",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (14).png.meta"
+  },
+  {
+    "sha256": "7711311238462F803A194EDAB8C6649B5B6AEF2A79BE1302D3AD6330BEB7C7CE",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (15).png"
+  },
+  {
+    "sha256": "E1D4E9C8842F15B40886BFDF7F017C528DF5A3E9D6631D2611BAD58FC0881EEB",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (15).png.meta"
+  },
+  {
+    "sha256": "C9856F86AD9B8C2D2DF815BC62FFAA7EA0438E841EAC36A1CD7E0F0A38F5E7F5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (16).png"
+  },
+  {
+    "sha256": "4B763B3486D79014EB9A0726BCE8006161632E096280E39EC7C2412B3A240C40",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (16).png.meta"
+  },
+  {
+    "sha256": "11741A9D6AAE372CC10454A96F17DE619903F23D93950D0883834AFE3080C91F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (17).png"
+  },
+  {
+    "sha256": "AA4A2DC4EE3927AEBB1036D0D9CEC61E65CFA29C4CAAC331948040839BA1A8B6",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (17).png.meta"
+  },
+  {
+    "sha256": "55B9ACA9F619BA532633B8389AFEFCF54642BAF5033274F58104C642A2D37658",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (18).png"
+  },
+  {
+    "sha256": "8929C0BFC7F13262218D98102C20EE78BBA98DD72A17EE5E71E9CA4F619B8410",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (18).png.meta"
+  },
+  {
+    "sha256": "2EC64885AE3C8BAA1DB177FC2A191497D2EAB7DB8FA9A5B09CCE675E10A92D49",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (19).png"
+  },
+  {
+    "sha256": "5D2D279237167F0AD9A0B5ED4BDAFA87309C811E17F94B8734A56AF4306A09AF",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (19).png.meta"
+  },
+  {
+    "sha256": "CDBF7DE65D57A9820A8524317A8664AEC6EC7B46AA92B85C771D97B8FD46056B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (2).png"
+  },
+  {
+    "sha256": "64B790F9DFCAF9B3280C4D9712485F79C3C5B460AAFCAF0CDC0EAAFDF663034D",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (2).png.meta"
+  },
+  {
+    "sha256": "DF1CAD679BBE7A992E98503B21227E5BF48417DEE024DDF0704D17D8DA74A563",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (20).png"
+  },
+  {
+    "sha256": "136E82A32C5BA071669A98CD41C4C464080076413A86389AF841CA88912BCDA3",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (20).png.meta"
+  },
+  {
+    "sha256": "81A840ECB9CC73145021EC4B84CFA7C8505755AFE8D2096426697B0437D00CC0",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (3).png"
+  },
+  {
+    "sha256": "F0032392CFB797A8C45A233A2ECD5ECD6A808FE39D593A4E67AC7370B2CB9613",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (3).png.meta"
+  },
+  {
+    "sha256": "D332A048DFBDFBF66B0BE7B9B60A74D7E91A4A20C33DA522E3E4E4E80D0111B8",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (4).png"
+  },
+  {
+    "sha256": "F14F21828F7A27FC6078D8430B1B7C5DD2F524D46B6F374A79AB96E8AB515CEB",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (4).png.meta"
+  },
+  {
+    "sha256": "507D746F9EF19D413B3316961FB650606EC7561CA08E58461835EC801B98D756",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (5).png"
+  },
+  {
+    "sha256": "4EC84B8D02C952D5545F6ADF9CECA3E123700F910E5B24C622EBFBDCE0DCA51F",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (5).png.meta"
+  },
+  {
+    "sha256": "FA7E52A624406F5C304602E24DEA5095CE589E0CC287A7DE1F90E4E7391E4AF6",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (6).png"
+  },
+  {
+    "sha256": "1673D0FA676CF29CBE294CA094A7F5835303E0FC89F69C47CE46EC2769A434C8",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (6).png.meta"
+  },
+  {
+    "sha256": "973EF93E4BC1C0EAAE6F861298544BCB407BFD686656455D55204A672FEAA4C7",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (7).png"
+  },
+  {
+    "sha256": "61AF6F0173DBB1C12D49A562C6277E69A68C6A98BECC3EC2214A458ABCEE2FA5",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (7).png.meta"
+  },
+  {
+    "sha256": "7F3E0EC6558DDE1D6929E067A4D6A09BCD63AFB1A434DBB067226BDB10287D7B",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (8).png"
+  },
+  {
+    "sha256": "AE62C24660A81E2505E9297F7E7169608CA4166B66E24D306FA16F119A9A49EC",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (8).png.meta"
+  },
+  {
+    "sha256": "C83F379E9152D4BA3B9B172684CBC9EA9DDEF7D1C20301D158A17E3CC4FF20B9",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (9).png"
+  },
+  {
+    "sha256": "5D6B209DAF24A56F04ECE9462EE87E0A5B762285D52C6B84F14D612943C88B99",
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Walk (9).png.meta"
+  }
+]

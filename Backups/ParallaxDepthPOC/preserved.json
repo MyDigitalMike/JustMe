@@ -1,0 +1,46 @@
+[
+  {
+    "path": "Assets/Prefabs/Character/Player.prefab",
+    "sha256": "e57e4c78e61766293991209746de43832ae9657668c3d3de1a2d41002393f630"
+  },
+  {
+    "path": "Assets/Prefabs/Character/Player.prefab.meta",
+    "sha256": "60a01a848ade9355fe151a046e2b5db6563fb0ce1691f10a7d8fa66794d4207d"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "sha256": "ceed8e57f9b32d09a9da2282c77ebac5364fd097332aaeb4e635b6ccfca942b0"
+  },
+  {
+    "path": "Assets/Script/UI/ParallaxBackground.cs",
+    "sha256": "1516fb8f0c2963ef75df54625875fb49bfd8abf157a37413e328303847202c08"
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity",
+    "sha256": "022081931e54d3547e37213f6d1b6740f3c53f90ec57e515a6b06f3dcbb7cdd0"
+  },
+  {
+    "path": "Assets/Scenes/MainMenu.unity",
+    "sha256": "183fe4ece5983b95d86cfa640a6e4e244c14870f27140ebe97169a5a4061dfa5"
+  },
+  {
+    "path": "Assets/Scenes/GameOver.unity",
+    "sha256": "023a47f310c20bdb3f926288a21c17ee2cd86604d4c2ab0152ed12ecdf9a6a87"
+  },
+  {
+    "path": "Packages/manifest.json",
+    "sha256": "6c1867b8ce5923e8207b7865026d37f9b386ff52f0d42d8256be54f5361d032d"
+  },
+  {
+    "path": "Packages/packages-lock.json",
+    "sha256": "2b8a551737c62d29f6ed0eadeac647247fdcd72f2f2989b0f5ae0ba8e3765510"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "sha256": "0ff109e038d4327aae330f15d5c865373e6035c23e1673c82ef8e8e56a634feb"
+  },
+  {
+    "path": "ProjectSettings/EditorBuildSettings.asset",
+    "sha256": "3beccf461b077f3d8ae49ab644c4f58dda63dcb3f1f22fe35e3a3009053f0e25"
+  }
+]

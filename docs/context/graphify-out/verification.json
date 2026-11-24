@@ -1,0 +1,13 @@
+{
+  "source_file": "C:/Personal/JustMe/docs/context/source/VISUAL_CHECKPOINT.md",
+  "source_sha256": "cd32fb17329c02642cbf8775cb1fd43c75c8b21d2520664e1c93b171ead89ba4",
+  "source_files": 1,
+  "nodes": 19,
+  "edges": 24,
+  "communities": 4,
+  "dangling_edges": 0,
+  "collapsed_edges": 0,
+  "scope": "design checkpoint only",
+  "extra_model_calls": 0,
+  "host_tokens": "unavailable"
+}

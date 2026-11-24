@@ -1,0 +1,19 @@
+{
+    "error": "",
+    "newBackend": false,
+    "legacyBackend": false,
+    "checks": [
+        "Starts resumed",
+        "Escape pauses live Update",
+        "F8 disables visibility while paused",
+        "F8 restores visibility while paused",
+        "Escape resumes live Update",
+        "C crouches actual Player",
+        "C release restores standing",
+        "D moves actual Player",
+        "Shift sprints and spends stamina",
+        "Grounded before jump",
+        "Space jumps actual Player",
+        "Second Space spends double jump stamina (before=94.39998, after=76.39998, grounded=False, vy=4.329516, cooldown=0.2)"
+    ]
+}

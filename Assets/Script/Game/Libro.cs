@@ -1,188 +1,65 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
-using UnityEngine.UI;
 using Unity.Cinemachine;
 
 public class Libro : MonoBehaviour
 {
-    private Enemigo ScritpEnemy;
-    private CoinManager ScritpCoinManager;
-    private JumpingHard ScritpJumpingHard;
     public GameObject Elemento;
-    public GameObject CoinElement;
-    public Metodos metodos;
-    public int Nivel = GameLevelStatus.CantidadNiveles2;
-    public GameObject Enemigo;
-    public GameObject JumpForce;
     public GameObject Jugador;
     public Tilemap MapaDeCasillas;
     public TileBase Casilla;
-    [Header("Semilla Generadora")]
-    public bool SemillaAleatoria = false;
-    public float Semilla = 0;
-    [Range(0, 1)]
-    public float PorcentajeDeRelleno = 0.4f;
-
-    [Header("Surface and caves prototype (disable for legacy levels)")]
-    [SerializeField] bool usarMundoProcedural = true;
-    [SerializeField] WorldGenerationSettings mundo = new WorldGenerationSettings();
-    [SerializeField] bool semillaMundoFija = true;
-    [SerializeField] int semillaMundo = 1;
-    [SerializeField] bool usarMundoHardcore = true;
-    [SerializeField] TraversalGenerationSettings mundoTraversal = new TraversalGenerationSettings { Profile = WorldProfile.Mixed };
-    TraversalCapabilities measuredCapabilities;
-    Player traversalPlayer;
-    int displayedStamina = -1;
-    private int? runSeed;
-    private GameObject worldPresentation;
-    private int lastGoalFrame = -1;
-    public WorldData LastGeneratedWorld { get; private set; }
-
-    [Header("Count Timer")]
-    public float currentTime = 0f;
-    float LimitTime = 20f;
-    [Header("Position Of Enemys")]
-#pragma warning disable 0649
-    [SerializeField] Text countDownText;
-    [SerializeField, HideInInspector] Text Enemys;
-#pragma warning restore 0649
+    public int Nivel = 1;
+    public float currentTime; // Retain the existing save DTO field and serialized name.
     public GameObject SoundBookEffect;
-    AudioSource m_MyAudioSource;
-    AudioSource BookSound;
+
+    [Header("Validated procedural world")]
+    [SerializeField] TraversalGenerationSettings mundoTraversal = new TraversalGenerationSettings { Profile = WorldProfile.Mixed };
+    [SerializeField] TraversalLayout layoutMundo = TraversalLayout.Random;
+    [SerializeField] bool semillaMundoFija;
+    [SerializeField] int semillaMundo = 1;
+    [SerializeField] DiaryProgressionSettings diaryProgression = new DiaryProgressionSettings();
+    // Keep these serialized references; their old labels are repurposed as temporary feedback.
+    [SerializeField] UnityEngine.UI.Text countDownText;
+    [SerializeField, HideInInspector] UnityEngine.UI.Text Enemys;
+
+    TraversalCapabilities measuredCapabilities;
+    WorldRunSession run;
+    Player traversalPlayer;
+    AudioSource bookSound;
+    GameObject worldPresentation, fragmentRoot;
+    Sprite fragmentSprite;
+    int lastGoalFrame = -1;
+    public WorldData LastGeneratedWorld { get; private set; }
+    public DiaryProgress Diary { get; private set; }
+    public GameplayFeedback Feedback { get; private set; }
+    public int LevelRevision { get; private set; }
+    public int CurrentSeed { get { return LastGeneratedWorld != null ? LastGeneratedWorld.Seed : 0; } }
+    public string CurrentSignature { get { return run != null ? run.CurrentSignature : null; } }
+    public int RequiredFragments { get { return Diary != null ? Diary.RequiredCount : 0; } }
+    public int CollectedFragments { get { return Diary != null ? Diary.CollectedCount : 0; } }
+
     void Awake()
     {
-        ScritpJumpingHard = JumpForce.GetComponent<JumpingHard>();
-        // Retain the reference for legacy scene compatibility; presentation is retired.
-        if (Enemys != null && Enemys.gameObject.scene.IsValid()) Enemys.gameObject.SetActive(false);
-    }
-    #region Generar Mapa
-    /// <summary>
-    /// Se genera el mapa con las casillas con la información porporcionada en "Mapa"
-    /// </summary>
-    /// <param name="Mapa">Información para la generación del mapa de casillas. 1 = Casillas 2 = No hay casillas</param>
-    /// <param name="MapaDeCasillas">Referencia al mapa de casillas dónde se generarán las casillas</param>
-    /// <param name="Casilla">Casilla la cual se pintara en el mapa de casillas</param>
-    public void Generacion(int Nivel)
-    {
-        if (usarMundoProcedural && Nivel >= 1 && Nivel <= 3)
-        {
-            GenerarMundoProcedural(Nivel);
-            return;
-        }
-        //Limpiamoz el mapa de casillas
-        MapaDeCasillas.ClearAllTiles();
-        //Se Crea El Array bidimencional del mapa
-        int[,] Mapa = null;
-
-        if (Nivel <= 4)
-        {
-            
-            if (Nivel == 1)
-            {
-                Semilla = 1;
-                PorcentajeDeRelleno = 0.2f;
-                Mapa = Metodos.GenerarMapaAleatorio(60, 34, Semilla, PorcentajeDeRelleno, true);
-                Mapa = Metodos.AutomataCelularMoore(Mapa, 3, true, Jugador, 5.55f, 22.49f, Elemento, 57f, 3f);
-                Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
-                Enemigos(Enemigo, 32, 4, -1);
-                Enemigos(Enemigo, 16, 4, 1);
-                CoinGenerator(CoinElement, 10, 1);
-                currentTime = 2000f;
-            }
-            if (Nivel == 2)
-            {
-                Semilla = 3;
-                PorcentajeDeRelleno = 0.2f;
-                Mapa = Metodos.GenerarMapaAleatorio(60, 34, Semilla, PorcentajeDeRelleno, true);
-                Mapa = Metodos.AutomataCelularMoore(Mapa, 3, true, Jugador, 1.55f, 5.49f, Elemento, 57f, 3f);
-                Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
-                Enemigos(Enemigo, 45, 8, -1);
-                currentTime = 80f;
-            }
-            if (Nivel == 3)
-            {
-                Semilla = 680.6475f;
-                PorcentajeDeRelleno = 0.368f;
-                Mapa = Metodos.GenerarMapaAleatorio(60, 34, Semilla, PorcentajeDeRelleno, true);
-                Mapa= Metodos.AutomataCelularVonNeumann(Mapa, 3, true, Jugador, 2.07f, 26.6f, Elemento, 57f, 3f);
-                Metodos.GenerarMapa(Mapa, MapaDeCasillas, Casilla);
-                #region Creación de enemigos
-                Enemigos(Enemigo, 4.65f, 1.52f, 1);
-                Enemigos(Enemigo, 16.32f, 1.52f, -1);
-                Enemigos(Enemigo, 29.71f, 3.52f, 1);
-                Enemigos(Enemigo, 57.41f, 1.52f, -1);
-                #endregion
-                #region Creación HardJump
-                JumpForced(JumpForce, 12.48f, 5.236f, 200f);
-                JumpForced(JumpForce, 15.21f, 10.237f, 100f);
-                JumpForced(JumpForce, 15.6f, 13.64f, 100f);
-                JumpForced(JumpForce, 15.6f, 1.24f, 100f);
-                JumpForced(JumpForce, 31.38f, 3.24f, 150f);
-                #endregion
-                currentTime = 200f;
-            }
-            if (Nivel == 4)
-            {
-                SceneManager.LoadScene("Creditos");
-                //Destroy(Enemy, 0f);
-            }
-        }
-        else
-        {
-            if (Nivel > 4)
-            {
-                SceneManager.LoadScene("Creditos");
-                //Destroy(Enemy, 0f);
-            }
-        }
-    }
-    private void GenerarMundoProcedural(int nivel)
-    {
-        if (usarMundoHardcore) { GenerarMundoHardcore(nivel); return; }
-        int? seed = semillaMundoFija ? unchecked(semillaMundo + nivel - 1)
-            : (runSeed.HasValue ? (int?)unchecked(runSeed.Value + nivel - 1) : null);
-        WorldData data = ProceduralWorld.Generate(mundo, seed);
-        Nivel = nivel;
-        if (!runSeed.HasValue) runSeed = unchecked(data.Seed - nivel + 1);
-        WorldTilemapRenderer.Apply(data, MapaDeCasillas, Casilla);
-        LastGeneratedWorld = data;
-        DestroyWithTag("CloneEnemy");
-        DestroyWithTag("CloneCoin");
-        DestroyWithTag("CloneHardJump");
-        PlaceInWorld(Jugador, data.SpawnX, data.SpawnY);
-        PlaceInWorld(Elemento, data.GoalX, data.GoalY);
-        if (Elemento.GetComponent<Collider2D>() == null)
-        {
-            // The recovered book prefab has no collision receiver. Derive it from its sprite.
-            var goal = Elemento.AddComponent<BoxCollider2D>();
-            SpriteRenderer renderer = Elemento.GetComponent<SpriteRenderer>();
-            if (renderer != null && renderer.sprite != null)
-            {
-                goal.size = renderer.sprite.bounds.size;
-                goal.offset = renderer.sprite.bounds.center;
-            }
-            goal.isTrigger = true;
-        }
-        PlaceInWorld(CoinElement, mundo.Width / 3, data.SpawnY);
-        Vector3 middle = WorldTilemapRenderer.CellCenter(MapaDeCasillas, mundo.Width / 2, data.SpawnY);
-        Enemigos(Enemigo, middle.x, middle.y, 1);
-        Vector3 enemyCell = WorldTilemapRenderer.CellCenter(MapaDeCasillas, mundo.Width * 3 / 4, data.SpawnY);
-        Enemigos(Enemigo, enemyCell.x, enemyCell.y, -1);
-        if (nivel == 3)
-        {
-            Vector3 spring = WorldTilemapRenderer.CellCenter(MapaDeCasillas, mundo.Width * 2 / 3, data.SpawnY);
-            JumpForced(JumpForce, spring.x, spring.y, 100f);
-        }
-        currentTime = nivel == 1 ? 2000f : (nivel == 2 ? 80f : 200f);
-        ConfigureWorldPresentation();
+        run = new WorldRunSession();
+        traversalPlayer = Jugador != null ? Jugador.GetComponent<Player>() : null;
+        Feedback = GetComponent<GameplayFeedback>();
+        if (Feedback == null) Feedback = gameObject.AddComponent<GameplayFeedback>();
+        Feedback.Initialize(traversalPlayer, this, countDownText, Enemys);
     }
 
-    private void GenerarMundoHardcore(int nivel)
+    void Start()
     {
-        traversalPlayer = Jugador.GetComponent<Player>();
+        bookSound = SoundBookEffect != null ? SoundBookEffect.GetComponent<AudioSource>() : null;
+        PauseMenu.EnPausa = false; Time.timeScale = 1f;
+        Generacion(1);
+    }
+
+    public void Generacion(int nivel)
+    {
+        if (nivel < 1) throw new System.ArgumentOutOfRangeException("nivel");
+        if (traversalPlayer == null || MapaDeCasillas == null || Elemento == null || Casilla == null)
+            throw new System.InvalidOperationException("Libro requires the existing scene Player, tilemap, tile and exit references.");
         if (measuredCapabilities == null)
         {
             TextAsset calibration = Resources.Load<TextAsset>("TraversalCapabilities");
@@ -190,25 +67,19 @@ public class Libro : MonoBehaviour
             measuredCapabilities = JsonUtility.FromJson<TraversalCapabilities>(calibration.text);
         }
         ValidateCalibration(traversalPlayer, measuredCapabilities);
-        int? seed = semillaMundoFija ? unchecked(semillaMundo + nivel - 1)
-            : runSeed.HasValue ? (int?)unchecked(runSeed.Value + nivel - 1) : null;
-        WorldData data = ProceduralWorld.GenerateTraversal(mundoTraversal, measuredCapabilities, traversalPlayer.staminaSettings, seed);
-        if (!runSeed.HasValue) runSeed = unchecked(data.Seed - nivel + 1);
+        mundoTraversal.Layout = layoutMundo;
+        mundoTraversal.RequiredFragments = diaryProgression.RequiredForLevel(nivel);
+        WorldData data = run.GenerateNext(nivel, semillaMundoFija, semillaMundo,
+            seed => ProceduralWorld.GenerateTraversal(mundoTraversal, measuredCapabilities, traversalPlayer.staminaSettings, seed));
+        RetireFragments();
         WorldTilemapRenderer.Apply(data, MapaDeCasillas, Casilla);
-        LastGeneratedWorld = data; Nivel = nivel;
-        DestroyWithTag("CloneEnemy"); DestroyWithTag("CloneCoin"); DestroyWithTag("CloneHardJump");
-        foreach (Enemigo enemy in FindObjectsByType<Enemigo>(FindObjectsInactive.Include))
-            if (enemy.gameObject.scene == gameObject.scene) enemy.gameObject.SetActive(false);
-        foreach (JumpingHard spring in FindObjectsByType<JumpingHard>(FindObjectsInactive.Include))
-            if (spring.gameObject.scene == gameObject.scene) spring.gameObject.SetActive(false);
-        foreach (CoinManager coin in FindObjectsByType<CoinManager>(FindObjectsInactive.Include))
-            if (coin.gameObject.scene == gameObject.scene) coin.gameObject.SetActive(false);
-        if (CoinElement != null && CoinElement.scene.IsValid()) CoinElement.SetActive(false);
+        LastGeneratedWorld = data; Nivel = nivel; LevelRevision++;
+        Diary = new DiaryProgress(data.RequiredFragments, LevelRevision);
+        Feedback.ClearMessage();
         var environment = MapaDeCasillas.GetComponent<TraversalEnvironment>();
         if (environment == null) environment = MapaDeCasillas.gameObject.AddComponent<TraversalEnvironment>();
         WorldTilemapRenderer.ConfigureTraversal(data, MapaDeCasillas, environment, traversalPlayer);
-        traversalPlayer.VoidEntered -= HandleTraversalVoid;
-        traversalPlayer.VoidEntered += HandleTraversalVoid;
+        traversalPlayer.VoidEntered -= HandleTraversalVoid; traversalPlayer.VoidEntered += HandleTraversalVoid;
         PlaceActor(Jugador, WorldTilemapRenderer.StandingPosition(data, MapaDeCasillas, data.Route.Nodes[0], traversalPlayer.SoleOffset));
         TraversalNode goal = data.Route.Nodes[data.Route.Links[data.Route.PrimaryLinks[data.Route.PrimaryLinks.Length - 1]].ToNode];
         PlaceActor(Elemento, WorldTilemapRenderer.StandingPosition(data, MapaDeCasillas, goal, traversalPlayer.SoleOffset));
@@ -218,7 +89,39 @@ public class Libro : MonoBehaviour
             SpriteRenderer renderer = Elemento.GetComponent<SpriteRenderer>();
             if (renderer != null && renderer.sprite != null) { trigger.size = renderer.sprite.bounds.size; trigger.offset = renderer.sprite.bounds.center; }
         }
-        displayedStamina = -1; ConfigureWorldPresentation();
+        ConfigureWorldPresentation(); SpawnFragments(data);
+    }
+
+    void SpawnFragments(WorldData data)
+    {
+        if (fragmentSprite == null) fragmentSprite = DiaryPage.CreatePaperSprite();
+        fragmentRoot = new GameObject("Diary fragments"); fragmentRoot.transform.SetParent(MapaDeCasillas.transform, true);
+        var terrainRenderer = MapaDeCasillas.GetComponent<TilemapRenderer>();
+        Rigidbody2D collector = traversalPlayer.GetComponent<Rigidbody2D>();
+        for (int id = 0; id < data.FragmentNodes.Length; id++)
+        {
+            int node = data.FragmentNodes[id];
+            var page = new GameObject("Diary fragment " + (id + 1), typeof(SpriteRenderer), typeof(BoxCollider2D), typeof(DiaryPage));
+            page.transform.SetParent(fragmentRoot.transform, true);
+            page.transform.position = WorldTilemapRenderer.StandingPosition(data, MapaDeCasillas, data.Route.Nodes[node], traversalPlayer.SoleOffset) + Vector3.down * .08f;
+            page.transform.localScale = Vector3.one * .35f;
+            var renderer = page.GetComponent<SpriteRenderer>(); renderer.sprite = fragmentSprite;
+            renderer.sharedMaterial = terrainRenderer.sharedMaterial; renderer.sortingLayerID = terrainRenderer.sortingLayerID; renderer.sortingOrder = 4;
+            var trigger = page.GetComponent<BoxCollider2D>(); trigger.size = fragmentSprite.bounds.size; trigger.isTrigger = true;
+            page.GetComponent<DiaryPage>().Initialize(id, node, LevelRevision, collector, TryCollectFragment);
+        }
+    }
+
+    public bool TryCollectFragment(int id, int revision)
+    {
+        if (Diary == null || !Diary.TryCollect(id, revision)) return false;
+        Feedback.ShowMessage("Trozo recogido " + CollectedFragments + "/" + RequiredFragments);
+        return true;
+    }
+
+    void RetireFragments()
+    {
+        if (fragmentRoot != null) { fragmentRoot.SetActive(false); Destroy(fragmentRoot); fragmentRoot = null; }
     }
 
     private static void ValidateCalibration(Player player, TraversalCapabilities c)
@@ -244,52 +147,7 @@ public class Libro : MonoBehaviour
         if (!current) throw new System.InvalidOperationException("Player tuning differs from the measured traversal calibration. Re-measure before accepting a new world.");
     }
 
-    private void HandleTraversalVoid()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("GameOver");
-    }
-
-    private void OnDestroy()
-    {
-        if (traversalPlayer != null) traversalPlayer.VoidEntered -= HandleTraversalVoid;
-    }
-
-    private void PlaceActor(GameObject target, Vector3 position)
-    {
-        if (!target.scene.IsValid()) throw new System.InvalidOperationException("Cannot place an asset reference.");
-        position.z = target.transform.position.z;
-        Vector3 delta = position - target.transform.position; target.transform.position = position;
-        Rigidbody2D body = target.GetComponent<Rigidbody2D>();
-        if (body != null) { body.position = position; body.linearVelocity = Vector2.zero; }
-        if (target == Jugador)
-        {
-            traversalPlayer.NotifyWarp();
-            CinemachineCore.OnTargetObjectWarped(target.transform, delta);
-            if (Camera.main != null) Camera.main.transform.position += delta;
-        }
-    }
-
-    private void PlaceInWorld(GameObject target, int x, int y)
-    {
-        if (target == null) return;
-        if (!target.scene.IsValid())
-            throw new System.InvalidOperationException("Only scene instances can be placed in the generated world: " + target.name);
-        Vector3 position = WorldTilemapRenderer.CellCenter(MapaDeCasillas, x, y);
-        position.z = target.transform.position.z;
-        Vector3 delta = position - target.transform.position;
-        target.transform.position = position;
-        Rigidbody2D body = target.GetComponent<Rigidbody2D>();
-        if (body != null) { body.position = position; body.linearVelocity = Vector2.zero; }
-        if (target == Jugador)
-        {
-            CinemachineCore.OnTargetObjectWarped(target.transform, delta);
-            Camera camera = Camera.main;
-            if (camera != null) camera.transform.position += delta;
-        }
-    }
-
-    private void ConfigureWorldPresentation()
+    void ConfigureWorldPresentation()
     {
         if (worldPresentation == null)
         {
@@ -299,149 +157,67 @@ public class Libro : MonoBehaviour
         if (worldPresentation != null)
         {
             WorldLighting lighting = worldPresentation.GetComponent<WorldLighting>();
-            if (lighting != null) { lighting.player = Jugador.transform; lighting.surfaceHeight = mundo.SurfaceHeight; }
-        }
-        Camera camera = Camera.main;
-        if (camera != null)
-            foreach (ScrollingBackground background in camera.GetComponentsInChildren<ScrollingBackground>())
+            if (lighting != null) { lighting.player = Jugador.transform; lighting.surfaceHeight = mundoTraversal.Terrain.SurfaceHeight; }
+            WorldBackdropLayers backdrops = worldPresentation.GetComponent<WorldBackdropLayers>();
+            if (backdrops != null)
             {
-                background.enabled = false;
-                if (background.bgRend != null) background.bgRend.sortingOrder = -30;
-            }
-    }
-    void DestroyWithTag(string destroyTag)
-    {
-        GameObject[] destroyObject;
-        destroyObject = GameObject.FindGameObjectsWithTag(destroyTag);
-        foreach (GameObject oneObject in destroyObject)
-        {
-            Destroy(oneObject);
-        }
-    }
-    #endregion
-    public void LimpiarMapa()
-    {
-        MapaDeCasillas.ClearAllTiles();
-    }
-    public void Enemigos(GameObject Enemigo, float PositionXEnemy, float PositionYEnemy, int NumberSpeed)
-    {
-
-        Enemigo = (GameObject)Instantiate(Enemigo, new Vector3(PositionXEnemy, PositionYEnemy, 0), Quaternion.identity);
-        Enemigo.name = "Enemigo";
-        Enemigo.tag = "CloneEnemy";
-        ScritpEnemy = Enemigo.GetComponent<Enemigo>();
-        ScritpEnemy.Speed = NumberSpeed;
-        if (ScritpEnemy.Speed < 0)
-        {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
-        if (ScritpEnemy.Speed > 0)
-        {
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-
-    }
-    public void CoinGenerator(GameObject CoinElement, float PositionXCoin, float PositionYCoin)
-    {
-        CoinElement = (GameObject)Instantiate(CoinElement, new Vector3(PositionXCoin, PositionYCoin, 0), Quaternion.identity);
-        CoinElement.name = "Coin";
-        CoinElement.tag = "CloneCoin";
-        ScritpCoinManager = CoinElement.GetComponent<CoinManager>();
-    }
-    public float Fuerza = 0;
-    public void JumpForced(GameObject JumpHard, float PositionXJump, float PositionYJump, float ImpulseFoce)
-    {
-        JumpHard = (GameObject)Instantiate(JumpHard, new Vector3(PositionXJump, PositionYJump, 0), Quaternion.identity);
-        JumpHard.name = "HardJump";
-        JumpHard.tag = "CloneHardJump";
-        ScritpJumpingHard = JumpHard.GetComponent<JumpingHard>();
-        ScritpJumpingHard.FuerzaJump.forceMagnitude = ImpulseFoce;
-    }
-    void Start()
-    {
-        m_MyAudioSource = GetComponent<AudioSource>();
-        BookSound = SoundBookEffect.GetComponent<AudioSource>();
-        currentTime = LimitTime;
-        Generacion(1);
-        Timer();
-    }
-    public void TimerGameOver(Text Text, float LimitTime)
-    {
-        string Texto = Text.text;
-        if (Texto == "0")
-        {
-            SceneManager.LoadScene("GameOver");
-        }
-    }
-    void Timer()
-    {
-        if (usarMundoProcedural && usarMundoHardcore)
-        {
-            if (traversalPlayer != null && countDownText != null)
-            {
-                int value = Mathf.FloorToInt(traversalPlayer.Stamina.Current);
-                if (value != displayedStamina) { countDownText.text = "Stamina " + value; displayedStamina = value; }
-            }
-            return;
-        }
-        currentTime -= 1 * Time.deltaTime;
-        countDownText.text = currentTime.ToString("0");
-        if (currentTime <= 0)
-        {
-            currentTime = 0;
-            if (currentTime == 0)
-            {
-                Debug.Log("Fin");
+                var renderer = MapaDeCasillas.GetComponent<UnityEngine.Tilemaps.TilemapRenderer>();
+                backdrops.Configure(CurrentSeed, renderer.sortingLayerID, renderer.sortingOrder);
             }
         }
-        TimerGameOver(countDownText, LimitTime);
     }
-    private void FixedUpdate()
-    {
-        Timer();
 
-    }
-    public void StartGame()
+    void PlaceActor(GameObject target, Vector3 position)
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("JustMe");
+        if (!target.scene.IsValid()) throw new System.InvalidOperationException("Cannot place an asset reference.");
+        position.z = target.transform.position.z;
+        Vector3 delta = position - target.transform.position; target.transform.position = position;
+        Rigidbody2D body = target.GetComponent<Rigidbody2D>();
+        if (body != null) { body.position = position; body.linearVelocity = Vector2.zero; }
+        if (target == Jugador)
+        {
+            traversalPlayer.NotifyWarp(); CinemachineCore.OnTargetObjectWarped(target.transform, delta);
+            if (Camera.main != null) Camera.main.transform.position += delta;
+        }
     }
-    public void SavaGame()
+
+    void HandleTraversalVoid() { Time.timeScale = 1f; SceneManager.LoadScene("GameOver"); }
+    void OnDestroy()
     {
-        SaveSystem.SavePlayer(this);
+        if (traversalPlayer != null) traversalPlayer.VoidEntered -= HandleTraversalVoid;
+        RetireFragments();
+        if (fragmentSprite != null) { Destroy(fragmentSprite.texture); Destroy(fragmentSprite); }
     }
+
+    public void LimpiarMapa() { RetireFragments(); MapaDeCasillas.ClearAllTiles(); }
+    public void StartGame() { PauseMenu.EnPausa = false; Time.timeScale = 1f; SceneManager.LoadScene("JustMe"); }
+    public void SavaGame() { SaveSystem.SavePlayer(this); }
     public void LoadGame()
     {
         GameData data = SaveSystem.LoadGame();
-        Nivel = data.CantidadNiveles;
-        currentTime = data.currentTime;
-        Generacion(Nivel);
+        if (data == null) return;
+        currentTime = data.currentTime; Generacion(System.Math.Max(1, data.CantidadNiveles));
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision) { if (collision.gameObject.CompareTag("Jugador")) CompleteLevel(); }
+    void OnTriggerEnter2D(Collider2D other) { if (other.CompareTag("Jugador")) CompleteLevel(); }
+    void CompleteLevel()
     {
-
-        if (collision.gameObject.tag == "Jugador")
-        {
-            CompleteLevel();
-        }
-    }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (usarMundoProcedural && other.CompareTag("Jugador")) CompleteLevel();
-    }
-
-    private void CompleteLevel()
-    {
-        // Both player colliders may enter the goal during the same physics step.
         if (lastGoalFrame == Time.frameCount) return;
         lastGoalFrame = Time.frameCount;
-        Nivel++;
-        if (BookSound != null)
+        if (Diary == null || !Diary.IsComplete) { Feedback.ShowMessage("Faltan trozos " + CollectedFragments + "/" + RequiredFragments); return; }
+        try
         {
-            if (BookSound.gameObject.scene.IsValid()) BookSound.Play();
-            else if (BookSound.clip != null) AudioSource.PlayClipAtPoint(BookSound.clip, transform.position, BookSound.volume);
+            Generacion(checked(Nivel + 1));
+            if (bookSound != null)
+            {
+                if (bookSound.gameObject.scene.IsValid()) bookSound.Play();
+                else if (bookSound.clip != null) AudioSource.PlayClipAtPoint(bookSound.clip, transform.position, bookSound.volume);
+            }
         }
-        Generacion(Nivel);
+        catch (System.Exception error)
+        {
+            Debug.LogError("World generation rejected: " + error.Message, this);
+            Feedback.ShowMessage("No se pudo crear el siguiente mundo");
+        }
     }
 }
-

@@ -1,0 +1,18 @@
+{
+    "error": "System.Exception: Second Space double jumps and spends stamina\r\n  at InputMigrationChecks.Assert (InputMigrationChecks+Report report, System.Boolean passed, System.String name) [0x00016] in C:\\Personal\\JustMe\\Assets\\Editor\\InputMigrationChecks.cs:28 \r\n  at InputMigrationChecks.TickFlow () [0x00381] in C:\\Personal\\JustMe\\Assets\\Editor\\InputMigrationChecks.cs:154 ",
+    "newBackend": false,
+    "legacyBackend": false,
+    "checks": [
+        "Starts resumed",
+        "Escape pauses live Update",
+        "F8 disables visibility while paused",
+        "F8 restores visibility while paused",
+        "Escape resumes live Update",
+        "C crouches actual Player",
+        "C release restores standing",
+        "D moves actual Player",
+        "Shift sprints and spends stamina",
+        "Grounded before jump",
+        "Space jumps actual Player"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "worlds": [
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 2,
+            "required": 3,
+            "collected": 3,
+            "completedLinks": 140,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 885.4815063476563,
+            "position": {
+                "x": 7.0302534103393555,
+                "y": 34.717071533203125
+            },
+            "reachedGoal": true,
+            "fallVerified": true,
+            "fallKind": "left exterior",
+            "fallDistance": 2.849346160888672,
+            "deathEvents": 1
+        }
+    ],
+    "error": ""
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "sha256": "335EFBBDB979CC5F351B817EECF32BBC9BA203618EAD2C2F8BF5EA932F98845E",
+    "path": "Assets/Script/Game/Player.cs"
+  },
+  {
+    "sha256": "CABD3F1551A463214C234244584023B709665AE4FA98EBFD59FEC9CB5CDF08C3",
+    "path": "Assets/Script/Game/Player.cs.meta"
+  },
+  {
+    "sha256": "F0C6150C20FEBC9F40AF7388FE9C014BB40A1D48D3214A9833283B3DD526D011",
+    "path": "Assets/Animaciones/Player/Player.controller"
+  },
+  {
+    "sha256": "EDF647A7B6511059F1E6FA1AD01173839AE1085EDACBE4E010295FF8C31C6BF5",
+    "path": "Assets/Animaciones/Player/Player.controller.meta"
+  },
+  {
+    "sha256": "35372908879CEDA20D9B32E98113FE38199AF80B15AF96D17B76D5C07D6EC2AA",
+    "path": "Assets/Animaciones/Player/PlayerIdle.anim"
+  },
+  {
+    "sha256": "B84AABA902EC5CA9EDD8AEE7B99D107D6EC82737017FE18BD63E9ACAD281647E",
+    "path": "Assets/Animaciones/Player/PlayerIdle.anim.meta"
+  },
+  {
+    "sha256": "FE68DD0DBA2AB1A42CBACB49AB7BAD61D87C26D6F22D31E37F9D427D73B5415C",
+    "path": "Assets/Animaciones/Player/PlayerWalk.anim"
+  },
+  {
+    "sha256": "77169D65287545986F02C1C1BAAC9DCCF9EEEEFEBA9D13CC7027E8DC53709E74",
+    "path": "Assets/Animaciones/Player/PlayerWalk.anim.meta"
+  },
+  {
+    "sha256": "CB270F8D4A48E1C5BD99B83F61001E9E95FCC1FE9355B542CA48EABB271466B6",
+    "path": "Assets/Animaciones/Player/PlayerFall.anim"
+  },
+  {
+    "sha256": "529623428C405767364522241C0C65891FD1104BAC3BF768C41122113735476A",
+    "path": "Assets/Animaciones/Player/PlayerFall.anim.meta"
+  }
+]

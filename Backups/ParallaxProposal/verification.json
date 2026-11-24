@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-24",
+  "editor": "6000.6.8f1",
+  "completed": [
+    "Se desactivó la colocación actual de paredes de papel y muebles; todos sus recursos y GUID se conservan.",
+    "La piel del terreno mantiene piedra y madera.",
+    "MainMenu usa la imagen aprobada sin regenerarla; GameOver usa arte nuevo de la misma familia.",
+    "Fondos de menú proporcionales con un velo de contraste, sin raycasts, detrás de los controles.",
+    "CanvasScaler de MainMenu usa Expand: corrige el título recortado en ventanas anchas.",
+    "Se guardó una propuesta visual en tres etapas y una recomendación de cuatro planos con velocidades X/Y distintas."
+  ],
+  "notImplemented": "La lámina de parallax es conceptual y aplanada. Falta aprobar la progresión concreta por nivel, separar las capas con alpha e implementar/verificar movimiento, cobertura vertical, repetición, oscuridad y warps.",
+  "verification": {
+    "compilation": "Unity terminó la compilación final tras retirar el probe; consola observada con 0 errores. No se realizó build de distribución.",
+    "playMode": "Se observaron ambos menús en formato ancho y 16:9. Clic en Nueva Partida abrió JustMe; clic en Salir de GameOver regresó a MainMenu.",
+    "terrainLevels": [
+      {
+        "scene": "JustMe",
+        "error": "",
+        "playing": true,
+        "noPaperOrProps": true,
+        "physicalTilesPreserved": true,
+        "compositePathsPreserved": true,
+        "artworkHasNoColliders": true,
+        "level": 1,
+        "required": 3,
+        "props": 0,
+        "backWalls": 0,
+        "paperSolidTiles": 0,
+        "paths": 10
+      },
+      {
+        "scene": "JustMe",
+        "error": "",
+        "playing": true,
+        "noPaperOrProps": true,
+        "physicalTilesPreserved": true,
+        "compositePathsPreserved": true,
+        "artworkHasNoColliders": true,
+        "level": 2,
+        "required": 4,
+        "props": 0,
+        "backWalls": 0,
+        "paperSolidTiles": 0,
+        "paths": 7
+      }
+    ],
+    "scenes": [
+      {
+        "scene": "MainMenu",
+        "callbacksUnchanged": true,
+        "allOriginalReferencedGuidsPreserved": true
+      },
+      {
+        "scene": "GameOver",
+        "callbacksUnchanged": true,
+        "allOriginalReferencedGuidsPreserved": true
+      }
+    ],
+    "preservation": "12 archivos focalizados de arte fuente, Player, stamina, WorldTilemapRenderer, WorldLighting/F8, entrada, manifiesto/lock y ProjectSettings conservan sus SHA-256.",
+    "finalLogErrors": [],
+    "metadata": "Todos los .meta existentes del respaldo permanecen idénticos.",
+    "probe": "AtmosphereProposalProbe.cs y su .meta respaldados/verificados en EditorProbes y retirados de Assets después de observar salida de Play."
+  },
+  "testNotes": [
+    "baseline.json registró 54 props, una pared de fondo y 679 tiles de yeso/papel antes del cambio; falló como se esperaba. live.json y next.json confirman cero en niveles 1 y 2.",
+    "La primera lectura del fondo antes de completar el layout falló; se comprobó después del layout con dimensiones reales del Canvas. Las verificaciones finales de ambos formatos pasan. Se conserva el diagnóstico inicial.",
+    "No se repitió la recogida completa de trozos ni el recorrido físico: no se cambiaron generación, movimiento o colisiones. Se comprobó la invariancia exacta de las baldosas y puntos del CompositeCollider2D ante la reconstrucción visual.",
+    "Los encuadres más anchos recortan verticalmente la ilustración para cubrir la pantalla sin deformarla; 16:9 muestra la composición completa."
+  ],
+  "remainingWarnings": [
+    "Advertencia preexistente UDP de VS/Unity; advertencias previas de BinaryFormatter/APIs obsoletas fuera del alcance."
+  ],
+  "visualScorecard": [
+    "Palette discipline: 4/5 — azul/teal apagado y puntos ámbar consistentes con la referencia aprobada.",
+    "Style uniformity: 4/5 — fondos derivados de la misma referencia; personaje jugable previo conservado.",
+    "Lighting depth: 4/5 — ruinas lejanas frías y luces laterales cálidas; profundidad pintada, estática.",
+    "UI intentionality: 3/5 — título visible y controles conservados sobre velo; tipografía/layout siguen provisionales."
+  ],
+  "changedExistingFiles": [
+    "Assets/Script/GeneracionMundo/RuinedHouseTheme.cs",
+    "Assets/Script/GeneracionMundo/RuinedHousePresentation.cs",
+    "Assets/Resources/RuinedHouseTheme.asset",
+    "Assets/Scenes/MainMenu.unity",
+    "Assets/Scenes/GameOver.unity",
+    "docs/context/source/VISUAL_CHECKPOINT.md"
+  ],
+  "artFiles": [
+    "Assets/Art/MenuBackdrops/ApprovedHouseMainMenu.png",
+    "Assets/Art/MenuBackdrops/GameOverHouse.png",
+    "Backups/ParallaxProposal/ParallaxStages.png"
+  ],
+  "captures": [
+    "Backups/ParallaxProposal/MainMenu.png",
+    "Backups/ParallaxProposal/GameOver.png",
+    "Backups/ParallaxProposal/gameplay-live.png",
+    "Backups/ParallaxProposal/gameplay-next.png"
+  ],
+  "design": "Backups/ParallaxProposal/design.json",
+  "prompts": "Backups/ParallaxProposal/art-prompts.json",
+  "generationMode": "built-in ImageGen; sin CLI ni API key.",
+  "recovery": "Originals y before.json conservan diez archivos originales verificados. Recursos domésticos fuente intactos; no se borraron assets ni se cambiaron sus .meta.",
+  "editorFinalState": "MainMenu abierto, fuera de Play Mode; Game View dejado en 16:9. Ninguna escena sin guardar."
+}

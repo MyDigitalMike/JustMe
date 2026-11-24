@@ -1,0 +1,8 @@
+Bed rect=(x:33.00, y:458.00, width:393.00, height:268.00) pivot=(196.50, 0.00) bounds=Center: (0.00, 0.52, 0.00), Extents: (0.77, 0.52, 0.10) meshY=0.0078125..1.039063 opaqueY=460..723 opaqueX=35..423
+SealedDoor rect=(x:554.00, y:458.00, width:224.00, height:366.00) pivot=(112.00, 0.00) bounds=Center: (0.00, 0.71, 0.00), Extents: (0.44, 0.71, 0.10) meshY=0.0078125..1.421875 opaqueY=460..821 opaqueX=556..775
+Window rect=(x:956.00, y:462.00, width:312.00, height:349.00) pivot=(156.00, 0.00) bounds=Center: (0.00, 0.68, 0.00), Extents: (0.61, 0.68, 0.10) meshY=0.0078125..1.355469 opaqueY=464..808 opaqueX=958..1265
+EmptyFrame rect=(x:1435.00, y:506.00, width:235.00, height:270.00) pivot=(117.50, 0.00) bounds=Center: (0.00, 0.53, 0.00), Extents: (0.46, 0.53, 0.10) meshY=0.0078125..1.046875 opaqueY=508..773 opaqueX=1437..1667
+WarmCorner rect=(x:34.00, y:45.00, width:383.00, height:315.00) pivot=(191.50, 0.00) bounds=Center: (0.00, 0.62, 0.00), Extents: (0.75, 0.62, 0.10) meshY=0.0078125..1.222656 opaqueY=47..357 opaqueX=36..414
+Shelf rect=(x:490.00, y:112.00, width:350.00, height:174.00) pivot=(175.00, 0.00) bounds=Center: (0.00, 0.34, 0.00), Extents: (0.68, 0.34, 0.10) meshY=0.0078125..0.671875 opaqueY=114..283 opaqueX=492..837
+Ivy rect=(x:941.00, y:90.00, width:340.00, height:278.00) pivot=(170.00, 0.00) bounds=Center: (0.00, 0.54, 0.00), Extents: (0.66, 0.54, 0.10) meshY=0.0078125..1.078125 opaqueY=90..365 opaqueX=943..1278
+Braces rect=(x:1364.00, y:75.00, width:377.00, height:239.00) pivot=(188.50, 0.00) bounds=Center: (0.00, 0.47, 0.00), Extents: (0.74, 0.47, 0.10) meshY=0.0078125..0.9257813 opaqueY=77..311 opaqueX=1366..1738

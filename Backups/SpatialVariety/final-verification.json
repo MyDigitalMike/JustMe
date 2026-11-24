@@ -1,0 +1,30 @@
+{
+  "finalConsoleErrorsObserved": 0,
+  "topologyAssertions": 211,
+  "topologyCases": 42,
+  "nativeCompilationObserved": true,
+  "allReturningBranchesReplayed": true,
+  "remaining": "Sampled verification, manual balance still required. Existing BinaryFormatter/VS UDP warnings and Unity CLI restriction unchanged.",
+  "fixedDebugSampleRejected": [
+    24
+  ],
+  "nativeCompleteWorlds": 20,
+  "fixedDebugSampleAccepted": 31,
+  "finalPreferredNativeFragmentsEach": 12,
+  "finalFreshPlayWithoutProbeObserved": true,
+  "outsidePlayMode": true,
+  "normalModelRuns": 32,
+  "unityVersion": "6000.6.8f1",
+  "policy": "Normal Random accepts mixed exploration with substantial direction changes; explicit debug layouts preserved",
+  "finalPreferredNativeSeeds": [
+    0,
+    1,
+    2,
+    4,
+    11,
+    42
+  ],
+  "temporaryProbeArchived": true,
+  "phase4Assertions": 355,
+  "legacyAssertions": 157
+}

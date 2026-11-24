@@ -1,0 +1,13 @@
+{
+  "seeds": [
+    0,
+    1,
+    42
+  ],
+  "passed": true,
+  "checks": [
+    "unique whole obstacle-order modules per horizontal level",
+    "no adjacent identical climb footprints",
+    "at least three climb footprints per ascent"
+  ]
+}

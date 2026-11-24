@@ -1,0 +1,63 @@
+{
+    "error": "",
+    "ready": true,
+    "worlds": [
+        {
+            "seed": 2,
+            "solidCells": 1909,
+            "rooms": 21,
+            "props": 40,
+            "paths": 9,
+            "maximumFurnitureGap": 0.0,
+            "error": "",
+            "furnitureGrounded": true,
+            "originalTilesPreserved": true,
+            "collisionPathsIdentical": true,
+            "skinMatchesOccupancy": true,
+            "skinWorldCoordinates": true,
+            "noDecorativeColliders": true,
+            "worldUnchanged": true,
+            "repeatStable": true,
+            "roomLayoutStable": true,
+            "oldArtworkRetired": true
+        },
+        {
+            "seed": 11,
+            "solidCells": 2233,
+            "rooms": 22,
+            "props": 38,
+            "paths": 11,
+            "maximumFurnitureGap": 0.0,
+            "error": "",
+            "furnitureGrounded": true,
+            "originalTilesPreserved": true,
+            "collisionPathsIdentical": true,
+            "skinMatchesOccupancy": true,
+            "skinWorldCoordinates": true,
+            "noDecorativeColliders": true,
+            "worldUnchanged": true,
+            "repeatStable": true,
+            "roomLayoutStable": true,
+            "oldArtworkRetired": true
+        },
+        {
+            "seed": 42,
+            "solidCells": 2419,
+            "rooms": 23,
+            "props": 44,
+            "paths": 7,
+            "maximumFurnitureGap": 0.0,
+            "error": "",
+            "furnitureGrounded": true,
+            "originalTilesPreserved": true,
+            "collisionPathsIdentical": true,
+            "skinMatchesOccupancy": true,
+            "skinWorldCoordinates": true,
+            "noDecorativeColliders": true,
+            "worldUnchanged": true,
+            "repeatStable": true,
+            "roomLayoutStable": true,
+            "oldArtworkRetired": true
+        }
+    ]
+}

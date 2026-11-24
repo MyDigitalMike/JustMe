@@ -6,6 +6,7 @@ public sealed class TraversalValidation
     public bool Valid;
     public string Reason;
     public int FailedLink = -1;
+    public int FragmentsReached;
     public double RemainingStamina, TotalSeconds;
 }
 
@@ -34,13 +35,31 @@ public static class TraversalValidator
     static bool Finite(double x) { return !double.IsNaN(x) && !double.IsInfinity(x); }
     static bool Positive(double x) { return Finite(x) && x > 0; }
 
-    public static TraversalValidation Validate(WorldData world, TraversalCapabilities caps, StaminaSettings settings)
+    public static TraversalValidation Validate(WorldData world, TraversalCapabilities caps, StaminaSettings settings, int requiredFragments = -1)
     {
         ValidateCapabilities(caps); settings.Validate();
         var result = new TraversalValidation();
         if (world == null || world.Route == null || world.Tiles == null || world.Route.Nodes == null || world.Route.Links == null || world.Route.PrimaryLinks == null)
             return Fail(result, -1, "Missing world or directed primary route.");
         if (world.CellSize != .5 || world.Route.PrimaryLinks.Length < 5) return Fail(result, -1, "Missing hard traversal geometry.");
+        if (world.Route.Layout == TraversalLayout.Exploration)
+        {
+            int left = 0, right = 0, up = 0, down = 0;
+            foreach (int index in world.Route.PrimaryLinks)
+            {
+                if (index < 0 || index >= world.Route.Links.Length) return Fail(result, index, "Invalid link index.");
+                TraversalLink link = world.Route.Links[index];
+                if (link.FromNode < 0 || link.ToNode < 0 || link.FromNode >= world.Route.Nodes.Length || link.ToNode >= world.Route.Nodes.Length)
+                    return Fail(result, index, "Invalid exploration anchor.");
+                TraversalNode a = world.Route.Nodes[link.FromNode], b = world.Route.Nodes[link.ToNode];
+                if (link.Action == TraversalAction.Walk)
+                { left += Math.Max(0, a.FloorX - b.FloorX); right += Math.Max(0, b.FloorX - a.FloorX); }
+                up += Math.Max(0, b.FloorY - a.FloorY); down += Math.Max(0, a.FloorY - b.FloorY);
+            }
+            // Actual room-scale reversals, not a short jump run-up masquerading as a turn.
+            if (world.Route.Profile != WorldProfile.Mixed || left < 10 || right < 10 || up < 14 || down < 14)
+                return Fail(result, -1, "Exploration needs substantial horizontal and vertical direction changes.");
+        }
         var resource = new TraversalStamina(settings);
         var snapshots = new Dictionary<int, List<int>>();
         int node = 0;
@@ -89,8 +108,62 @@ public static class TraversalValidator
             // A dead end must include a directed way back; a shortcut must reconnect.
             if (at != start && !snapshots.ContainsKey(at)) return Fail(result, -1, "Optional branch has no validated return or reconnection.");
         }
-        result.Valid = true; result.Reason = "Directed geometry and continuous stamina model accepted; physical replay still required.";
-        result.RemainingStamina = resource.Current; return result;
+        int required = requiredFragments < 0 ? world.RequiredFragments : requiredFragments;
+        if (required < 1 || required > 12 || world.RequiredFragments != required || world.FragmentNodes == null || world.FragmentNodes.Length != required ||
+            world.CollectionLinks == null || world.CollectionLinks.Length < 1 || world.CollectionLinks.Length > world.Route.Links.Length * 2)
+            return Fail(result, -1, "Missing or unbounded diary collection itinerary.");
+        var pageAt = new Dictionary<int, int>();
+        int[] exploration = DiaryPlanner.ExplorationLinks(world.Route);
+        if (exploration.Length < 4 || world.Route.Links[exploration[0]].FromNode != world.Route.Links[exploration[exploration.Length - 1]].ToNode)
+            return Fail(result, -1, "Missing required exploration return.");
+        int deadEnd = world.ExplorationNode;
+        bool terminalOnBranch = false;
+        foreach (int index in exploration) if (world.Route.Links[index].ToNode == deadEnd) terminalOnBranch = true;
+        if (!terminalOnBranch || deadEnd == world.Route.Links[exploration[0]].FromNode)
+            return Fail(result, -1, "Exploration terminal is not inside its directed branch.");
+        var terminalNeighbors = new HashSet<int>();
+        foreach (int index in exploration)
+        {
+            TraversalLink link = world.Route.Links[index];
+            if (link.FromNode == deadEnd && link.ToNode != deadEnd) terminalNeighbors.Add(link.ToNode);
+            if (link.ToNode == deadEnd && link.FromNode != deadEnd) terminalNeighbors.Add(link.FromNode);
+        }
+        if (terminalNeighbors.Count != 1) return Fail(result, -1, "Exploration objective is not a dead-end terminal.");
+        var mainNodes = new HashSet<int>();
+        foreach (int index in world.Route.PrimaryLinks) mainNodes.Add(world.Route.Links[index].ToNode);
+        var positions = new HashSet<long> { DiaryPlanner.PositionKey(spawn), DiaryPlanner.PositionKey(goal) };
+        for (int id = 0; id < required; id++)
+        {
+            int pageNode = world.FragmentNodes[id];
+            if (pageNode < 0 || pageNode >= world.Route.Nodes.Length || pageAt.ContainsKey(pageNode)) return Fail(result, -1, "Invalid or duplicated diary node.");
+            if (pageNode != deadEnd && !mainNodes.Contains(pageNode)) return Fail(result, -1, "Fragments must use the dead end and main-route anchors.");
+            TraversalNode anchor = world.Route.Nodes[pageNode];
+            if (!positions.Add(DiaryPlanner.PositionKey(anchor)) || !Support(world, anchor) ||
+                Occupancy(world, anchor.FloorX * world.CellSize, TraversalGeometry.RootY(world, anchor, caps), caps.SoleLocalY, caps.StandingHeight) != null)
+                return Fail(result, -1, "Diary objective lacks a distinct safe standing anchor.");
+            pageAt.Add(pageNode, id);
+        }
+        if (!pageAt.ContainsKey(deadEnd)) return Fail(result, -1, "Required dead-end fragment is missing.");
+        // This is a new complete route from Spawn, not a refill between its individual branches.
+        var collectionResource = new TraversalStamina(settings);
+        var collected = new HashSet<int>();
+        node = 0; result.TotalSeconds = 0;
+        foreach (int index in world.CollectionLinks)
+        {
+            if (index < 0 || index >= world.Route.Links.Length) return Fail(result, index, "Invalid collection link.");
+            TraversalLink link = world.Route.Links[index];
+            if (link.FromNode != node) return Fail(result, index, "Disconnected complete collection route or missing branch return.");
+            string error = CheckLink(world, link, caps, settings, collectionResource, ref result.TotalSeconds);
+            if (error != null) return Fail(result, index, "Collection route: " + error);
+            node = link.ToNode;
+            if (pageAt.ContainsKey(node)) collected.Add(pageAt[node]);
+        }
+        result.FragmentsReached = collected.Count;
+        if (node < 0 || node >= world.Route.Nodes.Length || world.Route.Nodes[node].FloorX != world.GoalX ||
+            world.Route.Nodes[node].FloorY + 1 != world.GoalY || collected.Count != required)
+            return Fail(result, -1, "Collection route must reach every required fragment and then Goal.");
+        result.Valid = true; result.Reason = "Complete collection, directed geometry and continuous stamina model accepted; physical replay still required.";
+        result.RemainingStamina = collectionResource.Current; return result;
     }
 
     static TraversalValidation Fail(TraversalValidation result, int link, string reason)
@@ -154,7 +227,7 @@ public static class TraversalValidator
             TrajectorySample[] trace = link.Action == TraversalAction.Jump ? c.SingleJumpSamples : c.DoubleJumpSamples;
             if (link.Path.Length != trace.Length + 1) return "Jump does not use the measured trace and landing correction.";
             for (int i = 0; i < trace.Length; i++)
-                if (Math.Abs((link.Path[i].Y - link.Path[0].Y) - trace[i].Y) > .015 || Math.Abs((link.Path[i].X - link.Path[0].X) - trace[i].X) > .015 || Math.Abs(link.Path[i].Time - trace[i].Time * 1.1) > .0001)
+                if (Math.Abs((link.Path[i].Y - link.Path[0].Y) - trace[i].Y) > .015 || Math.Abs((link.Path[i].X - link.Path[0].X) - Math.Sign(b.FloorX - a.FloorX) * trace[i].X) > .015 || Math.Abs(link.Path[i].Time - trace[i].Time * 1.1) > .0001)
                     return "Jump trajectory exceeds measured capabilities.";
             double correction = Math.Abs(link.Path[link.Path.Length - 1].X - link.Path[trace.Length - 1].X);
             if (link.Duration - link.Path[trace.Length - 1].Time + .0001 < correction / c.WalkSpeed * 1.15) return "Landing correction is faster than measured ground motion.";
@@ -202,7 +275,8 @@ public static class TraversalValidator
     static bool HasRunUp(WorldData w, TraversalLink jump, TraversalCapabilities caps)
     {
         foreach (TraversalLink before in w.Route.Links)
-            if (before.Primary && before.ToNode == jump.FromNode && before.Action == TraversalAction.Sprint && before.Duration >= caps.JumpRunUpSeconds)
+            if (before.Primary && before.ToNode == jump.FromNode && before.Action == TraversalAction.Sprint && before.Duration >= caps.JumpRunUpSeconds &&
+                Math.Sign(w.Route.Nodes[before.ToNode].FloorX - w.Route.Nodes[before.FromNode].FloorX) == Math.Sign(w.Route.Nodes[jump.ToNode].FloorX - w.Route.Nodes[jump.FromNode].FloorX))
             {
                 TraversalNode a = w.Route.Nodes[before.FromNode], b = w.Route.Nodes[before.ToNode];
                 for (int x = Math.Min(a.FloorX, b.FloorX); x <= Math.Max(a.FloorX, b.FloorX); x++) if (!Solid(w, x, a.FloorY)) return false;

@@ -1,0 +1,82 @@
+[
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "sha256": "1EA3236471058BC2C9B02816D8A2D871D1AF6B31348F8AB214A67120B8425063"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs.meta",
+    "sha256": "CABD3F1551A463214C234244584023B709665AE4FA98EBFD59FEC9CB5CDF08C3"
+  },
+  {
+    "path": "Assets/Animaciones/Player/PlayerIdle.anim",
+    "sha256": "E7562A1A2CD73A3290ADE1D780396BB2593680FA3C01966ACCC9D3EC1905AD06"
+  },
+  {
+    "path": "Assets/Animaciones/Player/PlayerIdle.anim.meta",
+    "sha256": "B84AABA902EC5CA9EDD8AEE7B99D107D6EC82737017FE18BD63E9ACAD281647E"
+  },
+  {
+    "path": "Assets/Animaciones/Player/PlayerWalk.anim",
+    "sha256": "D6DBB6AEA044FC3B16B2F84659A49D8AE6245C5B96E7C53F0AE31FE5A54CAFF5"
+  },
+  {
+    "path": "Assets/Animaciones/Player/PlayerWalk.anim.meta",
+    "sha256": "77169D65287545986F02C1C1BAAC9DCCF9EEEEFEBA9D13CC7027E8DC53709E74"
+  },
+  {
+    "path": "Assets/Animaciones/Player/PlayerFall.anim",
+    "sha256": "86EC9C694C232F04F5808483B49BD760717C0E076A606B4B297E6B1506830279"
+  },
+  {
+    "path": "Assets/Animaciones/Player/PlayerFall.anim.meta",
+    "sha256": "529623428C405767364522241C0C65891FD1104BAC3BF768C41122113735476A"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerIdleExpanded.anim",
+    "sha256": "EC0DF4324EC5014C60EACDCE741EBBEEFF32DC9D43F76BB72B52AD10373DCC0A"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerIdleExpanded.anim.meta",
+    "sha256": "6FF048FF102A737F44B2F05A26A4F1EBE4586DDDCDB63F02BE95524F4FFF2CEB"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerWalkExpanded.anim",
+    "sha256": "85DDA24A54AA49E3F9D5137EA5174F61165CAF25F961D7985E5792D252332389"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerWalkExpanded.anim.meta",
+    "sha256": "7BC8C86A23C72C042353CD7C4C4CD547BDEBF82E73C9BEAFBE43C8B9483A572E"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerRun.anim",
+    "sha256": "D8DE72334131954B139BD2EA672F00E8AF947815636AAAE9AC0F0A03C0703303"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerRun.anim.meta",
+    "sha256": "762BE171D4565E6A86D1CB54BC5AA274801784D634B38BF83F207B019CDBA09D"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerJump.anim",
+    "sha256": "21D9E8BF13413A1FD341C013A697887E26E1791B3C40DEE138C045FAA20B2702"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerJump.anim.meta",
+    "sha256": "FCE8E8EB87DDB07A655FA3F247339B6FAA0FEF1F845CA5B6AAC3AE773EA6FF7F"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerFallExpanded.anim",
+    "sha256": "B3448BA7061FE64AEE3A578FBB549872479A5DD84F559E0062F84FDC5F4113AD"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Expanded/PlayerFallExpanded.anim.meta",
+    "sha256": "783D2B7F3728BABB23FC34BA2EFBC4734E2A079EFFFC3C75FF87ADED4A58BB62"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Player.controller",
+    "sha256": "9A8407BF2DB465D1A0108CA059AD466C2927B2673793FB3416AD712AD098658F"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Player.controller.meta",
+    "sha256": "EDF647A7B6511059F1E6FA1AD01173839AE1085EDACBE4E010295FF8C31C6BF5"
+  }
+]

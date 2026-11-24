@@ -1,0 +1,350 @@
+{
+    "error": "",
+    "editorVersion": "6000.6.8f1",
+    "complete": true,
+    "checks": [
+        {
+            "name": "New runtime layout active",
+            "detail": "U",
+            "passed": true
+        },
+        {
+            "name": "Native ordinary ceiling clearance",
+            "detail": "height=2.991707",
+            "passed": true
+        },
+        {
+            "name": "Initial level has three pages",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Normal HUD only Pause",
+            "detail": "ButtonPause",
+            "passed": true
+        },
+        {
+            "name": "No legacy entities",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pages add no support or lights",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Gameplay music disabled",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Old parallax presentation disabled",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Diagnostic toggle displays stamina",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Diagnostic toggle hides stamina",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause works",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Resume works",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Exit locked before collection",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Real overlap collects page 1 at level 1",
+            "detail": "count=1",
+            "passed": true
+        },
+        {
+            "name": "Real overlap collects page 2 at level 1",
+            "detail": "count=2",
+            "passed": true
+        },
+        {
+            "name": "Real overlap collects page 3 at level 1",
+            "detail": "count=3",
+            "passed": true
+        },
+        {
+            "name": "All initial pages collected once",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Duplicate and stale page callbacks rejected",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Completed exit advances once and resets pages",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Next level has fresh geometry and seed",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Level transition preserves stamina",
+            "detail": "before=50,after=50",
+            "passed": true
+        },
+        {
+            "name": "Transient feedback disappears",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Real overlap collects page 1 at level 3",
+            "detail": "count=1",
+            "passed": true
+        },
+        {
+            "name": "Real overlap collects page 2 at level 3",
+            "detail": "count=2",
+            "passed": true
+        },
+        {
+            "name": "Real overlap collects page 3 at level 3",
+            "detail": "count=3",
+            "passed": true
+        },
+        {
+            "name": "Real overlap collects page 4 at level 3",
+            "detail": "count=4",
+            "passed": true
+        },
+        {
+            "name": "Real overlap collects page 5 at level 3",
+            "detail": "count=5",
+            "passed": true
+        },
+        {
+            "name": "Level 3 continues to 4 instead of Credits",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Runtime level 10 requires cap of twelve",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause menu navigation preserved",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "New run resets progression",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Independent New Games differ",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Lethal void reaches GameOver",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "GameOver returns to MainMenu",
+            "detail": "",
+            "passed": true
+        }
+    ],
+    "snapshots": [
+        {
+            "label": "normal HUD",
+            "scene": "JustMe",
+            "signature": "B069B6538B56BC55",
+            "seed": 2008328374,
+            "level": 1,
+            "collected": 0,
+            "required": 3,
+            "pages": 3,
+            "lights": 2,
+            "stamina": 100.0,
+            "ceilingFromSole": 2.9917068481445313,
+            "layout": "U",
+            "hud": [
+                "ButtonPause"
+            ]
+        },
+        {
+            "label": "diagnostics explicitly on",
+            "scene": "JustMe",
+            "signature": "B069B6538B56BC55",
+            "seed": 2008328374,
+            "level": 1,
+            "collected": 0,
+            "required": 3,
+            "pages": 3,
+            "lights": 2,
+            "stamina": 100.0,
+            "ceilingFromSole": 2.9917068481445313,
+            "layout": "U",
+            "hud": [
+                "ButtonPause",
+                "CountDown"
+            ]
+        },
+        {
+            "label": "diagnostics off",
+            "scene": "JustMe",
+            "signature": "B069B6538B56BC55",
+            "seed": 2008328374,
+            "level": 1,
+            "collected": 0,
+            "required": 3,
+            "pages": 3,
+            "lights": 2,
+            "stamina": 100.0,
+            "ceilingFromSole": 2.9917068481445313,
+            "layout": "U",
+            "hud": [
+                "ButtonPause"
+            ]
+        },
+        {
+            "label": "level 2",
+            "scene": "JustMe",
+            "signature": "F55B3CD22EEE6AF1",
+            "seed": 791274145,
+            "level": 2,
+            "collected": 0,
+            "required": 4,
+            "pages": 4,
+            "lights": 2,
+            "stamina": 50.0,
+            "ceilingFromSole": 2.991697311401367,
+            "layout": "Switchback",
+            "hud": [
+                "ButtonPause"
+            ]
+        },
+        {
+            "label": "no permanent feedback",
+            "scene": "JustMe",
+            "signature": "F55B3CD22EEE6AF1",
+            "seed": 791274145,
+            "level": 2,
+            "collected": 0,
+            "required": 4,
+            "pages": 4,
+            "lights": 2,
+            "stamina": 50.0,
+            "ceilingFromSole": 2.991697311401367,
+            "layout": "Switchback",
+            "hud": [
+                "ButtonPause"
+            ]
+        },
+        {
+            "label": "continuous level 4",
+            "scene": "JustMe",
+            "signature": "D083F114880D0243",
+            "seed": 178601387,
+            "level": 4,
+            "collected": 0,
+            "required": 6,
+            "pages": 6,
+            "lights": 2,
+            "stamina": 50.0,
+            "ceilingFromSole": 2.991697311401367,
+            "layout": "Switchback",
+            "hud": [
+                "ButtonPause"
+            ]
+        },
+        {
+            "label": "level 10 cap",
+            "scene": "JustMe",
+            "signature": "716A620831A2072E",
+            "seed": -2034533883,
+            "level": 10,
+            "collected": 0,
+            "required": 12,
+            "pages": 12,
+            "lights": 2,
+            "stamina": 50.0,
+            "ceilingFromSole": 2.9916954040527344,
+            "layout": "Cross",
+            "hud": [
+                "ButtonPause"
+            ]
+        },
+        {
+            "label": "independent new game 1",
+            "scene": "JustMe",
+            "signature": "2F0251176B7E7275",
+            "seed": -1088013791,
+            "level": 1,
+            "collected": 0,
+            "required": 3,
+            "pages": 3,
+            "lights": 2,
+            "stamina": 100.0,
+            "ceilingFromSole": 6.991663932800293,
+            "layout": "Ascent",
+            "hud": [
+                "ButtonPause"
+            ]
+        },
+        {
+            "label": "independent new game 2",
+            "scene": "JustMe",
+            "signature": "D2A1ECA782B2B9E4",
+            "seed": -133431482,
+            "level": 1,
+            "collected": 0,
+            "required": 3,
+            "pages": 3,
+            "lights": 2,
+            "stamina": 100.0,
+            "ceilingFromSole": 2.9916954040527344,
+            "layout": "Cross",
+            "hud": [
+                "ButtonPause"
+            ]
+        },
+        {
+            "label": "final fresh gameplay",
+            "scene": "JustMe",
+            "signature": "A42B30178E7F6DEF",
+            "seed": 939707429,
+            "level": 1,
+            "collected": 0,
+            "required": 3,
+            "pages": 3,
+            "lights": 2,
+            "stamina": 100.0,
+            "ceilingFromSole": 2.991697311401367,
+            "layout": "Horizontal",
+            "hud": [
+                "ButtonPause"
+            ]
+        }
+    ]
+}

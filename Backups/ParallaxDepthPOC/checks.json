@@ -1,0 +1,16 @@
+{
+    "error": "",
+    "distinctDepths": true,
+    "xyMotion": true,
+    "stoppedStable": true,
+    "toggleNoSnap": true,
+    "flatMode": true,
+    "restored": true,
+    "noLayerColliders": true,
+    "observedSpeeds": [
+        0.050000011920928955,
+        0.18000000715255737,
+        0.41999995708465576,
+        0.699999988079071
+    ]
+}

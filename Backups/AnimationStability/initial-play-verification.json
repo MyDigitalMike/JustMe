@@ -1,0 +1,89 @@
+{
+    "error": "",
+    "inPlayMode": true,
+    "coherent": true,
+    "stoppedClimbFreezes": true,
+    "baseLayerRestored": true,
+    "states": [
+        {
+            "pose": "PlayerRun",
+            "sprite": "Run (1)",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "visualHeight": 1.008888840675354,
+            "colliderHeight": 0.3208913803100586
+        },
+        {
+            "pose": "PlayerJump",
+            "sprite": "Jump (1)",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "visualHeight": 1.008888840675354,
+            "colliderHeight": 0.3208913803100586
+        },
+        {
+            "pose": "PlayerCrouchIdle",
+            "sprite": "LowTraversal_00",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "visualHeight": 0.9386354684829712,
+            "colliderHeight": 0.14440059661865234
+        },
+        {
+            "pose": "PlayerCrawl",
+            "sprite": "LowTraversal_00",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "visualHeight": 0.9386354684829712,
+            "colliderHeight": 0.14440059661865234
+        },
+        {
+            "pose": "PlayerClimb",
+            "sprite": "VerticalTraversal_00",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "visualHeight": 1.0027236938476563,
+            "colliderHeight": 0.3208913803100586
+        },
+        {
+            "pose": "PlayerHang",
+            "sprite": "VerticalTraversal_08",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "visualHeight": 0.973764181137085,
+            "colliderHeight": 0.3208913803100586
+        },
+        {
+            "pose": "PlayerPullUp",
+            "sprite": "VerticalTraversal_12",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "visualHeight": 0.9810041189193726,
+            "colliderHeight": 0.3208913803100586
+        },
+        {
+            "pose": "PlayerCrouchEnter",
+            "sprite": "LowTraversal_00",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "visualHeight": 0.9386354684829712,
+            "colliderHeight": 0.14440059661865234
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "sha256": "FC58559898484EC418D834F486DC8C650DBFB34C91F93842EBCD3CE4CBA53184",
+    "path": "Assets/Script/GeneracionMundo/WorldTilemapRenderer.cs"
+  },
+  {
+    "sha256": "6ED9EE980950D78BC7C19335931E36DDDA27F75141EA27623F7B64A6E1ECAB02",
+    "path": "Assets/Script/GeneracionMundo/WorldTilemapRenderer.cs.meta"
+  },
+  {
+    "sha256": "572DBF4983C34C31A749FA314332140D7FDC87C7D39F89F8CA6496DC652780B5",
+    "path": "Assets/Script/Game/WorldLighting.cs"
+  },
+  {
+    "sha256": "A91205A45E877F39F2AB413F766A8C582688385593EE5BBB7F9AD87740C6A6D0",
+    "path": "Assets/Script/Game/WorldLighting.cs.meta"
+  },
+  {
+    "sha256": "117A7E4E87B9EA1D3A549AF4201076742F2817B50CD302936B53A9A459F21B67",
+    "path": "Assets/Script/Game/Player.cs"
+  },
+  {
+    "sha256": "CABD3F1551A463214C234244584023B709665AE4FA98EBFD59FEC9CB5CDF08C3",
+    "path": "Assets/Script/Game/Player.cs.meta"
+  },
+  {
+    "sha256": "7789E915748F23ABE4665C8104068C223C5FEA3F16A4B0833BE5A73341F9BA7B",
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs"
+  },
+  {
+    "sha256": "8C1AE95F258C45C19B488C235CCCBF751C95C81E748C0F46CCE50CF29BC1A56F",
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs.meta"
+  },
+  {
+    "sha256": "3D26230453AB48E73A41EAD46C85DA0BB1B867DC01A3A4BCA3125A82724F0642",
+    "path": "Assets/Script/GeneracionMundo/TraversalTopology.cs"
+  },
+  {
+    "sha256": "B932AAB69DA6304CD241C480A10C8BC4CB64F67D8B5796CE955B90D9BB44313C",
+    "path": "Assets/Script/GeneracionMundo/TraversalTopology.cs.meta"
+  },
+  {
+    "sha256": "8A1DBCE437F4A0E067E5421F199AFDFB1C36F1801210618521777910CCA238FB",
+    "path": "Assets/Script/Game/Libro.cs"
+  },
+  {
+    "sha256": "571E27EC6CE99B66DF7294E442F73BBF820AE2025B96E367E4EF37E44FD1D6F7",
+    "path": "Assets/Script/Game/Libro.cs.meta"
+  },
+  {
+    "sha256": "CE2EF968B0CD1178A243494D7FED274604DDC30B001C19BBD20040FDABFB8B99",
+    "path": "Assets/Resources/WorldPresentation.prefab"
+  },
+  {
+    "sha256": "A6BC5AED395259B012BCB3DB1332F214BD510E2DBD7C9F71B4CA76C7EFC6C00F",
+    "path": "Assets/Resources/WorldPresentation.prefab.meta"
+  },
+  {
+    "sha256": "92046172492FB62CDCD719657C76DA9439FBD575B6E6ED4E260CE91DC4BAE899",
+    "path": "Assets/Scenes/JustMe.unity"
+  },
+  {
+    "sha256": "954917D3BDCAB77EA08A56D28D0E88E9909B07AAA4EC5520058AA39732DD387E",
+    "path": "Assets/Scenes/JustMe.unity.meta"
+  }
+]

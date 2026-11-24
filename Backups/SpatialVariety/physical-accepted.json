@@ -1,0 +1,326 @@
+{
+  "worlds": [
+    {
+      "profile": "Horizontal",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 128,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 763.0020141601562,
+      "position": {
+        "x": 115.4725112915039,
+        "y": 11.71705150604248
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Horizontal",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 93,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 577.8814086914062,
+      "position": {
+        "x": 5.026641845703125,
+        "y": 15.717082023620605
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Ascent",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 153,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1076.9482421875,
+      "position": {
+        "x": 152.47280883789062,
+        "y": 112.217041015625
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Ascent",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 151,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1031.5439453125,
+      "position": {
+        "x": 5.02736234664917,
+        "y": 101.71707916259766
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Descent",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 177,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1210.97900390625,
+      "position": {
+        "x": 140.4675750732422,
+        "y": 11.71705150604248
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Descent",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 153,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1045.91796875,
+      "position": {
+        "x": 5.032790184020996,
+        "y": 11.717082023620605
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "U",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 251,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1784.77880859375,
+      "position": {
+        "x": 250.52874755859375,
+        "y": 109.71702575683594
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "U",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 247,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1713.66943359375,
+      "position": {
+        "x": 4.967472076416016,
+        "y": 97.71705627441406
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Switchback",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 176,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1076.72802734375,
+      "position": {
+        "x": 52.470821380615234,
+        "y": 81.217041015625
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Switchback",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 200,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1274.72119140625,
+      "position": {
+        "x": 51.032936096191406,
+        "y": 82.21707916259766
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Cross",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 253,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1720.015625,
+      "position": {
+        "x": 87.47689056396484,
+        "y": 45.717079162597656
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Cross",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 249,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1707.84375,
+      "position": {
+        "x": 5.027308464050293,
+        "y": 50.717079162597656
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Switchback",
+      "error": "",
+      "seed": 42,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 200,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1268.59521484375,
+      "position": {
+        "x": 48.9733772277832,
+        "y": 80.71703338623047
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Cross",
+      "error": "",
+      "seed": 42,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 259,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1768.9833984375,
+      "position": {
+        "x": 86.96634674072266,
+        "y": 46.717079162597656
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Random",
+      "error": "",
+      "seed": 0,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 123,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 869.5859985351562,
+      "position": {
+        "x": 5.031766891479492,
+        "y": 35.217071533203125
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Random",
+      "error": "",
+      "seed": 1,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 138,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 969.2832641601562,
+      "position": {
+        "x": 108.52704620361328,
+        "y": 11.717083930969238
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Random",
+      "error": "",
+      "seed": 2,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 140,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 885.5415649414062,
+      "position": {
+        "x": 7.03167724609375,
+        "y": 34.717071533203125
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Random",
+      "error": "",
+      "seed": 4,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 166,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1153.36279296875,
+      "position": {
+        "x": 5.027799606323242,
+        "y": 55.21707534790039
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Random",
+      "error": "",
+      "seed": 11,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 165,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1153.92333984375,
+      "position": {
+        "x": 77.46817016601562,
+        "y": 27.21705436706543
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Random",
+      "error": "",
+      "seed": 42,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 147,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 1050.70263671875,
+      "position": {
+        "x": 5.025841236114502,
+        "y": 50.217079162597656
+      },
+      "reachedGoal": true
+    }
+  ],
+  "scope": "14 unchanged explicit-layout cases plus 6 final preferred mixed cases, all returning branches replayed",
+  "passed": true
+}

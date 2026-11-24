@@ -1,0 +1,3 @@
+PlayerCrouchEnter: LowTraversal_00,LowTraversal_01,LowTraversal_02,LowTraversal_03,LowTraversal_03
+PlayerCrouchIdle: LowTraversal_04,LowTraversal_05,LowTraversal_06,LowTraversal_07,LowTraversal_04
+PlayerCrawl: LowTraversal_08,LowTraversal_09,LowTraversal_10,LowTraversal_11,LowTraversal_12,LowTraversal_13,LowTraversal_14,LowTraversal_15,LowTraversal_08

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs",
+    "status": "modified",
+    "sha256": "2cddeb9925c5f5dd7d7d491ff9c2704a185b9aa489830d47b37f36733db1ec4a"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalValidator.cs",
+    "status": "modified",
+    "sha256": "175f98168427e547883f404c508dfaf45027e3c40678756e86dccf707c47d0a5"
+  },
+  {
+    "path": "Assets/Script/Game/Libro.cs",
+    "status": "modified",
+    "sha256": "8a1dbce437f4a0e067e5421f199afdfb1c36f1801210618521777910cca238fb"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-Phase4Checks.ps1",
+    "status": "modified",
+    "sha256": "956f2c4b7e98a722cf61c21023957f6fcc9b4294e0a573861e85f9dae6f4cf01"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-WorldSuite.ps1",
+    "status": "modified",
+    "sha256": "5c5a12f10742d250a04a0ce55c979a41ecaf8612e1a387e04e7b75f445b97b19"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-WorldChecks.ps1",
+    "status": "modified",
+    "sha256": "f722e1f820e51be4e9f01621b9ee2e060e97b89b52b14acf8e4f22a3581d8d16"
+  },
+  {
+    "path": "Tools/WorldGenerationChecks/Run-WorldGenerationChecks.ps1",
+    "status": "modified",
+    "sha256": "309690ed5c11c622babc5753bd29f224698201b5a6cb06e25b3bcee33d0ea3e3"
+  },
+  {
+    "path": "docs/design/CORE_GAMEPLAY.md",
+    "status": "modified",
+    "sha256": "8a5ed91fe293312d198f699a8dc8e638db137ce1448f8cb7f708c841f7b660bb"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalTopology.cs",
+    "status": "added",
+    "sha256": "bb4a5d2cc40f873f06aa52db699ed3e851e53fd0686e54c7e9da6bb9d05dfbc6"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalTopology.cs.meta",
+    "status": "added",
+    "sha256": "b932aab69da6304cd241c480a10c8bc4cb64f67d8b5796ce955b90d9bb44313c"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-TopologyChecks.ps1",
+    "status": "added",
+    "sha256": "f120a14739286cd101c07693df09f4404181f5f2c7c633580a5a35649a667aa1"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-11-22-world-topology.md",
+    "status": "added",
+    "sha256": "97d8ab7a035228d1c574951487e232e851c7d12a81eb24e38d00e09c46c848f7"
+  }
+]

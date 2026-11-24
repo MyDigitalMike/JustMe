@@ -1,0 +1,16 @@
+[
+  {
+    "sha256": "F2DA1E18BB69EEB12E67D0805403D8F73A12D1584397240EDF67578E20E4F262",
+    "verified": true,
+    "backup": "C:\\Personal\\JustMe\\Backups\\SpatialVariety\\EditorProbes\\SpatialReplay.cs",
+    "source": "C:\\Personal\\JustMe\\Assets\\Editor\\SpatialReplay.cs",
+    "sourceRemoved": true
+  },
+  {
+    "sha256": "3A142C15C84086EB81B0B74C81919B170A030E839858496408CC6049C2059E0A",
+    "verified": true,
+    "backup": "C:\\Personal\\JustMe\\Backups\\SpatialVariety\\EditorProbes\\SpatialReplay.cs.meta",
+    "source": "C:\\Personal\\JustMe\\Assets\\Editor\\SpatialReplay.cs.meta",
+    "sourceRemoved": true
+  }
+]

@@ -1,0 +1,261 @@
+{
+  "cases": [
+    {
+      "seed": 0,
+      "left": 2,
+      "profile": "Descent",
+      "right": 38,
+      "width": 238,
+      "height": 124
+    },
+    {
+      "seed": 1,
+      "left": 55,
+      "profile": "Descent",
+      "right": 0,
+      "width": 326,
+      "height": 139
+    },
+    {
+      "seed": 2,
+      "left": 11,
+      "profile": "Mixed",
+      "right": 44,
+      "width": 182,
+      "height": 123
+    },
+    {
+      "seed": 3,
+      "left": 26,
+      "profile": "Descent",
+      "right": 20,
+      "width": 114,
+      "height": 140
+    },
+    {
+      "seed": 4,
+      "left": 0,
+      "profile": "Horizontal",
+      "right": 35,
+      "width": 246,
+      "height": 61
+    },
+    {
+      "seed": 5,
+      "left": 7,
+      "profile": "Descent",
+      "right": 34,
+      "width": 242,
+      "height": 101
+    },
+    {
+      "seed": 6,
+      "left": 12,
+      "profile": "Descent",
+      "right": 57,
+      "width": 312,
+      "height": 164
+    },
+    {
+      "seed": 7,
+      "left": 36,
+      "profile": "Mixed",
+      "right": 9,
+      "width": 183,
+      "height": 101
+    },
+    {
+      "seed": 8,
+      "left": 0,
+      "profile": "Descent",
+      "right": 53,
+      "width": 328,
+      "height": 125
+    },
+    {
+      "seed": 9,
+      "left": 74,
+      "profile": "Descent",
+      "right": 0,
+      "width": 414,
+      "height": 155
+    },
+    {
+      "seed": 10,
+      "left": 51,
+      "profile": "Descent",
+      "right": 23,
+      "width": 260,
+      "height": 167
+    },
+    {
+      "seed": 11,
+      "left": 20,
+      "profile": "Mixed",
+      "right": 32,
+      "width": 166,
+      "height": 124
+    },
+    {
+      "seed": 12,
+      "left": 0,
+      "profile": "Horizontal",
+      "right": 27,
+      "width": 180,
+      "height": 85
+    },
+    {
+      "seed": 13,
+      "left": 29,
+      "profile": "Ascent",
+      "right": 38,
+      "width": 163,
+      "height": 132
+    },
+    {
+      "seed": 14,
+      "left": 7,
+      "profile": "Descent",
+      "right": 51,
+      "width": 248,
+      "height": 149
+    },
+    {
+      "seed": 15,
+      "left": 67,
+      "profile": "Descent",
+      "right": 0,
+      "width": 319,
+      "height": 131
+    },
+    {
+      "seed": 16,
+      "left": 25,
+      "profile": "Ascent",
+      "right": 66,
+      "width": 237,
+      "height": 166
+    },
+    {
+      "seed": 17,
+      "left": 34,
+      "profile": "Descent",
+      "right": 23,
+      "width": 225,
+      "height": 179
+    },
+    {
+      "seed": 18,
+      "left": 35,
+      "profile": "Mixed",
+      "right": 6,
+      "width": 208,
+      "height": 115
+    },
+    {
+      "seed": 19,
+      "left": 52,
+      "profile": "Mixed",
+      "right": 0,
+      "width": 299,
+      "height": 116
+    },
+    {
+      "seed": 20,
+      "left": 0,
+      "profile": "Ascent",
+      "right": 62,
+      "width": 328,
+      "height": 100
+    },
+    {
+      "seed": 21,
+      "left": 34,
+      "profile": "Descent",
+      "right": 42,
+      "width": 175,
+      "height": 204
+    },
+    {
+      "seed": 22,
+      "left": 45,
+      "profile": "Descent",
+      "right": 4,
+      "width": 277,
+      "height": 117
+    },
+    {
+      "seed": 23,
+      "left": 24,
+      "profile": "Horizontal",
+      "right": 23,
+      "width": 141,
+      "height": 93
+    },
+    {
+      "seed": 24,
+      "left": 8,
+      "profile": "Descent",
+      "right": 63,
+      "width": 241,
+      "height": 115
+    },
+    {
+      "seed": 25,
+      "left": 62,
+      "profile": "Ascent",
+      "right": 15,
+      "width": 326,
+      "height": 156
+    },
+    {
+      "seed": 26,
+      "left": 50,
+      "profile": "Mixed",
+      "right": 4,
+      "width": 271,
+      "height": 122
+    },
+    {
+      "seed": 27,
+      "left": 14,
+      "profile": "Mixed",
+      "right": 39,
+      "width": 244,
+      "height": 109
+    },
+    {
+      "seed": 28,
+      "left": 36,
+      "profile": "Descent",
+      "right": 18,
+      "width": 263,
+      "height": 140
+    },
+    {
+      "seed": 29,
+      "left": 47,
+      "profile": "Ascent",
+      "right": 0,
+      "width": 259,
+      "height": 101
+    },
+    {
+      "seed": 30,
+      "left": 0,
+      "profile": "Descent",
+      "right": 40,
+      "width": 243,
+      "height": 123
+    },
+    {
+      "seed": 31,
+      "left": 53,
+      "profile": "Ascent",
+      "right": 26,
+      "width": 179,
+      "height": 193
+    }
+  ],
+  "failures": []
+}

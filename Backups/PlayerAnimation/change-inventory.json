@@ -1,0 +1,138 @@
+[
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Script\\Game\\Player.cs",
+    "sha256": "1EA3236471058BC2C9B02816D8A2D871D1AF6B31348F8AB214A67120B8425063"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Player.controller",
+    "sha256": "9A8407BF2DB465D1A0108CA059AD466C2927B2673793FB3416AD712AD098658F"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\PlayerIdle.anim",
+    "sha256": "E7562A1A2CD73A3290ADE1D780396BB2593680FA3C01966ACCC9D3EC1905AD06"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\PlayerWalk.anim",
+    "sha256": "D6DBB6AEA044FC3B16B2F84659A49D8AE6245C5B96E7C53F0AE31FE5A54CAFF5"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\PlayerFall.anim",
+    "sha256": "86EC9C694C232F04F5808483B49BD760717C0E076A606B4B297E6B1506830279"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\docs\\design\\CORE_GAMEPLAY.md",
+    "sha256": "4F7CB33AC0B16E15F10B5B04BB55FA68B43F62D890BF8177304D4B2323B74613"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Expanded\\Locomotion.png",
+    "sha256": "4EE8FC4983D4B6A80AA28003643BB8814CC3A5A74E092FF81F2B0AE12B9623F2"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Expanded\\Locomotion.png.meta",
+    "sha256": "2043E63B50E2F9A3A35F5C3881805C13062B53F783EF285AF35A5ACD37B8475F"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Expanded\\LowTraversal.png",
+    "sha256": "2E2C227070B9439B5C791583DA6209E98F1CB0C3ABA38D00DAAAE6F1A491EDE8"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Expanded\\LowTraversal.png.meta",
+    "sha256": "4A0222E46F65BA8440A519426FE40CB5B4B3E1BB8F77B3E8B9AE9D544F23D021"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Expanded\\VerticalTraversal.png",
+    "sha256": "EA3A03E80A7B2CF6B4A72C07BF59576AC4862539C4D9A0F60761E26F0D6F7C2E"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Sprites\\Personaje\\AlterPersonaje\\Expanded\\VerticalTraversal.png.meta",
+    "sha256": "8A440F5570BAEEA4E77D65859E2C73104D43CF8097B63EDF2D83011EC6654DB6"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerClimb.anim",
+    "sha256": "B642B4262881B1BA6C1D10319EFB63C80BDB867C4C2221317BD6648246A9E87B"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerClimb.anim.meta",
+    "sha256": "EA13494130F9D00799AA4D18D1409B6DDFF655986BA349FA0154C4DCFD2C3DB1"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerCrawl.anim",
+    "sha256": "4AF50AB3C17C97A06E30739891E67E96710312D4ACAEABCA124025AFB89B1D3E"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerCrawl.anim.meta",
+    "sha256": "43420E03F7AB6AD70734D4F3279C6405796A97BEE36B6DBC855A6AEF8D18BD88"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerCrouchEnter.anim",
+    "sha256": "1B73115761FE68CDF9300A707E09EA35A7552B9C7D866639D99B1B114873A52D"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerCrouchEnter.anim.meta",
+    "sha256": "8A2C89082816746B717D3F28D675B35BEABD22A6064DA264DE2CEDCFD1110737"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerCrouchIdle.anim",
+    "sha256": "19580CBBFD19EC6AC7159CCFDEDBA15CF7DFEEC92DE117B13975C5698F49D66E"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerCrouchIdle.anim.meta",
+    "sha256": "2E5D6BF617C636F3F6DC2E3DE648D17F915F97BC5137EDEA18524D83096DAA06"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerFallExpanded.anim",
+    "sha256": "B3448BA7061FE64AEE3A578FBB549872479A5DD84F559E0062F84FDC5F4113AD"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerFallExpanded.anim.meta",
+    "sha256": "783D2B7F3728BABB23FC34BA2EFBC4734E2A079EFFFC3C75FF87ADED4A58BB62"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerHang.anim",
+    "sha256": "FAF234799932776CC14A8980EC62F2428F727214CF59FF715459429EEEAD2ACC"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerHang.anim.meta",
+    "sha256": "00965900E07ADD69E91D55F029FE0158E66388CBF48CA0A5D57A4596F281B4D7"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerIdleExpanded.anim",
+    "sha256": "EC0DF4324EC5014C60EACDCE741EBBEEFF32DC9D43F76BB72B52AD10373DCC0A"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerIdleExpanded.anim.meta",
+    "sha256": "6FF048FF102A737F44B2F05A26A4F1EBE4586DDDCDB63F02BE95524F4FFF2CEB"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerJump.anim",
+    "sha256": "21D9E8BF13413A1FD341C013A697887E26E1791B3C40DEE138C045FAA20B2702"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerJump.anim.meta",
+    "sha256": "FCE8E8EB87DDB07A655FA3F247339B6FAA0FEF1F845CA5B6AAC3AE773EA6FF7F"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerPullUp.anim",
+    "sha256": "DA803190C523336D29680D7BADBACE437D6F9D771A702425A89F0EB49B4A6211"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerPullUp.anim.meta",
+    "sha256": "E6C992BB8AE02B29C70DDEE823D07FED8A206A2D731DEE47AC1CD3F9B98D1671"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerRun.anim",
+    "sha256": "D8DE72334131954B139BD2EA672F00E8AF947815636AAAE9AC0F0A03C0703303"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerRun.anim.meta",
+    "sha256": "762BE171D4565E6A86D1CB54BC5AA274801784D634B38BF83F207B019CDBA09D"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerWalkExpanded.anim",
+    "sha256": "85DDA24A54AA49E3F9D5137EA5174F61165CAF25F961D7985E5792D252332389"
+  },
+  {
+    "path": "C:\\Personal\\JustMe\\Assets\\Animaciones\\Player\\Expanded\\PlayerWalkExpanded.anim.meta",
+    "sha256": "7BC8C86A23C72C042353CD7C4C4CD547BDEBF82E73C9BEAFBE43C8B9483A572E"
+  }
+]

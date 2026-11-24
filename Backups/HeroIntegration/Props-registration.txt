@@ -1,0 +1,4 @@
+Rope ppu=200 rect=(x:298.00, y:676.00, width:32.00, height:511.00) pivot=(0.48, 0.50)
+Hook ppu=200 rect=(x:854.00, y:671.00, width:217.00, height:512.00) pivot=(0.50, 0.50)
+Cornice ppu=200 rect=(x:43.00, y:200.00, width:548.00, height:224.00) pivot=(0.50, 0.50)
+CorniceAlt ppu=200 rect=(x:692.00, y:207.00, width:504.00, height:235.00) pivot=(0.50, 0.50)

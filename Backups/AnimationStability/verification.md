@@ -1,0 +1,13 @@
+# Corrección visual — 2026-11-23
+
+La opinión manual del usuario invalida la aceptación visual del checkpoint anterior: los dibujos de locomoción generados no eran intermedios consistentes con los originales. La auditoría nativa encontró entre 4 y 8 claves de otra familia gráfica por clip. Además, LateUpdate reducía uniformemente el dibujo ya agachado para encajarlo en el collider.
+
+Se restauraron mediante AnimationUtility las curvas y tiempos originales de reposo/caminar (también sus variantes Expanded), correr utiliza sus 20 sprites originales, y salto/caída utilizan dos secuencias coherentes de 15 sprites originales. Ocho clips modificados; ningún GUID, controlador ni textura modificado. El atlas generado de locomoción sigue disponible como material recuperable sin referencias desde esos clips. Las poses nuevas de agachado, gateo y escalada se conservan.
+
+Player.cs elimina el ajuste uniforme del renderer de agachado. Conserva escala local (1,1,1) y alinea la base del sprite con la suela física. El root y los colliders no se escalan por la animación. Diez métodos físicos siguen idénticos, y coinciden los hashes de los 232 archivos de sprites originales y sus metadatos.
+
+Unity 6000.6.8f1 recompiló el código y entró en Play Mode. La comprobación final del Animator seleccionó ocho poses con sprites pertenecientes al clip correcto; verificó escala natural, pies alineados, conservación del Rigidbody/Box/Circle/root, escalada detenida sin avanzar el ciclo y regreso al reposo. El primer fixture comprimía la transición de vuelta en una sola evaluación; se corrigió para avanzar 60 frames y mantener habilitado el Animator. Los intentos previos se conservan como evidencia; no son los resultados finales. La vista Game se inspeccionó en reposo, agachado mediante la entrada real SetCrouchHeld y de vuelta en reposo. La prueba temporal se retiró solamente después de confirmar la salida de Play Mode.
+
+Limitaciones: son comprobaciones de presentación, no un recorrido físico completo nuevo ni garantía de fluidez artística de todos los dibujos generados restantes. La pose agachada a tamaño natural mide aproximadamente 0,78u incluyendo pelo, frente a 0,32u del BoxCollider reducido en el fixture; puede existir solapamiento visual con techos muy bajos. No se cambió la física para ocultarlo. Las imágenes y sus metas permanecen intactas para una revisión artística posterior.
+
+Evidencia: before-clips.json muestra la mezcla original; after-clips.json/play-clips.json muestran cero referencias al atlas Locomotion y ninguna referencia nula; play-verification.json contiene el resultado final; preservation.json, before.json y change-inventory.json registran conservación y respaldo. EditorProbes conserva el verificador temporal y su meta.

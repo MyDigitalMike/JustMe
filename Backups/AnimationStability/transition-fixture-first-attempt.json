@@ -1,0 +1,97 @@
+{
+    "error": "System.Exception: Freeze/base restoration failed.\r\n  at AnimationStabilityProbe.Verify () [0x0074d] in C:\\Personal\\JustMe\\Assets\\Editor\\AnimationStabilityProbe.cs:171 ",
+    "inPlayMode": true,
+    "coherent": true,
+    "stoppedClimbFreezes": true,
+    "baseLayerRestored": false,
+    "states": [
+        {
+            "pose": "PlayerRun",
+            "sprite": "Run (2)",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "correctSprite": true,
+            "visualHeight": 1.008888840675354,
+            "colliderHeight": 0.7130928039550781
+        },
+        {
+            "pose": "PlayerJump",
+            "sprite": "Jump (2)",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "correctSprite": true,
+            "visualHeight": 1.008888840675354,
+            "colliderHeight": 0.7130928039550781
+        },
+        {
+            "pose": "PlayerCrouchIdle",
+            "sprite": "LowTraversal_04",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "correctSprite": true,
+            "visualHeight": 0.7783806324005127,
+            "colliderHeight": 0.320892333984375
+        },
+        {
+            "pose": "PlayerCrawl",
+            "sprite": "LowTraversal_08",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "correctSprite": true,
+            "visualHeight": 0.8110857009887695,
+            "colliderHeight": 0.320892333984375
+        },
+        {
+            "pose": "PlayerClimb",
+            "sprite": "VerticalTraversal_00",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "correctSprite": true,
+            "visualHeight": 1.0027236938476563,
+            "colliderHeight": 0.7130928039550781
+        },
+        {
+            "pose": "PlayerHang",
+            "sprite": "VerticalTraversal_08",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "correctSprite": true,
+            "visualHeight": 0.973764181137085,
+            "colliderHeight": 0.7130928039550781
+        },
+        {
+            "pose": "PlayerPullUp",
+            "sprite": "VerticalTraversal_12",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "correctSprite": true,
+            "visualHeight": 0.9810041189193726,
+            "colliderHeight": 0.7130928039550781
+        },
+        {
+            "pose": "PlayerCrouchEnter",
+            "sprite": "LowTraversal_00",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true,
+            "naturalScale": true,
+            "correctSprite": true,
+            "visualHeight": 0.9386354684829712,
+            "colliderHeight": 0.320892333984375
+        }
+    ]
+}

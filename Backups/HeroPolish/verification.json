@@ -1,0 +1,17 @@
+{
+    "error": "",
+    "sprites": 60,
+    "ledges": 148,
+    "ropes": 48,
+    "alphaNoiseRejected": true,
+    "opaqueSoles": true,
+    "ropeEdgesOpaque": true,
+    "cornersAligned": true,
+    "cornersSupported": true,
+    "drawOrder": true,
+    "noNewColliders": true,
+    "footToContact": 0.0008449554443359375,
+    "details": [
+        "Correct terrain-relative draw order and physical convex top corners, both inward directions."
+    ]
+}

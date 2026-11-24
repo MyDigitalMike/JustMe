@@ -1,0 +1,14 @@
+{
+    "scene": "JustMe",
+    "error": "",
+    "fogInstances": 1,
+    "planes": 2,
+    "shaderOK": true,
+    "coverage": true,
+    "noColliders": true,
+    "maskFollowsLight": true,
+    "toggle": true,
+    "opaqueWalls": true,
+    "templatePreserved": true,
+    "maskRadius": 1.100000023841858
+}

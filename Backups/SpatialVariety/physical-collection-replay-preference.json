@@ -1,0 +1,101 @@
+{
+    "worlds": [
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 0,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 123,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 869.5859985351563,
+            "position": {
+                "x": 5.031766891479492,
+                "y": 35.217071533203125
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 1,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 138,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 969.2832641601563,
+            "position": {
+                "x": 108.52704620361328,
+                "y": 11.717083930969238
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 2,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 140,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 885.5415649414063,
+            "position": {
+                "x": 7.03167724609375,
+                "y": 34.717071533203125
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 4,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 166,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 1153.36279296875,
+            "position": {
+                "x": 5.027799606323242,
+                "y": 55.21707534790039
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 11,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 165,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 1153.92333984375,
+            "position": {
+                "x": 77.46817016601563,
+                "y": 27.21705436706543
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Random",
+            "error": "",
+            "seed": 42,
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 147,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 1050.70263671875,
+            "position": {
+                "x": 5.025841236114502,
+                "y": 50.217079162597656
+            },
+            "reachedGoal": true
+        }
+    ],
+    "error": ""
+}

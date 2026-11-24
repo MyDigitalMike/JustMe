@@ -1,0 +1,63 @@
+{
+    "error": "",
+    "states": [
+        {
+            "pose": 1,
+            "sprite": "Run (1)",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true
+        },
+        {
+            "pose": 2,
+            "sprite": "Jump (1)",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true
+        },
+        {
+            "pose": 3,
+            "sprite": "LowTraversal_04",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true
+        },
+        {
+            "pose": 4,
+            "sprite": "LowTraversal_08",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true
+        },
+        {
+            "pose": 5,
+            "sprite": "VerticalTraversal_00",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true
+        },
+        {
+            "pose": 6,
+            "sprite": "VerticalTraversal_08",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true
+        },
+        {
+            "pose": 7,
+            "sprite": "VerticalTraversal_12",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true
+        },
+        {
+            "pose": 8,
+            "sprite": "LowTraversal_00",
+            "selected": true,
+            "physicsUnchanged": true,
+            "feetAligned": true
+        }
+    ],
+    "stoppedClimbFreezes": true,
+    "baseLayerRestored": true
+}

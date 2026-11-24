@@ -1,0 +1,62 @@
+[
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs",
+    "sha256": "fdb98762c6691af846a5976726c88ffeab093707cb2fc38a19f9cf254e1cf5c2"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs.meta",
+    "sha256": "8c1ae95f258c45c19b488c235cccbf751c95c81e748c0f46cce50cf29bc1a56f"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalValidator.cs",
+    "sha256": "76534d9620cfaee49d9cf6b9702e37f80f026a4ebb2d316d179a9b42be58e229"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalValidator.cs.meta",
+    "sha256": "55bfe231e20340cc1169b4d6ad6755bf89a20767f9e2d760ee25e78b4ede4c8b"
+  },
+  {
+    "path": "Assets/Script/Game/Libro.cs",
+    "sha256": "6b6b08d0eaf1247550ad306e32af01927da7fad625e0818344aa2292338bd4a7"
+  },
+  {
+    "path": "Assets/Script/Game/Libro.cs.meta",
+    "sha256": "571e27ec6ce99b66df7294e442f73bbf820ae2025b96e367e4ef37e44fd1d6f7"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "sha256": "335efbbdb979cc5f351b817eecf32bbc9ba203618ead2c2f8bf5ea932f98845e"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs.meta",
+    "sha256": "cabd3f1551a463214c234244584023b709665ae4fa98ebfd59fec9cb5cdf08c3"
+  },
+  {
+    "path": "Assets/Script/Game/WorldLighting.cs",
+    "sha256": "c86f0b32921ec8ea6780a657c2987b3b4553b98384ed6fd54aa66d2f6a9b46b9"
+  },
+  {
+    "path": "Assets/Script/Game/WorldLighting.cs.meta",
+    "sha256": "a91205a45e877f39f2ab413f766a8c582688385593ee5bbb7f9ad87740c6a6d0"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-Phase4Checks.ps1",
+    "sha256": "0b1707159970ff090df979d07c0d27e39ed6a74e25963be1ad6f67db3e0f7d4e"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-WorldSuite.ps1",
+    "sha256": "5d7471cd9cd692f6135250215767f05eeeca587ba1a391f6352a6dee81e576ed"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-WorldChecks.ps1",
+    "sha256": "cf9efff6e94e7c6083724995a1f566568b5dce410f02d1f5b8fcac42dbdf5df4"
+  },
+  {
+    "path": "Tools/WorldGenerationChecks/Run-WorldGenerationChecks.ps1",
+    "sha256": "794a60bc432f491f01ee5c1ffa229b300d5a9920a1f23d980dd61e1e7d00a1c8"
+  },
+  {
+    "path": "docs/design/CORE_GAMEPLAY.md",
+    "sha256": "ef89d2ef46cb579d6defc84c455cdf16b7c37849df6cf1c5ebac44a3244852bc"
+  }
+]

@@ -1,0 +1,95 @@
+{
+    "worlds": [
+        {
+            "profile": "Horizontal",
+            "error": "",
+            "required": 3,
+            "collected": 3,
+            "completedLinks": 23,
+            "failedLink": -1,
+            "stamina": 72.19983673095703,
+            "seconds": 110.3534927368164,
+            "position": {
+                "x": 25.969192504882813,
+                "y": 4.717080593109131
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Ascent",
+            "error": "",
+            "required": 3,
+            "collected": 3,
+            "completedLinks": 31,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 177.06100463867188,
+            "position": {
+                "x": 23.02306365966797,
+                "y": 36.71702575683594
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Descent",
+            "error": "",
+            "required": 3,
+            "collected": 3,
+            "completedLinks": 31,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 176.88096618652344,
+            "position": {
+                "x": 22.972795486450195,
+                "y": 12.717071533203125
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Mixed",
+            "error": "",
+            "required": 3,
+            "collected": 3,
+            "completedLinks": 23,
+            "failedLink": -1,
+            "stamina": 99.63976287841797,
+            "seconds": 109.29367065429688,
+            "position": {
+                "x": 25.974634170532227,
+                "y": 7.717050552368164
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Mixed",
+            "error": "",
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 23,
+            "failedLink": -1,
+            "stamina": 99.63976287841797,
+            "seconds": 109.29367065429688,
+            "position": {
+                "x": 25.974634170532227,
+                "y": 7.717050552368164
+            },
+            "reachedGoal": true
+        },
+        {
+            "profile": "Ascent",
+            "error": "",
+            "required": 12,
+            "collected": 12,
+            "completedLinks": 31,
+            "failedLink": -1,
+            "stamina": 100.0,
+            "seconds": 177.06100463867188,
+            "position": {
+                "x": 23.02306365966797,
+                "y": 36.71702575683594
+            },
+            "reachedGoal": true
+        }
+    ],
+    "error": ""
+}

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 namespace UnityStandardAssets.CrossPlatformInput
 {
 	[RequireComponent(typeof(Image))]
-	public class TouchPad : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+	public class TouchPad : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IInitializePotentialDragHandler
 	{
 		// Options for which axes to use
 		public enum AxisOption
@@ -39,7 +39,9 @@ namespace UnityStandardAssets.CrossPlatformInput
 		bool m_UseY; // Toggle for using the Y axis
 		CrossPlatformInputManager.VirtualAxis m_HorizontalVirtualAxis; // Reference to the joystick in the cross platform input
 		CrossPlatformInputManager.VirtualAxis m_VerticalVirtualAxis; // Reference to the joystick in the cross platform input
-		bool m_Dragging;
+		Vector2 inputCenter;
+        int lastDragFrame = -1;
+        bool m_Dragging;
 		int m_Id = -1;
 		Vector2 m_PreviousTouchPos; // swipe style control touch
 
@@ -98,47 +100,35 @@ namespace UnityStandardAssets.CrossPlatformInput
 		}
 
 
-		public void OnPointerDown(PointerEventData data)
-		{
-			m_Dragging = true;
-			m_Id = data.pointerId;
-#if !UNITY_EDITOR
-        if (controlStyle != ControlStyle.Absolute )
-            m_Center = data.position;
-#endif
-		}
+        public void OnPointerDown(PointerEventData data)
+        {
+            if (m_Dragging && data.pointerId != m_Id) return;
+            m_Dragging = true; m_Id = data.pointerId;
+            inputCenter = controlStyle == ControlStyle.Absolute ? (Vector2)transform.position : data.position;
+            m_PreviousTouchPos = data.position;
+            OnDrag(data);
+        }
 
-		void Update()
-		{
-			if (!m_Dragging)
-			{
-				return;
-			}
-			if (Input.touchCount >= m_Id + 1 && m_Id != -1)
-			{
-#if !UNITY_EDITOR
+        public void OnInitializePotentialDrag(PointerEventData data) { data.useDragThreshold = false; }
 
-            if (controlStyle == ControlStyle.Swipe)
-            {
-                m_Center = m_PreviousTouchPos;
-                m_PreviousTouchPos = Input.touches[m_Id].position;
-            }
-            Vector2 pointerDelta = new Vector2(Input.touches[m_Id].position.x - m_Center.x , Input.touches[m_Id].position.y - m_Center.y).normalized;
-            pointerDelta.x *= Xsensitivity;
-            pointerDelta.y *= Ysensitivity;
-#else
-				Vector2 pointerDelta;
-				pointerDelta.x = Input.mousePosition.x - m_PreviousMouse.x;
-				pointerDelta.y = Input.mousePosition.y - m_PreviousMouse.y;
-				m_PreviousMouse = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f);
-#endif
-				UpdateVirtualAxes(new Vector3(pointerDelta.x, pointerDelta.y, 0));
-			}
-		}
+        public void OnDrag(PointerEventData data)
+        {
+            if (!m_Dragging || data.pointerId != m_Id) return;
+            Vector2 center = controlStyle == ControlStyle.Swipe ? m_PreviousTouchPos : inputCenter;
+            Vector2 delta = (data.position - center).normalized;
+            delta.x *= Xsensitivity; delta.y *= Ysensitivity;
+            m_PreviousTouchPos = data.position; lastDragFrame = Time.frameCount;
+            UpdateVirtualAxes(delta);
+        }
 
-
+        void LateUpdate()
+        {
+            if (m_Dragging && controlStyle == ControlStyle.Swipe && lastDragFrame != Time.frameCount)
+                UpdateVirtualAxes(Vector3.zero);
+        }
 		public void OnPointerUp(PointerEventData data)
 		{
+            if (!m_Dragging || data.pointerId != m_Id) return;
 			m_Dragging = false;
 			m_Id = -1;
 			UpdateVirtualAxes(Vector3.zero);

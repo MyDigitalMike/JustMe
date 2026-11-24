@@ -1,0 +1,138 @@
+[
+  {
+    "sha256": "69864322773E66D19AB58939B1BAE8586F40C796875C6815F481B052CCDA3211",
+    "path": "ProjectSettings/ProjectSettings.asset"
+  },
+  {
+    "sha256": "776C8B6C71E1101973E1F3AB569CF9058B857372A8A19210B50B3C1C6A1A42A6",
+    "path": "ProjectSettings/InputManager.asset"
+  },
+  {
+    "sha256": "5633C5A2406E166EBC3D693B0ED6C47A474FD4A5A563F8708D53A907AF8C75DE",
+    "path": "Packages/manifest.json"
+  },
+  {
+    "sha256": "D8C7B5F5765B45E6673B0D1C73AE719FC63C863F582BEE19DF8FAE64F400EA37",
+    "path": "Packages/packages-lock.json"
+  },
+  {
+    "sha256": "117A7E4E87B9EA1D3A549AF4201076742F2817B50CD302936B53A9A459F21B67",
+    "path": "Assets/Script/Game/Player.cs"
+  },
+  {
+    "sha256": "CABD3F1551A463214C234244584023B709665AE4FA98EBFD59FEC9CB5CDF08C3",
+    "path": "Assets/Script/Game/Player.cs.meta"
+  },
+  {
+    "sha256": "C532999E7DCF6396E5F0C66CAA0BE926195CC2A02A706CAE81D9F755F916912E",
+    "path": "Assets/Script/Game/WorldLighting.cs"
+  },
+  {
+    "sha256": "A91205A45E877F39F2AB413F766A8C582688385593EE5BBB7F9AD87740C6A6D0",
+    "path": "Assets/Script/Game/WorldLighting.cs.meta"
+  },
+  {
+    "sha256": "0D7EB26E6FEAE71ADF1B08674BDCBC759C42BCE897D81723D88AF329B64C373A",
+    "path": "Assets/Script/UI/PauseMenu.cs"
+  },
+  {
+    "sha256": "7654CE8B9572DE0FFCAC2F484CB421387441D1E56B7423DAF36C1EF6F407F68A",
+    "path": "Assets/Script/UI/PauseMenu.cs.meta"
+  },
+  {
+    "sha256": "38597B356A1678E8805AEE074006F6B3F5E9001FDE8B61E897D909A5BB26A501",
+    "path": "Assets/Script/UI/AspectUtility.cs"
+  },
+  {
+    "sha256": "BED9D8A420830B3F561A31BAE44587D494A0BB94F997BF78338F8533A3C45418",
+    "path": "Assets/Script/UI/AspectUtility.cs.meta"
+  },
+  {
+    "sha256": "9B0E92E8C719A53D40CCA940A56C19D45942B91EB818485821F35168B5E39047",
+    "path": "Assets/Script/Botones/Loader.cs"
+  },
+  {
+    "sha256": "431A4F9926DE010E86F724F1D9E2CDB641A3359826626AD5AFA96C654F27B268",
+    "path": "Assets/Script/Botones/Loader.cs.meta"
+  },
+  {
+    "sha256": "B5B6B64D8357142680B7273FCC56BA77A5D14D9605C564B6EDBCB3FF49953AC2",
+    "path": "Assets/Script/Botones/Creditos.cs"
+  },
+  {
+    "sha256": "7B8DB5E26505ED0225555D424193E94D123B5E32654C85D689FFDE966A061FE2",
+    "path": "Assets/Script/Botones/Creditos.cs.meta"
+  },
+  {
+    "sha256": "92471156353396EF963C756689D5D7D9C151081262B5D5BFBAFF06DF7AECF092",
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+  },
+  {
+    "sha256": "39E312D9E3F696986A2C1CCC0E54D55A4F39FF6A768D4FA2F97D751D52B426EE",
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta"
+  },
+  {
+    "sha256": "5D6DA32F8F2EE37ACE6834E92AF76E586DC736D6DAFF4F4FE6196085F61FE780",
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+  },
+  {
+    "sha256": "9A1993E7AC177EAB3501551F56ADB251A8AD990B10E072429807DEF932AFCB01",
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta"
+  },
+  {
+    "sha256": "16FC6064FAFAB58314F0A1BB92ED42821BDFD29A6D619E33295D01BC897C9FA3",
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+  },
+  {
+    "sha256": "745722935B891746307EF4210CFE357339CA49E42B39A83B757012A864729076",
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta"
+  },
+  {
+    "sha256": "DB453EFDCD2C17A0B9C5B69D20F231E7B00F02800DCA1E4C20EC2AE874A3362E",
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+  },
+  {
+    "sha256": "9E7ECE30EB20CE1FF0854AA0449451992C4402911A8783B6A7470AC86146A791",
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta"
+  },
+  {
+    "sha256": "659545F6B6EF00CED4528B879206167FE6F50EE587CF76E89BE0B6F2DA07CEF1",
+    "path": "Assets/Scenes/MainMenu.unity"
+  },
+  {
+    "sha256": "A18AEF7C78C72358D383BE541B4AE078DDA5FA8B4CDF48B7FDD93A413FE68D73",
+    "path": "Assets/Scenes/MainMenu.unity.meta"
+  },
+  {
+    "sha256": "92046172492FB62CDCD719657C76DA9439FBD575B6E6ED4E260CE91DC4BAE899",
+    "path": "Assets/Scenes/JustMe.unity"
+  },
+  {
+    "sha256": "954917D3BDCAB77EA08A56D28D0E88E9909B07AAA4EC5520058AA39732DD387E",
+    "path": "Assets/Scenes/JustMe.unity.meta"
+  },
+  {
+    "sha256": "E6B5AF08A8AE79BF25ABD582B6BC4C4C6D8BE226C9175E9FF9442ED8961CA550",
+    "path": "Assets/Scenes/GameOver.unity"
+  },
+  {
+    "sha256": "5C84AA24C6E466819CF7A296ACB3985E1BB8615EF8FF4FC699DD9B779A6E2FEE",
+    "path": "Assets/Scenes/GameOver.unity.meta"
+  },
+  {
+    "sha256": "C18FC5EEF59394E92F59835549052853A601EFF714A0F744079909CB7E1E0C25",
+    "path": "Assets/Scenes/Creditos.unity"
+  },
+  {
+    "sha256": "CFF6B29890EE186D673656D3DC4C5642708B281E9CA1BEF65FA986E3C7DBF310",
+    "path": "Assets/Scenes/Creditos.unity.meta"
+  },
+  {
+    "sha256": "81CBD91F19D4D3F6808FAAF6726D47A2900088FE2EC2C6E7041F0F6FDA0B6303",
+    "path": "Assets/Scenes/JustMeLevelCreator.unity"
+  },
+  {
+    "sha256": "84D0396EC38945DA26E23BE1116B8AFAA382D877C4A916474F01DD211E872893",
+    "path": "Assets/Scenes/JustMeLevelCreator.unity.meta"
+  }
+]

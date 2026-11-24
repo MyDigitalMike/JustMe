@@ -1,7 +1,7 @@
 param([int]$Seed=1,[string]$Profile='Horizontal')
 $ErrorActionPreference='Stop'
 $rootPath=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
-$sources=@('Assets/Script/Game/TraversalStamina.cs','Assets/Script/GeneracionMundo/ProceduralWorld.cs','Assets/Script/GeneracionMundo/TraversalWorld.cs','Assets/Script/GeneracionMundo/TraversalValidator.cs')|ForEach-Object{Join-Path $rootPath $_}
+$sources=@('Assets/Script/Game/TraversalStamina.cs','Assets/Script/GeneracionMundo/ProceduralWorld.cs','Assets/Script/GeneracionMundo/TraversalWorld.cs','Assets/Script/GeneracionMundo/TraversalValidator.cs','Assets/Script/GeneracionMundo/DiaryPlanner.cs','Assets/Script/GeneracionMundo/TraversalTopology.cs')|ForEach-Object{Join-Path $rootPath $_}
 Add-Type -Path $sources
 $raw=Get-Content (Join-Path $rootPath 'Assets/Resources/TraversalCapabilities.json') -Raw|ConvertFrom-Json
 $caps=[TraversalCapabilities]::new()

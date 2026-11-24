@@ -22,6 +22,15 @@ public static class WorldTilemapRenderer
         var composite = tilemap.GetComponent<CompositeCollider2D>();
         if (composite != null) composite.GenerateGeometry();
         Physics2D.SyncTransforms();
+        RuinedHouseTheme theme = Resources.Load<RuinedHouseTheme>("RuinedHouseTheme");
+        bool useHouse = world.Route != null && theme != null && theme.Ready && theme.applyToGeneratedWorlds;
+        RuinedHousePresentation house = tilemap.GetComponent<RuinedHousePresentation>();
+        if (useHouse)
+        {
+            if (house == null) house = tilemap.gameObject.AddComponent<RuinedHousePresentation>();
+            house.Rebuild(world, tilemap, theme);
+        }
+        else if (house != null) house.Clear();
     }
 
     public static Vector3 CellCenter(Tilemap tilemap, int x, int y)
@@ -65,7 +74,51 @@ public static class WorldTilemapRenderer
         }
         environment.climbableAreas = climbs.ToArray(); environment.voidAreas = voids;
         environment.bottomVoidEnabled = true; environment.bottomVoidY = ModelPosition(tilemap, 0, -1).y;
-        environment.DrawDesignatedSurfaces(tilemap.GetComponent<TilemapRenderer>().sharedMaterial, cues);
+        var renderer = tilemap.GetComponent<TilemapRenderer>();
+        environment.ConfigureArtwork(renderer.sortingLayerID, renderer.sortingOrder);
+        environment.ledgeDecorations = FindLedgeDecorations(world, tilemap, player);
+        var hero = player.GetComponent<HeroVisualAlignment>();
+        if (hero != null) hero.ConfigureTerrainSorting(renderer.sortingLayerID, renderer.sortingOrder);
+        environment.DrawDesignatedSurfaces(renderer.sharedMaterial, cues);
         player.ConfigureTraversal(environment);
+    }
+
+    // Grid occupancy supplies candidates; actual collider hits own each final corner/normal.
+    public static TraversalEnvironment.LedgeDecoration[] FindLedgeDecorations(WorldData world, Tilemap tilemap, Player player)
+    {
+        var result = new System.Collections.Generic.List<TraversalEnvironment.LedgeDecoration>();
+        var composite = tilemap.GetComponent<CompositeCollider2D>();
+        if (composite == null) return result.ToArray();
+        var seen = new System.Collections.Generic.HashSet<Vector2Int>();
+        var physics = tilemap.gameObject.scene.GetPhysicsScene2D();
+        var filter = new ContactFilter2D { useTriggers = false }; filter.SetLayerMask(player.collisionLayer);
+        var hits = new RaycastHit2D[8];
+        float extent = player.GetComponent<BoxCollider2D>().bounds.extents.x;
+        int width = world.Tiles.GetLength(0), height = world.Tiles.GetLength(1);
+        Vector3 stepX = tilemap.CellToWorld(Vector3Int.right) - tilemap.CellToWorld(Vector3Int.zero);
+        Vector3 stepY = tilemap.CellToWorld(Vector3Int.up) - tilemap.CellToWorld(Vector3Int.zero);
+        for (int y = 0; y < height; y++) for (int x = 0; x < width; x++)
+        {
+            if (world.Tiles[x, y] != 1 || y + 1 < height && world.Tiles[x, y + 1] == 1) continue;
+            for (int inward = -1; inward <= 1; inward += 2)
+            {
+                int outside = x - inward;
+                if (outside >= 0 && outside < width && world.Tiles[outside, y] == 1) continue;
+                Vector2 corner = CellCenter(tilemap, x, y) - stepX * (inward * .5f) + stepY * .5f;
+                int count = physics.Raycast(corner + new Vector2(inward * .025f, .05f), Vector2.down, .1f, filter, hits);
+                if (count == 0 || hits[0].collider != composite || hits[0].normal.y < .9f) continue;
+                float top = hits[0].point.y;
+                count = physics.Raycast(corner + new Vector2(-inward * .05f, -.025f), Vector2.right * inward, .1f, filter, hits);
+                if (count == 0 || hits[0].collider != composite || Mathf.Abs(hits[0].normal.x) < .8f) continue;
+                corner = new Vector2(hits[0].point.x, top);
+                if (!player.CanStandAt(new Vector2(corner.x + inward * (extent + .06f), corner.y - player.SoleOffset + .025f), true)) continue;
+                var key = new Vector2Int(Mathf.RoundToInt(corner.x * 1000), Mathf.RoundToInt(corner.y * 1000));
+                if (!seen.Add(key)) continue;
+                int next = x + inward;
+                bool longerTop = next >= 0 && next < width && world.Tiles[next, y] == 1 && (y + 1 >= height || world.Tiles[next, y + 1] == 0);
+                result.Add(new TraversalEnvironment.LedgeDecoration { Corner = corner, Inward = inward, Width = Mathf.Min(.34f, stepX.magnitude * (longerTop ? 1 : .5f)) });
+            }
+        }
+        return result.ToArray();
     }
 }

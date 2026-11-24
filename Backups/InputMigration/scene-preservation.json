@@ -1,0 +1,37 @@
+[
+  {
+    "scene": "MainMenu",
+    "buttonCallbacksUnchanged": true,
+    "removedGuids": [
+      "4f231c4fb786f3946a6b90b886c48677"
+    ]
+  },
+  {
+    "scene": "JustMe",
+    "buttonCallbacksUnchanged": true,
+    "removedGuids": [
+      "4f231c4fb786f3946a6b90b886c48677"
+    ]
+  },
+  {
+    "scene": "GameOver",
+    "buttonCallbacksUnchanged": true,
+    "removedGuids": [
+      "4f231c4fb786f3946a6b90b886c48677"
+    ]
+  },
+  {
+    "scene": "Creditos",
+    "buttonCallbacksUnchanged": true,
+    "removedGuids": [
+      "4f231c4fb786f3946a6b90b886c48677"
+    ]
+  },
+  {
+    "scene": "JustMeLevelCreator",
+    "buttonCallbacksUnchanged": true,
+    "removedGuids": [
+      "4f231c4fb786f3946a6b90b886c48677"
+    ]
+  }
+]

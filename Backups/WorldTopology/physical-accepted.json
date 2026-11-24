@@ -1,0 +1,229 @@
+{
+  "provenance": "Non-Cross from initial batch; three Cross cases rechecked after separating the ascending return shaft from the exit gap. Initial failure preserved.",
+  "worlds": [
+    {
+      "profile": "Horizontal",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 71,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 310.7077941894531,
+      "position": {
+        "x": 87.96857452392578,
+        "y": 7.717076301574707
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Horizontal",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 71,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 314.0059814453125,
+      "position": {
+        "x": 5.029055595397949,
+        "y": 7.71707820892334
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Ascent",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 69,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 409.51348876953125,
+      "position": {
+        "x": 56.46650695800781,
+        "y": 91.71707153320312
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Ascent",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 61,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 354.82354736328125,
+      "position": {
+        "x": 5.030658721923828,
+        "y": 75.71707153320312
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Descent",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 71,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 422.6462707519531,
+      "position": {
+        "x": 58.96781539916992,
+        "y": 5.717077255249023
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Descent",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 63,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 368.41607666015625,
+      "position": {
+        "x": 5.028335094451904,
+        "y": 5.717079162597656
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "U",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 133,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 797.1553344726562,
+      "position": {
+        "x": 104.03486633300781,
+        "y": 89.71701049804688
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "U",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 117,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 688.6294555664062,
+      "position": {
+        "x": 4.9712934494018555,
+        "y": 73.71705627441406
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Switchback",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 115,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 582.4258422851562,
+      "position": {
+        "x": 35.467674255371094,
+        "y": 71.71707153320312
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Switchback",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 115,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 585.0484008789062,
+      "position": {
+        "x": 16.033126831054688,
+        "y": 71.71707153320312
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Switchback",
+      "error": "",
+      "seed": 42,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 115,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 584.4077758789062,
+      "position": {
+        "x": 35.966705322265625,
+        "y": 71.71707153320312
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Cross",
+      "error": "",
+      "seed": 0,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 135,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 793.9922485351562,
+      "position": {
+        "x": 64.46560668945312,
+        "y": 45.717071533203125
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Cross",
+      "error": "",
+      "seed": 1,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 135,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 796.3545532226562,
+      "position": {
+        "x": 5.02845573425293,
+        "y": 45.717071533203125
+      },
+      "reachedGoal": true
+    },
+    {
+      "profile": "Cross",
+      "error": "",
+      "seed": 42,
+      "required": 12,
+      "collected": 12,
+      "completedLinks": 135,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 795.3135375976562,
+      "position": {
+        "x": 65.4673843383789,
+        "y": 45.717071533203125
+      },
+      "reachedGoal": true
+    }
+  ]
+}

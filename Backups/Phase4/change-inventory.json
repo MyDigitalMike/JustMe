@@ -1,0 +1,156 @@
+[
+  {
+    "path": "Assets/Prefabs/Character/JumpHard.prefab",
+    "status": "retired; original in before.zip"
+  },
+  {
+    "path": "Assets/Prefabs/Character/JumpHard.prefab.meta",
+    "status": "retired; original in before.zip"
+  },
+  {
+    "path": "Assets/Prefabs/UI/Coin.prefab",
+    "status": "retired; original in before.zip"
+  },
+  {
+    "path": "Assets/Prefabs/UI/Coin.prefab.meta",
+    "status": "retired; original in before.zip"
+  },
+  {
+    "path": "Assets/Prefabs/Character/EnemigoSimple.prefab",
+    "status": "retired; original in before.zip"
+  },
+  {
+    "path": "Assets/Prefabs/Character/EnemigoSimple.prefab.meta",
+    "status": "retired; original in before.zip"
+  },
+  {
+    "path": "Assets/Prefabs/Character/Libro.prefab",
+    "status": "modified",
+    "sha256": "43971c76fd42873bc78b56d8eac5e6151d3da4ba596611dd282c0c035e53fc82"
+  },
+  {
+    "path": "Assets/Resources/WorldPresentation.prefab",
+    "status": "modified",
+    "sha256": "ce2ef968b0cd1178a243494d7fed274604ddc30b001c19bbd20040fdabfb8b99"
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity",
+    "status": "modified",
+    "sha256": "92046172492fb62cdcd719657c76da9439fbd575b6e6ed4e260ce91dc4bae899"
+  },
+  {
+    "path": "Assets/Scenes/JustMeLevelCreator.unity",
+    "status": "modified",
+    "sha256": "81cbd91f19d4d3f6808faaf6726d47a2900088fe2ec2c6e7041f0f6fda0b6303"
+  },
+  {
+    "path": "Assets/Script/Game/Libro.cs",
+    "status": "modified",
+    "sha256": "6b6b08d0eaf1247550ad306e32af01927da7fad625e0818344aa2292338bd4a7"
+  },
+  {
+    "path": "Assets/Script/Game/Libro.cs.meta",
+    "status": "modified",
+    "sha256": "571e27ec6ce99b66df7294e442f73bbf820ae2025b96e367e4ef37e44fd1d6f7"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/ProceduralWorld.cs",
+    "status": "modified",
+    "sha256": "7674999ed22c3049653d4d9c38b43de16042a79b2022a43d6b0fc29ee1fb8024"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs",
+    "status": "modified",
+    "sha256": "fdb98762c6691af846a5976726c88ffeab093707cb2fc38a19f9cf254e1cf5c2"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalValidator.cs",
+    "status": "modified",
+    "sha256": "76534d9620cfaee49d9cf6b9702e37f80f026a4ebb2d316d179a9b42be58e229"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-WorldSuite.ps1",
+    "status": "modified",
+    "sha256": "5d7471cd9cd692f6135250215767f05eeeca587ba1a391f6352a6dee81e576ed"
+  },
+  {
+    "path": "Assets/Script/Game/DiaryProgress.cs",
+    "status": "added",
+    "sha256": "6a25d37214cf185d5241030d847805c12b3236eee03ef2c612ac137fb6fbf798"
+  },
+  {
+    "path": "Assets/Script/Game/DiaryProgress.cs.meta",
+    "status": "added",
+    "sha256": "e293bbdd387a1b858c059789a42596991c15640cf119e863207ece9cea30f347"
+  },
+  {
+    "path": "Assets/Script/Game/DiaryPage.cs",
+    "status": "added",
+    "sha256": "0da8a2699ffe8320cecfd62c03d99de133a673cbab4188591dd8ee02bfd145bf"
+  },
+  {
+    "path": "Assets/Script/Game/DiaryPage.cs.meta",
+    "status": "added",
+    "sha256": "03695c33680fa56d9ec5925b44bc3ddbcc249d10edc38e5807e1b1acbec4f44e"
+  },
+  {
+    "path": "Assets/Script/Game/GameplayFeedback.cs",
+    "status": "added",
+    "sha256": "f3a74175f664c8701a5dc2f7c521c83314caa3c8c18e715a5b3ae1ca88207cb1"
+  },
+  {
+    "path": "Assets/Script/Game/GameplayFeedback.cs.meta",
+    "status": "added",
+    "sha256": "01e7e2ce738ec8cac310371415f884f6c993ced19bc7430bf40dc1c66743ce09"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/DiaryPlanner.cs",
+    "status": "added",
+    "sha256": "d4ef8799689bbeb8617296505bd2ff5967a06e6d9676a5e7c704dfcb458db57e"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/DiaryPlanner.cs.meta",
+    "status": "added",
+    "sha256": "418785115bb752cf48c8021cffe01347ce979ce3f3602791792b509322a1667b"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldRunSession.cs",
+    "status": "added",
+    "sha256": "6efcea550a591d721ae726e10db5e239346ec15b176024fcceff20f37e3cbe6a"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldRunSession.cs.meta",
+    "status": "added",
+    "sha256": "9efef10a05435938ff3b928ec58b7cfd2e2e4a5ae5b1fcb450b4726499dc4c23"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-Phase4Checks.ps1",
+    "status": "phase4 support",
+    "sha256": "0b1707159970ff090df979d07c0d27e39ed6a74e25963be1ad6f67db3e0f7d4e"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-WorldChecks.ps1",
+    "status": "phase4 support",
+    "sha256": "cf9efff6e94e7c6083724995a1f566568b5dce410f02d1f5b8fcac42dbdf5df4"
+  },
+  {
+    "path": "Tools/WorldGenerationChecks/Run-WorldGenerationChecks.ps1",
+    "status": "phase4 support",
+    "sha256": "794a60bc432f491f01ee5c1ffa229b300d5a9920a1f23d980dd61e1e7d00a1c8"
+  },
+  {
+    "path": "docs/design/CORE_GAMEPLAY.md",
+    "status": "phase4 support",
+    "sha256": "ef89d2ef46cb579d6defc84c455cdf16b7c37849df6cf1c5ebac44a3244852bc"
+  },
+  {
+    "path": "docs/design/PHASE4_PARALLAX.md",
+    "status": "phase4 support",
+    "sha256": "0c5b39c39c1044f859e136b28fd98ccffc016cc2c6e2e5a4c7cc6ef22c74bcd0"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-11-13-justme-phase4.md",
+    "status": "phase4 support",
+    "sha256": "b84f64ed853bb0d03fbfe9f526703263cb3d0c0139917d17fdf46e14b7c370dd"
+  }
+]

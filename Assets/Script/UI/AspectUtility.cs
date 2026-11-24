@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+using Input = GameInput;
+using UnityEngine;
 
 public class AspectUtility : MonoBehaviour {
 	

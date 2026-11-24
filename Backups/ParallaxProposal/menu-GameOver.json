@@ -1,0 +1,21 @@
+{
+    "scene": "GameOver",
+    "texture": "Assets/Art/MenuBackdrops/GameOverHouse.png",
+    "playing": true,
+    "coversViewport": true,
+    "noRaycastTargets": true,
+    "eventSystems": 1,
+    "buttons": 2,
+    "imageSize": {
+        "x": 802.0,
+        "y": 451.3648376464844
+    },
+    "canvasSize": {
+        "x": 802.0,
+        "y": 451.0
+    },
+    "screenSize": {
+        "x": 802.0,
+        "y": 451.0
+    }
+}

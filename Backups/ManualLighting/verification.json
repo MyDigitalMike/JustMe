@@ -1,0 +1,14 @@
+{
+  "changedFile": "Assets/Script/Game/WorldLighting.cs",
+  "sha256": "572dbf4983c34c31a749fa314332140d7fdc87c7d39f89f8ca6496dc652780b5",
+  "nativeCompilationObserved": true,
+  "defaultFullVisibilityObserved": true,
+  "F8DarkToggleObserved": true,
+  "F8BrightToggleWhilePausedObserved": true,
+  "SceneVisibleAfterResumingObserved": true,
+  "pauseMenuVeilUnchanged": true,
+  "finalConsoleErrorsObserved": 0,
+  "leftOutsidePlayMode": true,
+  "releaseBehavior": "Gated by Debug.isDebugBuild; no release build performed",
+  "metaPreserved": true
+}

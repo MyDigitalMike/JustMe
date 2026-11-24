@@ -1,0 +1,58 @@
+[
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "sha256": "CEED8E57F9B32D09A9DA2282C77EBAC5364FD097332AAEB4E635B6CCFCA942B0"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs.meta",
+    "sha256": "CABD3F1551A463214C234244584023B709665AE4FA98EBFD59FEC9CB5CDF08C3"
+  },
+  {
+    "path": "Assets/Script/Game/TraversalEnvironment.cs",
+    "sha256": "7BF0343BC522E17BD8FAB2A5904B9E9D07391A890DC1BF4498A363A8B7017767"
+  },
+  {
+    "path": "Assets/Script/Game/TraversalEnvironment.cs.meta",
+    "sha256": "585FDEE74B146C2C731B48A9664D850A86DEF02AA4021C0699DD264A5A9A1AB5"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Player.controller",
+    "sha256": "9A8407BF2DB465D1A0108CA059AD466C2927B2673793FB3416AD712AD098658F"
+  },
+  {
+    "path": "Assets/Animaciones/Player/Player.controller.meta",
+    "sha256": "EDF647A7B6511059F1E6FA1AD01173839AE1085EDACBE4E010295FF8C31C6BF5"
+  },
+  {
+    "path": "Assets/Prefabs/Character/Player.prefab",
+    "sha256": "E57E4C78E61766293991209746DE43832AE9657668C3D3DE1A2D41002393F630"
+  },
+  {
+    "path": "Assets/Prefabs/Character/Player.prefab.meta",
+    "sha256": "60A01A848ADE9355FE151A046E2B5DB6563FB0CE1691F10A7D8FA66794D4207D"
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity",
+    "sha256": "022081931E54D3547E37213F6D1B6740F3C53F90EC57E515A6B06F3DCBB7CDD0"
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity.meta",
+    "sha256": "954917D3BDCAB77EA08A56D28D0E88E9909B07AAA4EC5520058AA39732DD387E"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldFog.cs",
+    "sha256": "2DD2AC68EB6E04EC5CBB466D438B04D845A9D43CA14657A81858C6DEB5CBF11D"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldFog.cs.meta",
+    "sha256": "F20656B8F1E2531B8B9575CB0CF85F70B554B6EC967F3193AC5604820C3D9E25"
+  },
+  {
+    "path": "Packages/manifest.json",
+    "sha256": "6C1867B8CE5923E8207B7865026D37F9B386FF52F0D42D8256BE54F5361D032D"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "sha256": "0FF109E038D4327AAE330F15D5C865373E6035C23E1673C82EF8E8E56A634FEB"
+  }
+]

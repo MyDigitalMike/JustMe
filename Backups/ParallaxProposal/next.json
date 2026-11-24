@@ -1,0 +1,15 @@
+{
+    "scene": "JustMe",
+    "error": "",
+    "playing": true,
+    "noPaperOrProps": true,
+    "physicalTilesPreserved": true,
+    "compositePathsPreserved": true,
+    "artworkHasNoColliders": true,
+    "level": 2,
+    "required": 4,
+    "props": 0,
+    "backWalls": 0,
+    "paperSolidTiles": 0,
+    "paths": 7
+}

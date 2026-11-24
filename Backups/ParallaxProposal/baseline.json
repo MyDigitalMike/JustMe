@@ -1,0 +1,15 @@
+{
+    "scene": "JustMe",
+    "error": "System.Exception: Wallpaper or furniture is still visible.\r\n  at AtmosphereProposalProbe.Live (System.String action) [0x002b6] in C:\\Personal\\JustMe\\Assets\\Editor\\AtmosphereProposalProbe.cs:130 ",
+    "playing": true,
+    "noPaperOrProps": false,
+    "physicalTilesPreserved": true,
+    "compositePathsPreserved": true,
+    "artworkHasNoColliders": true,
+    "level": 1,
+    "required": 3,
+    "props": 54,
+    "backWalls": 1,
+    "paperSolidTiles": 679,
+    "paths": 7
+}

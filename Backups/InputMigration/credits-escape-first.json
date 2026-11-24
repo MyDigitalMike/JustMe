@@ -1,0 +1,9 @@
+{
+    "error": "",
+    "newBackend": false,
+    "legacyBackend": false,
+    "checks": [
+        "Starts in Credits",
+        "Escape returns Credits to MainMenu"
+    ]
+}

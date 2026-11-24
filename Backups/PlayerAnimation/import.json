@@ -1,0 +1,36 @@
+{
+    "error": "",
+    "sheets": [
+        {
+            "name": "Locomotion",
+            "sprites": 32,
+            "discardedPixels": 25,
+            "pixelsPerUnit": 184.66517639160156
+        },
+        {
+            "name": "LowTraversal",
+            "sprites": 16,
+            "discardedPixels": 0,
+            "pixelsPerUnit": 305.76300048828125
+        },
+        {
+            "name": "VerticalTraversal",
+            "sprites": 16,
+            "discardedPixels": 0,
+            "pixelsPerUnit": 251.057373046875
+        }
+    ],
+    "clips": [
+        "PlayerIdleExpanded:24",
+        "PlayerWalkExpanded:28",
+        "PlayerRun:28",
+        "PlayerJump:19",
+        "PlayerFallExpanded:19",
+        "PlayerCrouchEnter:4",
+        "PlayerCrouchIdle:4",
+        "PlayerCrawl:8",
+        "PlayerClimb:8",
+        "PlayerHang:4",
+        "PlayerPullUp:4"
+    ]
+}

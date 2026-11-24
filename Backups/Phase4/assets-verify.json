@@ -1,0 +1,54 @@
+{
+    "command": "verify",
+    "error": "",
+    "complete": true,
+    "dependencies": [],
+    "scenes": [
+        {
+            "path": "Assets/Scenes/JustMe.unity",
+            "missingScripts": 0,
+            "missingPrefabs": 0,
+            "retiredInstances": 0,
+            "dirty": false,
+            "targets": [],
+            "hud": [
+                "ButtonLeft active=False",
+                "ButtonRigth active=False",
+                "ButtonJump active=False",
+                "ButtonPause active=True",
+                "CountDown active=False",
+                "Enemys active=False"
+            ],
+            "audio": [
+                "PauseMenu enabled=True playOnAwake=False",
+                "BackgroundSound enabled=False playOnAwake=False",
+                "BookCollected enabled=True playOnAwake=False",
+                "ButtonSound enabled=True playOnAwake=False",
+                "Ghost enabled=True playOnAwake=False"
+            ],
+            "bookReferences": [
+                "Elemento=Libro asset=False",
+                "Jugador=Player asset=False",
+                "MapaDeCasillas=Tilemap asset=False",
+                "Casilla=SueloAvanzado asset=True",
+                "countDownText=CountDown asset=False",
+                "Enemys=Enemys asset=False",
+                "SoundBookEffect=BookCollected asset=False"
+            ]
+        },
+        {
+            "path": "Assets/Scenes/JustMeLevelCreator.unity",
+            "missingScripts": 0,
+            "missingPrefabs": 0,
+            "retiredInstances": 0,
+            "dirty": false,
+            "targets": [],
+            "hud": [],
+            "audio": [
+                "Main Camera enabled=True playOnAwake=True"
+            ],
+            "bookReferences": []
+        }
+    ],
+    "retired": []
+}

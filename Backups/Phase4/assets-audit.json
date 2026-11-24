@@ -1,0 +1,126 @@
+{
+    "command": "audit",
+    "error": "",
+    "complete": true,
+    "dependencies": [
+        {
+            "asset": "Assets/Prefabs/Character/JumpHard.prefab",
+            "dependencies": [
+                "Assets/Imagenes/Skeleton.png",
+                "Assets/Prefabs/Character/JumpHard.prefab",
+                "Assets/Imagenes/Materials/Material.physicsMaterial2D",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                "Assets/Script/Game/JumpingHard.cs"
+            ]
+        },
+        {
+            "asset": "Assets/Prefabs/UI/Coin.prefab",
+            "dependencies": [
+                "Assets/Sprites/Gema/Coin_0000002.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat",
+                "Assets/Prefabs/UI/Coin.prefab",
+                "Assets/Animaciones/Moneda/JustMe.controller",
+                "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                "Assets/Sprites/Gema/Coin_0000001.png",
+                "Assets/Sprites/Gema/Coin_0000003.png",
+                "Assets/Script/Game/CoinManager.cs",
+                "Assets/Sprites/Gema/Coin_0000000.png",
+                "Assets/Animaciones/Moneda/IdolCoin.anim"
+            ]
+        },
+        {
+            "asset": "Assets/Prefabs/Character/EnemigoSimple.prefab",
+            "dependencies": [
+                "Assets/Animaciones/Enemigo/EnemigoSimple.controller",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_006.png",
+                "Assets/Prefabs/UI/Enemys.prefab",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_005.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_001.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_007.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_002.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_002.png",
+                "Assets/Fonts/Sanseriffic.otf",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_004.png",
+                "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Text.cs",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_009.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat",
+                "Assets/Prefabs/UI/Ghost.prefab",
+                "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                "Assets/Script/Game/Enemigo.cs",
+                "Assets/Sounds/Efectos/Ghost.wav",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_003.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_004.png",
+                "Assets/Prefabs/Character/EnemigoSimple.prefab",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_009.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_006.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Idle__009.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_003.png",
+                "Assets/Animaciones/Enemigo/EnemyIdol.anim",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_007.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_000.png",
+                "Assets/Imagenes/Materials/Enemy.physicsMaterial2D",
+                "Assets/Animaciones/Enemigo/OnDead.anim",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_008.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/walk_001.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_008.png",
+                "Assets/Sprites/Enemigo/AlterEnemy/Die_005.png"
+            ]
+        }
+    ],
+    "scenes": [
+        {
+            "path": "Assets/Scenes/JustMe.unity",
+            "missingScripts": 0,
+            "missingPrefabs": 0,
+            "retiredInstances": 0,
+            "dirty": false,
+            "targets": [
+                "Coin -> Assets/Prefabs/UI/Coin.prefab",
+                "EnemigoSimple -> Assets/Prefabs/Character/EnemigoSimple.prefab",
+                "JumpHard -> Assets/Prefabs/Character/JumpHard.prefab"
+            ],
+            "hud": [
+                "ButtonLeft active=True",
+                "ButtonRigth active=True",
+                "ButtonJump active=True",
+                "ButtonPause active=True",
+                "CountDown active=True",
+                "Enemys active=True"
+            ],
+            "audio": [
+                "PauseMenu enabled=True playOnAwake=False",
+                "BackgroundSound enabled=True playOnAwake=True",
+                "BookCollected enabled=True playOnAwake=False",
+                "ButtonSound enabled=True playOnAwake=False",
+                "Ghost enabled=True playOnAwake=False"
+            ],
+            "bookReferences": [
+                "Elemento=Libro asset=False",
+                "Jugador=Player asset=False",
+                "MapaDeCasillas=Tilemap asset=False",
+                "Casilla=SueloAvanzado asset=True",
+                "countDownText=CountDown asset=False",
+                "Enemys=Enemys asset=False",
+                "SoundBookEffect=BookCollected asset=False"
+            ]
+        },
+        {
+            "path": "Assets/Scenes/JustMeLevelCreator.unity",
+            "missingScripts": 0,
+            "missingPrefabs": 0,
+            "retiredInstances": 0,
+            "dirty": false,
+            "targets": [
+                "EnemigoSimple -> Assets/Prefabs/Character/EnemigoSimple.prefab",
+                "JumpHard -> Assets/Prefabs/Character/JumpHard.prefab"
+            ],
+            "hud": [],
+            "audio": [
+                "Main Camera enabled=True playOnAwake=True"
+            ],
+            "bookReferences": []
+        }
+    ],
+    "retired": []
+}

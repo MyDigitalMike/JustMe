@@ -1,0 +1,42 @@
+[
+  {
+    "method": "SimulateTraversal",
+    "unchanged": true
+  },
+  {
+    "method": "RefreshGroundContact",
+    "unchanged": true
+  },
+  {
+    "method": "SetCrouched",
+    "unchanged": true
+  },
+  {
+    "method": "CanStandAt",
+    "unchanged": true
+  },
+  {
+    "method": "TryGrabLedge",
+    "unchanged": true
+  },
+  {
+    "method": "GripSurfaceExists",
+    "unchanged": true
+  },
+  {
+    "method": "HasValidGrip",
+    "unchanged": true
+  },
+  {
+    "method": "MovePullUp",
+    "unchanged": true
+  },
+  {
+    "method": "ReleaseGrip",
+    "unchanged": true
+  },
+  {
+    "method": "NotifyWarp",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Assets/Art/HouseRuins/HouseProps.png",
+    "sha256": "e43a59860531ef99dfacc5f26059673dbf4b2cb1556ae42b9ae221e19cddc486"
+  },
+  {
+    "path": "Assets/Art/HouseRuins/HouseProps.png.meta",
+    "sha256": "7bfeb8d37863949ee09b00314db5d623a7ac5c4447d4396e0fe8867276d8b05f"
+  },
+  {
+    "path": "Assets/Art/HouseRuins/HouseMaterials.png",
+    "sha256": "b9391bc9e73b5d2af125fd2617917069175915fecfba274f9c98f95961d7358f"
+  },
+  {
+    "path": "Assets/Art/HouseRuins/HouseMaterials.png.meta",
+    "sha256": "6450db7e8dfb83e307d58b11b249a284b58a8faf05a73095d9e5863e48eb2e93"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "sha256": "ceed8e57f9b32d09a9da2282c77ebac5364fd097332aaeb4e635b6ccfca942b0"
+  },
+  {
+    "path": "Assets/Script/Game/TraversalStamina.cs",
+    "sha256": "47018407440354799d8e9f729b042e49da593eff163901bec67a66098124c2ac"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldTilemapRenderer.cs",
+    "sha256": "70f609d95d8ca64edb06587eaa2b2299603472c37f540fc2fbc8bad1aa290e0d"
+  },
+  {
+    "path": "Assets/Script/Game/WorldLighting.cs",
+    "sha256": "8d7f4e9801e30556a2962e694dc17b006b5a73567c5a5a96c280984579db0721"
+  },
+  {
+    "path": "Assets/Script/UI/ParallaxBackground.cs",
+    "sha256": "1516fb8f0c2963ef75df54625875fb49bfd8abf157a37413e328303847202c08"
+  },
+  {
+    "path": "Packages/manifest.json",
+    "sha256": "6c1867b8ce5923e8207b7865026d37f9b386ff52f0d42d8256be54f5361d032d"
+  },
+  {
+    "path": "Packages/packages-lock.json",
+    "sha256": "2b8a551737c62d29f6ed0eadeac647247fdcd72f2f2989b0f5ae0ba8e3765510"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "sha256": "0ff109e038d4327aae330f15d5c865373e6035c23e1673c82ef8e8e56a634feb"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-24",
+  "editor": "6000.6.8f1",
+  "completed": [
+    "El prototipo usa alpha 1 en los tintes de arquitectura; antes dos capas tenían .85 y .9. El alpha del PNG original no fue editado.",
+    "Dos planos procedurales de niebla independientes: distintas escalas, flujo y respuesta a la cámara X/Y; sin tiling de habitaciones.",
+    "Niebla detrás de muros/terreno y delante de planos lejanos; sin colliders.",
+    "WorldFog incorporado al prefab WorldPresentation para niveles reales, con MaterialPropertyBlock por plano; plantilla de material inmutable.",
+    "En oscuridad local, máscara radial vinculada a WorldLighting.player y visibilityRadius. F8 y WorldLighting conservados sin cambios.",
+    "F10 alterna niebla en Editor/desarrollo; botón de niebla añadido en el prototipo, independiente de F9. Flujo usa Time.deltaTime."
+  ],
+  "verification": [
+    {
+      "scene": "ParallaxDepthTest",
+      "error": "",
+      "fogInstances": 1,
+      "planes": 2,
+      "shaderOK": true,
+      "coverage": true,
+      "noColliders": true,
+      "maskFollowsLight": true,
+      "toggle": true,
+      "opaqueWalls": true,
+      "templatePreserved": true,
+      "maskRadius": 0.0
+    },
+    {
+      "scene": "JustMe",
+      "error": "",
+      "fogInstances": 1,
+      "planes": 2,
+      "shaderOK": true,
+      "coverage": true,
+      "noColliders": true,
+      "maskFollowsLight": true,
+      "toggle": true,
+      "opaqueWalls": true,
+      "templatePreserved": true,
+      "maskRadius": 1.100000023841858
+    },
+    {
+      "scene": "JustMe",
+      "error": "",
+      "fogInstances": 1,
+      "planes": 2,
+      "shaderOK": true,
+      "coverage": true,
+      "noColliders": true,
+      "maskFollowsLight": true,
+      "toggle": true,
+      "opaqueWalls": true,
+      "templatePreserved": true,
+      "maskRadius": 1.100000023841858
+    }
+  ],
+  "playMode": "Prototipo y niveles reales 1 y 2 observados en Play. Un solo WorldFog y dos planos después de regenerar el nivel. No se repitió un recorrido completo de Goal ni una prueba física: solo cambia presentación.",
+  "compilation": "Unity C# y shader compilados y usados en Play; sin errores nuevos del registro. Comprobación final de consola tras retirar el probe.",
+  "changedExisting": [
+    "Assets/Script/Prototypes/ParallaxDepthDemo.cs",
+    "Assets/Scenes/Prototypes/ParallaxDepthTest.unity",
+    "Assets/Resources/WorldPresentation.prefab",
+    "docs/context/source/VISUAL_CHECKPOINT.md"
+  ],
+  "newRuntimeFiles": [
+    "Assets/Script/GeneracionMundo/WorldFog.cs",
+    "Assets/Art/Atmosphere/SoftFog.shader",
+    "Assets/Art/Atmosphere/SoftFog.mat"
+  ],
+  "preservation": "12 archivos fuente de gameplay, escenas reales, atlas, paquetes y ProjectSettings idénticos por SHA-256; .meta existentes del respaldo idénticos. No se modificaron pipeline, entradas ni física.",
+  "limitations": [
+    "Arquitectura multicapa todavía solo en el prototipo; faltan cobertura para mundos extensos sin repetición visible y etapas visuales por nivel.",
+    "Las regiones transparentes y bordes antialias del atlas se conservaron; no se convirtió todo el alpha de la imagen a binario.",
+    "La vinculación al radio oscuro se comprobó mediante propiedades nativas y shader; no se hizo una comparación de píxeles de todas las zonas oscuras.",
+    "No se perfiló GPU/móvil ni se realizó un build; niebla usa dos planos transparentes.",
+    "La comparación automática mediante clic fue bloqueada por actividad del usuario; se verificó la activación/desactivación nativa de renderers."
+  ],
+  "testNote": "Una comprobación inicial solicitada mientras el usuario había salido de Play detectó Requires Play; se repitió correctamente en Play y los informes finales pasan.",
+  "backup": "Originals y before.json; diagnóstico .cs y .meta respaldados por hash y retirados de Assets fuera de Play.",
+  "evidence": [
+    "Backups/FogDepthPass/ParallaxDepthTest.png",
+    "Backups/FogDepthPass/JustMe.png",
+    "Backups/FogDepthPass/preserved-final.json"
+  ],
+  "next": "Revisar niebla/muros con F9 y F10 en ParallaxDepthTest. Siguiente fase: arquitectura de fondo en mundos grandes y progresión visual de la casa."
+}

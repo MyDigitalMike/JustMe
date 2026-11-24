@@ -1,0 +1,290 @@
+[
+  {
+    "sha256": "73D324CF5F0EE8C1D6621003C5DE27F74C784D3891DE4DB596193A66C3DCC99D",
+    "path": "Assets/Script/GeneracionMundo/RuinedHouseTheme.cs"
+  },
+  {
+    "sha256": "4AF360680BFB6704658DFB51D85DDF18E43DF679256BDACCD6390F77F661F185",
+    "path": "Assets/Script/GeneracionMundo/RuinedHouseTheme.cs.meta"
+  },
+  {
+    "sha256": "79EE8503155C0F00A9B272B6A7AAAFE62B45A6A83677F683914E292E03819824",
+    "path": "Assets/Script/GeneracionMundo/RuinedHousePresentation.cs"
+  },
+  {
+    "sha256": "BC8D5820DA5EF33FD89566715A17DE9557BF77804BF48516AC15BE9ABA3448CD",
+    "path": "Assets/Script/GeneracionMundo/RuinedHousePresentation.cs.meta"
+  },
+  {
+    "sha256": "3AE699F59AB258953056D439A146E01578FF1EE74BBC778109B28744FC8A7756",
+    "path": "Assets/Resources/RuinedHouseTheme.asset"
+  },
+  {
+    "sha256": "354378F3692F0320ED065C3F4464B503076863CA7DE8C9CB4106556105D800C1",
+    "path": "Assets/Resources/RuinedHouseTheme.asset.meta"
+  },
+  {
+    "sha256": "B9391BC9E73B5D2AF125FD2617917069175915FECFBA274F9C98F95961D7358F",
+    "path": "Assets/Art/HouseRuins/HouseMaterials.png"
+  },
+  {
+    "sha256": "E43A59860531EF99DFACC5F26059673DBF4B2CB1556AE42B9AE221E19CDDC486",
+    "path": "Assets/Art/HouseRuins/HouseProps.png"
+  },
+  {
+    "sha256": "30CFCBC3B7288DDCDB74100E2577289718F39727AB69D6E34F96A26BCA03A5C7",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_00.asset"
+  },
+  {
+    "sha256": "FBDDBEC8BAF2DCB1D3F2870BE8B3A07143FAD237BB81FF5BEE9FB33E5CDD5F80",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_01.asset"
+  },
+  {
+    "sha256": "77A292F63CA0A46CC5FF40C6C7CF46CAE83DC2A7E69AB3AE870B19558B9EEDEB",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_02.asset"
+  },
+  {
+    "sha256": "57573E7EA14D81B9F959229097DE1ACEE4CC6DDC5E3047EF6666F6318D8CA6BD",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_03.asset"
+  },
+  {
+    "sha256": "089858F2A5B0AE34D8701022DF5464EA0EC92AD84A560B05B3AB76F250D1EF3A",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_04.asset"
+  },
+  {
+    "sha256": "517A6391A0594F5FB6C39D839721EF4C9FB1E6C78A9E750E0F0BB9435A2DEF1C",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_05.asset"
+  },
+  {
+    "sha256": "A298C8AC8610BA464B7AC9F23AFFDC1E4D92C8C9E731BBB0F6842AA513184BDE",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_06.asset"
+  },
+  {
+    "sha256": "3D70E950304FB573C11E21BB19E87835F5D4F1A81BE21CDF9DA1C5C5676BA373",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_07.asset"
+  },
+  {
+    "sha256": "E86BF26848124CB21BE11EB04E5853BF03F70ACE220D122FEE1752B72018FED9",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_08.asset"
+  },
+  {
+    "sha256": "6D659EC12D14C4C2F348277F7738F20B6711AE7DF18F91B6E278BDA8E4817174",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_09.asset"
+  },
+  {
+    "sha256": "3FF47F3AC10D793418101930DC67EC525785DB54FC3789F65B212B750C4C8A6E",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_10.asset"
+  },
+  {
+    "sha256": "0509BE4B8CAEED47D23B7A67A9AEE224A25DE1F4C1BF6DA299F586C589259198",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_11.asset"
+  },
+  {
+    "sha256": "96C65A8A9C4224F10D8191EE38CE929821CA5176BB0EB3C9289758D3B3313C23",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_12.asset"
+  },
+  {
+    "sha256": "9AE3A3BA1D63E6568630A8D72D923B4CD002CA52A8BA016C0F44B6F13F306B80",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_13.asset"
+  },
+  {
+    "sha256": "3D816A40184C057E564A83A9C277848C55F4B791D99D69CDF8D4B0E27E66EA62",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_14.asset"
+  },
+  {
+    "sha256": "CA8575E99C34896541A7595950C0F737AB59A814CB99CC301FAA595CE9560BA7",
+    "path": "Assets/Art/HouseRuins/Tiles/Plaster_15.asset"
+  },
+  {
+    "sha256": "BF2F047792A220C71E2BC6897FB15C6EE42C7E812BBF21DCA0230A9968A6772E",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_00.asset"
+  },
+  {
+    "sha256": "5C237FA73A9FC4945B4F46AFFE03CE79192FC0E0AF3A0E5AFB9E595CEB017034",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_01.asset"
+  },
+  {
+    "sha256": "E269F6078243131481F4827556206CFC96E8009BEDB56FDF20C5EA41754804F4",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_02.asset"
+  },
+  {
+    "sha256": "FC065A7022D493C3D4BB8CAB6A2211DA29E9F7126F22CA7ED8F9FB7A8C292F96",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_03.asset"
+  },
+  {
+    "sha256": "25891119091F2F6FB2EDEBCB4189B59EBE6103AA88F5DB238AF6D0BF9763A2C3",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_04.asset"
+  },
+  {
+    "sha256": "88BBD09843CA212453FD3E991A8376808CF07FFA612ABEB71FD7CB2ABF84B8F0",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_05.asset"
+  },
+  {
+    "sha256": "7B7AA800023788F8C6A6F0F6F38080082F36D292E13F3C7CC4A5A639FD74E7EE",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_06.asset"
+  },
+  {
+    "sha256": "334520B39F61AA8F5C447526B7FF74E83C732217169399CD8109F77558EAEF70",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_07.asset"
+  },
+  {
+    "sha256": "B4FC7382C3EAFE4DF13AAEE02AA0038F52EBE376F219B2ED975598218AA91E2E",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_08.asset"
+  },
+  {
+    "sha256": "2B046F5B34946709B107D0DCC93C31D579DE7E04E2A10073CE39A2003A5DFD1D",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_09.asset"
+  },
+  {
+    "sha256": "608354C2053104800B5A2E1D637BFF0380886543C6794E41BF6C8989F61DA274",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_10.asset"
+  },
+  {
+    "sha256": "DAFC2B86A30C497BA078A7018032BBC581BD1C592CA36A51D841FD8C13400F22",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_11.asset"
+  },
+  {
+    "sha256": "45067C5D807E9DF83BD6FB0DE3A48533D3F91FEB865A3128F8A3D7306F9C50B9",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_12.asset"
+  },
+  {
+    "sha256": "F7D8326D7CD8B0AA8EEE7ED89C712D6C0109D6B504BCA15831015640B9EC580F",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_13.asset"
+  },
+  {
+    "sha256": "2125CB090080DEED714AFF487C153120FC8AD66DE26AB3B7F83E865494929290",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_14.asset"
+  },
+  {
+    "sha256": "F46BC6C1DE06A68A9F8ED2A0295651FC69B4CC87705CAE569B51B7757E05A21B",
+    "path": "Assets/Art/HouseRuins/Tiles/Stone_15.asset"
+  },
+  {
+    "sha256": "936A20906B07978B0E4E1E2478B81AB3A64A691B85B4BAF5B806344C37E2B9D4",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_00.asset"
+  },
+  {
+    "sha256": "FD5E7644516AD2BF9E5A7DC79A8280FBAA695AB47B1C478D66F0EA4B10FC6752",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_01.asset"
+  },
+  {
+    "sha256": "5B9EFADE46F6061B05C3227DB482A30F8C55CC4CA4BB0787F3435B73669EF449",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_02.asset"
+  },
+  {
+    "sha256": "D2BACA01243A2DC2DDF6375B5DD0EAA9EAD3D18761CD2AC22E5DA538CE02D553",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_03.asset"
+  },
+  {
+    "sha256": "49AC93E0E34CD547051A2C3665EF32447D5C099C5E1FE10A341AF20E375B71E5",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_04.asset"
+  },
+  {
+    "sha256": "33960C4DC61BD596E98C8EF8F065098BE62BA4AC19DCCBF2B83D5CB4C0EEFD16",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_05.asset"
+  },
+  {
+    "sha256": "A5DFE7B6DD03D0CF91939EC3CBFE76219BEBAAC2E3ABA62F05F58A7A7D9332AB",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_06.asset"
+  },
+  {
+    "sha256": "9398B40F3BF252BD7B3D5A460C69809F737D778A6EE63535BAB1010330C7B5CD",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_07.asset"
+  },
+  {
+    "sha256": "9E987C4F28F96156BD2EB6E387B40F8A23F39ACABDAD663A8E72366B2B1B5C37",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_08.asset"
+  },
+  {
+    "sha256": "A50B644D8E300E868E70F0CEDB57D264EFA1F0E855CBD11911EAA09AE459A193",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_09.asset"
+  },
+  {
+    "sha256": "6F0858920830687C86723911F26A7E41AC90381BE6A8D2EADFC9E635F41F82FA",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_10.asset"
+  },
+  {
+    "sha256": "868A5A6A4EA5398819406D97667103961C32283DF52F2D9D5A29DCE54267922A",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_11.asset"
+  },
+  {
+    "sha256": "EF374D8E1D3E3AFC55C227993B026CFDDDC59D427B9A83CDF7D53DAC7F7187F8",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_12.asset"
+  },
+  {
+    "sha256": "A746005C0270D36A27502F9EEE6B4DC954BB3863748C0331B7FC7F5F625197D6",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_13.asset"
+  },
+  {
+    "sha256": "90D35B6128B48C07D0B6C44CE12C5FE19EE875E53B4F355E772E4DCBDA571128",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_14.asset"
+  },
+  {
+    "sha256": "F07183247E94FF281211FC7DA439D0FD19594F3BB60374DEAD45ABF8C630D0A9",
+    "path": "Assets/Art/HouseRuins/Tiles/Timber_15.asset"
+  },
+  {
+    "sha256": "83C868AF97310D573B9402C898817CCE87C0F88BAB4A8F69034ED3E711A09739",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_00.asset"
+  },
+  {
+    "sha256": "F9299D326999BE9E2C9082F6A2C05A6E6EE6773D2D6BD689637C157C45C1A57D",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_01.asset"
+  },
+  {
+    "sha256": "674AB4DC2DCF714164737EE0B2FDEBC1ADE55C4AB432A30892ECFD1800A108D0",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_02.asset"
+  },
+  {
+    "sha256": "152AEC7E569F0B1EE3C238F02067DB812E0A0BF83A7E249F2A029F9336021C94",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_03.asset"
+  },
+  {
+    "sha256": "94FC85BEFDC9D7019FA6300C71DF1D308D1F1A4D62C3C06EC080E768BD79016A",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_04.asset"
+  },
+  {
+    "sha256": "6B7BC30E1F94DC5F12CD60FD687E3557C28162B6B179FDE2DA2CBE3E43F73BB3",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_05.asset"
+  },
+  {
+    "sha256": "8A9ACEBDE1551767D814FEAEBB780189032FFE52DD04863797295E413EC6B5F0",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_06.asset"
+  },
+  {
+    "sha256": "EC9159AF8F479A67D8FBAF6041140C1C56D0E57E4C0D0E74C75953293DA07117",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_07.asset"
+  },
+  {
+    "sha256": "5B3427BBDC62E5C66A700145D09013099E9235145BF16F62A8E2487645E78B1F",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_08.asset"
+  },
+  {
+    "sha256": "6FC489961CD15A1B5F835DCBC7E39DC96E2CDAE92B7F51DF9C3D364B4DA74E20",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_09.asset"
+  },
+  {
+    "sha256": "53927420E04E03326C6CA154FD4A4B5A5ABA2B3AE15E3BEA7C459D0199C53CA6",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_10.asset"
+  },
+  {
+    "sha256": "F5B020EA32C2FBBAA0E1C2610BDBA2B26D55E8581E20A04312CB21DCFCAC0C83",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_11.asset"
+  },
+  {
+    "sha256": "6C42195687DB2AEAF79FF6C1645939F24FFC6450F242ED5AA0013B3EB04CEA77",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_12.asset"
+  },
+  {
+    "sha256": "43B8FAD849E04BF368ECC94AF379132D48696FCE6F2EECEEB92BB8E95641B02B",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_13.asset"
+  },
+  {
+    "sha256": "C468B474D0D15F8A0343B6D78849CFBA790111B2943EADAF28932859666679AC",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_14.asset"
+  },
+  {
+    "sha256": "C31950A0A0188B9D76BD8F6B182C848BD694F12B3CE6D82FA08A890914CAAB0F",
+    "path": "Assets/Art/HouseRuins/Tiles/Wallpaper_15.asset"
+  }
+]

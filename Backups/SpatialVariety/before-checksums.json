@@ -1,0 +1,18 @@
+[
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalTopology.cs",
+    "sha256": "259bca3d4f632fc8c58443ef8fb3d556a773229898934b8e5997c7bcc2b245bd"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs",
+    "sha256": "2cddeb9925c5f5dd7d7d491ff9c2704a185b9aa489830d47b37f36733db1ec4a"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-VarietyChecks.ps1",
+    "sha256": "1417feae57cd98fab41756977326d65d7bcaa7c9571c3e677aa46021b5813e1f"
+  },
+  {
+    "path": "docs/design/CORE_GAMEPLAY.md",
+    "sha256": "5c6446fc21bcca6cef0ef82dc7d678486e173b13cafc6cafa25e379108874427"
+  }
+]

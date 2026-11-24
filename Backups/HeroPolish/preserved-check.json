@@ -1,0 +1,46 @@
+[
+  {
+    "path": "Assets/Script/Game/HeroVisualAlignment.cs",
+    "unchanged": false
+  },
+  {
+    "path": "Assets/Script/Game/TraversalEnvironment.cs",
+    "unchanged": false
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldTilemapRenderer.cs",
+    "unchanged": false
+  },
+  {
+    "path": "Assets/Art/Character/AnimeHero/Actions.png.meta",
+    "unchanged": false
+  },
+  {
+    "path": "Assets/Art/Character/AnimeHero/Motion.png.meta",
+    "unchanged": false
+  },
+  {
+    "path": "Assets/Resources/HeroTraversal/Props.png.meta",
+    "unchanged": false
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Prefabs/Character/Player.prefab",
+    "unchanged": false
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldFog.cs",
+    "unchanged": true
+  },
+  {
+    "path": "Packages/manifest.json",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "path": "Assets/Prefabs/Character/JumpHard.prefab",
+    "sha256": "B8FDECF892A24E62D47B43B369C2FC83C0CC06D3A404BB4DD2F681CE806829A3"
+  },
+  {
+    "path": "Assets/Prefabs/Character/JumpHard.prefab.meta",
+    "sha256": "30C55E2B1AD432431E86B676F9C50F9D7162330A4A9DCCB91CCF42F5F04B5A31"
+  },
+  {
+    "path": "Assets/Prefabs/UI/Coin.prefab",
+    "sha256": "5B5E2D70DDDF771448D8D882537BBA541E6694F5A82E3C2773EE77719BE7D2F3"
+  },
+  {
+    "path": "Assets/Prefabs/UI/Coin.prefab.meta",
+    "sha256": "964971D189836567E7101C8613469FEF7913174D46FB6871C1EC01FAA15DA2D9"
+  },
+  {
+    "path": "Assets/Prefabs/Character/EnemigoSimple.prefab",
+    "sha256": "56ED399F18EEB5C712F7662567C3E2764CC4D79BABA9B7377F5100D032F87953"
+  },
+  {
+    "path": "Assets/Prefabs/Character/EnemigoSimple.prefab.meta",
+    "sha256": "61210D69878043BCD5FC646B6EE83E3066C9C993DAC158ED263CEF248E8633D7"
+  },
+  {
+    "path": "Assets/Prefabs/Character/Libro.prefab",
+    "sha256": "88B1EDE00ED428F07D97D4AF6CEB2D0B9D96971063B820CDDDEA1A794538F5A8"
+  },
+  {
+    "path": "Assets/Prefabs/Character/Libro.prefab.meta",
+    "sha256": "6BCBC34FEE6857C6E53E561C15B1B809FBD1C78B793D22E843ABCD031B272156"
+  },
+  {
+    "path": "Assets/Resources/WorldPresentation.prefab",
+    "sha256": "A052F71FEE58A5B855090469BFBF8918B98CB2390D9679323E3E2784EDEDB853"
+  },
+  {
+    "path": "Assets/Resources/WorldPresentation.prefab.meta",
+    "sha256": "A6BC5AED395259B012BCB3DB1332F214BD510E2DBD7C9F71B4CA76C7EFC6C00F"
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity",
+    "sha256": "147ADB05D57111D521B56A4CD5EC6157157E139F8AEB220887BDA9D3BB1FA3D3"
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity.meta",
+    "sha256": "954917D3BDCAB77EA08A56D28D0E88E9909B07AAA4EC5520058AA39732DD387E"
+  },
+  {
+    "path": "Assets/Scenes/JustMeLevelCreator.unity",
+    "sha256": "DDD156FC14A9D8975CF919F626D68585514D7C20A0BD9B1B9EBC95879EC5B56D"
+  },
+  {
+    "path": "Assets/Scenes/JustMeLevelCreator.unity.meta",
+    "sha256": "84D0396EC38945DA26E23BE1116B8AFAA382D877C4A916474F01DD211E872893"
+  },
+  {
+    "path": "Assets/Script/Game/Libro.cs",
+    "sha256": "AA182925E283C1202A378EF746C58717832CDD5BC0B7A20E5540218133163BD3"
+  },
+  {
+    "path": "Assets/Script/Game/Libro.cs.meta",
+    "sha256": "AA0283085E4201F02F338C093394B0216B050A9C5733F9DE9678F9AF82EA1392"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "sha256": "335EFBBDB979CC5F351B817EECF32BBC9BA203618EAD2C2F8BF5EA932F98845E"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs.meta",
+    "sha256": "CABD3F1551A463214C234244584023B709665AE4FA98EBFD59FEC9CB5CDF08C3"
+  },
+  {
+    "path": "Assets/Script/Game/WorldLighting.cs",
+    "sha256": "C86F0B32921EC8EA6780A657C2987B3B4553B98384ED6FD54AA66D2F6A9B46B9"
+  },
+  {
+    "path": "Assets/Script/Game/WorldLighting.cs.meta",
+    "sha256": "A91205A45E877F39F2AB413F766A8C582688385593EE5BBB7F9AD87740C6A6D0"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/ProceduralWorld.cs",
+    "sha256": "EBAF855C21E1DA5E368672979FF2E06E4D60FF8BBE5B49616D9E39E533772A0C"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/ProceduralWorld.cs.meta",
+    "sha256": "3CEEC7B7E11C8AC4E2BFD24471AC8BEC7B47B0EF7752AC71A55A4D3564F78654"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs",
+    "sha256": "20F8F1162811B6E10434EAB0632E5D46343458DE0C12B01FCE357FE1702B7D54"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs.meta",
+    "sha256": "8C1AE95F258C45C19B488C235CCCBF751C95C81E748C0F46CCE50CF29BC1A56F"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalValidator.cs",
+    "sha256": "02D76BB58D60D9C294080F01983FE0535A6709E87C55DF704429A2A55378E164"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/TraversalValidator.cs.meta",
+    "sha256": "55BFE231E20340CC1169B4D6AD6755BF89A20767F9E2D760EE25E78B4EDE4C8B"
+  },
+  {
+    "path": "Tools/TraversalChecks/Run-WorldSuite.ps1",
+    "sha256": "75837159CB68D6EB444CC16240F77E5BBB8F695D4CE1BFA72F1C91CF8A00832C"
+  }
+]

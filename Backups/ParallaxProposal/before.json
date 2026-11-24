@@ -1,0 +1,42 @@
+[
+  {
+    "path": "Assets/Script/GeneracionMundo/RuinedHouseTheme.cs",
+    "sha256": "73D324CF5F0EE8C1D6621003C5DE27F74C784D3891DE4DB596193A66C3DCC99D"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/RuinedHouseTheme.cs.meta",
+    "sha256": "4AF360680BFB6704658DFB51D85DDF18E43DF679256BDACCD6390F77F661F185"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/RuinedHousePresentation.cs",
+    "sha256": "79EE8503155C0F00A9B272B6A7AAAFE62B45A6A83677F683914E292E03819824"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/RuinedHousePresentation.cs.meta",
+    "sha256": "BC8D5820DA5EF33FD89566715A17DE9557BF77804BF48516AC15BE9ABA3448CD"
+  },
+  {
+    "path": "Assets/Resources/RuinedHouseTheme.asset",
+    "sha256": "3AE699F59AB258953056D439A146E01578FF1EE74BBC778109B28744FC8A7756"
+  },
+  {
+    "path": "Assets/Resources/RuinedHouseTheme.asset.meta",
+    "sha256": "354378F3692F0320ED065C3F4464B503076863CA7DE8C9CB4106556105D800C1"
+  },
+  {
+    "path": "Assets/Scenes/MainMenu.unity",
+    "sha256": "ED99AFB1E6ACA03B17C575C3814DA74CC17D71F4E414ACF2EC2644E71F94B841"
+  },
+  {
+    "path": "Assets/Scenes/MainMenu.unity.meta",
+    "sha256": "A18AEF7C78C72358D383BE541B4AE078DDA5FA8B4CDF48B7FDD93A413FE68D73"
+  },
+  {
+    "path": "Assets/Scenes/GameOver.unity",
+    "sha256": "AF1DACD9EAF8BCCA8B6A6F6B7A641BB288326FBB9B4890667385D1E859893990"
+  },
+  {
+    "path": "Assets/Scenes/GameOver.unity.meta",
+    "sha256": "5C84AA24C6E466819CF7A296ACB3985E1BB8615EF8FF4FC699DD9B779A6E2FEE"
+  }
+]

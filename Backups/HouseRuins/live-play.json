@@ -1,0 +1,17 @@
+{
+    "error": "",
+    "scene": "JustMe",
+    "signature": "47F404DD8623065C",
+    "seed": -1092877195,
+    "level": 1,
+    "fragments": 3,
+    "props": 44,
+    "decorativeColliders": 0,
+    "activeRoots": 1,
+    "playMode": true,
+    "skinPresent": true,
+    "originalTilePreserved": true,
+    "debugVisibility": true,
+    "propsOutsideBackgroundDarkening": true,
+    "oldRootRetired": true
+}

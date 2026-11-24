@@ -1,3 +1,4 @@
+using Input = GameInput;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -17,6 +18,14 @@ public class WorldLighting : MonoBehaviour
     [Range(0, 1)] public float localFalloff = .7f;
     [Range(0, 1)] public float backgroundDarkness = 1f;
     [Min(0)] public float followSharpness = 18f;
+    [Header("Temporary manual testing (Editor/development only)")]
+    [Tooltip("F8 toggles full terrain lighting, including while paused. Release builds keep normal lighting.")]
+    [SerializeField] bool debugFullVisibility = true;
+    public bool DebugFullVisibility
+    {
+        get { return Debug.isDebugBuild && debugFullVisibility; }
+        set { debugFullVisibility = value; }
+    }
     Renderer[] backgrounds;
     Color[] backgroundColors;
     Material[] originalMaterials, localMaterials;
@@ -59,13 +68,26 @@ public class WorldLighting : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (Debug.isDebugBuild && Input.GetKeyDown(KeyCode.F8)) debugFullVisibility = !debugFullVisibility;
+    }
+
     void LateUpdate()
     {
         if (player == null) return;
+        if (DebugFullVisibility)
+        {
+            if (darknessApplied) RestorePresentation();
+            if (ambient != null) ambient.intensity = 1f;
+            if (playerLight != null) playerLight.intensity = 0f;
+            if (sceneCamera != null) { sceneCamera.clearFlags = CameraClearFlags.SolidColor; sceneCamera.backgroundColor = new Color(.025f, .04f, .065f); }
+            return;
+        }
         if (nearTotalDarkness)
         {
             darknessApplied = true;
-            if (sceneCamera != null) { sceneCamera.clearFlags = CameraClearFlags.SolidColor; sceneCamera.backgroundColor = Color.black; }
+            if (sceneCamera != null) { sceneCamera.clearFlags = CameraClearFlags.SolidColor; sceneCamera.backgroundColor = new Color(.025f, .04f, .065f); }
             if (ambient != null) ambient.intensity = 0;
             if (playerLight != null)
             {

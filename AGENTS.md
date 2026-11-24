@@ -34,3 +34,52 @@
 - Request explicit approval before Unity Editor major-version upgrades, package upgrades with compatibility risk, deleting/renaming serialized assets, changing render/input/physics pipelines, rewriting save formats, publishing builds or repository changes, or destructive Git operations.
 - Routine local edits, safe inspection and focused tests may proceed within the approved task/sandbox.
 - Respond in the user's requested language. Summarize: implemented behavior, relevant architecture decision if material, changed files, actual test/Editor results, residual risks and next step. Keep routine reporting concise.
+
+## Adaptive model selection and reasoning effort
+
+- Optimize for correctness, maintainability, execution time, and context efficiency. Use the least expensive model and reasoning effort capable of completing the task reliably.
+- Classify tasks according to complexity, uncertainty, implementation risk, dependencies, and verification requirements rather than file count alone.
+- Treat model selection, reasoning effort, and workflow depth as independent controls.
+- Respect explicit user-selected models and reasoning settings. Never silently override user preferences.
+- Determine supported models, reasoning levels, agent capabilities, and configuration mechanisms from the installed Codex version and effective runtime configuration. Do not assume that a particular model or reasoning level is available.
+
+### Task routing
+
+- **Low reasoning:** Repository navigation, documentation, spelling corrections, naming improvements, straightforward configuration inspection, and trivial implementation changes.
+- **Medium reasoning:** Standard gameplay implementation, isolated debugging, established design patterns, focused refactoring, animation integration, UI implementation, and routine Unity development.
+- **High reasoning:** Procedural generation, complex gameplay mechanics, physics interactions, shader logic, performance bottlenecks, architectural decisions, and cross-system debugging.
+- **Extra-high reasoning:** Critical architectural changes, complex algorithmic failures, legacy migrations, serialization compatibility, persistence failures, and unresolved defects requiring extensive investigation.
+- Higher reasoning levels beyond extra-high should be considered only when supported and when the consequences of an incorrect solution justify the additional computational cost.
+
+### Dynamic escalation and delegation
+
+- Begin with the lowest appropriate reasoning level. Escalate when concrete evidence indicates increased complexity, uncertainty, or risk.
+- Avoid repeated unsuccessful attempts using the same approach. Reassess assumptions and investigate the underlying cause before continuing.
+- Use specialized subagents when supported and when delegation provides measurable benefits through independent investigation, parallelizable work, or specialized expertise.
+- Assign lightweight models to focused exploration and documentation tasks, general-purpose coding models to implementation, and advanced reasoning models to complex architecture, algorithms, and critical reviews.
+- Provide delegated agents with narrowly scoped objectives, relevant constraints, expected deliverables, and acceptance criteria.
+- Avoid spawning multiple agents to investigate the same problem unless independent verification is justified.
+- Keep the primary agent responsible for architectural consistency, integration, conflict resolution, and final validation.
+- Never claim that a model or reasoning setting has changed unless the runtime explicitly confirms the change.
+- If runtime switching is unavailable, adapt investigation and verification depth within the current model or recommend a configuration change when materially beneficial.
+
+### Context and token efficiency
+
+- Optimize total resource consumption per successfully completed task rather than minimizing individual responses at the expense of correctness.
+- Reuse previously established repository context, architectural decisions, and verified findings.
+- Prefer targeted symbol navigation and dependency analysis over indiscriminate repository scanning.
+- When available, use Serena for semantic code navigation, symbol references, and focused implementation analysis.
+- When available, use Graphify for architectural relationships, dependency discovery, and cross-system impact analysis.
+- Verify graph-derived conclusions against the actual source code when correctness depends on them. Do not assume generated indexes are current.
+- Avoid using multiple tools to retrieve equivalent information unless verification is justified.
+- Read complete files when necessary for correctness, but avoid oversized file dumps, redundant searches, repeated tool invocations, and unnecessary context expansion.
+- Preserve relevant decisions, constraints, modified files, unresolved issues, and verification results during context transitions or compaction.
+- Do not invent remaining token budgets, usage limits, or consumption statistics. Report resource constraints only when exposed by the runtime.
+- Never sacrifice correctness, security, compatibility, or required verification solely to reduce token consumption.
+
+### Execution and reporting
+
+- Do not interrupt routine development to announce every routing or reasoning decision.
+- Communicate escalation when it materially affects execution cost, scope, risk, or architectural direction.
+- Distinguish actual runtime model settings from recommended settings and behavioral workflow adjustments.
+- Keep final reports concise, actionable, and proportional to task complexity.

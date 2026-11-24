@@ -1,0 +1,34 @@
+[
+  {
+    "onlyNewInputAlias": true,
+    "path": "Assets/Script/Game/Player.cs"
+  },
+  {
+    "onlyNewInputAlias": true,
+    "path": "Assets/Script/Game/WorldLighting.cs"
+  },
+  {
+    "onlyNewInputAlias": true,
+    "path": "Assets/Script/UI/PauseMenu.cs"
+  },
+  {
+    "onlyNewInputAlias": true,
+    "path": "Assets/Script/UI/AspectUtility.cs"
+  },
+  {
+    "onlyNewInputAlias": true,
+    "path": "Assets/Script/Botones/Loader.cs"
+  },
+  {
+    "onlyNewInputAlias": true,
+    "path": "Assets/Script/Botones/Creditos.cs"
+  },
+  {
+    "onlyNewInputAlias": true,
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+  },
+  {
+    "onlyNewInputAlias": true,
+    "path": "Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+  }
+]

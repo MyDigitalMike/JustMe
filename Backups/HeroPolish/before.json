@@ -1,0 +1,46 @@
+[
+  {
+    "path": "Assets/Script/Game/HeroVisualAlignment.cs",
+    "sha256": "314260D4760BAB3AF228F4B7007520B1594C03C4349603461918DB4520FB8508"
+  },
+  {
+    "path": "Assets/Script/Game/TraversalEnvironment.cs",
+    "sha256": "CF8E7DB1766289D8A1F3C46FFA5C65C11D974EAA0EB4357631D4248515AB074C"
+  },
+  {
+    "path": "Assets/Script/Game/Player.cs",
+    "sha256": "4C2E0C929CB3BDD5B10ADE90FB3CBB18774BB924A4830D262C83E66C37293267"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldTilemapRenderer.cs",
+    "sha256": "70F609D95D8CA64EDB06587EAA2B2299603472C37F540FC2FBC8BAD1AA290E0D"
+  },
+  {
+    "path": "Assets/Art/Character/AnimeHero/Actions.png.meta",
+    "sha256": "B1A68AA347452E65296CC898FD7C732AA111A7F38F37AD3289EAD3AEE0F2474B"
+  },
+  {
+    "path": "Assets/Art/Character/AnimeHero/Motion.png.meta",
+    "sha256": "8460A354871E94957C9DC37F1C637F0134F7DFEE05A9ED6371C802243EA51C1D"
+  },
+  {
+    "path": "Assets/Resources/HeroTraversal/Props.png.meta",
+    "sha256": "B62D906B394CE7B349B0B72781B325A46FF3021AA0B5CF87FF3880AA6B53CDCE"
+  },
+  {
+    "path": "Assets/Scenes/JustMe.unity",
+    "sha256": "022081931E54D3547E37213F6D1B6740F3C53F90EC57E515A6B06F3DCBB7CDD0"
+  },
+  {
+    "path": "Assets/Prefabs/Character/Player.prefab",
+    "sha256": "B6487105B78B7F5E3B852A256B4C3ADCA0260D05556B67AACDA8A54E5C063D21"
+  },
+  {
+    "path": "Assets/Script/GeneracionMundo/WorldFog.cs",
+    "sha256": "2DD2AC68EB6E04EC5CBB466D438B04D845A9D43CA14657A81858C6DEB5CBF11D"
+  },
+  {
+    "path": "Packages/manifest.json",
+    "sha256": "6C1867B8CE5923E8207B7865026D37F9B386FF52F0D42D8256BE54F5361D032D"
+  }
+]

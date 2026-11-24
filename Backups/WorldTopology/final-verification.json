@@ -1,0 +1,46 @@
+{
+  "completedLocalDate": "2026-11-23",
+  "unity": "6000.6.8f1",
+  "rootCauses": [
+    "Legacy paths mostly advanced toward positive X; runtime always requested Mixed.",
+    "Ordinary carving reserved near-collider-height envelopes, giving a sampled 1-unit passage for a 0.784-unit standing collider."
+  ],
+  "solution": "Bounded seeded macro-route grammar feeding existing rasterization, full collection validation and Unity physics; signed traces and supports, wide ordinary clearance, deliberate crawl obstacles, localized voids, distinct return/exit shafts at Cross.",
+  "measured": {
+    "standingColliderHeight": 0.7840116024017334,
+    "oldOrdinaryHeight": 1.0,
+    "newNativeInitialFloorToCeiling": 2.9917068481445312
+  },
+  "physicalRoutesPassed": 14,
+  "integrationChecksPassed": 34,
+  "pureChecksPassed": 211,
+  "pureWorlds": 42,
+  "regressions": {
+    "phase4": 355,
+    "traversal": 157
+  },
+  "independentReview": "No remaining concrete blockers; final Cross union reviewed after native correction.",
+  "finalEditor": {
+    "compiled": true,
+    "playModeWithoutProbesObserved": true,
+    "consoleErrorsObserved": 0,
+    "leftOutsidePlayMode": true,
+    "warning": "VS/Unity UDP messaging port unavailable; unrelated tooling limitation unchanged"
+  },
+  "preserved": [
+    "Player.cs and meta",
+    "WorldLighting.cs and meta",
+    "movement tuning",
+    "stamina",
+    "diary growth 3+1 capped12",
+    "serialized assets and GUIDs",
+    "legacy save format",
+    "packages/project settings"
+  ],
+  "limitations": [
+    "Representative physical cases, not every seed.",
+    "Six seeded layout families with bounded variation; not infinite generation.",
+    "Manual extended playtesting for larger-level balance/visibility remains."
+  ],
+  "preview": "Backups/WorldTopology/layout-preview.png"
+}

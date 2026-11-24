@@ -1,0 +1,42 @@
+[
+  {
+    "sha256": "3d26230453ab48e73a41ead46c85da0bb1b867dc01a3a4bca3125a82724f0642",
+    "path": "Assets/Script/GeneracionMundo/TraversalTopology.cs"
+  },
+  {
+    "sha256": "9c24ffc69736b182041c50d863bf1a7f4c4a9497c7814cd70f77d72965f03421",
+    "path": "Assets/Script/GeneracionMundo/TraversalWorld.cs"
+  },
+  {
+    "sha256": "4f1a0909084db457e78f5c87e40bddeeeea542a02022e61f76c1d4895696fcee",
+    "path": "Assets/Script/GeneracionMundo/TraversalValidator.cs"
+  },
+  {
+    "sha256": "0b5514ec328043b5e142feefcc107ecaca30feb337ac3898a1796e0f18314a33",
+    "path": "Assets/Script/GeneracionMundo/ProceduralWorld.cs"
+  },
+  {
+    "sha256": "5eff54ff9f33096e3f0f286a7e27785dba56825e3d68a5303f1380c64cbce238",
+    "path": "Assets/Script/GeneracionMundo/DiaryPlanner.cs"
+  },
+  {
+    "sha256": "da272f9bfe28c511a38ebed88fb29c8c12ecadd30d680523d8a44f3d402c71dc",
+    "path": "Tools/TraversalChecks/Run-SpatialVarietyChecks.ps1"
+  },
+  {
+    "sha256": "92ea19409cd54777fd86707d086f76771c81c42d5d3497f7fce05c38ba031fe3",
+    "path": "Tools/TraversalChecks/Run-TopologyChecks.ps1"
+  },
+  {
+    "sha256": "16ebdcb93e508045203086cd76090417029e9b8f2dd0ad227b47660cb6224950",
+    "path": "Tools/TraversalChecks/Run-VarietyChecks.ps1"
+  },
+  {
+    "sha256": "449d9484d5ae83e6d06ccdd3c21a239b48bd7e5400d8d677135184be47f97bc1",
+    "path": "Tools/TraversalChecks/SpatialRunProbe.cs"
+  },
+  {
+    "sha256": "6dec57f1c09828f4a07a7d6c2fd9c03a7c41ae18a8f8ebf4968a32a457a4f6f9",
+    "path": "docs/design/CORE_GAMEPLAY.md"
+  }
+]

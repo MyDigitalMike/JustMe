@@ -188,7 +188,7 @@ public static class WorldGenerationContractChecks
 }
 '@
     $projectRoot=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
-    $units=@($SourcePath,(Join-Path $projectRoot 'Assets/Script/Game/TraversalStamina.cs'),(Join-Path $projectRoot 'Assets/Script/GeneracionMundo/TraversalWorld.cs'),(Join-Path $projectRoot 'Assets/Script/GeneracionMundo/TraversalValidator.cs'))
+    $units=@($SourcePath,(Join-Path $projectRoot 'Assets/Script/Game/TraversalStamina.cs'),(Join-Path $projectRoot 'Assets/Script/GeneracionMundo/TraversalWorld.cs'),(Join-Path $projectRoot 'Assets/Script/GeneracionMundo/TraversalValidator.cs'),(Join-Path $projectRoot 'Assets/Script/GeneracionMundo/DiaryPlanner.cs'),(Join-Path $projectRoot 'Assets/Script/GeneracionMundo/TraversalTopology.cs'))
     $definitions=foreach($unit in $units){[regex]::Replace((Get-Content -LiteralPath $unit -Raw),'(?m)^using [^;]+;\s*','')}
     Add-Type -TypeDefinition ('using System; using System.Collections.Generic;' + [Environment]::NewLine + ($definitions -join [Environment]::NewLine) + [Environment]::NewLine + $checks) -Language CSharp
     [WorldGenerationContractChecks]::Run()

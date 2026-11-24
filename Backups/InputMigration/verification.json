@@ -1,0 +1,93 @@
+{
+  "editor": "6000.6.8f1",
+  "package": "com.unity.inputsystem@1.20.1",
+  "backend": "New only (activeInputHandler=1)",
+  "approval": "El usuario autorizó instalación oficial, adaptación de lectores/UI, cambio de backend y reinicio con respaldo.",
+  "compilation": "Observada en Unity tras retirar los tres probes: compilación terminada, consola 0 errores; Editor fuera de Play Mode.",
+  "warning": "No aparece el aviso de deprecación de Input Manager en el registro del Editor reiniciado ni en la consola observada.",
+  "preservation": {
+    "existingMetadataUnchanged": true,
+    "inputManagerUnchanged": true,
+    "otherPackagesUpgraded": false,
+    "projectSettingsChange": "Solo activeInputHandler: 0 -> 1",
+    "sceneCallbacksAndExistingGuidsPreserved": "scene-preservation.json; solo se retiró el GUID de StandaloneInputModule. Guardado por Editor: incluye actualización normal del formato serializado de escenas antiguas."
+  },
+  "implementation": [
+    "GameInput mantiene ejes, suavizado, bindings y puente virtual sobre Input Actions/dispositivos nativos.",
+    "Asmdef pequeño permite acceso desde Standard Assets firstpass sin reestructurar el proyecto.",
+    "Cinco EventSystem usan InputSystemUIInputModule y referencias guardadas.",
+    "TouchPad procesa eventos de puntero y conserva un solo dueño; Swipe se limpia en LateUpdate.",
+    "PauseMenu ignora Escape si no tiene panel: corrige referencia nula preexistente en Creditos, confirmada en respaldo."
+  ],
+  "verification": {
+    "nativeInputChecks": 20,
+    "newBackend": true,
+    "legacyBackend": false,
+    "persistedSceneChecks": 46,
+    "physicalReplay": {
+      "profile": "Random",
+      "error": "",
+      "seed": 2,
+      "required": 3,
+      "collected": 3,
+      "completedLinks": 140,
+      "failedLink": -1,
+      "stamina": 100.0,
+      "seconds": 885.4815063476562,
+      "position": {
+        "x": 7.0302534103393555,
+        "y": 34.717071533203125
+      },
+      "reachedGoal": true,
+      "fallVerified": true,
+      "fallKind": "left exterior",
+      "fallDistance": 2.849346160888672,
+      "deathEvents": 1
+    },
+    "liveGameplay": "gameplay-input-flow.json: caminar, sprint/stamina, agacharse/liberar, salto/doble salto, Escape y F8 durante pausa pasaron con eventos nativos simulados. Los flags backend de esa versión inicial del probe no se poblaban; la evidencia de backend es native-input-checks.json.",
+    "menus": "Clic real de automatización: pausa/reanudar, GameOver -> MainMenu, Créditos y Nueva Partida. credits-escape.json repitió Escape tras proteger PauseMenu: sin excepción.",
+    "finalLogErrors": []
+  },
+  "testLimitations": [
+    "Teclado/mando/touchpad probados con eventos nativos simulados; no se verificaron mando físico, móvil ni acelerómetro físico. Las pulsaciones de Windows SendInput no activaron las teclas RawInput del juego, por lo que se usaron eventos InputSystem en frames reales.",
+    "El primer doble salto de prueba pulsaba tras aterrizar; el intervalo se corrigió según cooldown serializado 0.2. La ejecución corregida pasó. Se conserva live-input-flow-first.json.",
+    "Una repetición extra en otra partida aleatoria pasó pausa/F8/agacharse/movimiento y falló al exigir Sprint; el spawn observado estaba junto al borde y el piloto avanzó a la derecha. La caída como causa del fallo es una inferencia de geometría, no una regresión de entrada confirmada. No se contó como ejecución completa: random-spawn-flow.json."
+  ],
+  "remainingWarnings": [
+    "Aviso independiente: UDP 56194 ocupado para integración VS/Unity.",
+    "Siguen APIs obsoletas previas y BinaryFormatter; no se cambió el formato de guardado."
+  ],
+  "changedExistingFiles": [
+    "ProjectSettings/ProjectSettings.asset",
+    "Packages/manifest.json",
+    "Packages/packages-lock.json",
+    "Assets/Script/Game/Player.cs",
+    "Assets/Script/Game/WorldLighting.cs",
+    "Assets/Script/UI/PauseMenu.cs",
+    "Assets/Script/UI/AspectUtility.cs",
+    "Assets/Script/Botones/Loader.cs",
+    "Assets/Script/Botones/Creditos.cs",
+    "Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs",
+    "Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs",
+    "Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs",
+    "Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs",
+    "Assets/Scenes/MainMenu.unity",
+    "Assets/Scenes/JustMe.unity",
+    "Assets/Scenes/GameOver.unity",
+    "Assets/Scenes/Creditos.unity",
+    "Assets/Scenes/JustMeLevelCreator.unity"
+  ],
+  "newFiles": [
+    "Assets/Script/Input/GameInput.cs",
+    "Assets/Script/Input/GameInput.cs.meta",
+    "Assets/Script/Input/JustMe.InputRuntime.asmdef",
+    "Assets/Script/Input/JustMe.InputRuntime.asmdef.meta",
+    "Assets/Script/Input.meta",
+    "Assets/Resources/GameInputBindings.json",
+    "Assets/Resources/GameInputBindings.json.meta",
+    "Assets/Resources/GameUIInput.asset",
+    "Assets/Resources/GameUIInput.asset.meta"
+  ],
+  "backup": "Originals y before.json (34 archivos); EditorProbes conserva los tres diagnósticos y sus .meta, verificados por SHA-256 antes de retirarlos de Assets.",
+  "nextStep": "Prueba manual breve de controles con teclado físico; continuar después con dirección artística pendiente, sin cambios adicionales en esta migración."
+}

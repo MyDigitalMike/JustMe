@@ -1,0 +1,9 @@
+{
+    "scene": "JustMe",
+    "state": "Idle",
+    "playing": false,
+    "paused": false,
+    "fullVisibility": false,
+    "modules": 1,
+    "legacyModules": 0
+}

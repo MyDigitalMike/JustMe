@@ -1,0 +1,9 @@
+{
+    "scene": "MainMenu",
+    "state": "none",
+    "playing": true,
+    "paused": false,
+    "fullVisibility": false,
+    "modules": 1,
+    "legacyModules": 0
+}

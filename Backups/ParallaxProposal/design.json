@@ -1,0 +1,80 @@
+{
+  "status": "Propuesta visual; parallax aún no implementado en gameplay",
+  "reference": "Backups/HouseRuins/approved-concept.png",
+  "board": "Backups/ParallaxProposal/ParallaxStages.png",
+  "intent": "Una casa que refleja una identidad fragmentada y que gradualmente vuelve a tener conexiones, sin explicar la metáfora mediante texto ni presentar la salud mental como una reparación instantánea.",
+  "stages": [
+    {
+      "name": "Fragmentación",
+      "levelMapping": "primeros niveles, límites por decidir",
+      "art": "Ruinas dislocadas, grandes vacíos fríos, pocos puntos cálidos, siluetas aisladas."
+    },
+    {
+      "name": "Reconexión",
+      "levelMapping": "niveles intermedios, límites por decidir",
+      "art": "Conexiones incompletas, habitaciones desiguales, más continuidad y luces pequeñas."
+    },
+    {
+      "name": "Integración",
+      "levelMapping": "niveles avanzados, sin final forzado",
+      "art": "Casa más coherente y habitable, todavía erosionada y ambigua; crece la calidez sin borrar las ruinas."
+    }
+  ],
+  "approaches": [
+    {
+      "name": "Una ilustración por etapa",
+      "tradeoff": "Rápida y barata, pero no crea parallax real."
+    },
+    {
+      "name": "Cuatro planos pintados por etapa",
+      "tradeoff": "Recomendado: profundidad controlada, pocos renderers, lectura clara. Requiere arte separado con alpha y cobertura X/Y."
+    },
+    {
+      "name": "Habitaciones modulares completas",
+      "tradeoff": "Más variación espacial, pero más coste de composición y riesgo de volver a repetir módulos."
+    }
+  ],
+  "recommendedLayers": [
+    {
+      "layer": "Bruma y vacío",
+      "apparentCameraDisplacementRatio": {
+        "x": 0.04,
+        "y": 0.03
+      }
+    },
+    {
+      "layer": "Arcos lejanos",
+      "apparentCameraDisplacementRatio": {
+        "x": 0.16,
+        "y": 0.12
+      }
+    },
+    {
+      "layer": "Ruinas medias",
+      "apparentCameraDisplacementRatio": {
+        "x": 0.38,
+        "y": 0.3
+      }
+    },
+    {
+      "layer": "Marcos cercanos",
+      "apparentCameraDisplacementRatio": {
+        "x": 0.65,
+        "y": 0.55
+      }
+    }
+  ],
+  "speedDefinition": "Valores propuestos, no calibrados: desplazamiento aparente opuesto a la cámara / desplazamiento de cámara. En el componente existente, factor de traslación mundial = 1 - este valor. Aplicar tanto X como Y.",
+  "futureChecks": [
+    "Separar capas reales; la lámina comparativa es arte conceptual aplanado, no un fondo multicapa listo.",
+    "Sin colliders ni plataformas falsas; siluetas de fondo con menor contraste.",
+    "Cobertura vertical y horizontal, coordenadas negativas, costuras y rebases en respawn/cambio de nivel.",
+    "Oscuridad y F8 deben seguir coherentes con el primer plano.",
+    "Evitar la misma habitación repetida en cuadrícula."
+  ],
+  "menus": {
+    "MainMenu": "Assets/Art/MenuBackdrops/ApprovedHouseMainMenu.png, copia exacta de la propuesta aprobada",
+    "GameOver": "Assets/Art/MenuBackdrops/GameOverHouse.png, nueva ilustración coherente, diario y luz persistente; sin cadáver ni texto incrustado"
+  },
+  "sourceAssets": "Se conservan HouseProps.png, HouseMaterials.png, sprites, tiles y GUID. Solo se desactiva su colocación doméstica actual."
+}

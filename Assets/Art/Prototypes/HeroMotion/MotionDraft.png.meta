@@ -1,0 +1,1311 @@
+fileFormatVersion: 2
+guid: 0e157979adafbd4418a3ed6e2caa945b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2055986470970469843
+    second: MotionDraft_0
+  - first:
+      213: 152635690991141274
+    second: MotionDraft_1
+  - first:
+      213: 7585885995905832579
+    second: MotionDraft_2
+  - first:
+      213: -2066937473965209595
+    second: MotionDraft_3
+  - first:
+      213: 2148194130986761675
+    second: MotionDraft_4
+  - first:
+      213: 6741675961858805963
+    second: MotionDraft_5
+  - first:
+      213: 4999315392531425928
+    second: MotionDraft_6
+  - first:
+      213: 8457521756988583665
+    second: MotionDraft_7
+  - first:
+      213: -5505025835240940211
+    second: MotionDraft_8
+  - first:
+      213: 4749674844572031576
+    second: MotionDraft_9
+  - first:
+      213: 7358965237801694777
+    second: MotionDraft_10
+  - first:
+      213: -4094896528496493422
+    second: MotionDraft_11
+  - first:
+      213: 1979437163964217392
+    second: MotionDraft_12
+  - first:
+      213: -7855916019935058610
+    second: MotionDraft_13
+  - first:
+      213: -3647475638772352225
+    second: MotionDraft_14
+  - first:
+      213: -1739526711301386838
+    second: MotionDraft_15
+  - first:
+      213: 1321637115466929729
+    second: MotionDraft_16
+  - first:
+      213: 8966036745221234495
+    second: MotionDraft_17
+  - first:
+      213: 6160070814926298015
+    second: MotionDraft_18
+  - first:
+      213: -4587912323795594249
+    second: MotionDraft_19
+  - first:
+      213: -3922166558266891961
+    second: MotionDraft_20
+  - first:
+      213: 220935995001674873
+    second: MotionDraft_21
+  - first:
+      213: -3972801081350782168
+    second: MotionDraft_22
+  - first:
+      213: 7356394737726610757
+    second: MotionDraft_23
+  - first:
+      213: 8159452847657810880
+    second: MotionDraft_24
+  - first:
+      213: -6898204127159017760
+    second: MotionDraft_25
+  - first:
+      213: 8558087638895465436
+    second: MotionDraft_26
+  - first:
+      213: 3686089890612097279
+    second: MotionDraft_27
+  - first:
+      213: -588595437984643356
+    second: MotionDraft_28
+  - first:
+      213: -8661551917687031813
+    second: MotionDraft_29
+  - first:
+      213: 286179988168222126
+    second: MotionDraft_30
+  - first:
+      213: -1951413440817612902
+    second: MotionDraft_31
+  - first:
+      213: 1350564558173564607
+    second: MotionDraft_32
+  - first:
+      213: -3235984542674348138
+    second: MotionDraft_33
+  - first:
+      213: -2268209296402822186
+    second: MotionDraft_34
+  - first:
+      213: 7909212120844853050
+    second: MotionDraft_35
+  - first:
+      213: -2982325172121329050
+    second: MotionDraft_36
+  - first:
+      213: 1856766845568005891
+    second: MotionDraft_37
+  - first:
+      213: -9209957782011058104
+    second: MotionDraft_38
+  - first:
+      213: -8631446046520805147
+    second: MotionDraft_39
+  - first:
+      213: -165681637187651877
+    second: MotionDraft_40
+  - first:
+      213: 5366844016261572474
+    second: MotionDraft_41
+  - first:
+      213: -7146175975583189646
+    second: MotionDraft_42
+  - first:
+      213: -2021664762538819775
+    second: MotionDraft_43
+  - first:
+      213: -8735623639843452237
+    second: MotionDraft_44
+  - first:
+      213: -7793536354617017473
+    second: MotionDraft_45
+  - first:
+      213: 6723514083282706388
+    second: MotionDraft_46
+  - first:
+      213: 7679227792173081584
+    second: MotionDraft_47
+  - first:
+      213: -5427745447836831710
+    second: MotionDraft_48
+  - first:
+      213: -8784685306565065656
+    second: MotionDraft_49
+  - first:
+      213: -1395373603604483576
+    second: MotionDraft_50
+  - first:
+      213: 7297962739944041183
+    second: MotionDraft_51
+  - first:
+      213: 1003775010925491932
+    second: MotionDraft_52
+  - first:
+      213: -1531810963076346640
+    second: MotionDraft_53
+  - first:
+      213: 8013367269434060907
+    second: MotionDraft_54
+  - first:
+      213: 7858346701378897909
+    second: MotionDraft_55
+  - first:
+      213: -8994411767637111172
+    second: MotionDraft_56
+  - first:
+      213: -6309918692577897323
+    second: MotionDraft_57
+  - first:
+      213: 9147597853174442185
+    second: MotionDraft_58
+  - first:
+      213: -9026311970271034372
+    second: MotionDraft_59
+  - first:
+      213: 2444623619684996499
+    second: MotionDraft_60
+  - first:
+      213: -7369164683987799058
+    second: MotionDraft_61
+  - first:
+      213: 7610144494041359177
+    second: MotionDraft_62
+  - first:
+      213: 5711984071518174545
+    second: MotionDraft_63
+  - first:
+      213: -2345860032019154819
+    second: MotionDraft_64
+  - first:
+      213: 3925329507425813793
+    second: MotionDraft_65
+  - first:
+      213: -8650147851645052879
+    second: MotionDraft_66
+  - first:
+      213: -5665556020660666122
+    second: MotionDraft_67
+  - first:
+      213: -9193227172197296373
+    second: MotionDraft_68
+  - first:
+      213: 608074245486991220
+    second: MotionDraft_69
+  - first:
+      213: 3175969113317502445
+    second: MotionDraft_70
+  - first:
+      213: -441103405052518981
+    second: MotionDraft_71
+  - first:
+      213: -1541710882908538257
+    second: MotionDraft_72
+  - first:
+      213: -6508720445598455084
+    second: MotionDraft_73
+  - first:
+      213: -8804496978875144987
+    second: MotionDraft_74
+  - first:
+      213: 5679913104922798098
+    second: MotionDraft_75
+  - first:
+      213: -1369029611676443892
+    second: MotionDraft_76
+  - first:
+      213: 3054139816233846559
+    second: MotionDraft_77
+  - first:
+      213: 7100335925717924999
+    second: MotionDraft_78
+  - first:
+      213: -919074202707994665
+    second: MotionDraft_79
+  - first:
+      213: -7633118638283204690
+    second: MotionDraft_80
+  - first:
+      213: -8755051357659965126
+    second: MotionDraft_81
+  - first:
+      213: 3537154973827402828
+    second: MotionDraft_82
+  - first:
+      213: -3894602129023247635
+    second: MotionDraft_83
+  - first:
+      213: 6767528711385341926
+    second: MotionDraft_84
+  - first:
+      213: 2395803129277869369
+    second: MotionDraft_85
+  - first:
+      213: -7294706989557262391
+    second: MotionDraft_86
+  - first:
+      213: -2555145976857372493
+    second: MotionDraft_87
+  - first:
+      213: -8153417901210488396
+    second: MotionDraft_88
+  - first:
+      213: 8278130041796864631
+    second: MotionDraft_89
+  - first:
+      213: 2051219821301517674
+    second: MotionDraft_90
+  - first:
+      213: -5981291163382721876
+    second: MotionDraft_91
+  - first:
+      213: -440509743172558930
+    second: MotionDraft_92
+  - first:
+      213: 7553577051702452046
+    second: MotionDraft_93
+  - first:
+      213: 1231674500933976834
+    second: MotionDraft_94
+  - first:
+      213: -8370479998410110863
+    second: MotionDraft_95
+  - first:
+      213: -7729666854979041695
+    second: MotionDraft_96
+  - first:
+      213: 2295065260997750442
+    second: MotionDraft_97
+  - first:
+      213: -1393101431694405185
+    second: MotionDraft_98
+  - first:
+      213: -7534534968617909757
+    second: MotionDraft_99
+  - first:
+      213: -4994772834456539432
+    second: MotionDraft_100
+  - first:
+      213: -3629192060705759268
+    second: MotionDraft_101
+  - first:
+      213: 5257833368760247645
+    second: MotionDraft_102
+  - first:
+      213: 5544020934819559063
+    second: MotionDraft_103
+  - first:
+      213: -5802227603681736851
+    second: MotionDraft_104
+  - first:
+      213: -2399459031529569694
+    second: MotionDraft_105
+  - first:
+      213: -2612943509255555646
+    second: MotionDraft_106
+  - first:
+      213: -6662157368660037995
+    second: MotionDraft_107
+  - first:
+      213: -2100700554104486782
+    second: MotionDraft_108
+  - first:
+      213: -6845080516774143079
+    second: MotionDraft_109
+  - first:
+      213: 8030924705242440704
+    second: MotionDraft_110
+  - first:
+      213: -2717828835346522019
+    second: MotionDraft_111
+  - first:
+      213: -965526113084191777
+    second: MotionDraft_112
+  - first:
+      213: 2638260549642831540
+    second: MotionDraft_113
+  - first:
+      213: -8568831989345125276
+    second: MotionDraft_114
+  - first:
+      213: 2015402180039760522
+    second: MotionDraft_115
+  - first:
+      213: 6033925801597726961
+    second: MotionDraft_116
+  - first:
+      213: -3188447737767965110
+    second: MotionDraft_117
+  - first:
+      213: -3867252306577163851
+    second: MotionDraft_118
+  - first:
+      213: -9183768347162035331
+    second: MotionDraft_119
+  - first:
+      213: 1170137716204305604
+    second: MotionDraft_120
+  - first:
+      213: -7993598179586487755
+    second: MotionDraft_121
+  - first:
+      213: 4825621617907282665
+    second: MotionDraft_122
+  - first:
+      213: 2583833372699490463
+    second: MotionDraft_123
+  - first:
+      213: -5313939810405326195
+    second: MotionDraft_124
+  - first:
+      213: 2751549290317059577
+    second: MotionDraft_125
+  - first:
+      213: -6519033351541551689
+    second: MotionDraft_126
+  - first:
+      213: -8738294502619316966
+    second: MotionDraft_127
+  - first:
+      213: -3020566472099347224
+    second: MotionDraft_128
+  - first:
+      213: 1283873839210947834
+    second: MotionDraft_129
+  - first:
+      213: 634172368084065312
+    second: MotionDraft_130
+  - first:
+      213: -4454198065871890410
+    second: MotionDraft_131
+  - first:
+      213: 2577167932429981521
+    second: MotionDraft_132
+  - first:
+      213: 3111423094037631461
+    second: MotionDraft_133
+  - first:
+      213: -188331026889689961
+    second: MotionDraft_134
+  - first:
+      213: 8986288947540382560
+    second: MotionDraft_135
+  - first:
+      213: -8544356568166931340
+    second: MotionDraft_136
+  - first:
+      213: -1873224697893107845
+    second: MotionDraft_137
+  - first:
+      213: -3989751797577062678
+    second: MotionDraft_138
+  - first:
+      213: -4324869454618649381
+    second: MotionDraft_139
+  - first:
+      213: -6008697618632388439
+    second: MotionDraft_140
+  - first:
+      213: -4892361473885663185
+    second: MotionDraft_141
+  - first:
+      213: 5204467414363922563
+    second: MotionDraft_142
+  - first:
+      213: -7072986743336300303
+    second: MotionDraft_143
+  - first:
+      213: -300252198412818844
+    second: MotionDraft_144
+  - first:
+      213: 3990572240126718831
+    second: MotionDraft_145
+  - first:
+      213: -8727580627440338700
+    second: MotionDraft_146
+  - first:
+      213: -6004263792852479079
+    second: MotionDraft_147
+  - first:
+      213: 5371020962229738928
+    second: MotionDraft_148
+  - first:
+      213: -9214130879150204403
+    second: MotionDraft_149
+  - first:
+      213: -8105327972668356901
+    second: MotionDraft_150
+  - first:
+      213: 7342528749542650742
+    second: MotionDraft_151
+  - first:
+      213: -7157273579004482642
+    second: MotionDraft_152
+  - first:
+      213: -6319386542403810982
+    second: MotionDraft_153
+  - first:
+      213: 4678262140192800085
+    second: MotionDraft_154
+  - first:
+      213: -7459454018593975405
+    second: MotionDraft_155
+  - first:
+      213: -2317223240773916972
+    second: MotionDraft_156
+  - first:
+      213: -4480321180609848914
+    second: MotionDraft_157
+  - first:
+      213: -4864714861044640531
+    second: MotionDraft_158
+  - first:
+      213: -1895350296891467665
+    second: MotionDraft_159
+  - first:
+      213: -6398959085013822591
+    second: MotionDraft_160
+  - first:
+      213: -6583500685081093923
+    second: MotionDraft_161
+  - first:
+      213: -7287040585108331475
+    second: MotionDraft_162
+  - first:
+      213: 7546354077996064323
+    second: MotionDraft_163
+  - first:
+      213: -7877621558331508933
+    second: MotionDraft_164
+  - first:
+      213: 7987293015653088452
+    second: MotionDraft_165
+  - first:
+      213: 2211739582945226473
+    second: MotionDraft_166
+  - first:
+      213: -2191362146150726806
+    second: MotionDraft_167
+  - first:
+      213: -5195539395700080600
+    second: MotionDraft_168
+  - first:
+      213: -2101977324116611190
+    second: MotionDraft_169
+  - first:
+      213: 2233058401406076754
+    second: MotionDraft_170
+  - first:
+      213: 8863522212949909525
+    second: MotionDraft_171
+  - first:
+      213: -6160404774157228288
+    second: MotionDraft_172
+  - first:
+      213: -9081594345200704240
+    second: MotionDraft_173
+  - first:
+      213: -6798763835289002934
+    second: MotionDraft_174
+  - first:
+      213: 8315163140358917979
+    second: MotionDraft_175
+  - first:
+      213: 4265507050265507221
+    second: MotionDraft_176
+  - first:
+      213: 4517957663675347116
+    second: MotionDraft_177
+  - first:
+      213: 870886597106583155
+    second: MotionDraft_178
+  - first:
+      213: 2617252806776866598
+    second: MotionDraft_179
+  - first:
+      213: 6055549768494874077
+    second: MotionDraft_180
+  - first:
+      213: -8038888592621704793
+    second: MotionDraft_181
+  - first:
+      213: -3258552917075965590
+    second: MotionDraft_182
+  - first:
+      213: -1574447324823664079
+    second: MotionDraft_183
+  - first:
+      213: 9118934267623702573
+    second: MotionDraft_184
+  - first:
+      213: -7627600705572683663
+    second: MotionDraft_185
+  - first:
+      213: -5716265988146526610
+    second: MotionDraft_186
+  - first:
+      213: 4876222164471607187
+    second: MotionDraft_187
+  - first:
+      213: 4667268210471956481
+    second: MotionDraft_188
+  - first:
+      213: -706964034822002958
+    second: MotionDraft_189
+  - first:
+      213: -1261717825935160839
+    second: MotionDraft_190
+  - first:
+      213: 2607363926208350266
+    second: MotionDraft_191
+  - first:
+      213: 2780883632358837458
+    second: MotionDraft_192
+  - first:
+      213: -747574621072363425
+    second: MotionDraft_193
+  - first:
+      213: -984336620019303606
+    second: MotionDraft_194
+  - first:
+      213: -8705895863604510469
+    second: MotionDraft_195
+  - first:
+      213: 2734310043841186307
+    second: MotionDraft_196
+  - first:
+      213: 1605358984588890594
+    second: MotionDraft_197
+  - first:
+      213: 8888228193750721416
+    second: MotionDraft_198
+  - first:
+      213: -7883953811159389403
+    second: MotionDraft_199
+  - first:
+      213: -6369998549999160417
+    second: MotionDraft_200
+  - first:
+      213: -7468708753557691178
+    second: MotionDraft_201
+  - first:
+      213: -1775693416457731495
+    second: MotionDraft_202
+  - first:
+      213: 3449748637449972268
+    second: MotionDraft_203
+  - first:
+      213: -4387630501474814827
+    second: MotionDraft_204
+  - first:
+      213: 2992060009718216325
+    second: MotionDraft_205
+  - first:
+      213: 4397749365911758306
+    second: MotionDraft_206
+  - first:
+      213: 384676421556622743
+    second: MotionDraft_207
+  - first:
+      213: -8430926586711484372
+    second: MotionDraft_208
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.6134248, y: 0.36251062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f308da0b8a89d024e944a1727ecf8ebd
+      internalID: 1160878634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_01
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.56928855, y: 0.37148437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b58e4b645d40f42a353b0a22b2c5ef
+      internalID: 1149291895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_02
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5492234, y: 0.37640283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255f6798bdc5aef4ebca634341f3ca5a
+      internalID: 543146675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_03
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.53769004, y: 0.4370439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e96bb7136300c4f93ce938494df002
+      internalID: -803082735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_04
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5591816, y: 0.5004613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29436133aa3a1254da4a2439eadfa056
+      internalID: 1780155047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_05
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5577167, y: 0.45493284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096fcfd575511df40acc7d9e5c6aabd8
+      internalID: -1489796486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.56725514, y: 0.29458046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1ce87ee977dde47b13e8846b321e9e
+      internalID: -501533738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_01
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5759811, y: 0.38045844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cb5f41ff0b8314eb0b4cd025dc025e
+      internalID: 1847891612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_02
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5548516, y: 0.5304102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5d58e93aed0d540b7baf0c24b3fed4
+      internalID: 63595412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_03
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5283502, y: 0.58829635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc00e1d3ffc93c6458c6ede3249f04c4
+      internalID: 1933166259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_04
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5510393, y: 0.6255779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce03d7868d82d0e49855ed02c102f629
+      internalID: -1062581979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_05
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.49934992, y: 0.44498453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c63ec365e702034facceb05fed14e69
+      internalID: -624055330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJump_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.46963406, y: 0.36499795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f4434e764e0b745adb377c3e31b082
+      internalID: -1230406961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJump_01
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.49234533, y: 0.47080967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334bcfb9c1e6d2e46ba8eff08cbcf476
+      internalID: -565226195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJump_02
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5153125, y: 0.55405426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf83c9cd2b68d243913549b86d8da8a
+      internalID: 580035779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJump_03
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.42490616, y: 0.52816087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1804ad4d7de47547ad4a8322ee306e5
+      internalID: 1928547227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJump_04
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.44435164, y: 0.5147458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7ffe142c3131942a149a28cc2fb398
+      internalID: 266788177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJump_05
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.43347052, y: 0.42029154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c297dc940fc3840ae113506a86e5a8
+      internalID: 180596877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5210682, y: 0.43240705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1675b6e565a904845867a667d7fbc9f5
+      internalID: 948822223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_01
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.53151757, y: 0.46549353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24744583a2dddf84fb12973990d8a0b1
+      internalID: 1067688522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_02
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.54169923, y: 0.51805013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b84630496bf8845855621af99facfb
+      internalID: 1072960524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_03
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5191033, y: 0.5567686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44245c10ad4b87f43b96e65435365e4a
+      internalID: 1473592050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_04
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.53806734, y: 0.6047916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5c32a2cda321e4694b044836dd51eb
+      internalID: -97038930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_05
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.52894896, y: 0.5868255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce33e3202f346804a8c2c193935717c9
+      internalID: 494615605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 461fb7a865a35784eb80a26c1e95e106
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Climb_00: 948822223
+      Climb_01: 1067688522
+      Climb_02: 1072960524
+      Climb_03: 1473592050
+      Climb_04: -97038930
+      Climb_05: 494615605
+      DoubleJump_00: -1230406961
+      DoubleJump_01: -565226195
+      DoubleJump_02: 580035779
+      DoubleJump_03: 1928547227
+      DoubleJump_04: 266788177
+      DoubleJump_05: 180596877
+      Jump_00: -501533738
+      Jump_01: 1847891612
+      Jump_02: 63595412
+      Jump_03: 1933166259
+      Jump_04: -1062581979
+      Jump_05: -624055330
+      Run_00: 1160878634
+      Run_01: 1149291895
+      Run_02: 543146675
+      Run_03: -803082735
+      Run_04: 1780155047
+      Run_05: -1489796486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
